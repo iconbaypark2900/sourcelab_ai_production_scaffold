@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-016",
+  "source_id": "local_release_process",
+  "text": "```bash\ndocker compose config\ndocker compose --profile dashboard config\nmake smoke\nmake release-check\n```",
+  "section": "Optional verification",
+  "start_char": 2543,
+  "end_char": 2648,
+  "token_estimate": 14,
+  "metadata": {
+    "section": "Optional verification"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-034",
+  "source_id": "local_component_build_guide",
+  "text": "- `src/sourcelab/verification/schemas.py` - Pydantic schemas for verification\n- `src/sourcelab/verification/claim_extractor.py` - Atomic claim extraction\n- `src/sourcelab/verification/evidence_matcher.py` - Claim-to-chunk matching\n- `src/sourcelab/verification/claim_verifier.py` - Claim verification\n- `src/sourcelab/verification/citation_checker.py` - Citation resolution\n- `src/sourcelab/verification/conflict_detector.py` - Contradiction detection\n- `src/sourcelab/verification/human_review.py` - Review queue builder\n- `src/sourcelab/verification/grounding_report.py` - Grounding report generator",
+  "section": "Key files",
+  "start_char": 6800,
+  "end_char": 7401,
+  "token_estimate": 45,
+  "metadata": {
+    "section": "Key files"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-013",
+  "source_id": "local_batch_runs",
+  "text": "`BatchDemoBundleExport` on batch detail:\n\n- **Download demo bundle JSON** \u2014 `sourcelab_batch_demo_bundle_<batch_id>.json`\n- Includes: batch summary, run comparison (if loaded), answer comparison (if loaded), report markdown (if loaded), answer matrix md/json, frontend metadata\n- Optional **Include local attempt notes** checkbox \u2014 browser-local notes only, not proof artifacts\n- Does not mutate proof artifacts",
+  "section": "Unified demo bundle export (v2.5)",
+  "start_char": 4871,
+  "end_char": 5282,
+  "token_estimate": 52,
+  "metadata": {
+    "section": "Unified demo bundle export (v2.5)"
+  }
+}

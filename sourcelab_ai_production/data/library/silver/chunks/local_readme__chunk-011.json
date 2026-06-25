@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-011",
+  "source_id": "local_readme",
+  "text": "curl http://localhost:8000/version\n```\n\nDocker (API default; optional dashboard profile):\n\n```bash\ndocker compose up sourcelab-api\ndocker compose --profile dashboard up sourcelab-dashboard\n```\n\nThe API service does not require the dashboard profile. Use `--profile dashboard` only when running Streamlit.",
+  "section": "or: bash scripts/start_api.sh",
+  "start_char": 3053,
+  "end_char": 3357,
+  "token_estimate": 37,
+  "metadata": {
+    "section": "or: bash scripts/start_api.sh"
+  }
+}

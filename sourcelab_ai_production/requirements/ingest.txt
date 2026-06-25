@@ -1,0 +1,5 @@
+# Local and URL ingestion extras
+-r base.txt
+pypdf>=4.0
+beautifulsoup4>=4.12
+requests>=2.31

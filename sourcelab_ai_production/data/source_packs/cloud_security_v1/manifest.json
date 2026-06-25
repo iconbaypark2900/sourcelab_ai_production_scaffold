@@ -1,0 +1,31 @@
+{
+  "pack_name": "cloud_security_v1",
+  "version": "1.0.0",
+  "title": "Cloud Security, CSPM, and Cloud-Native Defense",
+  "description": "Source pack for cloud security posture management, Kubernetes security, zero trust, supply chain security, and cloud-native defense workflows.",
+  "created_at": "2026-06-24T22:29:10Z",
+  "sources": [
+    {
+      "source_id": "cloud_security_posture_001",
+      "filename": "cloud_security_posture_001.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes",
+      "title": "Cloud Security Posture Management Workflow"
+    },
+    {
+      "source_id": "cloud_security_supply_chain_002",
+      "filename": "cloud_security_supply_chain_002.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "project_seed",
+      "title": "Supply Chain and Cloud-Native Runtime Defense"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

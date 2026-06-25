@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-025",
+  "source_id": "local_web_readme",
+  "text": "On `/runs/[runId]`:\n\n- **Deep links** \u2014 append `?attempt=<attempt_id>` to open Run Studio with that\n  attempt selected, detail loaded, Learning update overlay active, and\n  TopStatusBar historical banner when the attempt is not the latest. Invalid\n  attempt ids show a warning and fall back to the latest snapshot. UI selection\n  updates the URL via `router.replace` (no full reload; other query params\n  preserved). **Copy attempt link** appears above attempt detail.\n- **Keyboard shortcuts** (History or Diff tab; ignored while focus is in an\n  input/textarea/select):\n  - `\u2191` / `\u2190` \u2014 newer attempt \u00b7 `\u2193` / `\u2192` \u2014 older attempt\n  - `Home` \u2014 first attempt \u00b7 `End` \u2014 latest attempt\n  - `Enter` \u2014 scroll/focus attempt detail (History tab)\n  - `Escape` \u2014 back to latest run snapshot (clears `?attempt=`)\n- **Shared history state** \u2014 `useAnswerHistory` feeds History, Diff, Learning\n  update, TopStatusBar, and the diffusion timeline attempt lane from one fetch.\n\nRun frontend unit tests: `npm run test` (Vitest, `lib/attempt-summary.test.ts`).",
+  "section": "Run Studio v1.5 \u2014 deep links & keyboard navigation",
+  "start_char": 16044,
+  "end_char": 17084,
+  "token_estimate": 153,
+  "metadata": {
+    "section": "Run Studio v1.5 \u2014 deep links & keyboard navigation"
+  }
+}

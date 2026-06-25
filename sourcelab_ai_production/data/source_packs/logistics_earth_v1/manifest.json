@@ -1,0 +1,31 @@
+{
+  "pack_name": "logistics_earth_v1",
+  "version": "1.0.0",
+  "title": "Logistics, Earth Observation, and Digital Twins",
+  "description": "Source pack for warehouse digital twins, satellite-informed logistics, supply chain optimization, Earth observation, climate, and routing workflows.",
+  "created_at": "2026-06-21T03:34:12Z",
+  "sources": [
+    {
+      "source_id": "logistics_earth_digital_twins_001",
+      "filename": "logistics_earth_digital_twins_001.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes",
+      "title": "Warehouse Digital Twin Workflow"
+    },
+    {
+      "source_id": "logistics_earth_satellite_002",
+      "filename": "logistics_earth_satellite_002.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "project_seed",
+      "title": "Satellite-Informed Logistics"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

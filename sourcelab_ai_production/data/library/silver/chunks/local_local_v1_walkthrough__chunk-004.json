@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-004",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "Handled by `init-local`. Verify:\n\n```bash\nsourcelab source-pack validate pqc_v1\nsourcelab source-pack status pqc_v1\nsourcelab sources validate\n```",
+  "section": "4. Install PQC source pack",
+  "start_char": 1044,
+  "end_char": 1190,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "4. Install PQC source pack"
+  }
+}

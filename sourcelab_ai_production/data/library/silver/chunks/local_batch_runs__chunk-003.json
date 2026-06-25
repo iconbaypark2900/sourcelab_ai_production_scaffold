@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-003",
+  "source_id": "local_batch_runs",
+  "text": "sourcelab batch list\nsourcelab batch show <batch_id>\nsourcelab batch compare <batch_id>",
+  "section": "List / show / compare runs",
+  "start_char": 603,
+  "end_char": 690,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "List / show / compare runs"
+  }
+}

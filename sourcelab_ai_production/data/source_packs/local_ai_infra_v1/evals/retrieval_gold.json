@@ -1,0 +1,39 @@
+[
+  {
+    "query": "local AI inference stack design",
+    "expected_source_ids": [
+      "local_ai_infra_routing_001",
+      "local_ai_infra_observability_002"
+    ],
+    "expected_terms": [
+      "local",
+      "inference",
+      "stack"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for local AI inference stack design"
+  },
+  {
+    "query": "DGX Spark",
+    "expected_source_ids": [
+      "local_ai_infra_routing_001"
+    ],
+    "expected_terms": [
+      "dgx",
+      "spark"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for DGX Spark"
+  },
+  {
+    "query": "EVO-X2",
+    "expected_source_ids": [
+      "local_ai_infra_observability_002"
+    ],
+    "expected_terms": [
+      "evo"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

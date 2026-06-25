@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-006",
+  "source_id": "local_offline_install",
+  "text": "Dry-run signing (default, no GPG required):\n\n```bash\nsourcelab release sign --mode dry-run\nsourcelab release verify-signature\n```\n\nIf a signed `SHA256SUMS.sig` is present and GPG is installed:\n\n```bash\ngpg --verify artifacts/release/SHA256SUMS.sig artifacts/release/SHA256SUMS\n```",
+  "section": "5. Optional signature verification",
+  "start_char": 1521,
+  "end_char": 1801,
+  "token_estimate": 32,
+  "metadata": {
+    "section": "5. Optional signature verification"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source_id": "local_plantuml",
+  "origin": "local_docs",
+  "title": "PlantUML Diagrams",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "trust_tier": "B",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "fastapi",
+    "proof",
+    "plantuml",
+    "answer",
+    "bundle",
+    "bundles"
+  ],
+  "summary": "plantuml\n@startuml\npackage \"SourceLab AI\" {\n  Source Registry -- Chunker\n  Chunker -- Retrieval Index\n  Retrieval Index -- Lesson Generator\n  Lesson Generator -- Claim Verifier\n  Claim Verifier -- Proof Bundle\n  Proof Bundle -- Answer Scorer\n  Answer Scorer -- Skill Profile\n  Skill Profile -- Next Task Selector\n}\n@enduml",
+  "key_terms": [
+    "fastapi",
+    "proof",
+    "plantuml",
+    "answer",
+    "bundle",
+    "bundles",
+    "chunker",
+    "chunks",
+    "claim",
+    "dashboard",
+    "database",
+    "diagram"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_plantuml.md",
+  "chunk_paths": [
+    "data/library/silver/chunks/local_plantuml__chunk-000.json",
+    "data/library/silver/chunks/local_plantuml__chunk-001.json"
+  ],
+  "checksum": "408adbd57c72dc90153cab716f47599c356669ed40170a6c9dfcb1c6d129badb",
+  "quality_score": 0.8917,
+  "external_id": "docs/diagrams/PLANTUML.md"
+}

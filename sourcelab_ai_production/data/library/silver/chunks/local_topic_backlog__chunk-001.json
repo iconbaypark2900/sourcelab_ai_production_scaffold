@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-001",
+  "source_id": "local_topic_backlog",
+  "text": "Run a lightweight validation matrix across local source packs:\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --repair-manifests\npython scripts/smoke_source_packs.py --packs core --run-evals --run-lessons\npython scripts/smoke_source_packs.py --packs all --run-evals\npython scripts/bootstrap_sourcelab_source_packs.py --list-legacy-evals\n```\n\nPack groups:\n\n- **core**: `agentic_engineering_v1`, `local_ai_infra_v1`, `rag_doc_intelligence_v1`\n- **research**: `biomedical_ai_v1`, `materials_ai_v1`, `quantum_finance_v1`\n- **business**: `trading_research_v1`, `blockchain_provenance_v1`, `logistics_earth_v1`, `grantops_business_v1`\n- **watchlist**: `emerging_tech_watchlist_v1`, `career_learning_v1`\n\nUse `--skip-builtins` to exclude `pqc_v1` and `ai_safety_v1` from `--packs all` discovery.\nReports: `artifacts/source_pack_smoke_matrix.json` and `artifacts/source_pack_smoke_matrix.md`.",
+  "section": "Source Pack Smoke Matrix",
+  "start_char": 117,
+  "end_char": 1014,
+  "token_estimate": 65,
+  "metadata": {
+    "section": "Source Pack Smoke Matrix"
+  }
+}

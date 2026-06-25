@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-018",
+  "source_id": "local_component_build_guide",
+  "text": "Source IDs are normalized:\n1. Lowercase\n2. Replace spaces with underscores\n3. Remove unsafe characters (keep alphanumeric, underscore, hyphen)\n4. Collapse multiple underscores\n5. Append numeric suffix if ID already exists",
+  "section": "Source ID normalization",
+  "start_char": 2986,
+  "end_char": 3207,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Source ID normalization"
+  }
+}

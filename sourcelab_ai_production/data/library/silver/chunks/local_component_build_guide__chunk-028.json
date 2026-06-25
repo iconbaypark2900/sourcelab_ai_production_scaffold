@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-028",
+  "source_id": "local_component_build_guide",
+  "text": "- `src/sourcelab/generation/schemas.py` - Pydantic schemas for lesson packages\n- `src/sourcelab/generation/lesson_generator.py` - Main lesson generator\n- `src/sourcelab/generation/scenario_generator.py` - Scenario generation\n- `src/sourcelab/generation/rubric_generator.py` - Rubric generation\n- `src/sourcelab/generation/answer_key_generator.py` - Answer key generation\n- `src/sourcelab/generation/trace.py` - Generation trace logging",
+  "section": "Key files",
+  "start_char": 5186,
+  "end_char": 5621,
+  "token_estimate": 36,
+  "metadata": {
+    "section": "Key files"
+  }
+}

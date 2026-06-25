@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-005",
+  "source_id": "local_local_v1_demo_script",
+  "text": "sourcelab local-demo\n```\n\nOpen latest run:\n\n```bash\nsourcelab runs show latest\nsourcelab verify claims --latest\nsourcelab proof latest\n```\n\nHighlight: generated lesson, claim map, citation resolution, harness report.",
+  "section": "or full pipeline:",
+  "start_char": 1046,
+  "end_char": 1262,
+  "token_estimate": 28,
+  "metadata": {
+    "section": "or full pipeline:"
+  }
+}

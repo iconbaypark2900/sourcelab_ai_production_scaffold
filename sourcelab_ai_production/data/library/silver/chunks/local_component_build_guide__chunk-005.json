@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-005",
+  "source_id": "local_component_build_guide",
+  "text": "from sourcelab.sources.registry import SourceRegistry\nfrom sourcelab.core.models import SourceRecord\nfrom datetime import datetime, timezone\n\nregistry = SourceRegistry.load_from_json(Path(\"data/source_registry.json\"))\nrecord = SourceRecord(\n    source_id=\"my_source\",\n    title=\"My Source\",\n    path=\"path/to/file.md\",\n    publisher=\"Publisher\",\n    source_type=\"type\",\n    trust_tier=\"C\",\n    retrieved_at=datetime.now(timezone.utc),\n    hash_sha256=\"...\",\n    status=\"active\",\n    approval_status=\"approved\",\n)\nregistry.add_source(record)\nregistry.save_to_json(Path(\"data/source_registry.json\"))\n```",
+  "section": "Via Python",
+  "start_char": 951,
+  "end_char": 1552,
+  "token_estimate": 34,
+  "metadata": {
+    "section": "Via Python"
+  }
+}

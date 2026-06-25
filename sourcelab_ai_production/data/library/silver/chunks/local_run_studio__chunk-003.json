@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-003",
+  "source_id": "local_run_studio",
+  "text": "| Route | Purpose |\n| --- | --- |\n| `/` | API status, latest run, strict release + golden-eval status |\n| `/runs` | All runs with key signals |\n| `/runs/new` | Create a new source-grounded run from the browser |\n| `/runs/compare` | Compare 2+ runs side-by-side (v2.0) |\n| `/batches` | List batch runs (v2.0) |\n| `/batches/new` | Create a batch with templates, presets, and progress UX (v2.1) |\n| `/batches/[batchId]` | Batch detail, refresh bar, run + answer comparison, report preview, attempt-aware cross-run diff, demo bundle export (v2.5) |\n| `/runs/[runId]` | Run Studio \u2014 3-column console with Overview / Detailed / Forensic modes |\n| `/source-packs` | Curated packs, install status, eval pass rates, strict-release flag |\n| `/release` | Release readiness composed from live API signals |\n| `/api-health` | API liveness/readiness, version, model router detail |",
+  "section": "Pages",
+  "start_char": 1431,
+  "end_char": 2298,
+  "token_estimate": 146,
+  "metadata": {
+    "section": "Pages"
+  }
+}

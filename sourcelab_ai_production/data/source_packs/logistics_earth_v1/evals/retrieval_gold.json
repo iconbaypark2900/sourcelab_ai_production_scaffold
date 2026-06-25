@@ -1,0 +1,42 @@
+[
+  {
+    "query": "warehouse digital twin optimization",
+    "expected_source_ids": [
+      "logistics_earth_digital_twins_001",
+      "logistics_earth_satellite_002"
+    ],
+    "expected_terms": [
+      "warehouse",
+      "digital",
+      "twin"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for warehouse digital twin optimization"
+  },
+  {
+    "query": "warehouse digital twins",
+    "expected_source_ids": [
+      "logistics_earth_digital_twins_001"
+    ],
+    "expected_terms": [
+      "warehouse",
+      "digital",
+      "twins"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for warehouse digital twins"
+  },
+  {
+    "query": "satellite-informed logistics",
+    "expected_source_ids": [
+      "logistics_earth_satellite_002"
+    ],
+    "expected_terms": [
+      "satellite",
+      "informed",
+      "logistics"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

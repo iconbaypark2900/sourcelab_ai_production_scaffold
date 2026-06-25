@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_threat_model::chunk-000",
+  "source_id": "local_threat_model",
+  "text": "- Approved source library\n- User answers\n- Skill profile\n- Proof bundles\n- Model traces\n- Generated lessons\n- Verification reports\n- Human review queues",
+  "section": "Assets",
+  "start_char": 27,
+  "end_char": 179,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Assets"
+  }
+}

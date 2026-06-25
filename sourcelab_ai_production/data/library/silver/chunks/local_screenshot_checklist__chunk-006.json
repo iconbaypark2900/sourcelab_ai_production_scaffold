@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-006",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Exported markdown report (header + harness + eval sections)\n- [ ] `artifacts/release/local_v1_release_report.md`",
+  "section": "Export",
+  "start_char": 1201,
+  "end_char": 1319,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Export"
+  }
+}

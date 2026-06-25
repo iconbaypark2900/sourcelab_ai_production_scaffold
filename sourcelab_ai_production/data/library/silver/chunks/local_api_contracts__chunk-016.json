@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-016",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /lessons/\n```\n\nRequest:\n\n```json\n{\n  \"topic\": \"post-quantum cryptography migration\",\n  \"level\": \"intermediate\",\n  \"source_policy\": \"approved_only\",\n  \"difficulty\": 3,\n  \"task_format\": \"architecture_review\",\n  \"audience\": \"engineer\",\n  \"model_mode\": \"deterministic\",\n  \"model_backend\": \"deterministic\",\n  \"model_name\": \"\",\n  \"model_base_url\": \"\"\n}\n```\n\nResponse:\n\n```json\n{\n  \"lesson_id\": \"run_20250101_120000\",\n  \"run_id\": \"run_20250101_120000\",\n  \"status\": \"generated\",\n  \"topic\": \"post-quantum cryptography migration\"\n}\n```",
+  "section": "Create Lesson",
+  "start_char": 4425,
+  "end_char": 4963,
+  "token_estimate": 46,
+  "metadata": {
+    "section": "Create Lesson"
+  }
+}

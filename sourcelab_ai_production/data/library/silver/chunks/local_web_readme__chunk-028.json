@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-028",
+  "source_id": "local_web_readme",
+  "text": "Research mode panels load backend artifacts via `refreshRunContext`: **Research plan**, **Retrieval strategy**, **Source coverage (engine)**, **Evidence-bound lesson**, **Genericness**, **Topic memory**, and **Expansion suggestions** (`ResearchEnginePanels.tsx`). Types live in `lib/types.ts`; artifacts are fetched from `GET /runs/{run_id}/artifacts/{name}`.\n\nCLI: `sourcelab research plan|coverage|genericness|profile|expansion`. Lesson create (`sourcelab lesson create`) runs the research pipeline automatically and writes artifacts under `artifacts/runs/<run_id>/`.",
+  "section": "Library-Aware Research Engine v1",
+  "start_char": 18069,
+  "end_char": 18638,
+  "token_estimate": 53,
+  "metadata": {
+    "section": "Library-Aware Research Engine v1"
+  }
+}

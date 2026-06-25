@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-014",
+  "source_id": "local_architecture",
+  "text": "- `GET /models/config` - Show model configuration\n- `GET /models/health` - Check backend health\n- `POST /models/test` - Test a model backend\n- `POST /lessons/` - Create lesson with optional model params",
+  "section": "API endpoints",
+  "start_char": 2940,
+  "end_char": 3142,
+  "token_estimate": 32,
+  "metadata": {
+    "section": "API endpoints"
+  }
+}

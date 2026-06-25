@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-007",
+  "source_id": "local_release_process",
+  "text": "```bash\nsourcelab release bundle\n```\n\nExpected: creates:\n\n- `artifacts/release/sourcelab_local_v1_ga_bundle/`\n- `artifacts/release/sourcelab_local_v1_ga_bundle.zip`\n\nLegacy RC bundles (`sourcelab_local_v1_rc_bundle`) are detected with a migration warning; re-run `release bundle` to produce GA artifacts.",
+  "section": "5. Release artifact bundle",
+  "start_char": 934,
+  "end_char": 1238,
+  "token_estimate": 28,
+  "metadata": {
+    "section": "5. Release artifact bundle"
+  }
+}

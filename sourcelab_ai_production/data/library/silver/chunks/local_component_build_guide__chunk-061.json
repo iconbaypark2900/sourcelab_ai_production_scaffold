@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-061",
+  "source_id": "local_component_build_guide",
+  "text": "streamlit run src/sourcelab/ui/dashboard.py\n```",
+  "section": "Launch dashboard",
+  "start_char": 10813,
+  "end_char": 10860,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Launch dashboard"
+  }
+}

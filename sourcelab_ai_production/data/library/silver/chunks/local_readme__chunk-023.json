@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-023",
+  "source_id": "local_readme",
+  "text": "See `docs/engineering/ROADMAP.md`. Next milestone: **Local v1.0 GA** (pinned deps, UX polish, signed artifacts).",
+  "section": "Roadmap",
+  "start_char": 9931,
+  "end_char": 10043,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "Roadmap"
+  }
+}

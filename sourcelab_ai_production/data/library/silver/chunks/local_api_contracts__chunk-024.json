@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-024",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /runs/{run_id}/harness\n```\n\nResponse:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"passed\": true,\n  \"checks\": [\n    {\n      \"check_name\": \"required_artifacts_exist\",\n      \"passed\": true,\n      \"message\": \"All required artifacts present\"\n    }\n  ],\n  \"blocking_failures\": [],\n  \"warnings\": [],\n  \"artifact_count\": 15\n}\n```",
+  "section": "Get Harness Report",
+  "start_char": 7809,
+  "end_char": 8147,
+  "token_estimate": 33,
+  "metadata": {
+    "section": "Get Harness Report"
+  }
+}

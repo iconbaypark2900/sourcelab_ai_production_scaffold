@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "local AI inference stack design",
+    "difficulty": 2,
+    "task_format": "architecture_review",
+    "required_source_ids": [
+      "local_ai_infra_routing_001",
+      "local_ai_infra_observability_002"
+    ],
+    "forbidden_claims": [
+      "unsupported guarantee",
+      "unverified production claim"
+    ],
+    "description": "Lesson on local AI inference stack design"
+  },
+  {
+    "topic": "DGX Spark model routing",
+    "difficulty": 3,
+    "task_format": "hands_on_lab",
+    "required_source_ids": [
+      "local_ai_infra_routing_001"
+    ],
+    "forbidden_claims": [
+      "production safe without validation"
+    ],
+    "description": "Secondary lesson case for pack coverage"
+  }
+]

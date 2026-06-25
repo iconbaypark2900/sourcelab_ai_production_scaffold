@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-006",
+  "source_id": "local_architecture",
+  "text": "- Lightweight BM25 implementation (no external dependencies)\n- Okapi BM25 formula with k1=1.5, b=0.75\n- Term frequency saturation and document length normalization\n- Trust-tier weighting applied to scores",
+  "section": "Keyword search (BM25)",
+  "start_char": 961,
+  "end_char": 1165,
+  "token_estimate": 28,
+  "metadata": {
+    "section": "Keyword search (BM25)"
+  }
+}

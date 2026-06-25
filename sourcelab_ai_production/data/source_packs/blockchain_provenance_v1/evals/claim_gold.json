@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Smart contracts can anchor provenance metadata on-chain but do not replace evidence review",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Provenance for AI Outputs"
+  },
+  {
+    "claim": "Provenance should identify what was generated, from which sources, and under which configuration",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Provenance for AI Outputs"
+  },
+  {
+    "claim": "Identity systems should define issuer, subject, verifier, and revocation assumptions",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Identity and Verification Layers"
+  },
+  {
+    "claim": "Zero-knowledge proofs can hide details while proving selected statements",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Identity and Verification Layers"
+  },
+  {
+    "claim": "Blockchain Provenance and Verifiable Systems requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

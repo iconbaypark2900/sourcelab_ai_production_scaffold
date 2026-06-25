@@ -1,0 +1,29 @@
+{
+  "batch_name": "PQC migration comparison",
+  "items": [
+    {
+      "topic": "post-quantum cryptography migration architecture review",
+      "source_pack": "pqc_v1",
+      "difficulty": 3,
+      "lesson_format": "architecture_review",
+      "retrieval_mode": "hybrid",
+      "model_mode": "deterministic"
+    },
+    {
+      "topic": "crypto inventory readiness for PQC transition",
+      "source_pack": "pqc_v1",
+      "difficulty": 3,
+      "lesson_format": "implementation_plan",
+      "retrieval_mode": "hybrid",
+      "model_mode": "deterministic"
+    },
+    {
+      "topic": "harvest-now decrypt-later risk assessment",
+      "source_pack": "pqc_v1",
+      "difficulty": 4,
+      "lesson_format": "risk_review",
+      "retrieval_mode": "hybrid",
+      "model_mode": "deterministic"
+    }
+  ]
+}

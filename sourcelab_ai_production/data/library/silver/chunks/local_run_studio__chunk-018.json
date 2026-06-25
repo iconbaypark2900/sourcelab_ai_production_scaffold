@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-018",
+  "source_id": "local_run_studio",
+  "text": "**Learning library vs operations layers:** Run Studio v2.6 reframes the UI as an educational research library while preserving all CLI/API names and operational features.\n\n| Layer | UI label | Purpose |\n|-------|----------|---------|\n| **Library (default)** | Reading Room, Collections, Study Journal | Source-grounded lesson study \u2014 tabs for lesson, sources, claims, proof, journal, artifacts |\n| **Research** | Research validation workbench | v2.6 artifact-driven validation (coverage, claims, lesson quality, gaps) |\n| **Operations** | Pipeline console | Attempts, diffusion timeline, harness, forensic artifacts (formerly Overview) |\n| **Detailed / Forensic** | Unchanged | Harness checks and raw JSON inspection |\n\n**Library home (`/`):** SourceLab Research Library hero, quick actions, library shelves mapped to source packs, Study Path on latest run.\n\n**Collections (`/source-packs`):** Sections \u2014 Validated, Starter, Strict Release, Collection Health. Badges: Strict, Validated, Starter, Needs sources, Template (hidden from ready-to-study views).\n\n**Start study session (`/runs/new`):** Collection, study depth, lesson style; library creation stages (Opening collection\u2026, Searching shelves\u2026)",
+  "section": "v2.6 \u2014 Educational Interactive Library Theme",
+  "start_char": 12991,
+  "end_char": 14191,
+  "token_estimate": 158,
+  "metadata": {
+    "section": "v2.6 \u2014 Educational Interactive Library Theme"
+  }
+}

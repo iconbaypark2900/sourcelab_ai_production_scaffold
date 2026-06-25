@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-007",
+  "source_id": "local_component_build_guide",
+  "text": "- `approved` - Source is approved for use\n- `needs_review` - Source needs review\n- `rejected` - Source is rejected",
+  "section": "Approval statuses",
+  "start_char": 1916,
+  "end_char": 2030,
+  "token_estimate": 20,
+  "metadata": {
+    "section": "Approval statuses"
+  }
+}

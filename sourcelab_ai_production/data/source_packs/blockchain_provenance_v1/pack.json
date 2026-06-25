@@ -1,0 +1,28 @@
+{
+  "name": "blockchain_provenance_v1",
+  "title": "Blockchain Provenance and Verifiable Systems",
+  "version": "1.0.0",
+  "description": "Source pack for smart contracts, DID, ZK proofs, proof-of-human, provenance, audit trails, and AI-output verification.",
+  "domain": "blockchain_provenance",
+  "required_for_strict_release": false,
+  "sources_dir": "sources",
+  "evals_dir": "evals",
+  "topics": [
+    "smart contracts",
+    "DID",
+    "ZK proofs",
+    "proof of human",
+    "dApps",
+    "provenance",
+    "blockchain audit trails",
+    "AI output verification"
+  ],
+  "example_lessons": [
+    "proof of human stack",
+    "blockchain provenance for AI outputs",
+    "ZK identity for agentic web",
+    "smart contract audit trail design"
+  ],
+  "created_by": "bootstrap_sourcelab_source_packs.py",
+  "created_at": "2026-06-25T04:57:48+00:00"
+}

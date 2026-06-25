@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_plantuml::chunk-000",
+  "source_id": "local_plantuml",
+  "text": "```plantuml\n@startuml\npackage \"SourceLab AI\" {\n  [Source Registry] --> [Chunker]\n  [Chunker] --> [Retrieval Index]\n  [Retrieval Index] --> [Lesson Generator]\n  [Lesson Generator] --> [Claim Verifier]\n  [Claim Verifier] --> [Proof Bundle]\n  [Proof Bundle] --> [Answer Scorer]\n  [Answer Scorer] --> [Skill Profile]\n  [Skill Profile] --> [Next Task Selector]\n}\n@enduml\n```",
+  "section": "Component diagram",
+  "start_char": 43,
+  "end_char": 412,
+  "token_estimate": 48,
+  "metadata": {
+    "section": "Component diagram"
+  }
+}

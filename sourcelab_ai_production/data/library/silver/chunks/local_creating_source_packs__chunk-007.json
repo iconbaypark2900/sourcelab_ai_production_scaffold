@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-007",
+  "source_id": "local_creating_source_packs",
+  "text": "After install and evals pass:\n\n```bash\nsourcelab local-demo\nsourcelab verify-release --strict\n```\n\nThe release manifest records installed pack status and golden eval pass rates.",
+  "section": "6. Release integration",
+  "start_char": 1985,
+  "end_char": 2162,
+  "token_estimate": 24,
+  "metadata": {
+    "section": "6. Release integration"
+  }
+}

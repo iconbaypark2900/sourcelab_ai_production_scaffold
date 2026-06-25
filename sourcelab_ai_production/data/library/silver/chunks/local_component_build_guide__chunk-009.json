@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-009",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab sources approve <source_id>",
+  "section": "Approve a source",
+  "start_char": 2082,
+  "end_char": 2119,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Approve a source"
+  }
+}

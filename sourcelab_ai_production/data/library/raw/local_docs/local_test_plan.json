@@ -1,0 +1,44 @@
+{
+  "record_id": "local_test_plan",
+  "origin": "local_docs",
+  "external_id": "docs/testing/TEST_PLAN.md",
+  "title": "Test Plan",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "returns",
+    "report",
+    "source",
+    "sourcelab",
+    "validates",
+    "release"
+  ],
+  "summary": "- Source registry creates metadata.\n- Chunker preserves source IDs.\n- Retriever returns source-linked chunks.\n- BM25 keyword search returns expected source for crypto inventory.\n- Vector search returns source-linked chunks.\n- Hybrid search returns source-linked chunks with diagnostics.\n- Trust-tier weighting affects ranking.\n- Empty queries return clean empty responses.\n- All results preserve cita",
+  "key_terms": [
+    "returns",
+    "report",
+    "source",
+    "sourcelab",
+    "validates",
+    "release",
+    "answer",
+    "tests",
+    "harness",
+    "sources",
+    "all",
+    "fields"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_test_plan.md",
+  "checksum": "f1b727182e409064a5f501c60d8f5bd68ff07fc9afb43054db2ee61efb6d715f",
+  "metadata": {
+    "relative_path": "docs/testing/TEST_PLAN.md"
+  }
+}

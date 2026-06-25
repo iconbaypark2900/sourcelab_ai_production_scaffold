@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-007",
+  "source_id": "local_batch_runs",
+  "text": "Each batch writes under `artifacts/batches/<batch_id>/`:\n\n- `batch_manifest.json` \u2014 input items, run IDs, failures, version (`v2.3`)\n- `batch_summary.json` \u2014 totals, topics, source packs, artifact counts\n- `comparison_report.json` \u2014 full run comparison payload (when \u22652 runs)\n- `comparison_report.md` \u2014 human-readable export; includes learner answer matrix, weak/review warnings, and recommendations when attempts exist (graceful no-attempts section otherwise)",
+  "section": "Artifacts",
+  "start_char": 1944,
+  "end_char": 2404,
+  "token_estimate": 54,
+  "metadata": {
+    "section": "Artifacts"
+  }
+}

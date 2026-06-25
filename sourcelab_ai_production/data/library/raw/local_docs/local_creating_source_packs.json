@@ -1,0 +1,44 @@
+{
+  "record_id": "local_creating_source_packs",
+  "origin": "local_docs",
+  "external_id": "docs/source_packs/CREATING_SOURCE_PACKS.md",
+  "title": "Creating Source Packs",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "json",
+    "pack",
+    "sourcelab",
+    "eval",
+    "evals",
+    "manifest"
+  ],
+  "summary": "Guide for authoring new SourceLab source packs after the reference pqc_v1 pack.",
+  "key_terms": [
+    "json",
+    "pack",
+    "sourcelab",
+    "eval",
+    "evals",
+    "manifest",
+    "source",
+    "sources",
+    "data",
+    "source_packs",
+    "my_pack_v1",
+    "file"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_creating_source_packs.md",
+  "checksum": "ab37a7cd6adcbd40abed07dbb4cb952f98c55d6f9b5727ddde1af321d6b3ec6b",
+  "metadata": {
+    "relative_path": "docs/source_packs/CREATING_SOURCE_PACKS.md"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-023",
+  "source_id": "local_test_plan",
+  "text": "sourcelab verify claims --latest",
+  "section": "View claims from latest run",
+  "start_char": 7771,
+  "end_char": 7803,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "View claims from latest run"
+  }
+}

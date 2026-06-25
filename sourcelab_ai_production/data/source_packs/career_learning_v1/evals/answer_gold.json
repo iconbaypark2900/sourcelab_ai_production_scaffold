@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "A technical portfolio is stronger when each project has a clear problem, architecture, implementation evidence, tests, and demo path. Key practices include: Resume claims should map to concrete artifacts such as repos, tests, docs, and demos; Project evidence should show both technical depth and user-facing value.",
+    "topic": "technical resume project evidence",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "technical resume project evidence",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

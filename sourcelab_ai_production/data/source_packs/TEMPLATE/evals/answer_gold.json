@@ -1,0 +1,9 @@
+[
+  {
+    "topic": "source packs",
+    "answer_text": "A source pack bundles curated markdown sources and golden eval test cases for validation.",
+    "expected_score_min": 0.5,
+    "rubric_focus": ["source pack", "markdown", "eval"],
+    "description": "Template answer scoring case"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-004",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /models/health\n```\n\nResponse:\n\n```json\n{\n  \"backend\": \"deterministic\",\n  \"available\": true,\n  \"model_name\": \"deterministic\",\n  \"latency_ms\": 0.0,\n  \"error\": null\n}\n```",
+  "section": "Check Model Health",
+  "start_char": 615,
+  "end_char": 794,
+  "token_estimate": 19,
+  "metadata": {
+    "section": "Check Model Health"
+  }
+}

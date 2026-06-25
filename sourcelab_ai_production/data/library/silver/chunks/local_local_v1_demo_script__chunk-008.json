@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-008",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\nsourcelab export latest --format markdown\nsourcelab release report\nsourcelab dashboard --launch   # separate terminal\nsourcelab api --serve          # separate terminal, show /version and /docs\n```",
+  "section": "Act 6 \u2014 Export & dashboard (3 min)",
+  "start_char": 1783,
+  "end_char": 1988,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Act 6 \u2014 Export & dashboard (3 min)"
+  }
+}

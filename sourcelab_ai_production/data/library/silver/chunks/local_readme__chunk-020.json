@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-020",
+  "source_id": "local_readme",
+  "text": "Core starter packs (`agentic_engineering_v1`, `local_ai_infra_v1`, `rag_doc_intelligence_v1`) use shared guardrail patterns for claim and answer golden evals. `local_ai_infra_v1` source markdown includes DGX Spark and EVO-X2 hardware terms expected by retrieval gold evals.\n\nVerify alignment:\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --repair-manifests\npython scripts/smoke_source_packs.py --packs core --run-evals --run-lessons\npython scripts/bootstrap_sourcelab_source_packs.py --delete-legacy-evals --dry-run\n```\n\nStrict release validation for `pqc_v1` and `ai_safety_v1` is unchanged.",
+  "section": "Starter Pack Eval Alignment (v1.0.2)",
+  "start_char": 8030,
+  "end_char": 8637,
+  "token_estimate": 57,
+  "metadata": {
+    "section": "Starter Pack Eval Alignment (v1.0.2)"
+  }
+}

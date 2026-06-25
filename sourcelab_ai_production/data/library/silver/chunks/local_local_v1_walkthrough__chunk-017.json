@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-017",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\ndocker compose up sourcelab-api\ncurl http://localhost:8000/health\n```",
+  "section": "14. Docker (API only)",
+  "start_char": 2820,
+  "end_char": 2897,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "14. Docker (API only)"
+  }
+}

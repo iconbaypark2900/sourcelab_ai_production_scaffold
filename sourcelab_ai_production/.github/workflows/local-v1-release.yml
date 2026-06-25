@@ -1,0 +1,73 @@
+name: Local v1 Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "scripts/**"
+      - "requirements/**"
+      - "pyproject.toml"
+      - "Makefile"
+      - "docker-compose.yml"
+      - "Dockerfile"
+      - ".github/workflows/local-v1-release.yml"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -e ".[dev,api,ui,ingest,retrieval,models]"
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Check dependency lock drift
+        run: make freeze-check
+
+      - name: Init local environment
+        run: sourcelab init-local
+
+      - name: Run local demo
+        run: sourcelab local-demo
+
+      - name: Strict release verification
+        run: sourcelab verify-release --strict
+
+      - name: Build release bundle
+        run: sourcelab release bundle
+
+      - name: Generate release checksums
+        run: sourcelab release checksums
+
+      - name: Export SBOM
+        run: sourcelab release sbom
+
+      - name: Export attestation
+        run: sourcelab release attest
+
+      - name: Release signing dry-run
+        run: sourcelab release sign --mode dry-run
+
+      - name: Verify signature status
+        run: sourcelab release verify-signature
+
+      - name: Publish dry-run plan
+        run: sourcelab release publish --dry-run
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sourcelab-local-v1-release
+          path: artifacts/release/
+          if-no-files-found: error

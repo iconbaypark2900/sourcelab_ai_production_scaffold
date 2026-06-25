@@ -1,0 +1,44 @@
+{
+  "record_id": "local_data_model",
+  "origin": "local_docs",
+  "external_id": "docs/engineering/DATA_MODEL.md",
+  "title": "Data Model",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "text",
+    "answer_reviews",
+    "answers",
+    "data",
+    "fields",
+    "hash_sha256"
+  ],
+  "summary": "text\nsources\nsource_chunks\nlessons\nlesson_claims\nanswers\nanswer_reviews\nskill_profiles\nnext_tasks\nruns\nrun_artifacts\nmodel_traces",
+  "key_terms": [
+    "text",
+    "answer_reviews",
+    "answers",
+    "data",
+    "fields",
+    "hash_sha256",
+    "lesson_claims",
+    "lessons",
+    "model",
+    "model_traces",
+    "next_tasks",
+    "path"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_data_model.md",
+  "checksum": "d2a092d703b831e799a1e4cb9cc970f1307b494968525e4da97d26f16f9c3a10",
+  "metadata": {
+    "relative_path": "docs/engineering/DATA_MODEL.md"
+  }
+}

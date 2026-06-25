@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-016",
+  "source_id": "local_batch_runs",
+  "text": "Near report and matrix:\n\n| Control | Source |\n| --- | --- |\n| Copy report markdown | `GET /batches/{id}/report` payload |\n| Download report markdown | `GET /batches/{id}/report/download` |\n| Copy answer matrix markdown | Frontend payload (`buildAnswerMatrixExportMarkdown`) |\n| Download answer matrix JSON/MD | Frontend payload |\n\nDoes not mutate proof artifacts or answer history.",
+  "section": "Export / copy controls (v2.4)",
+  "start_char": 5887,
+  "end_char": 6268,
+  "token_estimate": 58,
+  "metadata": {
+    "section": "Export / copy controls (v2.4)"
+  }
+}

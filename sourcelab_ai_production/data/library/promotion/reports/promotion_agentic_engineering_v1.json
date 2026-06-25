@@ -1,0 +1,348 @@
+{
+  "generated_at": "2026-06-21T04:49:31.629320Z",
+  "stage": "promote",
+  "status": "dry_run",
+  "message": "Proposed 28 candidates for agentic_engineering_v1",
+  "counts": {
+    "candidates": 28,
+    "promoted": 0
+  },
+  "candidates": [
+    {
+      "source_id": "local_0001-source-grounding",
+      "title": "ADR 0001: Source grounding is mandatory",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.818,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_0001-source-grounding.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_0002-self-evolution-boundary",
+      "title": "ADR 0002: Self-evolution changes tasks, not source code",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_0002-self-evolution-boundary.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_0003-compression-scope",
+      "title": "ADR 0003: Compression starts with practical baselines",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_0003-compression-scope.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_api_contracts",
+      "title": "API Contracts",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8736,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_api_contracts.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_architecture",
+      "title": "Architecture",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.825,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_architecture.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_architecture_mermaid",
+      "title": "Architecture Diagrams",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_architecture_mermaid.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_backlog",
+      "title": "Backlog",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.7917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_backlog.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_batch_runs",
+      "title": "Batch Runs & Compare \u2014 Run Studio v2.5",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_batch_runs.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_component_build_guide",
+      "title": "Component Build Guide",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8139,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_component_build_guide.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_creating_source_packs",
+      "title": "Creating Source Packs",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8347,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_creating_source_packs.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_data_model",
+      "title": "Data Model",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_data_model.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_local_v1_demo_script",
+      "title": "SourceLab Local v1 Demo Script",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8264,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_local_v1_demo_script.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_local_v1_walkthrough",
+      "title": "SourceLab Local v1 Walkthrough",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8319,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_local_v1_walkthrough.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_observability",
+      "title": "Observability",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8083,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_observability.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_offline_install",
+      "title": "SourceLab Local \u2014 Offline Install Guide",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8792,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_offline_install.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_plantuml",
+      "title": "PlantUML Diagrams",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_plantuml.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_prd",
+      "title": "Product Requirements Document: SourceLab AI",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_prd.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_readme",
+      "title": "SourceLab AI \u2014 Local v1.0 GA",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.818,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_readme.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_release_process",
+      "title": "SourceLab Local v1.0 \u2014 Release Process",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8583,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_release_process.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_roadmap",
+      "title": "Roadmap",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.7917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_roadmap.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_run_studio",
+      "title": "Run Studio \u2014 Next.js 16 Frontend",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_run_studio.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_runbook",
+      "title": "Runbook",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.7611,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_runbook.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_screenshot_checklist",
+      "title": "Screenshot Checklist \u2014 SourceLab Local v1.0 RC",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8097,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_screenshot_checklist.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_source_trust_policy",
+      "title": "Source Trust Policy",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_source_trust_policy.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_test_plan",
+      "title": "Test Plan",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_test_plan.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_threat_model",
+      "title": "Threat Model",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8917,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_threat_model.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_topic_backlog",
+      "title": "SourceLab Topic Backlog",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8042,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_topic_backlog.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    },
+    {
+      "source_id": "local_web_readme",
+      "title": "SourceLab Run Studio (Next.js 16 frontend)",
+      "domain_tags": [
+        "user_project_library"
+      ],
+      "quality_score": 0.8778,
+      "target_pack": "agentic_engineering_v1",
+      "proposed_filename": "local_web_readme.md",
+      "status": "proposed",
+      "reason": "meets_domain_and_quality_threshold"
+    }
+  ]
+}

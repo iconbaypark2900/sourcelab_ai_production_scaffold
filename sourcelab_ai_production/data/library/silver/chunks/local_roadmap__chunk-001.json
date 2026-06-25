@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-001",
+  "source_id": "local_roadmap",
+  "text": "- [x] PDF ingestion.\n- [x] URL ingestion.\n- [x] Source trust tiers.\n- [x] Retrieved date and hash tracking.\n- [x] Freshness checks.\n- [x] Source approval workflow.\n- [x] Source quality reports.\n- [x] Safe retrieval filtering.",
+  "section": "Phase 1: Reliable source foundation",
+  "start_char": 274,
+  "end_char": 499,
+  "token_estimate": 39,
+  "metadata": {
+    "section": "Phase 1: Reliable source foundation"
+  }
+}

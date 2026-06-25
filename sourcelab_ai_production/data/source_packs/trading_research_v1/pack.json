@@ -1,0 +1,29 @@
+{
+  "name": "trading_research_v1",
+  "title": "Trading Research and Market Strategy Validation",
+  "version": "1.0.0",
+  "description": "Source pack for event markets, equities factors, crypto meta-labeling, options/forex strategy testing, and settlement verification workflows.",
+  "domain": "trading_research",
+  "required_for_strict_release": false,
+  "sources_dir": "sources",
+  "evals_dir": "evals",
+  "topics": [
+    "event markets",
+    "Kalshi",
+    "Polymarket",
+    "crypto meta-labeling",
+    "triple-barrier labeling",
+    "equities factors",
+    "options strategies",
+    "forex regimes",
+    "settlement verification"
+  ],
+  "example_lessons": [
+    "factor ranking equity strategy",
+    "event market settlement verification",
+    "crypto triple-barrier meta-labeling",
+    "options flow validation workflow"
+  ],
+  "created_by": "bootstrap_sourcelab_source_packs.py",
+  "created_at": "2026-06-25T04:57:48+00:00"
+}

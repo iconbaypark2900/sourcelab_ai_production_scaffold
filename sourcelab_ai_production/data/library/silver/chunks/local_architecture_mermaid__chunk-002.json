@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture_mermaid::chunk-002",
+  "source_id": "local_architecture_mermaid",
+  "text": "```mermaid\nsequenceDiagram\n    participant G as Lesson Generator\n    participant V as Claim Verifier\n    participant R as Retriever\n    participant H as Harness\n\n    G->>V: generated lesson claims\n    V->>R: find supporting chunks\n    R-->>V: source chunks + trust tiers\n    V-->>H: claim_map.json\n    H->>H: block unsupported high-risk claims\n```",
+  "section": "Claim verification",
+  "start_char": 739,
+  "end_char": 1086,
+  "token_estimate": 42,
+  "metadata": {
+    "section": "Claim verification"
+  }
+}

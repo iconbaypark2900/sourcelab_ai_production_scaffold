@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-021",
+  "source_id": "local_web_readme",
+  "text": "- **`CrossRunAnswerDiffPanel`** \u2014 per-run attempt history; Latest/Best/every attempt selectors; detail fetch for selected attempt only.\n- **`BatchAnswerSubmitPanel`** \u2014 quick presets (strong/weak/unsupported to all missing) with confirm + explicit Submit.\n- **`BatchDemoBundleExport`** \u2014 unified browser JSON bundle; optional local notes inclusion.\n- **`BatchAnswerMatrix`** \u2014 shortcuts to cross-run diff (latest vs latest, best vs best, vs best run).\n\nSee [`docs/frontend/BATCH_RUNS.md`](../docs/frontend/BATCH_RUNS.md) for full reference.",
+  "section": "Run Studio v2.5 \u2014 attempt-aware batch workflows",
+  "start_char": 13361,
+  "end_char": 13901,
+  "token_estimate": 61,
+  "metadata": {
+    "section": "Run Studio v2.5 \u2014 attempt-aware batch workflows"
+  }
+}

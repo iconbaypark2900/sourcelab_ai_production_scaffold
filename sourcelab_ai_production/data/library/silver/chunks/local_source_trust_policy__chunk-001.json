@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-001",
+  "source_id": "local_source_trust_policy",
+  "text": "- Use tier A/B sources where possible.\n- Use tier C sources for research exploration with labels.\n- Use tier D/E only as implementation context, not authoritative truth.\n- High-risk lessons must not rely only on D/E sources.",
+  "section": "Lesson generation policy",
+  "start_char": 433,
+  "end_char": 657,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "Lesson generation policy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-022",
+  "source_id": "local_web_readme",
+  "text": "- **`BatchReportPreview`** \u2014 API-driven comparison report preview with copy/download/refresh on `/batches/[batchId]`.\n- **`CrossRunAnswerDiffPanel`** \u2014 cross-run attempt comparison on batch detail and `/runs/compare` answers tab.\n- **`BatchAnswerSubmitPanel`** \u2014 Submit missing only; per-run custom text with validation.\n- **Export/copy** \u2014 report markdown from backend; matrix markdown/JSON from frontend helpers.\n\nSee [`docs/frontend/BATCH_RUNS.md`](../docs/frontend/BATCH_RUNS.md) for full reference.",
+  "section": "Run Studio v2.4 \u2014 batch report & compare UX",
+  "start_char": 13951,
+  "end_char": 14454,
+  "token_estimate": 52,
+  "metadata": {
+    "section": "Run Studio v2.4 \u2014 batch report & compare UX"
+  }
+}

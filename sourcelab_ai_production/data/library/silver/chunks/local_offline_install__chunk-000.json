@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-000",
+  "source_id": "local_offline_install",
+  "text": "Install and verify SourceLab Local without internet access after obtaining a source checkout or release bundle.",
+  "section": "SourceLab Local \u2014 Offline Install Guide",
+  "start_char": 43,
+  "end_char": 154,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "SourceLab Local \u2014 Offline Install Guide"
+  }
+}

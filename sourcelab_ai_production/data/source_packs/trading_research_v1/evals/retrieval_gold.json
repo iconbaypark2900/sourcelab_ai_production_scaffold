@@ -1,0 +1,39 @@
+[
+  {
+    "query": "factor ranking equity strategy",
+    "expected_source_ids": [
+      "trading_research_validation_001",
+      "trading_research_meta_labeling_002"
+    ],
+    "expected_terms": [
+      "factor",
+      "ranking",
+      "equity"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for factor ranking equity strategy"
+  },
+  {
+    "query": "event markets",
+    "expected_source_ids": [
+      "trading_research_validation_001"
+    ],
+    "expected_terms": [
+      "event",
+      "markets"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for event markets"
+  },
+  {
+    "query": "Kalshi",
+    "expected_source_ids": [
+      "trading_research_meta_labeling_002"
+    ],
+    "expected_terms": [
+      "kalshi"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

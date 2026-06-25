@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-008",
+  "source_id": "local_architecture",
+  "text": "```bash\nsourcelab search \"query\" --mode vector    # Vector-only search\nsourcelab search \"query\" --mode keyword   # BM25 keyword search\nsourcelab search \"query\" --mode hybrid    # Combined search\n```",
+  "section": "Search modes",
+  "start_char": 1401,
+  "end_char": 1599,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Search modes"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-033",
+  "source_id": "local_runbook",
+  "text": "sourcelab local-demo",
+  "section": "Run the full local demonstration pipeline",
+  "start_char": 2239,
+  "end_char": 2259,
+  "token_estimate": 2,
+  "metadata": {
+    "section": "Run the full local demonstration pipeline"
+  }
+}

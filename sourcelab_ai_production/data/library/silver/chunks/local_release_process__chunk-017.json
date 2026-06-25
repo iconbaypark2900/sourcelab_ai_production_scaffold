@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-017",
+  "source_id": "local_release_process",
+  "text": "If strict verification fails after demo:\n\n1. Inspect `artifacts/release/local_v1_release_report.md`\n2. Fix blocking items from `sourcelab verify-release --strict`\n3. Re-run `sourcelab local-demo` and bundle steps",
+  "section": "Rollback",
+  "start_char": 2663,
+  "end_char": 2875,
+  "token_estimate": 24,
+  "metadata": {
+    "section": "Rollback"
+  }
+}

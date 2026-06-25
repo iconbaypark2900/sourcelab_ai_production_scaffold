@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-014",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab sources freshness\n```\n\nThresholds:\n- Fresh: <= 90 days\n- Aging: 91-180 days\n- Stale: > 180 days",
+  "section": "Check source freshness",
+  "start_char": 2367,
+  "end_char": 2472,
+  "token_estimate": 19,
+  "metadata": {
+    "section": "Check source freshness"
+  }
+}

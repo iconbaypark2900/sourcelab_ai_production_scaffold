@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-003",
+  "source_id": "local_release_process",
+  "text": "```bash\npytest -q\n```\n\nExpected: all tests pass (1 skipped acceptable if marked slow and not run).",
+  "section": "1. Unit and integration tests",
+  "start_char": 389,
+  "end_char": 487,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "1. Unit and integration tests"
+  }
+}

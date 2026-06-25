@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-017",
+  "source_id": "local_run_studio",
+  "text": "- **`/batches/new`** \u2014 planned-run preview, estimated staged progress during the blocking POST, browser-local presets (`use-batch-presets.ts`).\n- **`/batches/[batchId]`** \u2014 refresh bar (manual + auto-refresh off by default), compare generated runs vs learner answers, `BatchAnswerMatrix` with deep links to `/runs/<id>?attempt=<id>&tab=history`.\n- **Backend** \u2014 `src/sourcelab/comparison/answer_compare.py`, `GET /batches/{id}/answers/compare`, `GET /runs/answers/compare`.\n- **CLI** \u2014 `sourcelab batch answers`, `sourcelab runs answers-compare`.\n- **Reports** \u2014 comparison markdown optionally includes learner answer matrix when attempts exist.",
+  "section": "v2.1 \u2014 Batch progress UX & answer comparison",
+  "start_char": 12295,
+  "end_char": 12940,
+  "token_estimate": 68,
+  "metadata": {
+    "section": "v2.1 \u2014 Batch progress UX & answer comparison"
+  }
+}

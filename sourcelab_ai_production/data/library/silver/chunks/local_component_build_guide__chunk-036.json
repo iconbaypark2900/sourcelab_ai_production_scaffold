@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-036",
+  "source_id": "local_component_build_guide",
+  "text": "Claims are matched to source chunks using:\n- Token overlap scoring\n- Phrase matching (3-grams)\n- Trust tier weighting (A=1.0, B=0.85, C=0.7, D=0.4, E=0.2)\n- Claim type weighting",
+  "section": "Evidence matching",
+  "start_char": 7769,
+  "end_char": 7946,
+  "token_estimate": 28,
+  "metadata": {
+    "section": "Evidence matching"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-000",
+  "source_id": "local_architecture",
+  "text": "SourceLab AI is designed as a modular source-grounded learning platform.",
+  "section": "Architecture",
+  "start_char": 16,
+  "end_char": 88,
+  "token_estimate": 10,
+  "metadata": {
+    "section": "Architecture"
+  }
+}

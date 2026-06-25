@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-029",
+  "source_id": "local_test_plan",
+  "text": "sourcelab release check",
+  "section": "Check release readiness",
+  "start_char": 8686,
+  "end_char": 8709,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Check release readiness"
+  }
+}

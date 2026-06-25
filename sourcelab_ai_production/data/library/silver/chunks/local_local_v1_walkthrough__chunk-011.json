@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-011",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab local-demo",
+  "section": "11. Full local demo (one command)",
+  "start_char": 2435,
+  "end_char": 2463,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "11. Full local demo (one command)"
+  }
+}

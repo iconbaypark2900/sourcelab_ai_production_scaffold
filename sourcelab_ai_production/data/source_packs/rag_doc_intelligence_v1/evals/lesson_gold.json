@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "source-grounded document assistant",
+    "difficulty": 2,
+    "task_format": "architecture_review",
+    "required_source_ids": [
+      "rag_doc_intelligence_grounding_001",
+      "rag_doc_intelligence_dedup_002"
+    ],
+    "forbidden_claims": [
+      "unsupported guarantee",
+      "unverified production claim"
+    ],
+    "description": "Lesson on source-grounded document assistant"
+  },
+  {
+    "topic": "adaptive graph RAG architecture",
+    "difficulty": 3,
+    "task_format": "hands_on_lab",
+    "required_source_ids": [
+      "rag_doc_intelligence_grounding_001"
+    ],
+    "forbidden_claims": [
+      "production safe without validation"
+    ],
+    "description": "Secondary lesson case for pack coverage"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-022",
+  "source_id": "local_run_studio",
+  "text": "- **`BatchReportPreview`** \u2014 on `/batches/[batchId]`: `GET /batches/{id}/report` + download endpoint; rendered/raw markdown, copy/download, refresh, status pill, retry on failure.\n- **`CrossRunAnswerDiffPanel`** \u2014 on batch detail and `/runs/compare` answers tab; compares two runs' attempts via `GET /learning/answers/{run_id}/{attempt_id}`; delta cards for score/rubric/uncapped/review/length.\n- **`BatchAnswerSubmitPanel`** \u2014 **Submit missing only** (selects `attempt_count === 0` runs); per-run **Custom text** textarea with validation; pre-submit summary counts custom rows.\n- **Export/copy** \u2014 report markdown from backend; matrix markdown/JSON from frontend helpers (`lib/batch-run.ts`).\n\nSee [`docs/frontend/BATCH_RUNS.md`](BATCH_RUNS.md) for full reference.",
+  "section": "v2.4 \u2014 Batch report & compare UX",
+  "start_char": 16480,
+  "end_char": 17245,
+  "token_estimate": 80,
+  "metadata": {
+    "section": "v2.4 \u2014 Batch report & compare UX"
+  }
+}

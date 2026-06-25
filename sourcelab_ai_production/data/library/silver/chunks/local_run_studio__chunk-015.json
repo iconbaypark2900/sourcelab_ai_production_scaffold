@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-015",
+  "source_id": "local_run_studio",
+  "text": "- **`/runs/new`** \u2014 polished create-run form: topic, source pack chooser (installed\n  / valid / eval pass rate / strict-release flag), difficulty, lesson format,\n  retrieval mode (hybrid live; keyword/vector recorded in manifest), model mode\n  (deterministic live; LLM backends disabled with notes).\n- **`POST /lessons/`** \u2014 synchronous wrapper over `run_lesson_create` with required\n  `source_pack`, structured validation errors, and a Run Studio-friendly response\n  (`run_id`, `harness_status`, `proof_status`, `artifact_count`, `run_url`).\n- **Shortcuts** \u2014 Console, Runs list, nav bar, and Run Studio header link to\n  `/runs/new`. Optional auto-navigate to `/runs/[runId]` after creation.\n- **Helpers + tests** \u2014 `lib/create-run.ts` (`validateCreateRunForm`,\n  `normalizeCreateRunRequest`, `selectDefaultSourcePack`) with Vitest coverage.",
+  "section": "v1.9 \u2014 Create new runs from UI",
+  "start_char": 10746,
+  "end_char": 11588,
+  "token_estimate": 97,
+  "metadata": {
+    "section": "v1.9 \u2014 Create new runs from UI"
+  }
+}

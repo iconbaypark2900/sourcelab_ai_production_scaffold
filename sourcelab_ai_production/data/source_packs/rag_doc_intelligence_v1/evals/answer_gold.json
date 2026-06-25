@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "A document intelligence system should retrieve evidence, generate grounded outputs, extract claims, and verify citations before presenting final answers. Key practices include: Generated answers should cite source chunks used to support claims; Claim extraction makes it possible to verify factual statements after generation.",
+    "topic": "source-grounded document assistant",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "source-grounded document assistant",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-024",
+  "source_id": "local_runbook",
+  "text": "sourcelab export latest --format markdown",
+  "section": "Export latest run as markdown",
+  "start_char": 1544,
+  "end_char": 1585,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Export latest run as markdown"
+  }
+}

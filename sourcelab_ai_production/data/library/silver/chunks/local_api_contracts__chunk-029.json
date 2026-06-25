@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-029",
+  "source_id": "local_api_contracts",
+  "text": "All error responses follow this structure:\n\n```json\n{\n  \"error\": \"Not found\",\n  \"detail\": \"Source 'nonexistent' not found\",\n  \"code\": \"NOT_FOUND\"\n}\n```\n\nError codes:\n- `NOT_FOUND` - Resource not found\n- `VALIDATION_ERROR` - Request validation failed\n- `INTERNAL_ERROR` - Internal server error\n- `RESOURCE_CONFLICT` - Resource conflict\n- `BAD_REQUEST` - Invalid request\n- `SERVICE_UNAVAILABLE` - Service unavailable",
+  "section": "Error Responses",
+  "start_char": 9781,
+  "end_char": 10195,
+  "token_estimate": 55,
+  "metadata": {
+    "section": "Error Responses"
+  }
+}

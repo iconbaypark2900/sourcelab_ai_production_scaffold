@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-005",
+  "source_id": "local_topic_backlog",
+  "text": "Source pack for local-first multi-agent engineering, coding agents, QA, DevOps, compliance, and human-in-the-loop orchestration.\n\nExample lessons:\n- `multi-agent software engineering control plane`\n- `agent QA workflow`\n- `human-in-the-loop release gates`\n- `independent coding agent orchestration`",
+  "section": "`agentic_engineering_v1`",
+  "start_char": 3321,
+  "end_char": 3619,
+  "token_estimate": 35,
+  "metadata": {
+    "section": "`agentic_engineering_v1`"
+  }
+}

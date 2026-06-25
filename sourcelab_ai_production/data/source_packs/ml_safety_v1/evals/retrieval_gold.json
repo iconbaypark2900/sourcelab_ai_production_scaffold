@@ -1,0 +1,38 @@
+[
+  {
+    "query": "ML safety evaluation harness design",
+    "expected_source_ids": [
+      "ml_safety_evaluation_001",
+      "ml_safety_alignment_002"
+    ],
+    "expected_terms": [
+      "safety",
+      "evaluation",
+      "harness"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for ML safety evaluation harness design"
+  },
+  {
+    "query": "ML safety",
+    "expected_source_ids": [
+      "ml_safety_evaluation_001"
+    ],
+    "expected_terms": [
+      "safety"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for ML safety"
+  },
+  {
+    "query": "alignment",
+    "expected_source_ids": [
+      "ml_safety_alignment_002"
+    ],
+    "expected_terms": [
+      "alignment"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

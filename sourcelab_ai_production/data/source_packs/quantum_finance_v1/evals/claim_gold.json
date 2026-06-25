@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Portfolio optimization should separate data ingestion, risk estimation, optimization, and backtesting",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Hybrid Portfolio Optimization Workflow"
+  },
+  {
+    "claim": "QUBO formulations can encode discrete asset selection constraints",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Hybrid Portfolio Optimization Workflow"
+  },
+  {
+    "claim": "QAOA and other quantum optimizers should be validated out-of-sample before portfolio promotion",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Risk and Validation for Finance Models"
+  },
+  {
+    "claim": "A strategy should be evaluated out-of-sample before promotion",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Risk and Validation for Finance Models"
+  },
+  {
+    "claim": "Quantum Finance and Portfolio Optimization requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

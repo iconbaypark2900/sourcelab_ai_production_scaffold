@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-003",
+  "source_id": "local_runbook",
+  "text": "sourcelab ingest-url \"https://example.com/page\" --trust-tier C --publisher \"Publisher\" --source-type web_page",
+  "section": "Ingest a URL",
+  "start_char": 344,
+  "end_char": 453,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "Ingest a URL"
+  }
+}

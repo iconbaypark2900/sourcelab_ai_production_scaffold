@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-025",
+  "source_id": "local_architecture",
+  "text": "| Tier | Weight | Description |\n|------|--------|-------------|\n| A | 1.00 | Highly trusted |\n| B | 0.85 | Trusted |\n| C | 0.70 | Moderate trust |\n| D | 0.40 | Low trust |\n| E | 0.20 | Untrusted |",
+  "section": "Trust tier weighting",
+  "start_char": 6176,
+  "end_char": 6372,
+  "token_estimate": 46,
+  "metadata": {
+    "section": "Trust tier weighting"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-027",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /learning/reports/{run_id}\n```\n\nResponse:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"topic\": \"post-quantum cryptography migration\",\n  \"report_markdown\": \"# Learning Report\\n...\",\n  \"report_json\": {\n    \"score\": 0.85,\n    \"mastery_updates\": {}\n  }\n}\n```",
+  "section": "Get Learning Report",
+  "start_char": 9154,
+  "end_char": 9424,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Get Learning Report"
+  }
+}

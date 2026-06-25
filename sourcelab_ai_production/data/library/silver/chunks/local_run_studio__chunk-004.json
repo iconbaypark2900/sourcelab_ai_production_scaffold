@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-004",
+  "source_id": "local_run_studio",
+  "text": "All client functions in `apps/web/lib/sourcelab-api.ts` map to **verified**\nroutes (confirmed with `sourcelab api routes`):\n\n| Client function | Method & path |\n| --- | --- |\n| `getHealth` | `GET /health` |\n| `getReadiness` | `GET /ready` |\n| `getVersion` | `GET /version` |\n| `listRuns` | `GET /runs/` |\n| `getLatestRun` | `GET /runs/latest` |\n| `getRun` | `GET /runs/{run_id}` |\n| `getRunArtifacts` | `GET /runs/{run_id}/artifacts` |\n| `getRunArtifactJson` / `getRunArtifact` | `GET /runs/{run_id}/artifacts/{artifact_name}` |\n| `refreshRunContext` | *composed* \u2014 run summary + all forensic artifacts (the loader the page polls) |\n| `submitAnswer` | `POST /learning/answers` |\n| `getRunProof` | `GET /runs/{run_id}/proof` |\n| `getRunHarness` | `GET /runs/{run_id}/harness` |\n| `getRunLearning` | `GET /learning/reports/{run_id}` |\n| `getNextTask` | `GET /learning/next-task/{run_id}` |\n| `getLesson` | `GET /lessons/{run_id}` |\n| `createLessonRun` | `POST /lessons/` |\n| `getSourcePacks` | `GET /source-packs/` |\n| `getSourcePackStatus` | `GET /source-packs/{pack_name}/status` |\n| `validateSourcePack` | `GET /source-packs/{pack_name}/validate` |\n| `getLatestEvals` | `GET /evals/latest/{pack_name",
+  "section": "Backend endpoints consumed",
+  "start_char": 2331,
+  "end_char": 3531,
+  "token_estimate": 159,
+  "metadata": {
+    "section": "Backend endpoints consumed"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-003",
+  "source_id": "local_backlog",
+  "text": "- [x] Add verification schemas (AtomicClaim, EvidenceMatch, ClaimVerificationResult, CitationResolutionResult, VerificationReport, ConflictRecord, HumanReviewItem).\n- [x] Add atomic claim extractor with claim types.\n- [x] Add evidence matcher with token/phrase overlap and trust tier weighting.\n- [x] Add claim verifier with support status determination.\n- [x] Add citation resolution rate calculation.\n- [x] Add conflict detector (must/must-not, safe/unsafe, RSA contradictions).\n- [x] Add human review queue builder.\n- [x] Add comprehensive grounding report generator.\n- [x] Add harness validation for verification artifacts.\n- [x] Add CLI commands for verify and review.\n- [ ] Add real LLM entailment scoring.\n- [ ] Add grounding report UI.",
+  "section": "Epic 4: Verification v2",
+  "start_char": 902,
+  "end_char": 1645,
+  "token_estimate": 104,
+  "metadata": {
+    "section": "Epic 4: Verification v2"
+  }
+}

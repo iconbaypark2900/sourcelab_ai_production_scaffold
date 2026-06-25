@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-023",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /runs/{run_id}/proof\n```\n\nResponse:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"status\": \"PASS\",\n  \"manifest\": {\n    \"version\": \"2.0\",\n    \"run_id\": \"run_20250101_120000\"\n  },\n  \"summary\": {\n    \"release_gate_status\": \"PASS\",\n    \"answer_score\": 0.85\n  }\n}\n```",
+  "section": "Get Proof Bundle",
+  "start_char": 7506,
+  "end_char": 7783,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Get Proof Bundle"
+  }
+}

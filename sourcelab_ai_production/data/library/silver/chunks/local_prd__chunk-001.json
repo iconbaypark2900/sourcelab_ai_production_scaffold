@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-001",
+  "source_id": "local_prd",
+  "text": "1. AI/ML learners studying agents, RAG, and model optimization.\n2. Cybersecurity learners studying post-quantum migration and secure engineering.\n3. Developer-tool builders who want reproducible labs.\n4. Research-heavy students and founders who need paper-to-practice workflows.",
+  "section": "Target users",
+  "start_char": 273,
+  "end_char": 551,
+  "token_estimate": 34,
+  "metadata": {
+    "section": "Target users"
+  }
+}

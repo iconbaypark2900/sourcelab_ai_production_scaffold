@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-000",
+  "source_id": "local_readme",
+  "text": "**SourceLab AI** is a source-grounded adaptive technical lab generator.\n\nIt turns trusted sources into technical lessons, verifies that claims are supported, scores learner answers with a visible rubric, and adapts the next task based on the learner's profile.\n\n**SourceLab Local v1.0 GA** (`1.0.0`) is a reproducible local-first source-grounded learning/proof system that can be installed, tested, demoed, verified, exported, and inspected from CLI, API, dashboard, and release artifacts.",
+  "section": "SourceLab AI \u2014 Local v1.0 GA",
+  "start_char": 32,
+  "end_char": 521,
+  "token_estimate": 67,
+  "metadata": {
+    "section": "SourceLab AI \u2014 Local v1.0 GA"
+  }
+}

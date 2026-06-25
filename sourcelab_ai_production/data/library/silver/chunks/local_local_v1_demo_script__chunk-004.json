@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-004",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\nsourcelab demo --topic \"post-quantum cryptography migration\"",
+  "section": "Act 3 \u2014 Grounded lesson workflow (5 min)",
+  "start_char": 957,
+  "end_char": 1025,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Act 3 \u2014 Grounded lesson workflow (5 min)"
+  }
+}

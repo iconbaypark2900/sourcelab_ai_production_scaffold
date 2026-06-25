@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "SBIR proposal map for quantum AI",
+    "difficulty": 2,
+    "task_format": "architecture_review",
+    "required_source_ids": [
+      "grantops_business_funding_map_001",
+      "grantops_business_demo_evidence_002"
+    ],
+    "forbidden_claims": [
+      "unsupported guarantee",
+      "unverified production claim"
+    ],
+    "description": "Lesson on SBIR proposal map for quantum AI"
+  },
+  {
+    "topic": "grant strategy for local AI hardware",
+    "difficulty": 3,
+    "task_format": "hands_on_lab",
+    "required_source_ids": [
+      "grantops_business_funding_map_001"
+    ],
+    "forbidden_claims": [
+      "production safe without validation"
+    ],
+    "description": "Secondary lesson case for pack coverage"
+  }
+]

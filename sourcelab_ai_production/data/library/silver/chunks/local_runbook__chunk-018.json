@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-018",
+  "source_id": "local_runbook",
+  "text": "sourcelab runs show latest\nsourcelab runs show <run_id>\n```",
+  "section": "Explore a specific run",
+  "start_char": 1200,
+  "end_char": 1259,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "Explore a specific run"
+  }
+}

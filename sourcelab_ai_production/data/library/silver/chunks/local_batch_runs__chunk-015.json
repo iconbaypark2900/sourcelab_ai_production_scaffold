@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-015",
+  "source_id": "local_batch_runs",
+  "text": "In **Per-run profile** mode:\n\n- **Custom text** profile shows a compact textarea per selected row\n- Empty custom text blocks submit with a per-row validation message\n- Global custom mode unchanged; pre-submit summary counts custom rows",
+  "section": "Per-run custom answer text (v2.4)",
+  "start_char": 5615,
+  "end_char": 5850,
+  "token_estimate": 36,
+  "metadata": {
+    "section": "Per-run custom answer text (v2.4)"
+  }
+}

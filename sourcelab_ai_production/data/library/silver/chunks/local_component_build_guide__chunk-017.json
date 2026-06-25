@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-017",
+  "source_id": "local_component_build_guide",
+  "text": "- `A` - Highly trusted (standards bodies, official documentation)\n- `B` - Trusted (peer-reviewed, established sources)\n- `C` - Moderate trust (internal documentation, community sources)\n- `D` - Low trust (unverified, experimental)\n- `E` - Untrusted (known unreliable)",
+  "section": "Trust tiers",
+  "start_char": 2688,
+  "end_char": 2955,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "Trust tiers"
+  }
+}

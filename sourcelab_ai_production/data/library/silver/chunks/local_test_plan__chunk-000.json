@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-000",
+  "source_id": "local_test_plan",
+  "text": "- Source registry creates metadata.\n- Chunker preserves source IDs.\n- Retriever returns source-linked chunks.\n- BM25 keyword search returns expected source for crypto inventory.\n- Vector search returns source-linked chunks.\n- Hybrid search returns source-linked chunks with diagnostics.\n- Trust-tier weighting affects ranking.\n- Empty queries return clean empty responses.\n- All results preserve citations (source_id, chunk_id, trust_tier).\n- Lesson generator refuses missing sources.\n- Claim verifier outputs claim map.\n- Harness detects missing artifacts.\n- Answer scorer returns visible rubric breakdown.\n- Next-task selector explains decision.\n- Lesson package schema validates.\n- Generation fails when no sources are provided.\n- Rubric weights sum to 1.0.\n- Answer key includes source IDs and chunk IDs.\n- Generation trace includes source IDs and chunk IDs.\n- Pipeline writes all new artifacts.\n- Claim verifier reads generated claims.\n- Harness fails if generation trace is missing.\n- Harness fails if answer key has no source references.\n- `sourcelab lesson create` works.\n- `sourcelab demo --topic \"post-quantum cryptography migration\"` still passes.\n- `sourcelab verify-release` still passes",
+  "section": "Unit tests",
+  "start_char": 28,
+  "end_char": 1228,
+  "token_estimate": 174,
+  "metadata": {
+    "section": "Unit tests"
+  }
+}

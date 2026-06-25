@@ -1,0 +1,92 @@
+[
+  {
+    "answer": "According to the AI risk taxonomy summary, teams should classify risks into capability, misuse, alignment, and systemic categories. This helps prioritize controls based on deployment context and communicate consistently about severity.",
+    "topic": "AI risk taxonomy",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer on risk taxonomy"
+  },
+  {
+    "answer": "Based on evaluation guidance, benchmark scores measure narrow behavior slices and do not guarantee safe production deployment. Teams should combine benchmarks with domain-specific golden evals and human review.",
+    "topic": "model evaluation benchmarks",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer on benchmarks"
+  },
+  {
+    "answer": "Model governance should include approval workflows, version pinning, rollback plans, and audit trails. High-impact deployments require documented decisions and evidence from evals before launch.",
+    "topic": "model governance",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer on governance"
+  },
+  {
+    "answer": "Grounding reduces hallucination risk by tying answers to approved sources, using citation checks, and failing closed when evidence is missing. Teams should measure grounding with golden evals.",
+    "topic": "hallucination and grounding",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer on grounding"
+  },
+  {
+    "answer": "According to red-team guidance, testing proactively searches for jailbreaks and unsafe completions using adversarial prompts. Teams should repeat exercises after major model or prompt changes.",
+    "topic": "red team testing",
+    "expected_min_score": 0.45,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer on red teaming"
+  },
+  {
+    "answer": "AI safety is mostly about buying the newest model. Benchmarks guarantee safety so governance is optional.",
+    "topic": "AI safety",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.5,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Weak vague answer"
+  },
+  {
+    "answer": "Hallucinations are certainly safe when using retrieval. Benchmark scores are guaranteed safe in all deployments.",
+    "topic": "hallucination risk",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "weak",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer"
+  },
+  {
+    "answer": "Red team testing is unnecessary. Governance is certainly safe to skip and deploy immediately.",
+    "topic": "model deployment",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "weak",
+    "should_trigger_review": true,
+    "description": "Risky governance skip answer"
+  },
+  {
+    "answer": "Risk taxonomies are useful but details depend on context.",
+    "topic": "AI risk taxonomy",
+    "expected_min_score": 0.3,
+    "expected_max_score": 0.7,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Moderate weak answer"
+  },
+  {
+    "answer": "Evals help track regressions, but teams still need grounding checks and human review for high-stakes tasks.",
+    "topic": "model evaluation",
+    "expected_min_score": 0.2,
+    "expected_max_score": 0.8,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Moderate answer on evals"
+  }
+]

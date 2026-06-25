@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-023",
+  "source_id": "local_web_readme",
+  "text": "- **`/batches/[batchId]`** \u2014 manual refresh reloads batch, run comparison, and answer matrix; auto-refresh also updates answer matrix; combined last-updated; cached matrix on error.\n- **`BatchAnswerSubmitPanel`** \u2014 Global vs per-run profile modes (Strong / Weak / Unsupported / Custom / Skip); pre-submit summary with expected submission count.\n- **`BatchAnswerMatrix`** \u2014 browser Export JSON/Markdown (`sourcelab_batch_answers_<batch_id>.json|.md`); grouped recommendations.\n- **`/runs/compare`** \u2014 `?run_ids=\u2026&tab=answers|artifacts` deep-linking, auto-load, Copy comparison link.\n\nSee [`docs/frontend/BATCH_RUNS.md`](../docs/frontend/BATCH_RUNS.md) for full reference.",
+  "section": "Run Studio v2.3 \u2014 batch answer workflows polish",
+  "start_char": 14508,
+  "end_char": 15178,
+  "token_estimate": 69,
+  "metadata": {
+    "section": "Run Studio v2.3 \u2014 batch answer workflows polish"
+  }
+}

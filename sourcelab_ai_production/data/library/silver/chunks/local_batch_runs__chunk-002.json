@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-002",
+  "source_id": "local_batch_runs",
+  "text": "sourcelab batch create --name \"PQC migration comparison\" --config examples/batch_pqc.json",
+  "section": "Create a batch from JSON config",
+  "start_char": 483,
+  "end_char": 572,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "Create a batch from JSON config"
+  }
+}

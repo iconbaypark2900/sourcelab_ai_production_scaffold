@@ -1,0 +1,3 @@
+# Streamlit dashboard extras
+-r base.txt
+streamlit>=1.30

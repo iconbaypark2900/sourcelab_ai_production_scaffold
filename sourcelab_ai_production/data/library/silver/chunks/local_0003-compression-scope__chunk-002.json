@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0003-compression-scope::chunk-002",
+  "source_id": "local_0003-compression-scope",
+  "text": "Full TurboQuant support should be added only after the retrieval and grounding layers are reliable.",
+  "section": "Reason",
+  "start_char": 246,
+  "end_char": 345,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "Reason"
+  }
+}

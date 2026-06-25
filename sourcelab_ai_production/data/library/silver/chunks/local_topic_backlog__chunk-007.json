@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-007",
+  "source_id": "local_topic_backlog",
+  "text": "Source pack for adaptive graph RAG, source-grounded generation, document intelligence, deduplication, and proof-bundle workflows.\n\nExample lessons:\n- `source-grounded document assistant`\n- `adaptive graph RAG architecture`\n- `document deduplication review workflow`\n- `proof bundle design for RAG outputs`",
+  "section": "`rag_doc_intelligence_v1`",
+  "start_char": 3961,
+  "end_char": 4266,
+  "token_estimate": 37,
+  "metadata": {
+    "section": "`rag_doc_intelligence_v1`"
+  }
+}

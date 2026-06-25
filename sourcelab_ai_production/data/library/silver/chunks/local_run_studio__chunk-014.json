@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-014",
+  "source_id": "local_run_studio",
+  "text": "Frontend-only; no API changes.\n\n- **`?q=`** \u2014 History search query (attempt id, cap reason, next-task focus, note\n  text). Empty `q` omitted from URL; restored on load. Combines with filters.\n- **Note-aware filters** \u2014 `has_notes` and `no_notes` extend History filters.\n  Search + filter together; keyboard nav uses the visible searched/filtered list.\n- **Filtered notes export** \u2014 export visible notes only\n  (`sourcelab_attempt_notes_<run_id>_filtered.json`) with metadata\n  (`run_id`, `filter`, `query`, `total_notes_exported`, `source=localStorage`).\n- **`?preset=`** \u2014 compare presets (`first_latest`, `selected_latest`,\n  `selected_best`, `previous_selected`). Explicit `from`+`to` win; invalid\n  presets ignored. Quick-compare buttons write preset when not pinned.\n- **Workspace summary panel** \u2014 active tab, filter, search, selected attempt,\n  pinned comparison or preset, note counts (visible / total).\n- **Answer preview improvements** \u2014 full/preview toggle, character counts,\n  answer length delta, review/cap badges per side (no word-level diff).",
+  "section": "v1.8 \u2014 Annotation search & filtered export",
+  "start_char": 9651,
+  "end_char": 10709,
+  "token_estimate": 128,
+  "metadata": {
+    "section": "v1.8 \u2014 Annotation search & filtered export"
+  }
+}

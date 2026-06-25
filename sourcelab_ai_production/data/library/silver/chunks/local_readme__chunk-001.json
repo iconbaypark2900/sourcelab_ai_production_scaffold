@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-001",
+  "source_id": "local_readme",
+  "text": "SourceLab does **not** claim perfect correctness. The credible production claim is:\n\n> SourceLab AI generates adaptive technical lessons from approved sources, verifies citation grounding, scores user answers with visible rubrics, and adapts the next task using a saved skill profile. It is designed to fail closed when sources are missing or important claims are unsupported.",
+  "section": "What SourceLab is",
+  "start_char": 545,
+  "end_char": 921,
+  "token_estimate": 55,
+  "metadata": {
+    "section": "What SourceLab is"
+  }
+}

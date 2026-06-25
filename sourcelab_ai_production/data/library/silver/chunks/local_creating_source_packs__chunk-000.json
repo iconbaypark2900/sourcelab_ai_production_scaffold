@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-000",
+  "source_id": "local_creating_source_packs",
+  "text": "Guide for authoring new SourceLab source packs after the reference `pqc_v1` pack.",
+  "section": "Creating Source Packs",
+  "start_char": 25,
+  "end_char": 106,
+  "token_estimate": 12,
+  "metadata": {
+    "section": "Creating Source Packs"
+  }
+}

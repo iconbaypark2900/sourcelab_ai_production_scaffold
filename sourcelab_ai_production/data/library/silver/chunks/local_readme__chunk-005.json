@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-005",
+  "source_id": "local_readme",
+  "text": "```bash\nbash scripts/local_v1_demo.sh",
+  "section": "One-command demo",
+  "start_char": 2727,
+  "end_char": 2764,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "One-command demo"
+  }
+}

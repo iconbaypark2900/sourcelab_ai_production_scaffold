@@ -1,0 +1,39 @@
+[
+  {
+    "query": "quantum AI defense technology map",
+    "expected_source_ids": [
+      "emerging_tech_watchlist_evaluation_001",
+      "emerging_tech_watchlist_defense_002"
+    ],
+    "expected_terms": [
+      "quantum",
+      "defense",
+      "technology"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for quantum AI defense technology map"
+  },
+  {
+    "query": "quantum technology",
+    "expected_source_ids": [
+      "emerging_tech_watchlist_evaluation_001"
+    ],
+    "expected_terms": [
+      "quantum",
+      "technology"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for quantum technology"
+  },
+  {
+    "query": "fusion",
+    "expected_source_ids": [
+      "emerging_tech_watchlist_defense_002"
+    ],
+    "expected_terms": [
+      "fusion"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

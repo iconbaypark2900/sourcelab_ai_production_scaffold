@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-031",
+  "source_id": "local_runbook",
+  "text": "Run `sourcelab sources validate` to see errors.",
+  "section": "Registry validation fails",
+  "start_char": 2107,
+  "end_char": 2154,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Registry validation fails"
+  }
+}

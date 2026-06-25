@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-003",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\nsourcelab source-pack validate pqc_v1\nsourcelab source-pack status pqc_v1\nsourcelab sources list\n```\n\nPoint out trust tiers, hashes, and approved PQC migration sources.",
+  "section": "Act 2 \u2014 PQC source pack (3 min)",
+  "start_char": 734,
+  "end_char": 910,
+  "token_estimate": 23,
+  "metadata": {
+    "section": "Act 2 \u2014 PQC source pack (3 min)"
+  }
+}

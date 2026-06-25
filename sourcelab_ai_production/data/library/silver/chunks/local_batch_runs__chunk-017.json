@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-017",
+  "source_id": "local_batch_runs",
+  "text": "- **Manual Refresh** \u2014 reloads batch detail, run comparison (when \u22652 runs), and answer matrix\n- **Auto-refresh** (when enabled) \u2014 also refreshes the answer matrix on each batch poll\n- **Combined last-updated** \u2014 refresh bar shows the most recent of batch or answer matrix timestamps\n- **Cached matrix on error** \u2014 prior answer comparison stays visible; connection card + retry\n- **Compare learner answers** \u2014 manual button only; refreshes matrix and scrolls to `#answer-matrix`",
+  "section": "Batch detail refresh + answer matrix (v2.3)",
+  "start_char": 6319,
+  "end_char": 6796,
+  "token_estimate": 74,
+  "metadata": {
+    "section": "Batch detail refresh + answer matrix (v2.3)"
+  }
+}

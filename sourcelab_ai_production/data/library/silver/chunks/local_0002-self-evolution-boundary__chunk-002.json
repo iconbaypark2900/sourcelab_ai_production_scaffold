@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0002-self-evolution-boundary::chunk-002",
+  "source_id": "local_0002-self-evolution-boundary",
+  "text": "Task adaptation is useful and safe. Code self-modification creates unacceptable risk for v1.",
+  "section": "Reason",
+  "start_char": 250,
+  "end_char": 342,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "Reason"
+  }
+}

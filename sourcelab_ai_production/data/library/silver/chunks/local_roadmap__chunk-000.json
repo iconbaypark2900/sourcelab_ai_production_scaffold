@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-000",
+  "source_id": "local_roadmap",
+  "text": "- Production project tree.\n- Source registry.\n- Local compressed search.\n- Source-grounded lesson generator.\n- Claim verifier.\n- Proof bundle.\n- Answer scorer.\n- Next-task selector.\n- Tests and docs.",
+  "section": "Phase 0: Scaffold",
+  "start_char": 33,
+  "end_char": 232,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Phase 0: Scaffold"
+  }
+}

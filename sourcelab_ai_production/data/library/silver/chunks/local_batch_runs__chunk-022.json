@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-022",
+  "source_id": "local_batch_runs",
+  "text": "- **Before submit:** planned run rows in the side panel\n- **During submit:** estimated pipeline stages while the single blocking POST runs\n- **After response:** staged view replaced with actual run statuses, then navigation to batch detail",
+  "section": "Batch progress UX (`/batches/new`)",
+  "start_char": 8663,
+  "end_char": 8902,
+  "token_estimate": 37,
+  "metadata": {
+    "section": "Batch progress UX (`/batches/new`)"
+  }
+}

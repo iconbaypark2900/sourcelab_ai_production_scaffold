@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-010",
+  "source_id": "local_topic_backlog",
+  "text": "Use the CLI library pipeline to grow curated packs from local docs and metadata-only collectors (arXiv, PubMed, NVD). Promotion is dry-run by default; use `--force` to write into `data/source_packs/<pack>/sources/`. When lesson runs have thin evidence, check `artifacts/runs/<run_id>/source_expansion_suggestions.json` for collector hints aligned to the run topic.\n\n```bash\nsourcelab library collect-local --path . --domain user_project_library\nsourcelab library stats\nsourcelab library promote --domain user_project_library --target-pack agentic_engineering_v1 --dry-run\n```",
+  "section": "SourceLab Library Builder v1",
+  "start_char": 5251,
+  "end_char": 5826,
+  "token_estimate": 65,
+  "metadata": {
+    "section": "SourceLab Library Builder v1"
+  }
+}

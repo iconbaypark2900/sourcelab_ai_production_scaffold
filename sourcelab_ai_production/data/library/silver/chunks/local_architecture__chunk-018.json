@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-018",
+  "source_id": "local_architecture",
+  "text": "1. Retrieval returns source-linked chunks with trust tiers.\n2. ScenarioGenerator creates a source-grounded scenario.\n3. SourceGroundedLessonGenerator produces a full lesson package.\n4. RubricGenerator creates a weighted rubric (weights sum to 1.0).\n5. AnswerKeyGenerator creates a source-grounded answer key.\n6. ClaimVerifier verifies generated claims against sources.\n7. HarnessRunner validates all artifacts and fails on high-risk unsupported claims.",
+  "section": "Generation v2 flow",
+  "start_char": 3595,
+  "end_char": 4047,
+  "token_estimate": 56,
+  "metadata": {
+    "section": "Generation v2 flow"
+  }
+}

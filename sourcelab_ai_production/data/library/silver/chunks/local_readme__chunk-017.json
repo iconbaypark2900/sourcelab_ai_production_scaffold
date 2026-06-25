@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-017",
+  "source_id": "local_readme",
+  "text": "Validate bootstrapped source packs with the local smoke matrix (doctor, optional evals, optional lesson runs):\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --repair-manifests\npython scripts/smoke_source_packs.py --packs core --run-evals --run-lessons\npython scripts/smoke_source_packs.py --packs all --run-evals\npython scripts/bootstrap_sourcelab_source_packs.py --list-legacy-evals\n```\n\nReports are written to `artifacts/source_pack_smoke_matrix.json` and `artifacts/source_pack_smoke_matrix.md`.\n\nLegacy eval cleanup (never deletes gold eval files):\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --list-legacy-evals\npython scripts/bootstrap_sourcelab_source_packs.py --delete-legacy-evals\n```\n\nSee [docs/source_packs/TOPIC_BACKLOG.md](docs/source_packs/TOPIC_BACKLOG.md) for pack groups and example lesson topics.",
+  "section": "Source Pack Smoke Matrix",
+  "start_char": 5255,
+  "end_char": 6099,
+  "token_estimate": 66,
+  "metadata": {
+    "section": "Source Pack Smoke Matrix"
+  }
+}

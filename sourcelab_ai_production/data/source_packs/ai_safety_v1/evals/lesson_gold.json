@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "AI risk taxonomy for product teams",
+    "difficulty": 3,
+    "task_format": "architecture_review",
+    "required_source_ids": ["ai_risk_taxonomy"],
+    "forbidden_claims": ["ai is perfectly safe"],
+    "description": "Lesson on AI risk taxonomy"
+  },
+  {
+    "topic": "grounding and hallucination mitigation",
+    "difficulty": 3,
+    "task_format": "risk_review",
+    "required_source_ids": ["hallucination_and_grounding"],
+    "forbidden_claims": ["hallucinations never happen"],
+    "description": "Lesson on grounding"
+  },
+  {
+    "topic": "red team testing for LLM applications",
+    "difficulty": 2,
+    "task_format": "hands_on_lab",
+    "required_source_ids": ["red_team_testing_notes"],
+    "forbidden_claims": ["red team testing is unnecessary"],
+    "description": "Lesson on red teaming"
+  }
+]

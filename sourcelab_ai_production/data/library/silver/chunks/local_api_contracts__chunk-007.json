@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-007",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /sources/{source_id}\n```\n\nResponse:\n\n```json\n{\n  \"source_id\": \"nist_pqc\",\n  \"title\": \"NIST Post-Quantum Cryptography\",\n  \"path\": \"data/demo_sources/nist_pqc.md\",\n  \"publisher\": \"NIST/local demo\",\n  \"source_type\": \"local_demo_source\",\n  \"trust_tier\": \"A\",\n  \"retrieved_at\": \"2025-01-01T00:00:00Z\",\n  \"hash_sha256\": \"...\",\n  \"status\": \"active\",\n  \"approval_status\": \"approved\"\n}\n```",
+  "section": "Get Source",
+  "start_char": 1879,
+  "end_char": 2271,
+  "token_estimate": 32,
+  "metadata": {
+    "section": "Get Source"
+  }
+}

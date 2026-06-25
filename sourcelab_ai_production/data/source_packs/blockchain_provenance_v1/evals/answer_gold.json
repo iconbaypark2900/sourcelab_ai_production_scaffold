@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "A provenance workflow can record metadata, evidence, hashes, and review status for generated outputs without claiming that blockchain alone guarantees truth. Key practices include: Smart contracts can anchor provenance metadata on-chain but do not replace evidence review; Provenance should identify what was generated, from which sources, and under which configuration.",
+    "topic": "proof of human stack",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "proof of human stack",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

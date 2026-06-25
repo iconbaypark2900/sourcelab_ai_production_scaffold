@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-005",
+  "source_id": "local_roadmap",
+  "text": "- Answer submission with rubric-based scoring (7 criteria: topic relevance, source grounding, practical reasoning, uncertainty control, trap avoidance, clarity, citation use).\n- Source grounding review comparing learner answers against retrieved chunks and answer key.\n- Skill profile v2 with criterion-level mastery, strengths, weaknesses, and source grounding history.\n- Deterministic mastery updates with difficulty multipliers.\n- Profile-aware next-task selection with weakness-driven focus and explainable rationale.\n- Learning report generation with markdown and JSON output.\n- Harness validation for learning v2 artifacts.\n- CLI commands for answer submission, profile viewing, and learning reports.",
+  "section": "Phase 5: Adaptive learning v2",
+  "start_char": 1752,
+  "end_char": 2458,
+  "token_estimate": 91,
+  "metadata": {
+    "section": "Phase 5: Adaptive learning v2"
+  }
+}

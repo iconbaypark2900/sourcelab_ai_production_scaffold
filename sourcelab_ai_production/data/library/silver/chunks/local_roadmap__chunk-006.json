@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-006",
+  "source_id": "local_roadmap",
+  "text": "- [x] Dashboard v1 with tabbed interface (Overview, Lesson, Sources, Verification, Harness, Learning, Artifacts).\n- [x] Run explorer with terminal and Streamlit interfaces.\n- [x] Report export (markdown and HTML).\n- [x] Lesson viewer.\n- [x] Source explorer.\n- [x] Answer editor.\n- [x] Score breakdown.\n- [x] Skill map.\n- [x] Proof bundle viewer.\n- [x] Admin source approval UI.\n- [x] API v1 with FastAPI REST interface.",
+  "section": "Phase 6: Product UI",
+  "start_char": 2484,
+  "end_char": 2903,
+  "token_estimate": 69,
+  "metadata": {
+    "section": "Phase 6: Product UI"
+  }
+}

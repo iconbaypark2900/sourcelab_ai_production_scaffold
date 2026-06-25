@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-008",
+  "source_id": "local_batch_runs",
+  "text": "| Route | Purpose |\n| --- | --- |\n| `/batches` | List batches |\n| `/batches/new` | Batch form, planned-run preview, staged progress during POST, presets |\n| `/batches/[batchId]` | Detail, unified refresh bar, run cards, answer matrix, attempt-aware cross-run diff, demo bundle export, sample-answer submit, run + answer comparison, batch report preview |\n| `/runs/compare?run_ids=\u2026&tab=answers\\|artifacts` | Multi-run compare with deep-link tab selection |",
+  "section": "Run Studio pages",
+  "start_char": 2427,
+  "end_char": 2883,
+  "token_estimate": 66,
+  "metadata": {
+    "section": "Run Studio pages"
+  }
+}

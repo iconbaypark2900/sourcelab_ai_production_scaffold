@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-009",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: `docker compose up sourcelab-api` startup logs\n- [ ] Terminal: `curl localhost:8000/health` from host",
+  "section": "Docker (optional)",
+  "start_char": 1673,
+  "end_char": 1790,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "Docker (optional)"
+  }
+}

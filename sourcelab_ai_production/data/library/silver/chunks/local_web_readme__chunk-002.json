@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-002",
+  "source_id": "local_web_readme",
+  "text": "- Node.js \u2265 20.9\n- The SourceLab FastAPI backend (the Python project in the repository root)",
+  "section": "Prerequisites",
+  "start_char": 889,
+  "end_char": 981,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Prerequisites"
+  }
+}

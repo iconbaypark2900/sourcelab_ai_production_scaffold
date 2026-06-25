@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-041",
+  "source_id": "local_component_build_guide",
+  "text": "- `src/sourcelab/ui/dashboard.py` - Streamlit dashboard with tabbed interface\n- `src/sourcelab/ui/run_loader.py` - Run loading utilities\n- `src/sourcelab/ui/terminal.py` - Terminal run explorer\n- `src/sourcelab/ui/export.py` - Markdown/HTML report export",
+  "section": "Key files",
+  "start_char": 8591,
+  "end_char": 8845,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Key files"
+  }
+}

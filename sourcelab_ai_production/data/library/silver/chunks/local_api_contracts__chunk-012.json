@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-012",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /sources/ingest\n```\n\nRequest:\n\n```json\n{\n  \"source_id\": \"new_source\",\n  \"title\": \"New Source\",\n  \"path\": \"/path/to/source.md\",\n  \"publisher\": \"local\",\n  \"source_type\": \"local_file\",\n  \"trust_tier\": \"C\"\n}\n```\n\nResponse:\n\n```json\n{\n  \"source_id\": \"new_source\",\n  \"status\": \"pending\",\n  \"message\": \"Source 'new_source' ingestion queued\"\n}\n```",
+  "section": "Ingest Source",
+  "start_char": 3124,
+  "end_char": 3476,
+  "token_estimate": 36,
+  "metadata": {
+    "section": "Ingest Source"
+  }
+}

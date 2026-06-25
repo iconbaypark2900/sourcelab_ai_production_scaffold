@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture_mermaid::chunk-000",
+  "source_id": "local_architecture_mermaid",
+  "text": "```mermaid\nflowchart TD\n    A[User Topic] --> B[Source Registry]\n    B --> C[Chunking + Metadata]\n    C --> D[Hybrid Retrieval]\n    D --> E[Compressed Vector Index]\n    D --> F[Source-Grounded Lesson Generator]\n    F --> G[Claim Verifier]\n    G --> H[Grounding Report]\n    H --> I[Harness Proof Bundle]\n    I --> J[User Answer]\n    J --> K[Answer Scorer]\n    K --> L[Skill Profile]\n    L --> M[Next Task Selector]\n    M --> N[Adaptive Next Lesson]\n```",
+  "section": "End-to-end flow",
+  "start_char": 45,
+  "end_char": 496,
+  "token_estimate": 63,
+  "metadata": {
+    "section": "End-to-end flow"
+  }
+}

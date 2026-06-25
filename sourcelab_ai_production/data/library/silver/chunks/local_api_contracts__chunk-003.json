@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-003",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /models/config\n```\n\nResponse:\n\n```json\n{\n  \"mode\": \"deterministic\",\n  \"backend\": \"deterministic\",\n  \"model_name\": \"\",\n  \"base_url\": \"\",\n  \"timeout_seconds\": 60,\n  \"fallback\": \"deterministic\"\n}\n```",
+  "section": "Get Model Configuration",
+  "start_char": 381,
+  "end_char": 589,
+  "token_estimate": 21,
+  "metadata": {
+    "section": "Get Model Configuration"
+  }
+}

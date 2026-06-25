@@ -1,0 +1,55 @@
+{
+  "source_id": "local_creating_source_packs",
+  "origin": "local_docs",
+  "title": "Creating Source Packs",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "trust_tier": "B",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "json",
+    "pack",
+    "sourcelab",
+    "eval",
+    "evals",
+    "manifest"
+  ],
+  "summary": "Guide for authoring new SourceLab source packs after the reference pqc_v1 pack.",
+  "key_terms": [
+    "json",
+    "pack",
+    "sourcelab",
+    "eval",
+    "evals",
+    "manifest",
+    "source",
+    "sources",
+    "data",
+    "source_packs",
+    "my_pack_v1",
+    "file"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_creating_source_packs.md",
+  "chunk_paths": [
+    "data/library/silver/chunks/local_creating_source_packs__chunk-000.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-001.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-002.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-003.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-004.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-005.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-006.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-007.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-008.json",
+    "data/library/silver/chunks/local_creating_source_packs__chunk-009.json"
+  ],
+  "checksum": "ab37a7cd6adcbd40abed07dbb4cb952f98c55d6f9b5727ddde1af321d6b3ec6b",
+  "quality_score": 0.8347,
+  "external_id": "docs/source_packs/CREATING_SOURCE_PACKS.md"
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-001",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "SourceLab AI is a **source-grounded adaptive technical lab generator**. It:\n\n1. Ingests approved technical sources (PQC pack included)\n2. Retrieves relevant chunks for a topic\n3. Generates a lesson with scenario, rubric, and answer key\n4. Extracts and verifies claims against sources\n5. Scores learner answers and updates a skill profile\n6. Produces a **proof bundle** for audit and release gating\n\nIt does **not** claim perfect correctness. It is designed to **fail closed** when grounding is insufficient.",
+  "section": "1. What SourceLab solves",
+  "start_char": 146,
+  "end_char": 653,
+  "token_estimate": 77,
+  "metadata": {
+    "section": "1. What SourceLab solves"
+  }
+}

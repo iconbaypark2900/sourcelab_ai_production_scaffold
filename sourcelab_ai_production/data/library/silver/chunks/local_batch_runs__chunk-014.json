@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-014",
+  "source_id": "local_batch_runs",
+  "text": "`BatchAnswerSubmitPanel`:\n\n- **Submit missing only** selects runs with `attempt_count === 0` from the answer matrix\n- When all runs have attempts: **All runs already have attempts.**\n- Still requires explicit profile selection + Submit click \u2014 no auto-submit",
+  "section": "Submit missing only (v2.4)",
+  "start_char": 5316,
+  "end_char": 5574,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "Submit missing only (v2.4)"
+  }
+}

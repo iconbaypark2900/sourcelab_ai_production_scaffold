@@ -1,0 +1,41 @@
+[
+  {
+    "query": "multi-agent software engineering control plane",
+    "expected_source_ids": [
+      "agentic_engineering_liaison_architecture_001",
+      "agentic_engineering_quality_gates_002"
+    ],
+    "expected_terms": [
+      "multi",
+      "agent",
+      "software"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for multi-agent software engineering control plane"
+  },
+  {
+    "query": "multi-agent software engineering",
+    "expected_source_ids": [
+      "agentic_engineering_liaison_architecture_001"
+    ],
+    "expected_terms": [
+      "multi",
+      "agent",
+      "software"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for multi-agent software engineering"
+  },
+  {
+    "query": "coding agents",
+    "expected_source_ids": [
+      "agentic_engineering_quality_gates_002"
+    ],
+    "expected_terms": [
+      "coding",
+      "agents"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

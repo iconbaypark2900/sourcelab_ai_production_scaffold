@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-010",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: `pytest -q` \u2014 all passed summary line",
+  "section": "Tests",
+  "start_char": 1802,
+  "end_char": 1855,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "Tests"
+  }
+}

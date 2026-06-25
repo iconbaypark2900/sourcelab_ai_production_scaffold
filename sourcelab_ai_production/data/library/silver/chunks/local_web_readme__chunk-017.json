@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-017",
+  "source_id": "local_web_readme",
+  "text": "(Vitest \u2014 attempt-url, attempt-summary,\nuse-attempt-notes).\n\nSee v1.6 below for compare pinning, private notes, and filter-aware keyboard.",
+  "section": "Run Studio v1.7 \u2014 annotations export & session restore",
+  "start_char": 10345,
+  "end_char": 10483,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Run Studio v1.7 \u2014 annotations export & session restore"
+  }
+}

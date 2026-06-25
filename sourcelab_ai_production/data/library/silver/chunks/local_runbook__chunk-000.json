@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-000",
+  "source_id": "local_runbook",
+  "text": "```bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e \".[dev]\"\nsourcelab demo\npytest -q\n```",
+  "section": "Local setup",
+  "start_char": 27,
+  "end_char": 134,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Local setup"
+  }
+}

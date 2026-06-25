@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-003",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab init-local\nsourcelab doctor\n```\n\nExpected: `doctor` status `PASS` (release manifest may show `missing` until first demo).",
+  "section": "3. First-run setup",
+  "start_char": 872,
+  "end_char": 1011,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "3. First-run setup"
+  }
+}

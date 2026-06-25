@@ -1,0 +1,36 @@
+{
+  "pack_name": "ml_safety_v1",
+  "version": "1.0.0",
+  "title": "Machine Learning Safety, Alignment, and Robustness",
+  "description": "Source pack for ML safety, alignment, robustness, evaluation, red-teaming, monitoring, and responsible deployment guardrails.",
+  "created_at": "2026-06-24T22:29:10Z",
+  "sources": [
+    {
+      "source_id": "ml_safety_evaluation_001",
+      "filename": "ml_safety_evaluation_001.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes",
+      "title": "ML Safety Evaluation and Red-Teaming"
+    },
+    {
+      "source_id": "ml_safety_alignment_002",
+      "filename": "ml_safety_alignment_002.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "project_seed",
+      "title": "Alignment and Monitoring Guardrails"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ],
+  "eval_thresholds": {
+    "min_pass_rate": 0.9,
+    "min_cases": 10,
+    "required_evals": []
+  }
+}

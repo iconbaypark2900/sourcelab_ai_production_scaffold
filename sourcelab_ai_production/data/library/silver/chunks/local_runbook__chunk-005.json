@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-005",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources export\n```",
+  "section": "Export the registry",
+  "start_char": 529,
+  "end_char": 557,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Export the registry"
+  }
+}

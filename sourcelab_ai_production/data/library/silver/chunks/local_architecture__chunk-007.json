@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-007",
+  "source_id": "local_architecture",
+  "text": "- Combines keyword and vector scores (configurable weights)\n- Normalizes scores to [0, 1] before combining\n- Applies trust-tier weighting to final score\n- Returns diagnostics with score components",
+  "section": "Hybrid search",
+  "start_char": 1185,
+  "end_char": 1381,
+  "token_estimate": 29,
+  "metadata": {
+    "section": "Hybrid search"
+  }
+}

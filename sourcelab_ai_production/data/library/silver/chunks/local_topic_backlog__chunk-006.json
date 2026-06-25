@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-006",
+  "source_id": "local_topic_backlog",
+  "text": "Source pack for DGX/EVO local AI infrastructure, inference servers, model routing, gateways, and local-first AI development.\n\nExample lessons:\n- `local AI inference stack design`\n- `DGX Spark model routing`\n- `LiteLLM gateway for coding agents`\n- `local model fallback architecture`",
+  "section": "`local_ai_infra_v1`",
+  "start_char": 3646,
+  "end_char": 3928,
+  "token_estimate": 40,
+  "metadata": {
+    "section": "`local_ai_infra_v1`"
+  }
+}

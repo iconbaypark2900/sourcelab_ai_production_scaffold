@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-002",
+  "source_id": "local_topic_backlog",
+  "text": "Core starter packs must pass doctor, proof, harness, lesson, and golden eval smoke checks without weakening strict release validation for `pqc_v1` or `ai_safety_v1`.\n\nAlignment fixes:\n\n- **Sources:** `local_ai_infra_v1` source markdown includes DGX Spark and EVO-X2 terms for retrieval gold evals.\n- **Guardrails:** Starter-pack claim and answer gold evals share high-risk patterns (`requires no validation`, `guaranteed to always work in production`) detected by the eval runner and answer scorer.\n- **Legacy cleanup:** After core evals pass, delete legacy `*_eval.json` files (never `*_gold.json`).\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --repair-manifests\npython scripts/smoke_source_packs.py --packs core --run-evals --run-lessons\npython scripts/bootstrap_sourcelab_source_packs.py --list-legacy-evals\npython scripts/bootstrap_sourcelab_source_packs.py --delete-legacy-evals\n```",
+  "section": "Starter Pack Eval Alignment (v1.0.2)",
+  "start_char": 1057,
+  "end_char": 1960,
+  "token_estimate": 98,
+  "metadata": {
+    "section": "Starter Pack Eval Alignment (v1.0.2)"
+  }
+}

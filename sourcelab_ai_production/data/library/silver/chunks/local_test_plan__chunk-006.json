@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-006",
+  "source_id": "local_test_plan",
+  "text": "- Learning schemas validate with required fields.\n- Answer scorer v2 returns rubric-based breakdown with 7 criteria.\n- Answer scorer v2 identifies strengths and weaknesses.\n- Answer scorer v2 detects high-risk statements.\n- Answer scorer v2 maintains backward compatibility with v1.\n- Source grounding checker matches terms against sources.\n- Source grounding checker identifies unsupported phrases.\n- Skill profile v2 loads and saves correctly.\n- Skill profile v2 updates from answer review.\n- Skill profile v2 tracks criterion-level mastery.\n- Mastery update computes difficulty multiplier correctly.\n- Mastery update applies correct weight based on difficulty and score.\n- Next-task selector v2 returns rationale with focus area.\n- Next-task selector v2 responds to weak source grounding.\n- Next-task selector v2 responds to weak uncertainty control.\n- Next-task selector v2 responds to weak trap avoidance.\n- Learning report generator creates complete report.\n- Learning report renders as markdown.\n- Learning report writes all artifacts.\n- Harness validates answer review criterion scores and ranges.\n- Harness validates source grounding review score range.\n- Harness validates mastery update ra",
+  "section": "Learning v2 unit tests",
+  "start_char": 4935,
+  "end_char": 6135,
+  "token_estimate": 175,
+  "metadata": {
+    "section": "Learning v2 unit tests"
+  }
+}

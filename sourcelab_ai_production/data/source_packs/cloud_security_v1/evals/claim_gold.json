@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "CSPM findings should be prioritized by exposure and blast radius rather than only severity",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Cloud Security Posture Management Workflow"
+  },
+  {
+    "claim": "Configuration checks should map to a recognized benchmark such as CIS or NIST",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Cloud Security Posture Management Workflow"
+  },
+  {
+    "claim": "Container images should be scanned and signed before admission to production",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Supply Chain and Cloud-Native Runtime Defense"
+  },
+  {
+    "claim": "SBOMs should be generated and stored as evidence for every released artifact",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Supply Chain and Cloud-Native Runtime Defense"
+  },
+  {
+    "claim": "Cloud Security, CSPM, and Cloud-Native Defense requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

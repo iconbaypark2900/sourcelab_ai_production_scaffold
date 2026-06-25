@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-003",
+  "source_id": "local_topic_backlog",
+  "text": "Extension starter packs must pass doctor and golden eval smoke checks without weakening strict release validation for `pqc_v1` or `ai_safety_v1`. Extension failures are tracked in the smoke matrix but do not block strict release.\n\nAlignment fixes (Fix A \u2014 strengthen sources):\n\n- **blockchain_provenance_v1:** smart contracts provenance anchoring terms in source markdown.\n- **career_learning_v1:** MDC CodePath credential pathway terms in roadmap source.\n- **emerging_tech_watchlist_v1:** fusion readiness terms in defense/space source.\n- **grantops_business_v1:** SBIR and STTR proposal terms across funding and demo sources.\n- **quantum_finance_v1:** QAOA validation terms in risk source.\n- **trading_research_v1:** factor ranking equity, event markets, and Kalshi settlement terms; answer gold regenerated from strengthened validation source claims.\n\nVerify alignment:\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --packs blockchain_provenance_v1,career_learning_v1,emerging_tech_watchlist_v1,grantops_business_v1,quantum_finance_v1,trading_research_v1 --force --skip-topic-backlog\npython scripts/smoke_source_packs.py --packs all --run-evals\npython scripts/smoke_source_packs.py -",
+  "section": "Extension Pack Eval Alignment (v1.0.3)",
+  "start_char": 2005,
+  "end_char": 3205,
+  "token_estimate": 125,
+  "metadata": {
+    "section": "Extension Pack Eval Alignment (v1.0.3)"
+  }
+}

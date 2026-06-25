@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture_mermaid::chunk-001",
+  "source_id": "local_architecture_mermaid",
+  "text": "```mermaid\nflowchart LR\n    S[Source] --> M{Metadata Complete?}\n    M -- no --> R[Reject]\n    M -- yes --> T{Trust Tier Acceptable?}\n    T -- no --> H[Human Review]\n    T -- yes --> I[Index Source]\n```",
+  "section": "Trust gate",
+  "start_char": 513,
+  "end_char": 714,
+  "token_estimate": 32,
+  "metadata": {
+    "section": "Trust gate"
+  }
+}

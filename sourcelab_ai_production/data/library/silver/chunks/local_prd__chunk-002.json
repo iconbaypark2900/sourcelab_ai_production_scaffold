@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-002",
+  "source_id": "local_prd",
+  "text": "A learner chooses a topic such as \"post-quantum cryptography migration.\" The system retrieves approved sources, generates a practical scenario, verifies claim grounding, scores the learner response, and adapts the next task.",
+  "section": "Primary use case",
+  "start_char": 574,
+  "end_char": 798,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Primary use case"
+  }
+}

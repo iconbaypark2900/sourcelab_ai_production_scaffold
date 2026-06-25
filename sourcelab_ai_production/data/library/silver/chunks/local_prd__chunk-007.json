@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-007",
+  "source_id": "local_prd",
+  "text": "- R11: One-command local demonstration pipeline (`sourcelab local-demo`).\n- R12: Release manifest with version, status, and verification results.\n- R13: Release checklist with 12 individual readiness checks.\n- R14: Strict release verification with 15 checks for production readiness.\n- R15: Dashboard with release status visibility.\n- R16: Export reports with release, golden eval, proof, and harness sections.",
+  "section": "Requirements",
+  "start_char": 2008,
+  "end_char": 2418,
+  "token_estimate": 57,
+  "metadata": {
+    "section": "Requirements"
+  }
+}

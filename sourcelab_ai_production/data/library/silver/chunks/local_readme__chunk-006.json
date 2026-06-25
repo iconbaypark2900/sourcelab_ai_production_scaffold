@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-006",
+  "source_id": "local_readme",
+  "text": "make demo\n```\n\nSmoke validation:\n\n```bash\nbash scripts/local_v1_smoke.sh",
+  "section": "or",
+  "start_char": 2770,
+  "end_char": 2842,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "or"
+  }
+}

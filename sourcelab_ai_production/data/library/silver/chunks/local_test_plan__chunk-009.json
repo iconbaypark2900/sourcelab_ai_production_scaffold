@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-009",
+  "source_id": "local_test_plan",
+  "text": "sourcelab answer submit --topic \"post-quantum cryptography migration\" --text \"A safe plan starts with a cryptographic inventory...\"",
+  "section": "Submit an answer",
+  "start_char": 6403,
+  "end_char": 6534,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Submit an answer"
+  }
+}

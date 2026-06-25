@@ -1,0 +1,44 @@
+{
+  "record_id": "local_readme",
+  "origin": "local_docs",
+  "external_id": "README.md",
+  "title": "SourceLab AI \u2014 Local v1.0 GA",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "sourcelab",
+    "bash",
+    "json",
+    "release",
+    "scripts",
+    "run"
+  ],
+  "summary": "SourceLab AI is a source-grounded adaptive technical lab generator.",
+  "key_terms": [
+    "sourcelab",
+    "bash",
+    "json",
+    "release",
+    "scripts",
+    "run",
+    "python",
+    "runs",
+    "api",
+    "dashboard",
+    "docs",
+    "packs"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_readme.md",
+  "checksum": "d05ee72617930d3fcc63eb4f6b9d61edede2a9a7487ffca15552e2d32d4ae940",
+  "metadata": {
+    "relative_path": "README.md"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-003",
+  "source_id": "local_creating_source_packs",
+  "text": "Each file in `sources/` must:\n\n- Use YAML frontmatter starting with `---`\n- Include `source_id`, `title`, `publisher`, `source_type`, `trust_tier`\n- Match a `source_id` and `filename` entry in `manifest.json`\n\nFollow the style of `data/source_packs/pqc_v1/sources/` for trust tiers and metadata.",
+  "section": "2. Author sources",
+  "start_char": 870,
+  "end_char": 1165,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "2. Author sources"
+  }
+}

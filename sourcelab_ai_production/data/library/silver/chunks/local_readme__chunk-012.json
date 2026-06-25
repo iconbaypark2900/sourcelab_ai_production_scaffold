@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-012",
+  "source_id": "local_readme",
+  "text": "The **Run Studio** is a Next.js 16 web console (`apps/web/`) that visualizes runs\nand supports **in-UI answer submission** with **live polling** of the FastAPI\nbackend (no WebSockets). The Streamlit dashboard remains the fallback/debug UI.\n\n```bash",
+  "section": "Run Studio (Next.js frontend)",
+  "start_char": 3393,
+  "end_char": 3641,
+  "token_estimate": 35,
+  "metadata": {
+    "section": "Run Studio (Next.js frontend)"
+  }
+}

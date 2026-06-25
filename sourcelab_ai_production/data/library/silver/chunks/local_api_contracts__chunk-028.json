@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-028",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /learning/next-task/{run_id}\n```\n\nResponse:\n\n```json\n{\n  \"topic\": \"post-quantum cryptography migration\",\n  \"focus\": \"source_grounding\",\n  \"task_format\": \"architecture_review\",\n  \"difficulty\": 3,\n  \"guidance_level\": 3,\n  \"reason\": \"Focus on improving source grounding based on recent performance.\"\n}\n```",
+  "section": "Get Next Task",
+  "start_char": 9445,
+  "end_char": 9759,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Get Next Task"
+  }
+}

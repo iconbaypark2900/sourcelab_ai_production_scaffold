@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-019",
+  "source_id": "local_readme",
+  "text": "Topic \u2192 research plan \u2192 library-aware retrieval \u2192 coverage report \u2192 evidence-bound lesson \u2192 genericness check \u2192 expansion suggestions \u2192 adaptive topic profiles.\n\n```bash\nsourcelab research plan --topic \"multi-agent control plane\" --source-pack agentic_engineering_v1\nsourcelab lesson create --topic \"...\" --source-pack agentic_engineering_v1 --difficulty 2\nsourcelab research coverage --run latest\nsourcelab research genericness --run latest\nsourcelab research profile --topic \"...\" --source-pack agentic_engineering_v1\nsourcelab research expansion --run latest\n```\n\nRun artifacts (under `artifacts/runs/<run_id>/`): `research_plan.json`, `retrieval_strategy.json`, `source_coverage_report.json`, `evidence_bound_lesson_plan.json`, `genericness_report.json`, `topic_profile_update.json`, `source_expansion_suggestions.json`. Topic profiles persist at `artifacts/research/topic_profiles/<pack>/<topic_slug>.json` and update on answer submit.",
+  "section": "Library-Aware Research Engine v1",
+  "start_char": 7047,
+  "end_char": 7987,
+  "token_estimate": 86,
+  "metadata": {
+    "section": "Library-Aware Research Engine v1"
+  }
+}

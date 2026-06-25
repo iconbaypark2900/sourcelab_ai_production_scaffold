@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-005",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab demo --topic \"post-quantum cryptography migration\"\nsourcelab lesson show --latest\nsourcelab runs show latest\n```\n\nInspect artifacts under `artifacts/runs/<run_id>/`:\n\n- `generated_lesson.md`\n- `claim_map.json`\n- `citation_resolution.json`\n- `harness_report.json`\n- `proof_bundle_manifest.json`",
+  "section": "5. Run grounded lesson",
+  "start_char": 1219,
+  "end_char": 1530,
+  "token_estimate": 30,
+  "metadata": {
+    "section": "5. Run grounded lesson"
+  }
+}

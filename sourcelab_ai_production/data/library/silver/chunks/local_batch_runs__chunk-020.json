@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-020",
+  "source_id": "local_batch_runs",
+  "text": "- URL: `/runs/compare?run_ids=id1,id2&tab=answers|artifacts`\n- Valid `run_ids` pre-fill the form and auto-load comparison on mount\n- `tab=answers` \u2192 Learner answers tab; `tab=artifacts` \u2192 Run artifacts; invalid tab \u2192 artifacts\n- Tab and run ID changes update the URL via `router.replace` (unrelated query params preserved)\n- **Copy comparison link** copies the full workspace URL",
+  "section": "`/runs/compare` deep-linking (v2.3)",
+  "start_char": 7855,
+  "end_char": 8234,
+  "token_estimate": 52,
+  "metadata": {
+    "section": "`/runs/compare` deep-linking (v2.3)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-009",
+  "source_id": "local_run_studio",
+  "text": "`source_grounding_review.json`, `next_task_decision.json`,\n  `verification_report.json`, `citation_resolution.json`, `proof_summary.json`,\n  `harness_report.json`) that fetch raw content via `getRunArtifact`.",
+  "section": "v1.1 \u2014 Live updates + in-UI answer submission",
+  "start_char": 6661,
+  "end_char": 6869,
+  "token_estimate": 12,
+  "metadata": {
+    "section": "v1.1 \u2014 Live updates + in-UI answer submission"
+  }
+}

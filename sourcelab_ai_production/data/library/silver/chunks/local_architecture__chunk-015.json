@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-015",
+  "source_id": "local_architecture",
+  "text": "- `model_call_trace.json` - Trace of all model calls with latency, fallback info",
+  "section": "Proof bundle",
+  "start_char": 3161,
+  "end_char": 3241,
+  "token_estimate": 12,
+  "metadata": {
+    "section": "Proof bundle"
+  }
+}

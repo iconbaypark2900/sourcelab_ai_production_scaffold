@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-030",
+  "source_id": "local_runbook",
+  "text": "Check source chunks and trust tiers.",
+  "section": "Bad retrieval",
+  "start_char": 2038,
+  "end_char": 2074,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "Bad retrieval"
+  }
+}

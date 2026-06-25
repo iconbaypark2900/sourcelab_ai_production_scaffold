@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-006",
+  "source_id": "local_backlog",
+  "text": "- [x] Add source pack format (manifest.json + sources/ + evals/).\n- [x] Add PQC v1 source pack with 7 curated sources.\n- [x] Add source pack loader (list, validate, install, status).\n- [x] Add CLI commands for source packs.\n- [x] Add golden eval schemas (retrieval, claim, answer, lesson).\n- [x] Add golden eval fixtures (10 retrieval, 15 claims, 15 answers, 5 lessons).\n- [x] Add golden eval runners with mock pipelines.\n- [x] Add eval runner with summary and markdown reports.\n- [x] Add CLI commands for evals (run, latest).\n- [x] Add API endpoints for source-packs and evals.\n- [x] Add golden_eval_summary.json to proof bundle.\n- [x] Add --strict mode to verify-release with golden eval checks.\n- [ ] Add dashboard Evals tab for viewing golden eval results.\n- [ ] Add more domain packs (e.g., ML safety, cloud security).\n- [ ] Add eval threshold configuration per pack.\n- [ ] Add eval trend tracking across versions.",
+  "section": "Epic 7: Domain Source Packs & Golden Evals",
+  "start_char": 3089,
+  "end_char": 4008,
+  "token_estimate": 161,
+  "metadata": {
+    "section": "Epic 7: Domain Source Packs & Golden Evals"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_plantuml::chunk-001",
+  "source_id": "local_plantuml",
+  "text": "```plantuml\n@startuml\nnode \"User Browser\" {\n  [Dashboard]\n}\nnode \"API Server\" {\n  [FastAPI]\n  [Harness Runner]\n}\ndatabase \"Postgres\" {\n  [Sources]\n  [Profiles]\n  [Runs]\n}\ndatabase \"Vector DB\" {\n  [Chunks]\n}\ncloud \"Object Store\" {\n  [PDFs]\n  [Proof Bundles]\n}\n[Dashboard] --> [FastAPI]\n[FastAPI] --> [Sources]\n[FastAPI] --> [Chunks]\n[FastAPI] --> [Proof Bundles]\n@enduml\n```",
+  "section": "Deployment diagram",
+  "start_char": 437,
+  "end_char": 810,
+  "token_estimate": 52,
+  "metadata": {
+    "section": "Deployment diagram"
+  }
+}

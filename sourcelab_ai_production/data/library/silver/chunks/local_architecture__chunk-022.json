@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-022",
+  "source_id": "local_architecture",
+  "text": "1. Extract atomic claims from lesson, answer key, and scenario.\n2. Classify claims by type (definition, recommendation, risk_statement, process_step, warning, fact).\n3. Match claims to source chunks using token overlap, phrase matching, and trust tier weighting.\n4. Verify each claim and assign support status (supported, unsupported, uncertain, conflicting).\n5. Calculate citation resolution rate.\n6. Detect contradictions between claims.\n7. Build human review queue for uncertain items.\n8. Generate comprehensive grounding report.\n9. Validate release gate (citation resolution rate, high-risk unsupported claims).",
+  "section": "Verification v2 flow",
+  "start_char": 4745,
+  "end_char": 5360,
+  "token_estimate": 81,
+  "metadata": {
+    "section": "Verification v2 flow"
+  }
+}

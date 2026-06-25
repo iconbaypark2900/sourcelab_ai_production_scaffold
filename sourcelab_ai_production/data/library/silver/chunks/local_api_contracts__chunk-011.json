@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-011",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /sources/{source_id}/archive\n```\n\nResponse:\n\n```json\n{\n  \"source_id\": \"nist_pqc\",\n  \"action\": \"archive\",\n  \"success\": true,\n  \"message\": \"Source 'nist_pqc' archived\"\n}\n```",
+  "section": "Archive Source",
+  "start_char": 2919,
+  "end_char": 3103,
+  "token_estimate": 19,
+  "metadata": {
+    "section": "Archive Source"
+  }
+}

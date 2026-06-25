@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-017",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /lessons/{run_id}\n```\n\nResponse:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"topic\": \"post-quantum cryptography migration\",\n  \"lesson_markdown\": \"# Source-grounded lab: post-quantum cryptography migration\\n...\",\n  \"answer_key_markdown\": \"# Answer Key\\n...\",\n  \"sources\": [\"nist_pqc\", \"cloudflare_pqc\"]\n}\n```",
+  "section": "Show Lesson",
+  "start_char": 4982,
+  "end_char": 5306,
+  "token_estimate": 29,
+  "metadata": {
+    "section": "Show Lesson"
+  }
+}

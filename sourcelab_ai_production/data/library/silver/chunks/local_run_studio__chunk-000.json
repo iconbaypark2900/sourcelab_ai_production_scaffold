@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-000",
+  "source_id": "local_run_studio",
+  "text": "The **Run Studio** (a.k.a. *Generation Console*) is a Next.js 16 web UI that\nvisualizes SourceLab runs as a progressive, source-grounded pipeline. It lives\nunder [`apps/web/`](../../apps/web) and talks to the existing FastAPI backend\nover HTTP. The Streamlit dashboard (`src/sourcelab/ui/dashboard.py`) is\nunchanged and remains the fallback/debug UI.\n\n> **Vocabulary note.** The diffusion-console language (\"generation field\",\n> \"evidence signal\", \"claim denoising\", \"citation locking\", \"proof\n> stabilization\", \"learning update\") is an **aesthetic metaphor only**.\n> SourceLab is a deterministic source-grounded pipeline, not a diffusion model.",
+  "section": "Run Studio \u2014 Next.js 16 Frontend",
+  "start_char": 36,
+  "end_char": 681,
+  "token_estimate": 81,
+  "metadata": {
+    "section": "Run Studio \u2014 Next.js 16 Frontend"
+  }
+}

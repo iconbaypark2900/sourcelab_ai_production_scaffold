@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-011",
+  "source_id": "local_web_readme",
+  "text": "The Run Studio (`/runs/[runId]`) polls the backend (HTTP only \u2014 **no\nWebSockets**) and lets you submit a learner answer without leaving the page:\n\n- The **Submit answer** panel posts to `POST /learning/answers`\n  (`submitAnswer(runId, answerText)`), which scores deterministically via the\n  same path as the `sourcelab answer submit` CLI and returns the transparent\n  learning metrics. Strong / Weak / Unsupported sample buttons fill the textarea.\n- After a successful submit the page refreshes, so the diffusion timeline,\n  learning update, and artifact matrix move `MISSING \u2192 PASS/REVIEW`.\n- A top control strip (`RunRefreshBar`) shows a **Refresh** button, an\n  **auto-refresh** toggle, the last-updated time, and an API connection status.\n  If the backend goes offline, cached data stays on screen.\n- In **Forensic** mode, an artifact loader fetches raw artifact content via\n  `getRunArtifact` (`GET /runs/{run_id}/artifacts/{artifact_name}`).\n\nRun frontend unit tests: `npm run test` (Vitest \u2014 attempt-summary, attempt-url,\nattempt-filters, use-attempt-notes).",
+  "section": "Live updates & in-UI answer submission",
+  "start_char": 4821,
+  "end_char": 5886,
+  "token_estimate": 143,
+  "metadata": {
+    "section": "Live updates & in-UI answer submission"
+  }
+}

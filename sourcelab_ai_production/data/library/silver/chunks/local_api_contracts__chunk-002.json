@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-002",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /version\n```",
+  "section": "Version",
+  "start_char": 315,
+  "end_char": 339,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Version"
+  }
+}

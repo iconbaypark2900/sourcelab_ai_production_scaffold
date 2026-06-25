@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "warehouse digital twin optimization",
+    "difficulty": 2,
+    "task_format": "architecture_review",
+    "required_source_ids": [
+      "logistics_earth_digital_twins_001",
+      "logistics_earth_satellite_002"
+    ],
+    "forbidden_claims": [
+      "unsupported guarantee",
+      "unverified production claim"
+    ],
+    "description": "Lesson on warehouse digital twin optimization"
+  },
+  {
+    "topic": "satellite-informed logistics planning",
+    "difficulty": 3,
+    "task_format": "hands_on_lab",
+    "required_source_ids": [
+      "logistics_earth_digital_twins_001"
+    ],
+    "forbidden_claims": [
+      "production safe without validation"
+    ],
+    "description": "Secondary lesson case for pack coverage"
+  }
+]

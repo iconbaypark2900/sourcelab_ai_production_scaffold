@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-019",
+  "source_id": "local_web_readme",
+  "text": "**Operations vs Research mode:** Operations / Detailed / Forensic remain the operations workbench (attempts, proof, harness). **Research** is a separate display mode on `/runs/[runId]` for study-readiness \u2014 grounding, claim support, lesson quality, gaps, and next actions. It does not replace answer submission or batch comparison. Default entry is **Reading Room** (library mode).\n\n- **`ResearchOverviewPanel`** \u2014 support/citation metrics + deterministic verdict (Ready to study | Needs source review | Needs claim review | Insufficient evidence).\n- **`SourceCoveragePanel`** \u2014 used/unused pack sources, chunks, trust tiers, coverage labels (Strong / Thin / Single-source / Low trust / No diversity).\n- **`ClaimValidationPanel`** \u2014 groups claims Supported / Needs review / Unsupported / Conflicting / Uncited from verification + evidence artifacts.\n- **`LessonPlanQualityPanel`** \u2014 lesson package + learning report quality labels.\n- **`ResearchGapsPanel`** \u2014 deterministic gaps with suggested search queries (no web browse).\n- **`NextResearchActionsPanel`** \u2014 prioritized checklist linking to existing UI anchors.\n- **`BatchResearchMatrix`** \u2014 on `/batches/[batchId]`, compares runs by source covera",
+  "section": "Run Studio v2.6 \u2014 Research Validation Dashboard",
+  "start_char": 11797,
+  "end_char": 12997,
+  "token_estimate": 158,
+  "metadata": {
+    "section": "Run Studio v2.6 \u2014 Research Validation Dashboard"
+  }
+}

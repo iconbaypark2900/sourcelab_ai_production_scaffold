@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-006",
+  "source_id": "local_creating_source_packs",
+  "text": "```bash\nsourcelab evals run --pack my_pack_v1\nsourcelab evals latest --pack my_pack_v1\n```\n\nAim for **\u2265 80% pass rate** before including the pack in strict release verification.",
+  "section": "5. Run golden evals",
+  "start_char": 1779,
+  "end_char": 1956,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "5. Run golden evals"
+  }
+}

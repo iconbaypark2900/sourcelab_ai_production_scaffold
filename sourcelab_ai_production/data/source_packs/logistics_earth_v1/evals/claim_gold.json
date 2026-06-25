@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Digital twin outputs depend on the quality and freshness of operational data",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Warehouse Digital Twin Workflow"
+  },
+  {
+    "claim": "Optimization recommendations should be tested against constraints and edge cases",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Warehouse Digital Twin Workflow"
+  },
+  {
+    "claim": "Remote sensing signals should be validated against local context",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Satellite-Informed Logistics"
+  },
+  {
+    "claim": "Environmental or infrastructure signals can inform routing and risk planning",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Satellite-Informed Logistics"
+  },
+  {
+    "claim": "Logistics, Earth Observation, and Digital Twins requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

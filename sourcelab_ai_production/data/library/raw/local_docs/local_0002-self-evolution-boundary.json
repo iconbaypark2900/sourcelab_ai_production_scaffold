@@ -1,0 +1,44 @@
+{
+  "record_id": "local_0002-self-evolution-boundary",
+  "origin": "local_docs",
+  "external_id": "docs/adr/0002-self-evolution-boundary.md",
+  "title": "ADR 0002: Self-evolution changes tasks, not source code",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "code",
+    "may",
+    "task",
+    "accepted",
+    "adapt",
+    "adaptation"
+  ],
+  "summary": "The self-evolving component may adapt difficulty, format, focus, guidance level, and rubric strictness. It may not mutate production code in v1.",
+  "key_terms": [
+    "code",
+    "may",
+    "task",
+    "accepted",
+    "adapt",
+    "adaptation",
+    "adr",
+    "auditable",
+    "can",
+    "changes",
+    "code-evolution",
+    "component"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_0002-self-evolution-boundary.md",
+  "checksum": "9619eed352d9c94a7d568ba6e6263f849f5f6e1a6ec46c690878a9cf867d1205",
+  "metadata": {
+    "relative_path": "docs/adr/0002-self-evolution-boundary.md"
+  }
+}

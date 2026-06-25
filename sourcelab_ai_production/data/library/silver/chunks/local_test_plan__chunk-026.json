@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-026",
+  "source_id": "local_test_plan",
+  "text": "- ReleaseThresholds default values are reasonable.\n- ReleaseThresholds custom values can be set.\n- ReleaseThresholds to_dict returns correct structure.\n- ReleaseManifest can be created with version field.\n- ReleaseManifest JSON roundtrip works.\n- build_release_manifest returns ReleaseManifest.\n- build_release_manifest checks for various files.\n- build_release_manifest with minimal project state.\n- run_release_checklist returns dict with status, checks, blocking, warnings.\n- run_release_checklist includes all 12 checks.\n- run_release_checklist reports missing files correctly.",
+  "section": "Unit tests",
+  "start_char": 7992,
+  "end_char": 8573,
+  "token_estimate": 69,
+  "metadata": {
+    "section": "Unit tests"
+  }
+}

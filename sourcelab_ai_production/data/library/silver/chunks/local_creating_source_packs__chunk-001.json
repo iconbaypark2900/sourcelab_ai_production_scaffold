@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-001",
+  "source_id": "local_creating_source_packs",
+  "text": "A source pack is a directory under `data/source_packs/<pack_name>/` containing:\n\n- `manifest.json` \u2014 pack metadata, source list, eval file names\n- `README.md` \u2014 human-readable pack overview\n- `sources/*.md` \u2014 curated markdown sources with YAML frontmatter\n- `evals/*.json` \u2014 golden eval cases (retrieval, claim, answer, lesson)\n\nUse `data/source_packs/TEMPLATE/` as a starting scaffold.",
+  "section": "Overview",
+  "start_char": 121,
+  "end_char": 507,
+  "token_estimate": 50,
+  "metadata": {
+    "section": "Overview"
+  }
+}

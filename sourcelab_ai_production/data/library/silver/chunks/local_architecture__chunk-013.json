@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-013",
+  "source_id": "local_architecture",
+  "text": "```bash\nsourcelab models config          # Show current model configuration\nsourcelab models health          # Check backend health\nsourcelab models test            # Test a backend with sample prompt\nsourcelab demo --model-mode local_llm --model-backend ollama --model-name llama2\nsourcelab lesson create --topic \"test\" --model-mode local_llm\n```",
+  "section": "CLI commands",
+  "start_char": 2573,
+  "end_char": 2920,
+  "token_estimate": 42,
+  "metadata": {
+    "section": "CLI commands"
+  }
+}

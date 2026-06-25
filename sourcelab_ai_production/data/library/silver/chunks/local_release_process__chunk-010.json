@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-010",
+  "source_id": "local_release_process",
+  "text": "```bash\nsourcelab release manifest\nsourcelab release report\n```\n\nExpected: JSON manifest and Markdown report on stdout (or paths under `artifacts/release/`).",
+  "section": "8. Manifest and report",
+  "start_char": 1670,
+  "end_char": 1827,
+  "token_estimate": 20,
+  "metadata": {
+    "section": "8. Manifest and report"
+  }
+}

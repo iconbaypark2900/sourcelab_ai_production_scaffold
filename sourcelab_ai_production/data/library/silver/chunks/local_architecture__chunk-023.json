@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-023",
+  "source_id": "local_architecture",
+  "text": "- `atomic_claims.json` - Extracted atomic claims with types\n- `evidence_matches.json` - Claim-to-chunk matches with scores\n- `verification_report.json` - Complete verification report\n- `citation_resolution.json` - Citation resolution metrics\n- `human_review_queue.json` - Items requiring human review\n- `grounding_report.json` - Comprehensive grounding report",
+  "section": "Verification v2 artifacts",
+  "start_char": 5393,
+  "end_char": 5752,
+  "token_estimate": 40,
+  "metadata": {
+    "section": "Verification v2 artifacts"
+  }
+}

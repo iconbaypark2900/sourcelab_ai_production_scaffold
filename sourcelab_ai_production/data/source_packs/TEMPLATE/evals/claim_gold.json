@@ -1,0 +1,9 @@
+[
+  {
+    "claim": "Source packs bundle trusted markdown sources and golden eval cases.",
+    "expected_status": "supported",
+    "claim_type": "definition",
+    "severity": "low",
+    "description": "Template claim verification case"
+  }
+]

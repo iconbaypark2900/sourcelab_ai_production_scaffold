@@ -1,0 +1,7 @@
+# All optional extras for full local install (editable install preferred for dev)
+-r dev.txt
+-r api.txt
+-r ui.txt
+-r ingest.txt
+-r retrieval.txt
+-r models.txt

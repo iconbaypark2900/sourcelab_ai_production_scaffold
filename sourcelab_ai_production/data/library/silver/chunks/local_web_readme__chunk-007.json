@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-007",
+  "source_id": "local_web_readme",
+  "text": "| Env var | Default | Description |\n| --- | --- | --- |\n| `NEXT_PUBLIC_SOURCELAB_API_URL` | `http://127.0.0.1:8000` | Base URL of the FastAPI backend |",
+  "section": "Configuration",
+  "start_char": 2027,
+  "end_char": 2178,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Configuration"
+  }
+}

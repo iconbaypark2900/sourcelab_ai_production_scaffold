@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-019",
+  "source_id": "local_runbook",
+  "text": "```bash",
+  "section": "Dashboard",
+  "start_char": 1275,
+  "end_char": 1282,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Dashboard"
+  }
+}

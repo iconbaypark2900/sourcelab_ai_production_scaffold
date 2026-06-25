@@ -1,0 +1,64 @@
+{
+  "pack_name": "pqc_v1",
+  "version": "1.0.0",
+  "title": "Post-Quantum Cryptography Migration Pack",
+  "description": "Curated sources for PQC migration and quantum cybersecurity validation",
+  "created_at": "2026-06-20T00:00:00Z",
+  "sources": [
+    {
+      "source_id": "nist_pqc_overview",
+      "filename": "nist_pqc_overview.md",
+      "trust_tier": "A",
+      "publisher": "NIST (local summary)",
+      "source_type": "standard_summary"
+    },
+    {
+      "source_id": "nist_pqc_selected_algorithms",
+      "filename": "nist_pqc_selected_algorithms.md",
+      "trust_tier": "A",
+      "publisher": "NIST (local summary)",
+      "source_type": "standard_summary"
+    },
+    {
+      "source_id": "crypto_inventory_migration",
+      "filename": "crypto_inventory_migration.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "migration_guide"
+    },
+    {
+      "source_id": "hybrid_key_exchange_notes",
+      "filename": "hybrid_key_exchange_notes.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes"
+    },
+    {
+      "source_id": "crypto_agility_notes",
+      "filename": "crypto_agility_notes.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes"
+    },
+    {
+      "source_id": "oqs_implementation_notes",
+      "filename": "oqs_implementation_notes.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "implementation_guide"
+    },
+    {
+      "source_id": "risk_myths_quantum_breaks_rsa_today",
+      "filename": "risk_myths_quantum_breaks_rsa_today.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "risk_analysis"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

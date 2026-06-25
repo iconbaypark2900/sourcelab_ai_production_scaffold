@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-001",
+  "source_id": "local_runbook",
+  "text": "```bash",
+  "section": "Adding sources",
+  "start_char": 155,
+  "end_char": 162,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Adding sources"
+  }
+}

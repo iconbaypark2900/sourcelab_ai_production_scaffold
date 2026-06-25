@@ -1,0 +1,31 @@
+{
+  "pack_name": "emerging_tech_watchlist_v1",
+  "version": "1.0.0",
+  "title": "Emerging Technology Watchlist",
+  "description": "Source pack for tracking emerging technology domains including quantum, fusion, advanced nuclear, drones, defense, satellite ISR, and cybersecurity.",
+  "created_at": "2026-06-25T04:57:48Z",
+  "sources": [
+    {
+      "source_id": "emerging_tech_watchlist_evaluation_001",
+      "filename": "emerging_tech_watchlist_evaluation_001.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes",
+      "title": "Emerging Technology Evaluation"
+    },
+    {
+      "source_id": "emerging_tech_watchlist_defense_002",
+      "filename": "emerging_tech_watchlist_defense_002.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "project_seed",
+      "title": "Defense and Space Technology Mapping"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

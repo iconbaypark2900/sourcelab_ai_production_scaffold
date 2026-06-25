@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-002",
+  "source_id": "local_run_studio",
+  "text": "```bash\ncd apps/web\ncp .env.example .env.local       # NEXT_PUBLIC_SOURCELAB_API_URL=http://127.0.0.1:8000\nnpm install\nnpm run dev                      # http://localhost:3000\n```\n\nOr from the project root via the Makefile:\n\n```bash\nmake web-install\nmake web-build      # verify a production build\nmake web-dev        # start the dev server\n```\n\nIf the backend is offline, the UI renders a clear connection card on every page\n(it never crashes).",
+  "section": "Frontend \u2014 Next.js",
+  "start_char": 974,
+  "end_char": 1419,
+  "token_estimate": 60,
+  "metadata": {
+    "section": "Frontend \u2014 Next.js"
+  }
+}

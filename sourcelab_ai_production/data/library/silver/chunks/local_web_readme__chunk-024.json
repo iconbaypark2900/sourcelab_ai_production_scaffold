@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-024",
+  "source_id": "local_web_readme",
+  "text": "- **`/batches/[batchId]`** \u2014 auto-loads `GET /batches/{id}/answers/compare` on page load; header badges for answer coverage and review-heavy runs; `BatchAnswerSubmitPanel` for explicit sample-answer submission across selected runs; cached matrix on API error.\n- **`/runs/compare`** \u2014 **Run artifacts** | **Learner answers** tabs; learner tab calls `GET /runs/answers/compare?run_ids=\u2026`.\n- **`BatchAnswerMatrix`** \u2014 status pills (No attempts, Weak latest, Needs review, Capped, Regression) and deterministic recommendation bullets via `lib/batch-run.ts` helpers.\n- **CLI parity** \u2014 `sourcelab batch answers \u2026 --markdown`, `sourcelab runs answers-compare \u2026 --markdown`.\n\nSee [`docs/frontend/BATCH_RUNS.md`](../docs/frontend/BATCH_RUNS.md) for full reference.",
+  "section": "Run Studio v2.2 \u2014 answer-aware batch workflows",
+  "start_char": 15231,
+  "end_char": 15987,
+  "token_estimate": 83,
+  "metadata": {
+    "section": "Run Studio v2.2 \u2014 answer-aware batch workflows"
+  }
+}

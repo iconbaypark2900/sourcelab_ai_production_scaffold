@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-007",
+  "source_id": "local_roadmap",
+  "text": "- [x] Source pack format (manifest.json + sources/ + evals/).\n- [x] PQC v1 source pack with 7 curated sources.\n- [x] Source pack loader (list, validate, install, status).\n- [x] CLI commands for source packs.\n- [x] Golden eval schemas (retrieval, claim, answer, lesson).\n- [x] Golden eval cases (10 retrieval, 15 claims, 15 answers, 5 lessons).\n- [x] Golden eval runners with mock and real pipelines.\n- [x] Eval runner with summary and markdown reports.\n- [x] CLI commands for evals (run, latest).\n- [x] API endpoints for source-packs and evals.\n- [x] Proof bundle includes golden_eval_summary.json.\n- [x] Release gate --strict mode with golden eval checks.\n- [x] 353 tests passing.",
+  "section": "Phase 7: Domain Source Packs & Golden Evals",
+  "start_char": 2953,
+  "end_char": 3634,
+  "token_estimate": 114,
+  "metadata": {
+    "section": "Phase 7: Domain Source Packs & Golden Evals"
+  }
+}

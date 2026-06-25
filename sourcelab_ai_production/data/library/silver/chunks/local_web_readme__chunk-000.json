@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-000",
+  "source_id": "local_web_readme",
+  "text": "A dark **diffusion-console** for SourceLab AI. It visualizes every run as a\nprogressive, source-grounded pipeline:\n\n> approved sources \u2192 retrieval signal \u2192 generated lesson \u2192 claim denoising \u2192\n> citation locking \u2192 proof stabilization \u2192 answer scoring \u2192 learning update \u2192 next task\n\n> **Note on vocabulary.** The \"generation field / denoising / locking /\n> stabilization\" language is an **aesthetic metaphor only**. SourceLab is a\n> deterministic, source-grounded pipeline \u2014 it is *not* a diffusion model.",
+  "section": "SourceLab Run Studio (Next.js 16 frontend)",
+  "start_char": 46,
+  "end_char": 550,
+  "token_estimate": 77,
+  "metadata": {
+    "section": "SourceLab Run Studio (Next.js 16 frontend)"
+  }
+}

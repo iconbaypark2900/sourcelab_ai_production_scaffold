@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-003",
+  "source_id": "local_source_trust_policy",
+  "text": "```bash\nsourcelab sources approve <source_id>\nsourcelab sources reject <source_id> --reason \"...\"\nsourcelab sources archive <source_id>\nsourcelab sources pending\n```",
+  "section": "Approval commands",
+  "start_char": 985,
+  "end_char": 1150,
+  "token_estimate": 19,
+  "metadata": {
+    "section": "Approval commands"
+  }
+}

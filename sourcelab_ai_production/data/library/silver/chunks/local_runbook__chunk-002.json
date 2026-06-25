@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-002",
+  "source_id": "local_runbook",
+  "text": "sourcelab ingest-local ./path/to/sources --trust-tier C --publisher \"My Publisher\" --source-type local_note",
+  "section": "Ingest local markdown/text/PDF files into the registry",
+  "start_char": 220,
+  "end_char": 327,
+  "token_estimate": 10,
+  "metadata": {
+    "section": "Ingest local markdown/text/PDF files into the registry"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source_id": "local_0003-compression-scope",
+  "origin": "local_docs",
+  "title": "ADR 0003: Compression starts with practical baselines",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "trust_tier": "B",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "compression",
+    "accepted",
+    "adapters",
+    "added",
+    "adr",
+    "after"
+  ],
+  "summary": "The scaffold uses simple int8 compression and defines extension points for FAISS, Qdrant, product quantization, and TurboQuant-style adapters.",
+  "key_terms": [
+    "compression",
+    "accepted",
+    "adapters",
+    "added",
+    "adr",
+    "after",
+    "baselines",
+    "claims",
+    "consequences",
+    "decision",
+    "defines",
+    "demo"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_0003-compression-scope.md",
+  "chunk_paths": [
+    "data/library/silver/chunks/local_0003-compression-scope__chunk-000.json",
+    "data/library/silver/chunks/local_0003-compression-scope__chunk-001.json",
+    "data/library/silver/chunks/local_0003-compression-scope__chunk-002.json",
+    "data/library/silver/chunks/local_0003-compression-scope__chunk-003.json"
+  ],
+  "checksum": "6dd1e758616dc6253e34bab8bbba87100c4ff6f3548edbcd2a51ac861c995dc4",
+  "quality_score": 0.8917,
+  "external_id": "docs/adr/0003-compression-scope.md"
+}

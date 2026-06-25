@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-005",
+  "source_id": "local_test_plan",
+  "text": "- End-to-end demo creates proof bundle.\n- Demo pipeline writes all Generation v2 artifacts.\n- `sourcelab lesson create` produces valid output.\n- Citation resolution works.\n- Unsupported high-risk claims fail release.\n- Skill profile updates after answer scoring.",
+  "section": "Integration tests",
+  "start_char": 4644,
+  "end_char": 4906,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "Integration tests"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-021",
+  "source_id": "local_run_studio",
+  "text": "- **`CrossRunAnswerDiffPanel`** \u2014 per-run attempt history via `GET /learning/answers/{run_id}`; selectors for Latest, Best, and every attempt; detail fetch for selected attempt only.\n- **`BatchAnswerSubmitPanel`** \u2014 quick presets: Submit strong/weak/unsupported to all missing (confirm + explicit Submit).\n- **`BatchDemoBundleExport`** \u2014 unified browser JSON bundle (`sourcelab_batch_demo_bundle_<batch_id>.json`); optional local notes inclusion.\n- **`BatchAnswerMatrix`** \u2014 shortcuts to cross-run diff (latest vs latest, best vs best, vs best run).\n\nSee [`docs/frontend/BATCH_RUNS.md`](BATCH_RUNS.md) for full reference.",
+  "section": "v2.5 \u2014 Attempt-aware batch workflows",
+  "start_char": 15820,
+  "end_char": 16441,
+  "token_estimate": 69,
+  "metadata": {
+    "section": "v2.5 \u2014 Attempt-aware batch workflows"
+  }
+}

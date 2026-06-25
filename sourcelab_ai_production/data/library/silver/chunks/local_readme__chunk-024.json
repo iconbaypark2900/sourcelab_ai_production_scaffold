@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-024",
+  "source_id": "local_readme",
+  "text": "```text\nsrc/sourcelab/\n  sources/        Source registry, ingestion, source packs\n  retrieval/      Hybrid search, embeddings, compression\n  generation/     Lesson, rubric, answer-key generation\n  verification/   Claim extraction, evidence matching, citation gates\n  harness/        Proof bundles, run validators, release gates\n  learning/       Answer scoring, mastery profile, next-task evolution\n  api/            FastAPI entrypoint\n  ui/             Dashboard, run explorer, report export\ndocs/\n  demo/           Local v1 demo script, walkthrough, screenshot checklist\n  product/        PRD, requirements\n  engineering/    Architecture, roadmap, backlog\n  testing/        Test plan, release gate criteria\nscripts/          local_v1_demo.sh, local_v1_smoke.sh, start_api.sh, start_dashboard.sh\n```",
+  "section": "Project layout",
+  "start_char": 10064,
+  "end_char": 10864,
+  "token_estimate": 76,
+  "metadata": {
+    "section": "Project layout"
+  }
+}

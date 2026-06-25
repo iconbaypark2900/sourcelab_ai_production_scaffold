@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-005",
+  "source_id": "local_release_process",
+  "text": "```bash\nsourcelab local-demo\n```\n\nExpected: `passed: true`, strict release status `PASS`.",
+  "section": "3. Full local demo",
+  "start_char": 679,
+  "end_char": 768,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "3. Full local demo"
+  }
+}

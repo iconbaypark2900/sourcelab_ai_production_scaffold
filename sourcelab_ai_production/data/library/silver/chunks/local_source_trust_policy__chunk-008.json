@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-008",
+  "source_id": "local_source_trust_policy",
+  "text": "By default, retrieval only uses sources with:\n\n- `status = active`\n- `approval_status = approved`\n\nThis ensures:\n- Rejected sources are never used\n- Pending sources require explicit approval\n- Archived sources are excluded",
+  "section": "Safe retrieval filtering",
+  "start_char": 1675,
+  "end_char": 1897,
+  "token_estimate": 34,
+  "metadata": {
+    "section": "Safe retrieval filtering"
+  }
+}

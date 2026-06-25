@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-013",
+  "source_id": "local_readme",
+  "text": "source .venv/bin/activate && sourcelab api --serve",
+  "section": "1. Backend (project root)",
+  "start_char": 3670,
+  "end_char": 3720,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "1. Backend (project root)"
+  }
+}

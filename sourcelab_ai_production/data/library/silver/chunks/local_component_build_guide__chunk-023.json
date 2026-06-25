@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-023",
+  "source_id": "local_component_build_guide",
+  "text": "```python\nfrom sourcelab.retrieval.bm25 import BM25Index\nfrom sourcelab.sources.chunker import simple_chunk_source\n\nchunks = []\ntitles = {}\nfor source in registry.sources:\n    titles[source.source_id] = source.title\n    chunks.extend(simple_chunk_source(source))\n\nbm25 = BM25Index(chunks=chunks, titles=titles)\nresults = bm25.search(\"crypto inventory\", top_k=4)\n```",
+  "section": "Keyword search (BM25)",
+  "start_char": 4112,
+  "end_char": 4477,
+  "token_estimate": 33,
+  "metadata": {
+    "section": "Keyword search (BM25)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-003",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: `sourcelab runs show latest` \u2014 harness passed, topic visible\n- [ ] File browser: `artifacts/runs/<run_id>/generated_lesson.md` excerpt\n- [ ] Terminal or file: `claim_map.json` with claim types\n- [ ] Terminal or file: `citation_resolution.json` \u2014 resolution rate 100%",
+  "section": "Lesson & verification",
+  "start_char": 526,
+  "end_char": 808,
+  "token_estimate": 41,
+  "metadata": {
+    "section": "Lesson & verification"
+  }
+}

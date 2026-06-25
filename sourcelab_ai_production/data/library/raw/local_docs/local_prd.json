@@ -1,0 +1,44 @@
+{
+  "record_id": "local_prd",
+  "origin": "local_docs",
+  "external_id": "docs/product/PRD.md",
+  "title": "Product Requirements Document: SourceLab AI",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "release",
+    "sources",
+    "sourcelab",
+    "source",
+    "learner",
+    "learners"
+  ],
+  "summary": "SourceLab AI is a source-grounded adaptive technical lab generator. It helps technical learners practice advanced subjects using trusted sources, visible rubrics, and adaptive next tasks.",
+  "key_terms": [
+    "release",
+    "sources",
+    "sourcelab",
+    "source",
+    "learner",
+    "learners",
+    "local",
+    "metadata",
+    "next",
+    "reports",
+    "requirements",
+    "status"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_prd.md",
+  "checksum": "9542f2b60ac2a8aa296c8864f8f13a0cc433563874cea66c50669aa0e460b274",
+  "metadata": {
+    "relative_path": "docs/product/PRD.md"
+  }
+}

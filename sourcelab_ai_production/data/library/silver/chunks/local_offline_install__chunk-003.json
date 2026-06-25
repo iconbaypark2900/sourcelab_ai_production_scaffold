@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-003",
+  "source_id": "local_offline_install",
+  "text": "For reproducible installs, use the pinned lock file:\n\n```bash\npython -m pip install -r requirements/lock-local-v1.txt\npython -m pip install -e .\n```\n\nVerify the lock file has not drifted:\n\n```bash\nmake freeze-check\n```\n\nIf drift is detected, regenerate on a connected machine with `make freeze` and commit the updated lock file.",
+  "section": "2. Lock file usage",
+  "start_char": 595,
+  "end_char": 923,
+  "token_estimate": 51,
+  "metadata": {
+    "section": "2. Lock file usage"
+  }
+}

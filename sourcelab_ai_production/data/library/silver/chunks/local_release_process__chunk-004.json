@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-004",
+  "source_id": "local_release_process",
+  "text": "```bash\nsourcelab doctor\nsourcelab init-local\n```\n\nExpected: doctor `status` is `PASS` for core checks; init-local `passed` is `true`.",
+  "section": "2. Environment and setup",
+  "start_char": 519,
+  "end_char": 653,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "2. Environment and setup"
+  }
+}

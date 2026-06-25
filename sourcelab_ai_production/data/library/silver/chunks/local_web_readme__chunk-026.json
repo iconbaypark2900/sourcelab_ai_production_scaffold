@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-026",
+  "source_id": "local_web_readme",
+  "text": "The Run Studio needs per-claim / per-chunk / per-citation detail that the run\n*inventory* endpoint does not expose. This is read from the backend via the\nread-only endpoint:\n\n```\nGET /runs/{run_id}/artifacts/{artifact_name}\n```\n\nThere is no `/release` HTTP endpoint, so `/release` is composed client-side from\nthe proof bundle, golden evals, harness, version, and source-pack status. The\nSBOM / attestation / checksums / bundle / publish-plan steps are produced by the\n`sourcelab release \u2026` CLI and are surfaced as a documented checklist.",
+  "section": "A note on the backend",
+  "start_char": 17113,
+  "end_char": 17651,
+  "token_estimate": 80,
+  "metadata": {
+    "section": "A note on the backend"
+  }
+}

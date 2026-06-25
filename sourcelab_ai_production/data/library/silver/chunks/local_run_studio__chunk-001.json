@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-001",
+  "source_id": "local_run_studio",
+  "text": "From the project root (`sourcelab_ai_production`):\n\n```bash\nsource .venv/bin/activate\nsourcelab api --serve            # http://127.0.0.1:8000\nsourcelab api routes             # enumerate the live routes\n```",
+  "section": "Backend \u2014 FastAPI",
+  "start_char": 741,
+  "end_char": 948,
+  "token_estimate": 22,
+  "metadata": {
+    "section": "Backend \u2014 FastAPI"
+  }
+}

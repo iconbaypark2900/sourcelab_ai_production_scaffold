@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-011",
+  "source_id": "local_run_studio",
+  "text": "Frontend-only; no API changes.\n\n- **`?attempt=<attempt_id>`** \u2014 shareable URLs; invalid ids warn and fall back\n  to latest. Selection syncs back to the URL via `router.replace`.\n- **`useAnswerHistory`** \u2014 single history fetch + detail-on-select; powers\n  History, Diff, Learning update, TopStatusBar, and timeline lane.\n- **Keyboard navigation** in History/Diff: arrow keys, Home/End, Enter (focus\n  detail), Escape (latest snapshot). Skipped when typing in form fields.\n- **Copy attempt link** button on attempt detail.\n- **Vitest** \u2014 `npm run test` covers `attempt-summary.ts` metrics.",
+  "section": "v1.5 \u2014 Deep links & keyboard navigation",
+  "start_char": 7490,
+  "end_char": 8077,
+  "token_estimate": 79,
+  "metadata": {
+    "section": "v1.5 \u2014 Deep links & keyboard navigation"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-006",
+  "source_id": "local_source_trust_policy",
+  "text": "Quality reports check for:\n\n- Missing metadata (title, publisher, source_type)\n- Low-trust sources (D/E)\n- Stale sources\n- Duplicate hashes\n- Missing path/URL",
+  "section": "Source quality policy",
+  "start_char": 1425,
+  "end_char": 1583,
+  "token_estimate": 23,
+  "metadata": {
+    "section": "Source quality policy"
+  }
+}

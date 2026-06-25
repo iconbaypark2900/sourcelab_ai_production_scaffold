@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-051",
+  "source_id": "local_component_build_guide",
+  "text": "path = export_run(project_root, run_id=\"latest\", fmt=\"markdown\")",
+  "section": "Export as markdown",
+  "start_char": 10176,
+  "end_char": 10240,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Export as markdown"
+  }
+}

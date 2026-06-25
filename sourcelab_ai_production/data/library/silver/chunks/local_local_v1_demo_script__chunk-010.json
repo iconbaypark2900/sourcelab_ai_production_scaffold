@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-010",
+  "source_id": "local_local_v1_demo_script",
+  "text": "> SourceLab Local v1.0 RC is installable, reproducible, and verifiable \u2014 every lesson run produces a proof bundle you can review, export, and gate on before shipping.",
+  "section": "Closing line",
+  "start_char": 2071,
+  "end_char": 2237,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Closing line"
+  }
+}

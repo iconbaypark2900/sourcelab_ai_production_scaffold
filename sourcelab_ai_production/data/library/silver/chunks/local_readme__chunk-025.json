@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-025",
+  "source_id": "local_readme",
+  "text": "```bash\nsourcelab demo --topic \"post-quantum cryptography migration\"\nsourcelab lesson create --topic \"post-quantum cryptography migration\" --difficulty 3\nsourcelab sources list\nsourcelab sources validate\nsourcelab search \"crypto inventory\" --mode hybrid\nsourcelab answer submit --topic \"post-quantum cryptography migration\" --text \"...\"\nsourcelab release check\nsourcelab release report\npytest -q\n```",
+  "section": "Additional commands",
+  "start_char": 10890,
+  "end_char": 11289,
+  "token_estimate": 46,
+  "metadata": {
+    "section": "Additional commands"
+  }
+}

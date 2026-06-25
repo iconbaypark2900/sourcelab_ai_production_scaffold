@@ -1,0 +1,72 @@
+[
+  {
+    "query": "How should an organization start PQC migration?",
+    "expected_source_ids": ["crypto_inventory_migration", "nist_pqc_overview"],
+    "expected_terms": ["inventory", "migration", "plan", "prioritize"],
+    "min_hit_at_k": 1,
+    "description": "Basic PQC migration planning query"
+  },
+  {
+    "query": "What is a cryptographic inventory?",
+    "expected_source_ids": ["crypto_inventory_migration"],
+    "expected_terms": ["inventory", "algorithms", "keys", "catalog"],
+    "min_hit_at_k": 1,
+    "description": "Definition query for cryptographic inventory"
+  },
+  {
+    "query": "Should I replace all cryptography immediately?",
+    "expected_source_ids": ["crypto_inventory_migration", "risk_myths_quantum_breaks_rsa_today"],
+    "expected_terms": ["phase", "prioritize", "risk", "not immediate"],
+    "min_hit_at_k": 1,
+    "description": "Risk assessment query about immediate replacement"
+  },
+  {
+    "query": "What are hybrid key exchange patterns?",
+    "expected_source_ids": ["hybrid_key_exchange_notes"],
+    "expected_terms": ["hybrid", "concatenation", "KDF", "classical"],
+    "min_hit_at_k": 1,
+    "description": "Technical query about hybrid key exchange"
+  },
+  {
+    "query": "Can quantum computers break RSA-2048 today?",
+    "expected_source_ids": ["risk_myths_quantum_breaks_rsa_today"],
+    "expected_terms": ["no", "cannot", "qubits", "not yet"],
+    "min_hit_at_k": 1,
+    "description": "Myth-busting query about quantum attacks"
+  },
+  {
+    "query": "What NIST algorithms were standardized for PQC?",
+    "expected_source_ids": ["nist_pqc_selected_algorithms", "nist_pqc_overview"],
+    "expected_terms": ["ML-KEM", "ML-DSA", "SLH-DSA", "FIPS"],
+    "min_hit_at_k": 1,
+    "description": "Query about NIST PQC standards"
+  },
+  {
+    "query": "How does crypto agility help with PQC transition?",
+    "expected_source_ids": ["crypto_agility_notes"],
+    "expected_terms": ["agility", "swap", "algorithm", "flexible"],
+    "min_hit_at_k": 1,
+    "description": "Query about crypto agility benefits"
+  },
+  {
+    "query": "What are the performance impacts of PQC algorithms?",
+    "expected_source_ids": ["nist_pqc_selected_algorithms", "hybrid_key_exchange_notes"],
+    "expected_terms": ["performance", "key size", "signature", "overhead"],
+    "min_hit_at_k": 1,
+    "description": "Performance-related query"
+  },
+  {
+    "query": "What is the Open Quantum Safe project?",
+    "expected_source_ids": ["oqs_implementation_notes"],
+    "expected_terms": ["OQS", "liboqs", "open source", "prototype"],
+    "min_hit_at_k": 1,
+    "description": "Query about OQS project"
+  },
+  {
+    "query": "When will quantum computers break current cryptography?",
+    "expected_source_ids": ["risk_myths_quantum_breaks_rsa_today", "nist_pqc_overview"],
+    "expected_terms": ["decades", "not today", "future", "harvest now"],
+    "min_hit_at_k": 1,
+    "description": "Timeline query about quantum threat"
+  }
+]

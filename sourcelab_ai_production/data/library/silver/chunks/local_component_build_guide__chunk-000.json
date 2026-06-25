@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-000",
+  "source_id": "local_component_build_guide",
+  "text": "The source registry is the source of truth for approved sources.",
+  "section": "Source Registry",
+  "start_char": 45,
+  "end_char": 109,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "Source Registry"
+  }
+}

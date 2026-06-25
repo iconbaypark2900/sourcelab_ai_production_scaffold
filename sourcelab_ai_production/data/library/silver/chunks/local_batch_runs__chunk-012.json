@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-012",
+  "source_id": "local_batch_runs",
+  "text": "`BatchAnswerSubmitPanel`:\n\n- **Submit strong/weak/unsupported to all missing** \u2014 selects runs with `attempt_count === 0`, sets global profile, requires confirm dialog + explicit Submit click\n- When all runs have attempts: **All runs already have attempts.**\n- Per-run profile mode unchanged",
+  "section": "Batch quick submit presets (v2.5)",
+  "start_char": 4540,
+  "end_char": 4830,
+  "token_estimate": 40,
+  "metadata": {
+    "section": "Batch quick submit presets (v2.5)"
+  }
+}

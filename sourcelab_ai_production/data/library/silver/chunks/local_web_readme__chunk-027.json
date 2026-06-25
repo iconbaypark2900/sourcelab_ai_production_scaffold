@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-027",
+  "source_id": "local_web_readme",
+  "text": "Run detail and Research views can surface `source_expansion_suggestions.json` when a run has thin evidence. The library CLI (`sourcelab library \u2026`) is filesystem-backed and complements the Research Library theme \u2014 collect local docs, score quality, and dry-run promotion into curated packs without changing the Run Studio frontend architecture.",
+  "section": "SourceLab Library Builder v1",
+  "start_char": 17686,
+  "end_char": 18030,
+  "token_estimate": 47,
+  "metadata": {
+    "section": "SourceLab Library Builder v1"
+  }
+}

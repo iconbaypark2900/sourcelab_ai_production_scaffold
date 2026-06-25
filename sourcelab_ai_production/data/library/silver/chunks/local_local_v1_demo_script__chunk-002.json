@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-002",
+  "source_id": "local_local_v1_demo_script",
+  "text": "> SourceLab generates adaptive technical lessons from **approved sources**, verifies that claims are grounded in those sources, scores learner answers with a visible rubric, and adapts the next task from a saved skill profile. It fails closed when sources are missing or high-risk claims are unsupported.\n\nShow project tree briefly:\n\n```bash\nsourcelab version\nsourcelab doctor\n```",
+  "section": "Act 1 \u2014 What SourceLab is (2 min)",
+  "start_char": 316,
+  "end_char": 696,
+  "token_estimate": 56,
+  "metadata": {
+    "section": "Act 1 \u2014 What SourceLab is (2 min)"
+  }
+}

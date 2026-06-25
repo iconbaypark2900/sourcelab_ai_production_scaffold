@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-004",
+  "source_id": "local_readme",
+  "text": "```bash\npython3 -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip setuptools wheel\npython -m pip install -e \".[dev,api,ui,ingest,retrieval,models]\"\nsourcelab init-local\nsourcelab local-demo\nsourcelab verify-release --strict\nsourcelab dashboard --launch\nsourcelab api --serve\n```\n\nOr use Make:\n\n```bash\nmake install-all\nmake demo\nmake release-check\n```",
+  "section": "Quickstart",
+  "start_char": 2327,
+  "end_char": 2704,
+  "token_estimate": 46,
+  "metadata": {
+    "section": "Quickstart"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-004",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab ingest-url \"https://example.com/page\" --trust-tier C --publisher \"Publisher\" --source-type web_page",
+  "section": "Via CLI - URLs",
+  "start_char": 827,
+  "end_char": 936,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "Via CLI - URLs"
+  }
+}

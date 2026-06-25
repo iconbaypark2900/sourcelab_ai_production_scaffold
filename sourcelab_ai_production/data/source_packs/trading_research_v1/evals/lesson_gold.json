@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "factor ranking equity strategy",
+    "difficulty": 2,
+    "task_format": "architecture_review",
+    "required_source_ids": [
+      "trading_research_validation_001",
+      "trading_research_meta_labeling_002"
+    ],
+    "forbidden_claims": [
+      "unsupported guarantee",
+      "unverified production claim"
+    ],
+    "description": "Lesson on factor ranking equity strategy"
+  },
+  {
+    "topic": "event market settlement verification",
+    "difficulty": 3,
+    "task_format": "hands_on_lab",
+    "required_source_ids": [
+      "trading_research_validation_001"
+    ],
+    "forbidden_claims": [
+      "production safe without validation"
+    ],
+    "description": "Secondary lesson case for pack coverage"
+  }
+]

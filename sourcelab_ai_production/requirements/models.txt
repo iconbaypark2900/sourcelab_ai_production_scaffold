@@ -1,0 +1,3 @@
+# Local LLM backend extras
+-r base.txt
+httpx>=0.27

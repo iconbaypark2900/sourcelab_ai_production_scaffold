@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-010",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab verify-release --strict\nsourcelab release check\n```\n\nBoth should report `PASS` after a successful demo run.",
+  "section": "10. Strict release verification",
+  "start_char": 2270,
+  "end_char": 2395,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "10. Strict release verification"
+  }
+}

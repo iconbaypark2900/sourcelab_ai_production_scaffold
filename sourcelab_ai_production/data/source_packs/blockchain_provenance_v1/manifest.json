@@ -1,0 +1,31 @@
+{
+  "pack_name": "blockchain_provenance_v1",
+  "version": "1.0.0",
+  "title": "Blockchain Provenance and Verifiable Systems",
+  "description": "Source pack for smart contracts, DID, ZK proofs, proof-of-human, provenance, audit trails, and AI-output verification.",
+  "created_at": "2026-06-25T04:57:48Z",
+  "sources": [
+    {
+      "source_id": "blockchain_provenance_ai_outputs_001",
+      "filename": "blockchain_provenance_ai_outputs_001.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes",
+      "title": "Provenance for AI Outputs"
+    },
+    {
+      "source_id": "blockchain_provenance_identity_002",
+      "filename": "blockchain_provenance_identity_002.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "project_seed",
+      "title": "Identity and Verification Layers"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "An ML safety evaluation workflow should combine automated evals, adversarial probes, red-team findings, and human review before deployment promotion. Key practices include: Safety evals should run before deployment promotion and fail closed on missing evidence; Red-team findings should be triaged by severity and tracked to remediation.",
+    "topic": "ML safety evaluation harness design",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "ML safety evaluation harness design",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

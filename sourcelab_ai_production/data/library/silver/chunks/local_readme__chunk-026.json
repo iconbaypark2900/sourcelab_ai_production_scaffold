@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-026",
+  "source_id": "local_readme",
+  "text": "- [Local v1 walkthrough](docs/demo/LOCAL_V1_WALKTHROUGH.md)\n- [Demo presenter script](docs/demo/LOCAL_V1_DEMO_SCRIPT.md)\n- [Release notes](RELEASE_NOTES_LOCAL_V1_RC.md)\n- [Changelog](CHANGELOG.md)\n- [Runbook](docs/operations/RUNBOOK.md)",
+  "section": "Documentation",
+  "start_char": 11309,
+  "end_char": 11545,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "Documentation"
+  }
+}

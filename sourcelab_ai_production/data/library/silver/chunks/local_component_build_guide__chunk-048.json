@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-048",
+  "source_id": "local_component_build_guide",
+  "text": "print_run_summary(summary)",
+  "section": "Print a single run summary",
+  "start_char": 10000,
+  "end_char": 10026,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Print a single run summary"
+  }
+}

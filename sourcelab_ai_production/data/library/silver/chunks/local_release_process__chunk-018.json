@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-018",
+  "source_id": "local_release_process",
+  "text": "- `RELEASE_NOTES_LOCAL_V1_GA.md`\n- `RELEASE_NOTES_LOCAL_V1_RC.md`\n- `docs/demo/LOCAL_V1_WALKTHROUGH.md`\n- `docs/operations/RUNBOOK.md`",
+  "section": "Related docs",
+  "start_char": 2894,
+  "end_char": 3028,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "Related docs"
+  }
+}

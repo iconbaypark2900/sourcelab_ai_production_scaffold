@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-018",
+  "source_id": "local_readme",
+  "text": "Local-first **Bronze \u2192 Silver \u2192 Gold** pipeline for expanding source packs from project docs and metadata-first collectors (no blind PDF or restricted bulk download).\n\n```text\ndata/library/\n  raw/{local_docs,arxiv,pubmed,nvd,sec,nasa,govinfo,github}/\n  silver/{source_cards,chunks,manifests,dedupe,quality}/\n  promotion/{candidates,reports}/\n```\n\nQuick start:\n\n```bash\nsourcelab library collect-local --path . --domain user_project_library\nsourcelab library stats\nsourcelab library dedupe\nsourcelab library quality\nsourcelab library promote --domain user_project_library --target-pack agentic_engineering_v1 --dry-run\n```\n\nCollectors: `collect-local`, `collect-arxiv`, `collect-pubmed`, `collect-nvd`. Pipeline stages: `normalize`, `dedupe`, `quality`, `promote`. Runs with thin retrieval/grounding evidence write `artifacts/runs/<run_id>/source_expansion_suggestions.json`.",
+  "section": "SourceLab Library Builder v1",
+  "start_char": 6134,
+  "end_char": 7008,
+  "token_estimate": 76,
+  "metadata": {
+    "section": "SourceLab Library Builder v1"
+  }
+}

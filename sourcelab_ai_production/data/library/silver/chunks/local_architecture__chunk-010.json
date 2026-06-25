@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-010",
+  "source_id": "local_architecture",
+  "text": "- **deterministic** (default): No model required, deterministic responses always work.\n- **local_llm**: Uses configured backend if available, falls back to deterministic on failure.",
+  "section": "Two modes",
+  "start_char": 1738,
+  "end_char": 1919,
+  "token_estimate": 23,
+  "metadata": {
+    "section": "Two modes"
+  }
+}

@@ -1,0 +1,5 @@
+# FastAPI server extras
+-r base.txt
+fastapi>=0.110
+uvicorn>=0.27
+httpx>=0.27

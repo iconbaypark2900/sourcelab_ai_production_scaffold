@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-042",
+  "source_id": "local_component_build_guide",
+  "text": "1. **Overview** - Run ID, topic, harness status, proof bundle status, answer score, citation resolution\n2. **Lesson** - Generated lesson markdown, rubric table, answer key\n3. **Sources & Retrieval** - Source registry snapshot, retrieved chunks, compression report\n4. **Verification** - Grounding report, claim map, citation resolution, human review queue\n5. **Harness & Proof** - Harness report, proof summary, proof bundle manifest, run manifest\n6. **Learning** - Answer submission, answer review, mastery update, skill profile, learning report, next task\n7. **Artifacts** - Full artifact inventory table with existence, validation, and SHA256",
+  "section": "Dashboard tabs",
+  "start_char": 8867,
+  "end_char": 9511,
+  "token_estimate": 90,
+  "metadata": {
+    "section": "Dashboard tabs"
+  }
+}

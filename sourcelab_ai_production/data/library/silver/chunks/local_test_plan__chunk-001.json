@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-001",
+  "source_id": "local_test_plan",
+  "text": ".",
+  "section": "Unit tests",
+  "start_char": 1228,
+  "end_char": 1229,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Unit tests"
+  }
+}

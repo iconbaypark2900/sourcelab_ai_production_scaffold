@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-021",
+  "source_id": "local_runbook",
+  "text": "streamlit run src/sourcelab/ui/dashboard.py",
+  "section": "Launch the Streamlit dashboard",
+  "start_char": 1360,
+  "end_char": 1403,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Launch the Streamlit dashboard"
+  }
+}

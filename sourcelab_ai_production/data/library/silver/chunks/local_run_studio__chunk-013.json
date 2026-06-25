@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-013",
+  "source_id": "local_run_studio",
+  "text": "Frontend-only; no API changes.\n\n- **`?tab=&filter=`** \u2014 workspace URL params restore Attempts tab\n  (`submit` | `history` | `diff`) and History filter (`all` | `needs_review` |\n  `passed` | `capped`). Invalid values fall back safely. Tab/filter changes sync\n  via `router.replace` (other params preserved).\n- **Session restore defaults** \u2014 `from`+`to` without `tab` opens Diff;\n  `attempt` only opens History; no attempt state keeps current default.\n- **Notes export/import** \u2014 export JSON (`sourcelab_attempt_notes_<run_id>.json`),\n  import with validation + merge (newer `updated_at` wins), clear all with\n  confirm. Browser-only \u2014 not proof artifacts.\n- **Copy workspace link** \u2014 includes attempt, compare pins, tab, and filter.\n- **Answer text comparison** (Diff tab) \u2014 lightweight side-by-side preview when\n  both attempt details load (score/review/cap delta + strengths/weaknesses summary).",
+  "section": "v1.7 \u2014 Attempt annotations export & session restore",
+  "start_char": 8706,
+  "end_char": 9602,
+  "token_estimate": 117,
+  "metadata": {
+    "section": "v1.7 \u2014 Attempt annotations export & session restore"
+  }
+}

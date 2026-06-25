@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-020",
+  "source_id": "local_run_studio",
+  "text": "**Operations vs Research mode:** Run detail keeps **Operations** / Detailed / Forensic for pipeline operations (attempts, proof stabilization, harness). **Research** mode is a study workbench: validate grounding, claim support, lesson quality, gaps, and next actions \u2014 without replacing learner answer workflows. The default **Reading Room** layer is the educational entry point.\n\n| Component | Purpose |\n|-----------|---------|\n| `ResearchOverviewPanel` | Metrics + deterministic study verdict |\n| `SourceCoveragePanel` | Source/chunk coverage + trust labels |\n| `ClaimValidationPanel` | Claim groups from verification artifacts |\n| `LessonPlanQualityPanel` | Lesson package completeness |\n| `ResearchGapsPanel` | Gaps + suggested queries (local-only) |\n| `NextResearchActionsPanel` | Prioritized checklist with UI anchors |\n| `BatchResearchMatrix` | Batch-level research comparison matrix |\n\nLogic lives in `apps/web/lib/research-validation.ts` (artifact-driven, no LLM). Deep link: `/runs/<run_id>?mode=research`.",
+  "section": "v2.6 \u2014 Research Validation Dashboard",
+  "start_char": 14761,
+  "end_char": 15777,
+  "token_estimate": 127,
+  "metadata": {
+    "section": "v2.6 \u2014 Research Validation Dashboard"
+  }
+}

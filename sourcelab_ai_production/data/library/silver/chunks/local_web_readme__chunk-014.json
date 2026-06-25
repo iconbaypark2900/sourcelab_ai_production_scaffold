@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-014",
+  "source_id": "local_web_readme",
+  "text": "On `/runs/[runId]`:\n\n- **Compare deep links** \u2014 `?attempt=<id>&from=<id>&to=<id>` opens Run Studio\n  with attempt detail/overlay plus a pinned diff comparison. Invalid `from`/`to`\n  ids show an amber warning and fall back to selected/latest defaults. Pinned\n  dropdown changes sync to the URL via `router.replace` (other query params\n  preserved).\n- **Compare pinning UI** (Diff tab) \u2014 **Pin comparison**, **Copy comparison\n  link**, and **Clear comparison**. Pinned comparisons survive refresh; changing\n  the selected attempt does not overwrite a pinned pair unless you use a\n  quick-compare preset (Selected\u2192latest, First\u2192latest, etc.).\n- **Private attempt notes** \u2014 per-attempt textarea in attempt detail; saved to\n  `localStorage` (`sourcelab:run:<run_id>:attempt-notes`). Browser-only \u2014 not\n  synced, not proof artifacts. History rows show a \u270e indicator when a note\n  exists.\n- **Filter-aware keyboard** (History tab) \u2014 arrow keys move through the\n  **filtered visible** attempt list; Home/End jump to first/latest in that\n  filter; no-op when the filter is empty. Escape clears selection to latest\n  snapshot. Skipped while focus is in input/textarea/select.\n- **Sparkline hit targets** \u2014 larg",
+  "section": "Run Studio v1.6 \u2014 compare pinning, notes & filter-aware keyboard",
+  "start_char": 7711,
+  "end_char": 8911,
+  "token_estimate": 160,
+  "metadata": {
+    "section": "Run Studio v1.6 \u2014 compare pinning, notes & filter-aware keyboard"
+  }
+}

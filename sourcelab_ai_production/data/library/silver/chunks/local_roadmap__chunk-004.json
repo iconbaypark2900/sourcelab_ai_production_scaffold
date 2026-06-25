@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-004",
+  "source_id": "local_roadmap",
+  "text": "- Atomic claim extraction with types (definition, recommendation, risk_statement, process_step, warning, fact).\n- Evidence matching with token overlap, phrase overlap, and trust tier weighting.\n- Claim verification with support status determination.\n- Citation resolution rate calculation.\n- Conflict detection (must/must-not, safe/unsafe, RSA contradictions).\n- Human review queue generation.\n- Comprehensive grounding report with trust tier breakdown.\n- Harness validation for verification artifacts.\n- Release gate with citation resolution and high-risk claim checks.",
+  "section": "Phase 4: Verification v2",
+  "start_char": 1146,
+  "end_char": 1716,
+  "token_estimate": 72,
+  "metadata": {
+    "section": "Phase 4: Verification v2"
+  }
+}

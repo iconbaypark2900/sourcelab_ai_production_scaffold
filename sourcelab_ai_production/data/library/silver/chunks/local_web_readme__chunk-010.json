@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-010",
+  "source_id": "local_web_readme",
+  "text": "for keyboard nav and filtered export).\n- `lib/use-attempt-notes.ts` \u2014 browser-only private attempt notes (localStorage).\n- `components/*` \u2014 the diffusion-console panels (including\n  `AnswerSubmissionPanel`, `RunRefreshBar`, and `ArtifactViewer`).",
+  "section": "Architecture",
+  "start_char": 4529,
+  "end_char": 4775,
+  "token_estimate": 25,
+  "metadata": {
+    "section": "Architecture"
+  }
+}

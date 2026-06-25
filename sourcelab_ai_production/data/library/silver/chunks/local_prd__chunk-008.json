@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-008",
+  "source_id": "local_prd",
+  "text": "- All 387+ tests passing.\n- `sourcelab local-demo` completes without errors.\n- `sourcelab release check` reports status correctly.\n- Dashboard Release tab displays release information.\n- Export reports include all required sections.",
+  "section": "Success criteria",
+  "start_char": 2442,
+  "end_char": 2674,
+  "token_estimate": 32,
+  "metadata": {
+    "section": "Success criteria"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-007",
+  "source_id": "local_readme",
+  "text": "make smoke\n```",
+  "section": "or",
+  "start_char": 2848,
+  "end_char": 2862,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "or"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-003",
+  "source_id": "local_readme",
+  "text": "rch Library**; `/source-packs` \u2192 Collections; `/batches` \u2192 Study Sets (UI only) |\n| Dashboard | `sourcelab dashboard --launch` |\n| API | `sourcelab api --serve` |",
+  "section": "What Local v1 can do",
+  "start_char": 2148,
+  "end_char": 2310,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "What Local v1 can do"
+  }
+}

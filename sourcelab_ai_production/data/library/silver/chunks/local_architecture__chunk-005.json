@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-005",
+  "source_id": "local_architecture",
+  "text": "- Hashed embeddings (deterministic, no model API needed)\n- int8 compression for memory efficiency\n- Trust-tier weighting applied to scores",
+  "section": "Vector search",
+  "start_char": 795,
+  "end_char": 933,
+  "token_estimate": 20,
+  "metadata": {
+    "section": "Vector search"
+  }
+}

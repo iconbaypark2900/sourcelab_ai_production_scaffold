@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-054",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab dashboard\nsourcelab dashboard --launch",
+  "section": "Launch dashboard",
+  "start_char": 10367,
+  "end_char": 10415,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Launch dashboard"
+  }
+}

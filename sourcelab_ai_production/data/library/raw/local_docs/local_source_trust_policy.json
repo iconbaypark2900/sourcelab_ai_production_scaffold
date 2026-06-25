@@ -1,0 +1,44 @@
+{
+  "record_id": "local_source_trust_policy",
+  "origin": "local_docs",
+  "external_id": "docs/security/SOURCE_TRUST_POLICY.md",
+  "title": "Source Trust Policy",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "sources",
+    "retrieval",
+    "sourcelab",
+    "source",
+    "default",
+    "excluded"
+  ],
+  "summary": "- A: Official standards, official docs, laws, regulations, primary source material.\n- B: Peer-reviewed papers and authoritative institutional reports.\n- C: Preprints, technical reports, reputable research blogs.\n- D: Community evidence such as GitHub issues, discussions, and Stack Overflow.\n- E: General web summaries, opinion posts, and low-confidence material.",
+  "key_terms": [
+    "sources",
+    "retrieval",
+    "sourcelab",
+    "source",
+    "default",
+    "excluded",
+    "freshness",
+    "policy",
+    "quality",
+    "approval",
+    "approved",
+    "bash"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_source_trust_policy.md",
+  "checksum": "4866829ab55d139d5250cedc9daac094d96e384c248cfa405922c36f2effea2b",
+  "metadata": {
+    "relative_path": "docs/security/SOURCE_TRUST_POLICY.md"
+  }
+}

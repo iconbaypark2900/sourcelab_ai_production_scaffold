@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-009",
+  "source_id": "local_topic_backlog",
+  "text": "Run Studio **Research** mode (on run detail) validates study-readiness from on-disk artifacts: source coverage, claim support, lesson plan quality, research gaps, and next actions. **Operations** views (Operations / Detailed / Forensic) remain for attempts, proof, and harness. Batch detail adds a **Batch research matrix** comparing runs by coverage and claim metrics. See [`docs/frontend/RUN_STUDIO.md`](../frontend/RUN_STUDIO.md).",
+  "section": "Run Studio v2.6 \u2014 Research Validation Dashboard",
+  "start_char": 4783,
+  "end_char": 5216,
+  "token_estimate": 53,
+  "metadata": {
+    "section": "Run Studio v2.6 \u2014 Research Validation Dashboard"
+  }
+}

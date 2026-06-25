@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-009",
+  "source_id": "local_offline_install",
+  "text": "Plan a release upload without network access:\n\n```bash\nsourcelab release publish --dry-run\ncat artifacts/release/publish_plan.json\n```",
+  "section": "8. Publish dry-run (no upload)",
+  "start_char": 2525,
+  "end_char": 2659,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "8. Publish dry-run (no upload)"
+  }
+}

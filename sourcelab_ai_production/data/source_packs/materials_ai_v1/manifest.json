@@ -1,0 +1,31 @@
+{
+  "pack_name": "materials_ai_v1",
+  "version": "1.0.0",
+  "title": "Materials AI and Quantum Chemistry Workflows",
+  "description": "Source pack for materials discovery, quantum chemistry, CUDA-Q/VQE-style methods, surrogate models, and generative materials workflows.",
+  "created_at": "2026-06-21T03:34:12Z",
+  "sources": [
+    {
+      "source_id": "materials_ai_screening_001",
+      "filename": "materials_ai_screening_001.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local guidance)",
+      "source_type": "technical_notes",
+      "title": "Materials Discovery Screening Pipeline"
+    },
+    {
+      "source_id": "materials_ai_quantum_methods_002",
+      "filename": "materials_ai_quantum_methods_002.md",
+      "trust_tier": "C",
+      "publisher": "SourceLab (local analysis)",
+      "source_type": "project_seed",
+      "title": "Quantum Methods for Materials Workflows"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

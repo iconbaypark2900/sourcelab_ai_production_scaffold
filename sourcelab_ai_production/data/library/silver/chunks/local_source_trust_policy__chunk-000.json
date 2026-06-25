@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-000",
+  "source_id": "local_source_trust_policy",
+  "text": "- A: Official standards, official docs, laws, regulations, primary source material.\n- B: Peer-reviewed papers and authoritative institutional reports.\n- C: Preprints, technical reports, reputable research blogs.\n- D: Community evidence such as GitHub issues, discussions, and Stack Overflow.\n- E: General web summaries, opinion posts, and low-confidence material.",
+  "section": "Trust tiers",
+  "start_char": 39,
+  "end_char": 402,
+  "token_estimate": 49,
+  "metadata": {
+    "section": "Trust tiers"
+  }
+}

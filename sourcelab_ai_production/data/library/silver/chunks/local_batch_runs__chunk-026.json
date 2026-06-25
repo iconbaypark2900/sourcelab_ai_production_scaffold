@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-026",
+  "source_id": "local_batch_runs",
+  "text": "See [`examples/batch_pqc.json`](../../examples/batch_pqc.json).",
+  "section": "Example config",
+  "start_char": 9942,
+  "end_char": 10005,
+  "token_estimate": 2,
+  "metadata": {
+    "section": "Example config"
+  }
+}

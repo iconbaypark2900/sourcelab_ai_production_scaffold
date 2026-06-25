@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-011",
+  "source_id": "local_topic_backlog",
+  "text": "Three domain starter packs have topic-specific research plans:\n\n| Pack | Example topic |\n|------|----------------|\n| `agentic_engineering_v1` | multi-agent software engineering control plane |\n| `quantum_finance_v1` | quantum hybrid portfolio optimizer |\n| `biomedical_ai_v1` | clinical evidence graph assistant |\n\nEach lesson run writes research artifacts and updates topic profiles on answer submit. Use `sourcelab research coverage --run latest` and `sourcelab research genericness --run latest` to inspect the latest run.",
+  "section": "Library-Aware Research Engine v1",
+  "start_char": 5865,
+  "end_char": 6390,
+  "token_estimate": 70,
+  "metadata": {
+    "section": "Library-Aware Research Engine v1"
+  }
+}

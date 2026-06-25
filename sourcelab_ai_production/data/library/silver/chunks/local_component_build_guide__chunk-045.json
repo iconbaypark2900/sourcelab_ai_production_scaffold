@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-045",
+  "source_id": "local_component_build_guide",
+  "text": "latest = get_latest_run(Path.cwd())",
+  "section": "Get latest run summary",
+  "start_char": 9743,
+  "end_char": 9778,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Get latest run summary"
+  }
+}

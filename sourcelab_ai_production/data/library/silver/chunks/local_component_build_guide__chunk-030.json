@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-030",
+  "source_id": "local_component_build_guide",
+  "text": "```bash\nsourcelab lesson create --topic \"post-quantum cryptography migration\" --difficulty 3 --format architecture_review\nsourcelab lesson show --latest\n```",
+  "section": "CLI usage",
+  "start_char": 6017,
+  "end_char": 6173,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "CLI usage"
+  }
+}

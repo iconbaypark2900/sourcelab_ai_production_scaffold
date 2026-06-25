@@ -1,0 +1,50 @@
+{
+  "pack_name": "ai_safety_v1",
+  "version": "1.0.0",
+  "title": "AI Safety and Governance Pack",
+  "description": "Curated local summaries for AI risk taxonomy, grounding, red-team testing, model evaluation, and governance",
+  "created_at": "2026-06-20T00:00:00Z",
+  "sources": [
+    {
+      "source_id": "ai_risk_taxonomy",
+      "filename": "ai_risk_taxonomy.md",
+      "trust_tier": "A",
+      "publisher": "SourceLab (local summary)",
+      "source_type": "risk_framework"
+    },
+    {
+      "source_id": "evals_and_benchmarks",
+      "filename": "evals_and_benchmarks.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local summary)",
+      "source_type": "technical_notes"
+    },
+    {
+      "source_id": "model_governance_notes",
+      "filename": "model_governance_notes.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local summary)",
+      "source_type": "governance_guide"
+    },
+    {
+      "source_id": "hallucination_and_grounding",
+      "filename": "hallucination_and_grounding.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local summary)",
+      "source_type": "technical_notes"
+    },
+    {
+      "source_id": "red_team_testing_notes",
+      "filename": "red_team_testing_notes.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (local summary)",
+      "source_type": "testing_guide"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-014",
+  "source_id": "local_readme",
+  "text": "cd apps/web && npm install && npm run dev   # http://localhost:3000\n```\n\nOpen `/runs/new` to create a run from the browser (topic + source pack + lesson\nformat), `/batches/new` to create compared batch runs with progress UX and presets (v2.1), or open an existing run at `/runs/[runId]`, paste a learner answer (or load a sample) into the\n**Submit answer** panel, and submit. The answer is scored server-side via the same\ndeterministic path as `sourcelab answer submit` (`POST /learning/answers`), and the\ntimeline, learning update, and artifact matrix refresh automatically. A top control\nstrip exposes a manual **Refresh** button, an **auto-refresh** toggle (5s), the\nlast-updated time, and an API connection status (cached data stays on screen if the\nbackend goes offline). See [docs/frontend/RUN_STUDIO.md](docs/frontend/RUN_STUDIO.md) and [docs/frontend/BATCH_RUNS.md](docs/frontend/BATCH_RUNS.md).",
+  "section": "2. Frontend (separate shell)",
+  "start_char": 3753,
+  "end_char": 4656,
+  "token_estimate": 123,
+  "metadata": {
+    "section": "2. Frontend (separate shell)"
+  }
+}

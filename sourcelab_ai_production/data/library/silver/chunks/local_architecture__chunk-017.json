@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-017",
+  "source_id": "local_architecture",
+  "text": "Retrieval feeds Generation v2, which creates a complete lesson package.",
+  "section": "Generation v2 architecture",
+  "start_char": 3498,
+  "end_char": 3569,
+  "token_estimate": 10,
+  "metadata": {
+    "section": "Generation v2 architecture"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_threat_model::chunk-001",
+  "source_id": "local_threat_model",
+  "text": "| Threat | Mitigation |\n|---|---|\n| Prompt injection in source text | Treat source text as data, not instructions |\n| Unsupported claims | Claim verifier + harness gate + verification v2 |\n| Stale sources | Freshness metadata and review queue |\n| Weak sources | Trust-tier weighting and warnings |\n| Cross-user data leak | Workspace isolation |\n| Hallucinated answer keys | No-source/no-claim policy |\n| Hidden model failure | Proof bundle and trace logs |\n| Contradictory claims | Conflict detector + human review |\n| Low citation resolution | Citation resolution gate |\n| High-risk unsupported claims | Release gate blocks on high-risk unsupported |",
+  "section": "Threats",
+  "start_char": 193,
+  "end_char": 844,
+  "token_estimate": 111,
+  "metadata": {
+    "section": "Threats"
+  }
+}

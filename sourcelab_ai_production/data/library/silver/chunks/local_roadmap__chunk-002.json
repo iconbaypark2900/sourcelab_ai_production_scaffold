@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-002",
+  "source_id": "local_roadmap",
+  "text": "- Real embedding backend.\n- Qdrant or pgvector.\n- BM25 keyword search.\n- Hybrid search.\n- Reranker.\n- Compression adapters.",
+  "section": "Phase 2: Real retrieval",
+  "start_char": 529,
+  "end_char": 652,
+  "token_estimate": 20,
+  "metadata": {
+    "section": "Phase 2: Real retrieval"
+  }
+}

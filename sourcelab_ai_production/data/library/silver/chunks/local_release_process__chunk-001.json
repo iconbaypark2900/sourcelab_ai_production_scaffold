@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-001",
+  "source_id": "local_release_process",
+  "text": "- Python 3.10+\n- Project root with editable install: `pip install -e \".[dev,api,ui,ingest,retrieval,models]\"`",
+  "section": "Prerequisites",
+  "start_char": 164,
+  "end_char": 273,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "Prerequisites"
+  }
+}

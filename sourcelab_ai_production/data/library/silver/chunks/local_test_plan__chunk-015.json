@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-015",
+  "source_id": "local_test_plan",
+  "text": "- No sources available.\n- Missing source metadata.\n- Unsupported high-risk claim.\n- Broken citation.\n- Empty user answer.\n- Prompt injection inside source text.\n- Empty search query returns empty results.",
+  "section": "Negative tests",
+  "start_char": 7162,
+  "end_char": 7366,
+  "token_estimate": 32,
+  "metadata": {
+    "section": "Negative tests"
+  }
+}

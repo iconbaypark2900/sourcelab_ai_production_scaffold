@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-015",
+  "source_id": "local_release_process",
+  "text": "When all steps pass:\n\n```bash\ngit tag -a local-v1.0.0 -m \"SourceLab Local v1.0 GA\"\n```\n\nPush tag only when ready:\n\n```bash\ngit push origin local-v1.0.0\n```",
+  "section": "12. Tag (manual \u2014 do not automate)",
+  "start_char": 2360,
+  "end_char": 2515,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "12. Tag (manual \u2014 do not automate)"
+  }
+}

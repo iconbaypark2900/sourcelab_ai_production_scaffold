@@ -1,0 +1,77 @@
+[
+  {
+    "claim": "AI risk taxonomies help teams classify capability, misuse, alignment, and systemic risks.",
+    "expected_status": "supported",
+    "claim_type": "definition",
+    "severity": "low",
+    "description": "Supported taxonomy claim"
+  },
+  {
+    "claim": "Benchmark scores alone do not guarantee safe production deployment.",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "medium",
+    "description": "Supported benchmark limitation claim"
+  },
+  {
+    "claim": "Model governance should include approval workflows and audit trails.",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported governance claim"
+  },
+  {
+    "claim": "Grounding ties model outputs to approved sources and citation checks.",
+    "expected_status": "supported",
+    "claim_type": "definition",
+    "severity": "low",
+    "description": "Supported grounding claim"
+  },
+  {
+    "claim": "Red-team testing explores adversarial prompts and policy violations.",
+    "expected_status": "supported",
+    "claim_type": "definition",
+    "severity": "low",
+    "description": "Supported red-team claim"
+  },
+  {
+    "claim": "Hallucinations never happen when using retrieval.",
+    "expected_status": "unsupported",
+    "claim_type": "fact",
+    "severity": "high",
+    "should_block": true,
+    "description": "Unsupported claim about hallucinations"
+  },
+  {
+    "claim": "Benchmark scores guarantee safety in all deployments.",
+    "expected_status": "unsupported",
+    "claim_type": "fact",
+    "severity": "high",
+    "should_block": true,
+    "description": "Unsupported benchmark guarantee claim"
+  },
+  {
+    "claim": "Red team testing is unnecessary for LLM systems.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "Unsupported claim skipping red team"
+  },
+  {
+    "claim": "Governance can be skipped for high-impact model deployments.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "Unsupported governance skip claim"
+  },
+  {
+    "claim": "AI systems are perfectly safe without monitoring or evals.",
+    "expected_status": "unsupported",
+    "claim_type": "fact",
+    "severity": "high",
+    "should_block": true,
+    "description": "Unsupported perfect safety claim"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-060",
+  "source_id": "local_component_build_guide",
+  "text": "pip install -e \".[ui]\"",
+  "section": "Install with UI extras",
+  "start_char": 10770,
+  "end_char": 10792,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Install with UI extras"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "record_id": "local_architecture",
+  "origin": "local_docs",
+  "external_id": "docs/engineering/ARCHITECTURE.md",
+  "title": "Architecture",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "model",
+    "claims",
+    "layer",
+    "search",
+    "json",
+    "lesson"
+  ],
+  "summary": "SourceLab AI is designed as a modular source-grounded learning platform.",
+  "key_terms": [
+    "model",
+    "claims",
+    "layer",
+    "search",
+    "json",
+    "lesson",
+    "sourcelab",
+    "backend",
+    "deterministic",
+    "trust",
+    "verification",
+    "answer"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_architecture.md",
+  "checksum": "d4be97d3d98bab45777a678678d5a62fb9c3cfc0296342884c330d937e54faeb",
+  "metadata": {
+    "relative_path": "docs/engineering/ARCHITECTURE.md"
+  }
+}

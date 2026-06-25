@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-039",
+  "source_id": "local_component_build_guide",
+  "text": "```bash\nsourcelab verify latest\nsourcelab verify run <run_id>\nsourcelab verify claims --latest\nsourcelab review queue --latest\n```",
+  "section": "CLI usage",
+  "start_char": 8353,
+  "end_char": 8483,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "CLI usage"
+  }
+}

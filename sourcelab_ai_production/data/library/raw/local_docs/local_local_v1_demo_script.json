@@ -1,0 +1,44 @@
+{
+  "record_id": "local_local_v1_demo_script",
+  "origin": "local_docs",
+  "external_id": "docs/demo/LOCAL_V1_DEMO_SCRIPT.md",
+  "title": "SourceLab Local v1 Demo Script",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "sourcelab",
+    "bash",
+    "act",
+    "latest",
+    "min",
+    "demo"
+  ],
+  "summary": "Presenter script for a 15\u201320 minute live demo of SourceLab Local v1.0 RC.",
+  "key_terms": [
+    "sourcelab",
+    "bash",
+    "act",
+    "latest",
+    "min",
+    "demo",
+    "sources",
+    "claims",
+    "pqc_v1",
+    "release",
+    "show",
+    "evals"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_local_v1_demo_script.md",
+  "checksum": "be3a02ef6dd7742bc6bd1588c1a493a298e72fe308095ce7ddcf3cf09894107d",
+  "metadata": {
+    "relative_path": "docs/demo/LOCAL_V1_DEMO_SCRIPT.md"
+  }
+}

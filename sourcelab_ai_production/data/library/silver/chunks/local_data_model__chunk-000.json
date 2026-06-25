@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_data_model::chunk-000",
+  "source_id": "local_data_model",
+  "text": "```text\nsources\nsource_chunks\nlessons\nlesson_claims\nanswers\nanswer_reviews\nskill_profiles\nnext_tasks\nruns\nrun_artifacts\nmodel_traces\n```",
+  "section": "Tables",
+  "start_char": 25,
+  "end_char": 161,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "Tables"
+  }
+}

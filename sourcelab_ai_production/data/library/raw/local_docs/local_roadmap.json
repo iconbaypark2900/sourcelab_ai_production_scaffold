@@ -1,0 +1,44 @@
+{
+  "record_id": "local_roadmap",
+  "origin": "local_docs",
+  "external_id": "docs/engineering/ROADMAP.md",
+  "title": "Roadmap",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "source",
+    "release",
+    "phase",
+    "eval",
+    "golden",
+    "answer"
+  ],
+  "summary": "- Production project tree.\n- Source registry.\n- Local compressed search.\n- Source-grounded lesson generator.\n- Claim verifier.\n- Proof bundle.\n- Answer scorer.\n- Next-task selector.\n- Tests and docs.",
+  "key_terms": [
+    "source",
+    "release",
+    "phase",
+    "eval",
+    "golden",
+    "answer",
+    "report",
+    "verification",
+    "checks",
+    "claim",
+    "cli",
+    "commands"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_roadmap.md",
+  "checksum": "4c81bdf325cf8ec09112dac23576c3c18b3bc5e50b2eec9e7f9de1c0ee7b6212",
+  "metadata": {
+    "relative_path": "docs/engineering/ROADMAP.md"
+  }
+}

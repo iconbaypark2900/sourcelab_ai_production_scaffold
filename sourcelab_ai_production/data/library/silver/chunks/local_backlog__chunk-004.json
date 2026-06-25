@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-004",
+  "source_id": "local_backlog",
+  "text": "- [x] Add learning schemas (AnswerSubmission, RubricCriterionScore, AnswerScoreBreakdown, AnswerReviewV2, SkillAttempt, SkillProfileV2, MasteryUpdate, WeaknessRecord, NextTaskRationale, LearningReport, SourceGroundingReview).\n- [x] Add answer scorer v2 with rubric-based scoring.\n- [x] Add source grounding checker comparing learner answers against sources.\n- [x] Add skill profile v2 with criterion-level mastery and persistence.\n- [x] Add deterministic mastery update with difficulty multipliers.\n- [x] Add profile-aware next-task selector with weakness-driven focus.\n- [x] Add learning report generator with markdown output.\n- [x] Add harness validation for learning v2 artifacts.\n- [x] Add CLI commands (answer submit, profile show, profile topic, learning report).\n- [ ] Add skill profile persistence to Postgres.\n- [ ] Add rubric-based LLM judge for production scoring.\n- [ ] Add curriculum dashboard UI.",
+  "section": "Epic 5: Learning v2",
+  "start_char": 1671,
+  "end_char": 2581,
+  "token_estimate": 122,
+  "metadata": {
+    "section": "Epic 5: Learning v2"
+  }
+}

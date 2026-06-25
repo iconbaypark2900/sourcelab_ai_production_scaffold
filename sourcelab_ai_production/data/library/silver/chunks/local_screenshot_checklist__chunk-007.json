@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-007",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Streamlit home / latest run summary tab\n- [ ] Release status tab (if present)\n- [ ] Run explorer with artifact list",
+  "section": "Dashboard",
+  "start_char": 1335,
+  "end_char": 1456,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Dashboard"
+  }
+}

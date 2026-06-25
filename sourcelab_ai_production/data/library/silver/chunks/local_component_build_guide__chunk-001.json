@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-001",
+  "source_id": "local_component_build_guide",
+  "text": "- `src/sourcelab/sources/registry.py` - Registry class with load/save/validate\n- `src/sourcelab/sources/schemas.py` - Pydantic schemas for ingestion\n- `src/sourcelab/sources/ingest_local.py` - Local file ingestion (MD, TXT, PDF)\n- `src/sourcelab/sources/ingest_url.py` - URL ingestion\n- `src/sourcelab/sources/freshness.py` - Source freshness checks\n- `src/sourcelab/sources/quality.py` - Source quality reports\n- `data/source_registry.json` - Persistent registry storage\n- `src/sourcelab/sources/chunker.py` - Source chunking",
+  "section": "Key files",
+  "start_char": 126,
+  "end_char": 652,
+  "token_estimate": 51,
+  "metadata": {
+    "section": "Key files"
+  }
+}

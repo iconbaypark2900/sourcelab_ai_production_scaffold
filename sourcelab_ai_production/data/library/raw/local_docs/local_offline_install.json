@@ -1,0 +1,44 @@
+{
+  "record_id": "local_offline_install",
+  "origin": "local_docs",
+  "external_id": "docs/operations/OFFLINE_INSTALL.md",
+  "title": "SourceLab Local \u2014 Offline Install Guide",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "release",
+    "sourcelab",
+    "bash",
+    "artifacts",
+    "install",
+    "local"
+  ],
+  "summary": "Install and verify SourceLab Local without internet access after obtaining a source checkout or release bundle.",
+  "key_terms": [
+    "release",
+    "sourcelab",
+    "bash",
+    "artifacts",
+    "install",
+    "local",
+    "sha256sums",
+    "bundle",
+    "file",
+    "lock",
+    "offline",
+    "pip"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_offline_install.md",
+  "checksum": "ebc9b17391518fec08335b29d4580ddd87a9fd5159692ea810f20f6637776380",
+  "metadata": {
+    "relative_path": "docs/operations/OFFLINE_INSTALL.md"
+  }
+}

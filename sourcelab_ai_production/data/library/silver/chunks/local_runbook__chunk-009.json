@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-009",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources archive <source_id>",
+  "section": "Archive a source",
+  "start_char": 752,
+  "end_char": 789,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Archive a source"
+  }
+}

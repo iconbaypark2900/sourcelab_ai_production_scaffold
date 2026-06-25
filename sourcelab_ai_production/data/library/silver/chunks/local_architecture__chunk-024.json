@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-024",
+  "source_id": "local_architecture",
+  "text": "| Type | Description | Weight |\n|------|-------------|--------|\n| definition | Definitions and explanations | 1.0 |\n| fact | Factual statements | 0.9 |\n| warning | Warnings and cautions | 0.95 |\n| risk_statement | Risk assessments | 0.9 |\n| recommendation | Recommendations | 0.8 |\n| process_step | Process steps | 0.7 |\n| unsupported_example | Examples without support | 0.3 |",
+  "section": "Claim types",
+  "start_char": 5771,
+  "end_char": 6148,
+  "token_estimate": 66,
+  "metadata": {
+    "section": "Claim types"
+  }
+}

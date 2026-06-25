@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-038",
+  "source_id": "local_component_build_guide",
+  "text": "The system detects:\n- Must/must-not contradictions\n- Safe/unsafe contradictions\n- RSA-related contradictions (quantum-safe vs vulnerable)",
+  "section": "Conflict detection",
+  "start_char": 8199,
+  "end_char": 8336,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "Conflict detection"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-005",
+  "source_id": "local_prd",
+  "text": "- 99%+ lesson schema validity.\n- 99%+ citation resolution.\n- 0 unsupported high-risk claims in final answer keys.\n- 100% source metadata completeness.\n- 95%+ full-flow integration pass rate.\n- 80%+ human-rated lesson usefulness in the first review set.",
+  "section": "Success metrics",
+  "start_char": 1603,
+  "end_char": 1855,
+  "token_estimate": 39,
+  "metadata": {
+    "section": "Success metrics"
+  }
+}

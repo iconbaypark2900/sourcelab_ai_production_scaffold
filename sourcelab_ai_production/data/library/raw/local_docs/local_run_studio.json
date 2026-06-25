@@ -1,0 +1,44 @@
+{
+  "record_id": "local_run_studio",
+  "origin": "local_docs",
+  "external_id": "docs/frontend/RUN_STUDIO.md",
+  "title": "Run Studio \u2014 Next.js 16 Frontend",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "runs",
+    "run",
+    "get",
+    "sourcelab",
+    "answer",
+    "compare"
+  ],
+  "summary": "The Run Studio (a.k.a. Generation Console) is a Next.js 16 web UI that\nvisualizes SourceLab runs as a progressive, source-grounded pipeline. It lives\nunder apps/web/(../../apps/web) and talks to the existing FastAPI backend\nover HTTP. The Streamlit dashboard (src/sourcelab/ui/dashboard.py) is\nunchanged and remains the fallback/debug UI.",
+  "key_terms": [
+    "runs",
+    "run",
+    "get",
+    "sourcelab",
+    "answer",
+    "compare",
+    "latest",
+    "research",
+    "attempt",
+    "batch",
+    "json",
+    "run_id"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_run_studio.md",
+  "checksum": "8ae43c727b05302f273be97fb7952840f829e20581c052c685302a5a75a36493",
+  "metadata": {
+    "relative_path": "docs/frontend/RUN_STUDIO.md"
+  }
+}

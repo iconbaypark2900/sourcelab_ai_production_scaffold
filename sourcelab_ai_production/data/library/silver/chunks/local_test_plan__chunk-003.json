@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-003",
+  "source_id": "local_test_plan",
+  "text": "rchive_source returns False when source not found.\n- get_pending_sources returns sources with pending_review status.\n- get_active_approved_sources returns only active and approved sources.\n- filter_for_retrieval excludes rejected sources by default.\n- check_source_freshness classifies recent sources as fresh.\n- check_source_freshness classifies medium-age sources as aging.\n- check_source_freshness classifies old sources as stale.\n- check_source_freshness returns unknown when no retrieved_at.\n- check_all_sources_freshness returns results for all sources.\n- format_freshness_report returns a formatted report.\n- generate_quality_report detects issues in source registry.\n- generate_quality_report detects duplicate hashes.\n- generate_quality_report detects missing path and URL.\n- format_quality_report returns a formatted report.\n- Pending sources are excluded from default retrieval.\n- Rejected sources are excluded from retrieval.",
+  "section": "Source ingestion v2 unit tests",
+  "start_char": 2466,
+  "end_char": 3403,
+  "token_estimate": 110,
+  "metadata": {
+    "section": "Source ingestion v2 unit tests"
+  }
+}

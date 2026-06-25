@@ -1,0 +1,40 @@
+[
+  {
+    "query": "source-grounded document assistant",
+    "expected_source_ids": [
+      "rag_doc_intelligence_grounding_001",
+      "rag_doc_intelligence_dedup_002"
+    ],
+    "expected_terms": [
+      "source",
+      "grounded",
+      "document"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for source-grounded document assistant"
+  },
+  {
+    "query": "adaptive graph RAG",
+    "expected_source_ids": [
+      "rag_doc_intelligence_grounding_001"
+    ],
+    "expected_terms": [
+      "adaptive",
+      "graph",
+      "rag"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for adaptive graph RAG"
+  },
+  {
+    "query": "document AI",
+    "expected_source_ids": [
+      "rag_doc_intelligence_dedup_002"
+    ],
+    "expected_terms": [
+      "document"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

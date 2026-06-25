@@ -1,0 +1,7 @@
+{
+  "A": "Official standards, laws, regulations, primary docs, official model cards/docs.",
+  "B": "Peer-reviewed papers or authoritative institutional reports.",
+  "C": "Preprints, technical reports, reputable research blogs.",
+  "D": "Community implementation evidence such as GitHub issues/discussions.",
+  "E": "General web summaries, opinion posts, low-confidence source material."
+}

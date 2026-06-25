@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-058",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab export latest --format markdown\nsourcelab export latest --format html\nsourcelab export <run_id> --format markdown\n```",
+  "section": "Export reports",
+  "start_char": 10590,
+  "end_char": 10717,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Export reports"
+  }
+}

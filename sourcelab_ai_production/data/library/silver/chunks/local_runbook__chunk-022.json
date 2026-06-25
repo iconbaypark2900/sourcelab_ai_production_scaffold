@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-022",
+  "source_id": "local_runbook",
+  "text": "sourcelab dashboard\nsourcelab dashboard --launch\n```",
+  "section": "Or use the CLI shortcut",
+  "start_char": 1431,
+  "end_char": 1483,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "Or use the CLI shortcut"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_observability::chunk-000",
+  "source_id": "local_observability",
+  "text": "Every run should log:\n\n- run_id\n- user/workspace\n- topic\n- sources retrieved\n- model backend\n- prompt version\n- generated artifacts\n- claim verification result\n- answer score\n- next task decision\n- latency\n- errors\n\nProduction tools may include:\n\n- OpenTelemetry\n- Sentry\n- Prometheus/Grafana\n- Langfuse/Phoenix-style LLM tracing",
+  "section": "Observability",
+  "start_char": 17,
+  "end_char": 346,
+  "token_estimate": 51,
+  "metadata": {
+    "section": "Observability"
+  }
+}

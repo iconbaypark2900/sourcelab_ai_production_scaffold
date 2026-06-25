@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-027",
+  "source_id": "local_runbook",
+  "text": "Check `data/demo_sources/` or run `sourcelab ingest-local` to add sources.",
+  "section": "No sources found",
+  "start_char": 1809,
+  "end_char": 1883,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "No sources found"
+  }
+}

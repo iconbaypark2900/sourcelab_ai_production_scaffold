@@ -1,0 +1,27 @@
+{
+  "name": "materials_ai_v1",
+  "title": "Materials AI and Quantum Chemistry Workflows",
+  "version": "1.0.0",
+  "description": "Source pack for materials discovery, quantum chemistry, CUDA-Q/VQE-style methods, surrogate models, and generative materials workflows.",
+  "domain": "materials_ai",
+  "required_for_strict_release": false,
+  "sources_dir": "sources",
+  "evals_dir": "evals",
+  "topics": [
+    "materials discovery",
+    "quantum chemistry",
+    "CUDA-Q",
+    "VQE",
+    "ADAPT-VQE",
+    "surrogate modeling",
+    "MatterGen-style workflows"
+  ],
+  "example_lessons": [
+    "materials discovery with quantum AI",
+    "ADAPT-VQE materials workflow",
+    "surrogate model for materials screening",
+    "quantum chemistry evidence workflow"
+  ],
+  "created_by": "bootstrap_sourcelab_source_packs.py",
+  "created_at": "2026-06-21T03:32:34+00:00"
+}

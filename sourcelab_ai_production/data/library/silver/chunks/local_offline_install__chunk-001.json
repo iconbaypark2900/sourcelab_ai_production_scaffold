@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-001",
+  "source_id": "local_offline_install",
+  "text": "- Python 3.10+\n- Local clone or extracted release bundle\n- Optional: GPG for signature verification",
+  "section": "Prerequisites",
+  "start_char": 174,
+  "end_char": 273,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "Prerequisites"
+  }
+}

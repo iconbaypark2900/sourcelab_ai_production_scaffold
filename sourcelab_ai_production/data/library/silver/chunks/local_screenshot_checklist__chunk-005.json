@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-005",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: `sourcelab evals latest --pack pqc_v1` \u2014 45/45 or 100% pass rate\n- [ ] Terminal: `sourcelab verify-release --strict` \u2014 `\"status\": \"PASS\"`\n- [ ] Terminal: `sourcelab release manifest` \u2014 version, doctor, golden eval fields",
+  "section": "Evals & release",
+  "start_char": 952,
+  "end_char": 1188,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "Evals & release"
+  }
+}

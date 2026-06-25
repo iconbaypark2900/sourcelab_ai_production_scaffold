@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-011",
+  "source_id": "local_batch_runs",
+  "text": "`BatchAnswerMatrix` shortcuts (batch detail):\n\n- **Compare latest vs latest** \u2014 first two runs with attempts, both latest\n- **Compare best vs best** \u2014 first two runs with attempts, both best\n- **vs best run** (per row) \u2014 this run's latest vs batch best run's best attempt\n- Scrolls to `#cross-run-answer-diff` with preselected runs/attempts",
+  "section": "Matrix shortcuts to cross-run diff (v2.5)",
+  "start_char": 4159,
+  "end_char": 4499,
+  "token_estimate": 53,
+  "metadata": {
+    "section": "Matrix shortcuts to cross-run diff (v2.5)"
+  }
+}

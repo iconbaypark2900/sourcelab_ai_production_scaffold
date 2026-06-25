@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "A CSPM workflow continuously discovers cloud assets, evaluates configuration against benchmarks, prioritizes findings by exposure, and tracks remediation to closure. Key practices include: CSPM findings should be prioritized by exposure and blast radius rather than only severity; Configuration checks should map to a recognized benchmark such as CIS or NIST.",
+    "topic": "cloud security posture management review",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "cloud security posture management review",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-005",
+  "source_id": "local_web_readme",
+  "text": "```bash\ncd apps/web\ncp .env.example .env.local      # sets NEXT_PUBLIC_SOURCELAB_API_URL\nnpm install\nnpm run dev                     # http://localhost:3000\n```\n\nIf the backend is offline, every page renders a clear **connection card** with\nthe command to start it \u2014 the UI never crashes.",
+  "section": "2. Start the frontend (Next.js)",
+  "start_char": 1251,
+  "end_char": 1539,
+  "token_estimate": 40,
+  "metadata": {
+    "section": "2. Start the frontend (Next.js)"
+  }
+}

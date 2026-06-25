@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-009",
+  "source_id": "local_batch_runs",
+  "text": "`BatchReportPreview` on batch detail (after Compare, before debug):\n\n- Loads `GET /batches/{batch_id}/report` \u2014 no direct filesystem reads from Next.js\n- Status pill: available / empty / not generated / load failed\n- Rendered markdown preview + raw markdown toggle\n- **Copy report markdown**, **Download report markdown** (`GET \u2026/report/download`)\n- **Refresh report** + loaded timestamp; retries on failure via connection card\n- Unified batch refresh also triggers report reload",
+  "section": "Batch report preview (v2.4)",
+  "start_char": 2918,
+  "end_char": 3397,
+  "token_estimate": 68,
+  "metadata": {
+    "section": "Batch report preview (v2.4)"
+  }
+}

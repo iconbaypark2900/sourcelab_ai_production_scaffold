@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-001",
+  "source_id": "local_batch_runs",
+  "text": "```bash",
+  "section": "CLI",
+  "start_char": 441,
+  "end_char": 448,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "CLI"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-008",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources reject <source_id> --reason \"Low quality\"",
+  "section": "Reject a source",
+  "start_char": 672,
+  "end_char": 731,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Reject a source"
+  }
+}

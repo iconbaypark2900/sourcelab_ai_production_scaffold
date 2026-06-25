@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-000",
+  "source_id": "local_batch_runs",
+  "text": "Run Studio v2.5 adds **attempt-aware cross-run diff**, **batch quick submit presets**, **unified demo bundle export**, and **matrix shortcuts to cross-run diff**. v2.4 (report preview, submit missing only, per-run custom text, export/copy) and v2.3 polish are preserved. Everything remains local-first, filesystem-backed, and synchronous \u2014 no auth, database, Redis, workers, or WebSockets.",
+  "section": "Batch Runs & Compare \u2014 Run Studio v2.5",
+  "start_char": 42,
+  "end_char": 431,
+  "token_estimate": 50,
+  "metadata": {
+    "section": "Batch Runs & Compare \u2014 Run Studio v2.5"
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "query": "quantum hybrid portfolio optimizer",
+    "expected_source_ids": [
+      "quantum_finance_portfolio_001",
+      "quantum_finance_risk_002"
+    ],
+    "expected_terms": [
+      "quantum",
+      "hybrid",
+      "portfolio"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for quantum hybrid portfolio optimizer"
+  },
+  {
+    "query": "quantum portfolio optimization",
+    "expected_source_ids": [
+      "quantum_finance_portfolio_001"
+    ],
+    "expected_terms": [
+      "quantum",
+      "portfolio",
+      "optimization"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for quantum portfolio optimization"
+  },
+  {
+    "query": "QAOA",
+    "expected_source_ids": [
+      "quantum_finance_risk_002"
+    ],
+    "expected_terms": [
+      "qaoa"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

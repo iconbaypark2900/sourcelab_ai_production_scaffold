@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-057",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab runs show latest\nsourcelab runs show <run_id>",
+  "section": "Explore a specific run",
+  "start_char": 10516,
+  "end_char": 10571,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "Explore a specific run"
+  }
+}

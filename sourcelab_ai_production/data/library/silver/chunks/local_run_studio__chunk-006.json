@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-006",
+  "source_id": "local_run_studio",
+  "text": "Minimal, in-scope additions:\n\n1. **`GET /runs/{run_id}/artifacts/{artifact_name}`** \u2014 a read-only endpoint\n   returning a single artifact's parsed JSON (or markdown/text). The existing\n   inventory endpoint only returns names + hashes, so this is needed to render\n   the evidence field, claim denoising table, citation locking, and forensic\n   raw-JSON panels. It reuses the dashboard loaders and refuses path traversal.\n2. **`POST /lessons/`** (enriched, v1.9) \u2014 synchronous run creation wrapping\n   `run_lesson_create`. Requires `topic` and `source_pack`; validates the pack,\n   returns `run_id`, harness/proof status, artifact count, and `run_url`.\n3. **`sourcelab api routes`** \u2014 a CLI subcommand that enumerates the FastAPI\n   routes from the OpenAPI schema (used during development and acceptance).\n4. **`POST /learning/answers`** (enriched) \u2014 the existing answer endpoint was\n   thin (always returned `score=0.0`) and required `topic`. v1.1 makes `topic`\n   optional (resolved from the run manifest), accepts `run_id: \"latest\"` (and a\n   `user_id`), resolves `latest` to a concrete run, returns the transparent\n   learning metrics (`overall_score`, `rubric_alignment_score`, `uncapped_score`,",
+  "section": "Backend additions made for this UI",
+  "start_char": 3790,
+  "end_char": 4989,
+  "token_estimate": 148,
+  "metadata": {
+    "section": "Backend additions made for this UI"
+  }
+}

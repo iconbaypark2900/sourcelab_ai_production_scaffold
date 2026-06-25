@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-005",
+  "source_id": "local_offline_install",
+  "text": "```bash\nsourcelab release sbom\nsourcelab release attest\ncat artifacts/release/sbom-local-v1.json\ncat artifacts/release/release_attestation.json\n```\n\nThe attestation includes hashes for the bundle zip, checksums file, and SBOM, plus source pack and eval summary references.",
+  "section": "4. SBOM and attestation inspection",
+  "start_char": 1208,
+  "end_char": 1480,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "4. SBOM and attestation inspection"
+  }
+}

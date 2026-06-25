@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-032",
+  "source_id": "local_component_build_guide",
+  "text": "The rubric includes weighted criteria:\n- topic_relevance (0.20)\n- source_grounding (0.25)\n- practical_reasoning (0.20)\n- uncertainty_control (0.15)\n- trap_avoidance (0.10)\n- clarity (0.05)\n- citation_use_of_evidence (0.05)",
+  "section": "Rubric criteria",
+  "start_char": 6460,
+  "end_char": 6682,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Rubric criteria"
+  }
+}

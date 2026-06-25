@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-000",
+  "source_id": "local_release_process",
+  "text": "Step-by-step guide for tagging **SourceLab Local v1.0 GA**. Do not run `git tag` until all steps pass.",
+  "section": "SourceLab Local v1.0 \u2014 Release Process",
+  "start_char": 42,
+  "end_char": 144,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "SourceLab Local v1.0 \u2014 Release Process"
+  }
+}

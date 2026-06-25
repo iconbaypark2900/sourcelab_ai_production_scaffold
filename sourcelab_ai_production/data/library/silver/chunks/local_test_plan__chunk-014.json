@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-014",
+  "source_id": "local_test_plan",
+  "text": "Fixed topic:\n- post-quantum cryptography migration\n\nExpected:\n- lesson generated\n- grounding report created\n- harness passes\n- answer review created\n- next task selected\n- verification report created\n- citation resolution calculated\n- human review queue generated (if needed)",
+  "section": "Golden tests",
+  "start_char": 6866,
+  "end_char": 7141,
+  "token_estimate": 40,
+  "metadata": {
+    "section": "Golden tests"
+  }
+}

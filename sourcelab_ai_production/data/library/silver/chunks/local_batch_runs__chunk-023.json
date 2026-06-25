@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-023",
+  "source_id": "local_batch_runs",
+  "text": "Built-in starters on `/batches/new`:\n\n- PQC migration comparison\n- AI safety policy comparison\n- Crypto inventory readiness\n\nUsers can save/delete custom presets in `localStorage` (browser-local only).",
+  "section": "Batch presets (localStorage)",
+  "start_char": 8938,
+  "end_char": 9139,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Batch presets (localStorage)"
+  }
+}

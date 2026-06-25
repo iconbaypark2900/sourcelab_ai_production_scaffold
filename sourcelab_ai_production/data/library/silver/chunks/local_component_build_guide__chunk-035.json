@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-035",
+  "source_id": "local_component_build_guide",
+  "text": "- `definition` - Definitions and explanations\n- `recommendation` - Recommendations and best practices\n- `risk_statement` - Risk assessments and warnings\n- `process_step` - Process steps and procedures\n- `warning` - Warnings and cautions\n- `fact` - Factual statements\n- `unsupported_example` - Examples without source support",
+  "section": "Claim types",
+  "start_char": 7420,
+  "end_char": 7744,
+  "token_estimate": 45,
+  "metadata": {
+    "section": "Claim types"
+  }
+}

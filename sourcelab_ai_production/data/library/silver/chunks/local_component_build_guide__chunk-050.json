@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-050",
+  "source_id": "local_component_build_guide",
+  "text": "```python\nfrom sourcelab.ui.export import export_run",
+  "section": "Report export",
+  "start_char": 10101,
+  "end_char": 10153,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Report export"
+  }
+}

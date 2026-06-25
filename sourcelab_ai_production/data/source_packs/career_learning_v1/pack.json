@@ -1,0 +1,27 @@
+{
+  "name": "career_learning_v1",
+  "title": "Career Learning, Portfolio Evidence, and Technical Growth",
+  "version": "1.0.0",
+  "description": "Source pack for resume evidence, MDC/CodePath, Qiskit Advocate, NVIDIA Inception, learning plans, and interview/demo preparation.",
+  "domain": "career_learning",
+  "required_for_strict_release": false,
+  "sources_dir": "sources",
+  "evals_dir": "evals",
+  "topics": [
+    "resume evidence",
+    "MDC CodePath",
+    "Qiskit Advocate",
+    "NVIDIA Inception",
+    "technical learning plans",
+    "portfolio proof bundles",
+    "interview demos"
+  ],
+  "example_lessons": [
+    "technical resume project evidence",
+    "AI quantum learning roadmap",
+    "portfolio proof bundle for interviews",
+    "project-based interview demo plan"
+  ],
+  "created_by": "bootstrap_sourcelab_source_packs.py",
+  "created_at": "2026-06-25T04:57:48+00:00"
+}

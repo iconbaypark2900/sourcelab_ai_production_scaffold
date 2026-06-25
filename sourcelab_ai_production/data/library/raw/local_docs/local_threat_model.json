@@ -1,0 +1,44 @@
+{
+  "record_id": "local_threat_model",
+  "origin": "local_docs",
+  "external_id": "docs/security/THREAT_MODEL.md",
+  "title": "Threat Model",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "review",
+    "citation",
+    "high-risk",
+    "claims",
+    "gate",
+    "human"
+  ],
+  "summary": "- Approved source library\n- User answers\n- Skill profile\n- Proof bundles\n- Model traces\n- Generated lessons\n- Verification reports\n- Human review queues",
+  "key_terms": [
+    "review",
+    "citation",
+    "high-risk",
+    "claims",
+    "gate",
+    "human",
+    "resolution",
+    "unsupported",
+    "verification",
+    "model",
+    "release",
+    "source"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_threat_model.md",
+  "checksum": "384810be00f250a0ba979469c82175d3c5d7100194031c9d839011c9ec233dd2",
+  "metadata": {
+    "relative_path": "docs/security/THREAT_MODEL.md"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-044",
+  "source_id": "local_component_build_guide",
+  "text": "runs = list_runs(Path.cwd())",
+  "section": "List all runs",
+  "start_char": 9688,
+  "end_char": 9716,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "List all runs"
+  }
+}

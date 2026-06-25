@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-015",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /retrieval/diagnostics\n```\n\nResponse:\n\n```json\n{\n  \"query\": \"\",\n  \"mode\": \"hybrid\",\n  \"result_count\": 0,\n  \"total_chunks\": 0,\n  \"weights\": {\n    \"keyword\": 0.35,\n    \"vector\": 0.45,\n    \"trust\": 0.15,\n    \"freshness\": 0.05\n  }\n}\n```",
+  "section": "Retrieval Diagnostics",
+  "start_char": 4148,
+  "end_char": 4392,
+  "token_estimate": 28,
+  "metadata": {
+    "section": "Retrieval Diagnostics"
+  }
+}

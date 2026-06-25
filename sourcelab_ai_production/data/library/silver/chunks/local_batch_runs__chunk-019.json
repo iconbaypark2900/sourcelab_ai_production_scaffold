@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-019",
+  "source_id": "local_batch_runs",
+  "text": "`BatchAnswerMatrix` export buttons:\n\n- **Export JSON** \u2014 current comparison payload + grouped recommendations + artifact reminder\n- **Export Markdown** \u2014 frontend-generated table and grouped recommendations\n- Filenames: `sourcelab_batch_answers_<batch_id>.json|.md`\n- Does not mutate proof artifacts or answer history",
+  "section": "Answer matrix browser export (v2.3)",
+  "start_char": 7495,
+  "end_char": 7812,
+  "token_estimate": 37,
+  "metadata": {
+    "section": "Answer matrix browser export (v2.3)"
+  }
+}

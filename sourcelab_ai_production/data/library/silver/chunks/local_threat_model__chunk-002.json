@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_threat_model::chunk-002",
+  "source_id": "local_threat_model",
+  "text": "For cybersecurity, medicine, law, finance, and safety-critical engineering:\n\n- Label output educational.\n- Require expert review for operational decisions.\n- Fail closed on unsupported high-risk claims.\n- Block release if citation resolution rate < 80%.\n- Flag contradictions for human review.",
+  "section": "High-risk topic policy",
+  "start_char": 873,
+  "end_char": 1166,
+  "token_estimate": 41,
+  "metadata": {
+    "section": "High-risk topic policy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-012",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "bash scripts/local_v1_demo.sh\n```",
+  "section": "or",
+  "start_char": 2469,
+  "end_char": 2502,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "or"
+  }
+}

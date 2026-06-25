@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-002",
+  "source_id": "local_backlog",
+  "text": "- [x] Add scenario generator schemas.\n- [x] Add lesson generator schemas.\n- [x] Add answer key generator.\n- [x] Add rubric generator.\n- [ ] Add DiffusionGemma backend.\n- [ ] Add fallback model backend.\n- [x] Add generation trace logging.",
+  "section": "Epic 3: Generation",
+  "start_char": 635,
+  "end_char": 872,
+  "token_estimate": 42,
+  "metadata": {
+    "section": "Epic 3: Generation"
+  }
+}

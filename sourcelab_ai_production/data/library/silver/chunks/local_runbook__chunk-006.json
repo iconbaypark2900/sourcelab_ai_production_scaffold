@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-006",
+  "source_id": "local_runbook",
+  "text": "```bash",
+  "section": "Source approval workflow",
+  "start_char": 588,
+  "end_char": 595,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Source approval workflow"
+  }
+}

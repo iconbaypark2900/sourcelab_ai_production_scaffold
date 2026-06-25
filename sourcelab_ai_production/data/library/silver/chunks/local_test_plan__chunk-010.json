@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-010",
+  "source_id": "local_test_plan",
+  "text": "sourcelab answer submit --topic \"post-quantum cryptography migration\" --file examples/strong_answer.md",
+  "section": "Submit answer from file",
+  "start_char": 6562,
+  "end_char": 6664,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "Submit answer from file"
+  }
+}

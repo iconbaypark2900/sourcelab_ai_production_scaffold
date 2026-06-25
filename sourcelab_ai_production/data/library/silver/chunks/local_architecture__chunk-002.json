@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-002",
+  "source_id": "local_architecture",
+  "text": "1. Source layer\n2. Retrieval layer\n3. Generation layer\n4. Model router layer\n5. Verification layer\n6. Harness layer\n7. Learning layer\n8. UI/API layer\n9. Observability layer",
+  "section": "System layers",
+  "start_char": 144,
+  "end_char": 316,
+  "token_estimate": 28,
+  "metadata": {
+    "section": "System layers"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-032",
+  "source_id": "local_test_plan",
+  "text": "sourcelab release report --output report.md\n```",
+  "section": "View release report to file",
+  "start_char": 8841,
+  "end_char": 8888,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "View release report to file"
+  }
+}

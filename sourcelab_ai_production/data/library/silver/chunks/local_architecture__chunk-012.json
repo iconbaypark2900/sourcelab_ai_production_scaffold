@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-012",
+  "source_id": "local_architecture",
+  "text": "- `SOURCELAB_MODEL_MODE`: `deterministic` or `local_llm`\n- `SOURCELAB_MODEL_BACKEND`: `deterministic`, `ollama`, or `openai_compatible`\n- `SOURCELAB_MODEL_NAME`: Model name for the backend\n- `SOURCELAB_MODEL_BASE_URL`: Base URL for the backend\n- `SOURCELAB_MODEL_TIMEOUT_SECONDS`: Timeout (default: 60)\n- `SOURCELAB_MODEL_FALLBACK`: Fallback mode (always `deterministic`)",
+  "section": "Configuration (env vars)",
+  "start_char": 2183,
+  "end_char": 2554,
+  "token_estimate": 36,
+  "metadata": {
+    "section": "Configuration (env vars)"
+  }
+}

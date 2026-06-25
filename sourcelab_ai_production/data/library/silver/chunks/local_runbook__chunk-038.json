@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-038",
+  "source_id": "local_runbook",
+  "text": "sourcelab verify-release --strict\n```",
+  "section": "Run strict release verification",
+  "start_char": 2521,
+  "end_char": 2558,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Run strict release verification"
+  }
+}

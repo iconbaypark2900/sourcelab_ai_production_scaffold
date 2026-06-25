@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-002",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: `sourcelab source-pack status pqc_v1` \u2014 installed sources listed\n- [ ] Terminal: `sourcelab sources list` \u2014 PQC sources with trust tiers",
+  "section": "Sources & pack",
+  "start_char": 346,
+  "end_char": 498,
+  "token_estimate": 25,
+  "metadata": {
+    "section": "Sources & pack"
+  }
+}

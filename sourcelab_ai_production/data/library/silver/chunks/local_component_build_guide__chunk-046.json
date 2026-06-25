@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-046",
+  "source_id": "local_component_build_guide",
+  "text": "data = load_json_artifact(run_dir, \"proof_summary.json\")\n```",
+  "section": "Load a specific artifact",
+  "start_char": 9807,
+  "end_char": 9867,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Load a specific artifact"
+  }
+}

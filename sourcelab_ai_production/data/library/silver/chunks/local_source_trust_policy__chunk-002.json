@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-002",
+  "source_id": "local_source_trust_policy",
+  "text": "Sources must be approved before use in lesson generation:\n\n- `active` + `approved`: Available for retrieval and lesson generation\n- `pending_review`: Excluded from retrieval by default\n- `rejected`: Never used for retrieval\n- `archived`: Excluded from retrieval by default",
+  "section": "Source approval workflow",
+  "start_char": 688,
+  "end_char": 960,
+  "token_estimate": 39,
+  "metadata": {
+    "section": "Source approval workflow"
+  }
+}

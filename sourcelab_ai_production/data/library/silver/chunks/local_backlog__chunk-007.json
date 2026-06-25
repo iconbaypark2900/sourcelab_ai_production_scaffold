@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-007",
+  "source_id": "local_backlog",
+  "text": "- [x] Add release manifest schema (Pydantic model).\n- [x] Add release checklist (12 individual checks).\n- [x] Add release thresholds (configurable pass rates).\n- [x] Add local-demo CLI command (13-step pipeline).\n- [x] Add release CLI commands (check, manifest, report).\n- [x] Add strict release verification (15 checks).\n- [x] Add Dashboard Release tab.\n- [x] Add export report enhancements.\n- [ ] Add more domain packs (e.g., ML safety, cloud security).\n- [ ] Add release versioning strategy.\n- [ ] Add release changelog generation.\n- [ ] Add release automation (CI/CD integration).",
+  "section": "Epic 8: Local v1 Release Candidate Hardening",
+  "start_char": 4059,
+  "end_char": 4643,
+  "token_estimate": 95,
+  "metadata": {
+    "section": "Epic 8: Local v1 Release Candidate Hardening"
+  }
+}

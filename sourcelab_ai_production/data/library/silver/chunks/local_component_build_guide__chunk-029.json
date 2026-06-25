@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-029",
+  "source_id": "local_component_build_guide",
+  "text": "```python\nfrom sourcelab.generation.lesson_generator import SourceGroundedLessonGenerator\n\ngenerator = SourceGroundedLessonGenerator()\npackage = generator.generate_package(\n    topic=\"post-quantum cryptography migration\",\n    search_results=search_results,\n    difficulty=3,\n    task_format=\"architecture_review\",\n    audience=\"engineer\",\n)\n```",
+  "section": "Generating a lesson package",
+  "start_char": 5656,
+  "end_char": 6000,
+  "token_estimate": 20,
+  "metadata": {
+    "section": "Generating a lesson package"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-009",
+  "source_id": "local_readme",
+  "text": "sourcelab dashboard --launch",
+  "section": "Streamlit dashboard",
+  "start_char": 2914,
+  "end_char": 2942,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Streamlit dashboard"
+  }
+}

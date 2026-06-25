@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-024",
+  "source_id": "local_component_build_guide",
+  "text": "```python\nfrom sourcelab.retrieval.hybrid_search import HybridSearch\n\nhybrid = HybridSearch.from_registry(registry)\nresults, diagnostics = hybrid.search(\"crypto inventory\", top_k=4)",
+  "section": "Hybrid search",
+  "start_char": 4498,
+  "end_char": 4679,
+  "token_estimate": 14,
+  "metadata": {
+    "section": "Hybrid search"
+  }
+}

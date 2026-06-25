@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "SBIR proposals should map technical milestones to phase I and phase II deliverables",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Funding Strategy Map"
+  },
+  {
+    "claim": "Grant applications should align technical objectives with funder priorities",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Funding Strategy Map"
+  },
+  {
+    "claim": "STTR applications require a qualified research partner and joint work-plan evidence",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Demo Evidence for Funding and Interviews"
+  },
+  {
+    "claim": "A demo should show working software rather than only describing architecture",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Demo Evidence for Funding and Interviews"
+  },
+  {
+    "claim": "GrantOps, Startup Funding, and Technical Business Strategy requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

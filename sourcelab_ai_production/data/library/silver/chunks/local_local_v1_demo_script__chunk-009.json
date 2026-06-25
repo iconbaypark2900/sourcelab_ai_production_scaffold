@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-009",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\nbash scripts/local_v1_demo.sh\n```",
+  "section": "One-command demo",
+  "start_char": 2011,
+  "end_char": 2052,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "One-command demo"
+  }
+}

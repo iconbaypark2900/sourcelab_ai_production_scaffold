@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-037",
+  "source_id": "local_runbook",
+  "text": "sourcelab release report --output report.md",
+  "section": "View release report to file",
+  "start_char": 2442,
+  "end_char": 2485,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "View release report to file"
+  }
+}

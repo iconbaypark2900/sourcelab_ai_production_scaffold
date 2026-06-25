@@ -1,0 +1,40 @@
+[
+  {
+    "query": "cloud security posture management review",
+    "expected_source_ids": [
+      "cloud_security_posture_001",
+      "cloud_security_supply_chain_002"
+    ],
+    "expected_terms": [
+      "cloud",
+      "security",
+      "posture"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for cloud security posture management review"
+  },
+  {
+    "query": "cloud security posture management",
+    "expected_source_ids": [
+      "cloud_security_posture_001"
+    ],
+    "expected_terms": [
+      "cloud",
+      "security",
+      "posture"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for cloud security posture management"
+  },
+  {
+    "query": "CSPM",
+    "expected_source_ids": [
+      "cloud_security_supply_chain_002"
+    ],
+    "expected_terms": [
+      "cspm"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

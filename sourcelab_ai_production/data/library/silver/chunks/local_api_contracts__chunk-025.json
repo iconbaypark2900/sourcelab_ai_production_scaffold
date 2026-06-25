@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-025",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /learning/answers\n```\n\nRequest:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"answer_text\": \"My answer to the lesson...\"\n}\n```\n\nResponse:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"topic\": \"post-quantum cryptography migration\",\n  \"score\": 0.85,\n  \"feedback\": \"Good answer with strong source grounding.\",\n  \"next_task_id\": \"task_456\",\n  \"breakdown\": {\n    \"topic_relevance\": 0.9,\n    \"source_grounding\": 0.8,\n    \"practical_reasoning\": 0.85\n  }\n}\n```",
+  "section": "Submit Answer",
+  "start_char": 8181,
+  "end_char": 8652,
+  "token_estimate": 48,
+  "metadata": {
+    "section": "Submit Answer"
+  }
+}

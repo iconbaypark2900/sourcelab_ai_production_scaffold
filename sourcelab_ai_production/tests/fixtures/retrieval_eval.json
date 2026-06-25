@@ -1,0 +1,26 @@
+{
+  "description": "Retrieval evaluation fixtures for testing search quality.",
+  "version": "1.0",
+  "queries": [
+    {
+      "query": "post-quantum cryptography migration",
+      "expected_source_ids": ["nist_pqc_notes"]
+    },
+    {
+      "query": "cryptographic inventory best practices",
+      "expected_source_ids": ["nist_pqc_notes"]
+    },
+    {
+      "query": "NIST PQC standards timeline",
+      "expected_source_ids": ["nist_pqc_notes"]
+    },
+    {
+      "query": "quantum threat to RSA and ECC",
+      "expected_source_ids": ["nist_pqc_notes"]
+    },
+    {
+      "query": "RAG grounding and retrieval",
+      "expected_source_ids": ["rag_grounding_notes"]
+    }
+  ]
+}

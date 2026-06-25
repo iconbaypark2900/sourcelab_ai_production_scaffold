@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-006",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab verify latest\nsourcelab verify claims --latest\nsourcelab review queue --latest\n```\n\nCheck citation resolution rate and unsupported high-risk claim count.",
+  "section": "6. Claim verification",
+  "start_char": 1558,
+  "end_char": 1729,
+  "token_estimate": 22,
+  "metadata": {
+    "section": "6. Claim verification"
+  }
+}

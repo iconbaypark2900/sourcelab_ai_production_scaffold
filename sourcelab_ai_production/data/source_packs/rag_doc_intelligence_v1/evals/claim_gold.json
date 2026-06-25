@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Generated answers should cite source chunks used to support claims",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Source-Grounded Document Intelligence"
+  },
+  {
+    "claim": "Claim extraction makes it possible to verify factual statements after generation",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Source-Grounded Document Intelligence"
+  },
+  {
+    "claim": "Exact hashes catch byte-identical documents",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Document Deduplication and Review"
+  },
+  {
+    "claim": "Near-duplicate detection should route uncertain matches to a reviewer",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Document Deduplication and Review"
+  },
+  {
+    "claim": "RAG and Document Intelligence requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

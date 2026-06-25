@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "A hybrid portfolio workflow can combine classical risk models, discrete optimization formulations, and quantum-inspired or quantum optimizers. Key practices include: Portfolio optimization should separate data ingestion, risk estimation, optimization, and backtesting; QUBO formulations can encode discrete asset selection constraints.",
+    "topic": "quantum hybrid portfolio optimizer",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "quantum hybrid portfolio optimizer",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

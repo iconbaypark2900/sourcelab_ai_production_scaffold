@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-003",
+  "source_id": "local_roadmap",
+  "text": "- [x] Model router with deterministic + local LLM backends.\n- [x] Ollama backend (local LLM at localhost:11434).\n- [x] OpenAI-compatible backend (vLLM, SGLang, LiteLLM, NIM).\n- [x] Source-grounded prompt templates with fail-closed instructions.\n- [x] JSON schema enforcement on model outputs.\n- [x] Generation v2: Complete lesson packages with scenario, rubric, answer key.\n- [x] Generation trace logging with model_call_trace.json.",
+  "section": "Phase 3: Real generation",
+  "start_char": 683,
+  "end_char": 1115,
+  "token_estimate": 61,
+  "metadata": {
+    "section": "Phase 3: Real generation"
+  }
+}

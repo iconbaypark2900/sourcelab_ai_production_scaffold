@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-025",
+  "source_id": "local_test_plan",
+  "text": "Run:\n\n```bash\nsourcelab verify-release\npytest -q\n```",
+  "section": "Release gate",
+  "start_char": 7885,
+  "end_char": 7937,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Release gate"
+  }
+}

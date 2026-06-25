@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-008",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab proof latest\nsourcelab harness latest\n```",
+  "section": "8. Proof bundle",
+  "start_char": 2027,
+  "end_char": 2086,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "8. Proof bundle"
+  }
+}

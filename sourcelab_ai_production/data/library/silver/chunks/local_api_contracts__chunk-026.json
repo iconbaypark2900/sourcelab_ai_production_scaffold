@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-026",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /learning/profile\n```\n\nResponse:\n\n```json\n{\n  \"profile_id\": \"profile_123\",\n  \"topic\": \"post-quantum cryptography\",\n  \"attempts\": [\n    {\n      \"run_id\": \"run_20250101_120000\",\n      \"score\": 0.85,\n      \"timestamp\": \"2025-01-01T12:00:00\"\n    }\n  ],\n  \"mastery\": {\n    \"topic_relevance\": 0.8,\n    \"source_grounding\": 0.75\n  },\n  \"strengths\": [\"topic_relevance\"],\n  \"weaknesses\": [\"source_grounding\"],\n  \"source_grounding_history\": []\n}\n```",
+  "section": "Get Skill Profile",
+  "start_char": 8677,
+  "end_char": 9127,
+  "token_estimate": 38,
+  "metadata": {
+    "section": "Get Skill Profile"
+  }
+}

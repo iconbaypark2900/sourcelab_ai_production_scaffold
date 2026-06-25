@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-002",
+  "source_id": "local_readme",
+  "text": "| Capability | Command |\n|---|---|\n| First-run setup | `sourcelab init-local` |\n| Environment checks | `sourcelab doctor` |\n| Version metadata | `sourcelab version` |\n| PQC source pack | `sourcelab source-pack install pqc_v1` |\n| Full local demo | `sourcelab local-demo` |\n| Golden evals (45 cases) | `sourcelab evals run --pack pqc_v1` |\n| Strict release gate | `sourcelab verify-release --strict` |\n| Release bundle | `sourcelab release bundle` |\n| Release checksums | `sourcelab release checksums` |\n| Release SBOM | `sourcelab release sbom` |\n| Release attestation | `sourcelab release attest` |\n| Dependency lock | `make freeze` |\n| Release manifest | `sourcelab release manifest` |\n| Export report | `sourcelab export latest --format markdown` |\n| Batch runs (v2.5) | `sourcelab batch create --config examples/batch_pqc.json` |\n| Compare runs (v2.0) | `sourcelab runs compare <id1> <id2>` |\n| Compare learner answers (v2.5) | `sourcelab batch answers <batch_id> [--json] [--markdown]` |\n| Research validation (v2.6) | Run Studio \u2192 **Research** mode on `/runs/[runId]`; **Reading Room** default; batch matrix on `/batches/[batchId]` |\n| Library theme (v2.6) | Run Studio home \u2192 **SourceLab Resea",
+  "section": "What Local v1 can do",
+  "start_char": 948,
+  "end_char": 2148,
+  "token_estimate": 189,
+  "metadata": {
+    "section": "What Local v1 can do"
+  }
+}

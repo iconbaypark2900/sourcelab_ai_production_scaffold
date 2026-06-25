@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_data_model::chunk-001",
+  "source_id": "local_data_model",
+  "text": "```text\nsource_id\ntitle\npublisher\nsource_type\ntrust_tier\nurl/path\nretrieved_at\nhash_sha256\nstatus\n```",
+  "section": "Required source fields",
+  "start_char": 190,
+  "end_char": 291,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "Required source fields"
+  }
+}

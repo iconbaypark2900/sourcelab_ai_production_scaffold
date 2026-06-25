@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-015",
+  "source_id": "local_readme",
+  "text": "Every demo run writes artifacts under `artifacts/runs/<run_id>/`:\n\n- `generated_lesson.md`, `claim_map.json`, `citation_resolution.json`\n- `harness_report.json`, `proof_bundle_manifest.json`\n- `learning_report.json`, `model_call_trace.json` (when applicable)\n\nInspect with:\n\n```bash\nsourcelab proof latest\nsourcelab harness latest\nsourcelab runs show latest\n```",
+  "section": "Proof bundle",
+  "start_char": 4675,
+  "end_char": 5036,
+  "token_estimate": 33,
+  "metadata": {
+    "section": "Proof bundle"
+  }
+}

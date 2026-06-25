@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-033",
+  "source_id": "local_test_plan",
+  "text": "- Local demo creates release manifest JSON.\n- Local demo creates release report markdown.\n- Release check reports status correctly.\n- Strict release verification includes all 15 checks.\n- Dashboard Release tab displays release status.\n- Export report includes release, golden eval, proof, harness sections.",
+  "section": "Integration tests",
+  "start_char": 8913,
+  "end_char": 9219,
+  "token_estimate": 45,
+  "metadata": {
+    "section": "Integration tests"
+  }
+}

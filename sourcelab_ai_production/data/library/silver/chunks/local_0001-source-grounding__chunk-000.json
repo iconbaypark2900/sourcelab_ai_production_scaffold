@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0001-source-grounding::chunk-000",
+  "source_id": "local_0001-source-grounding",
+  "text": "Accepted",
+  "section": "Status",
+  "start_char": 54,
+  "end_char": 62,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Status"
+  }
+}

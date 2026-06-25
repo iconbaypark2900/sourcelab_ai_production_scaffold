@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-004",
+  "source_id": "local_batch_runs",
+  "text": "sourcelab batch answers <batch_id>\nsourcelab batch answers <batch_id> --json\nsourcelab batch answers <batch_id> --markdown",
+  "section": "Compare learner answers (compact table, JSON, or markdown)",
+  "start_char": 753,
+  "end_char": 875,
+  "token_estimate": 14,
+  "metadata": {
+    "section": "Compare learner answers (compact table, JSON, or markdown)"
+  }
+}

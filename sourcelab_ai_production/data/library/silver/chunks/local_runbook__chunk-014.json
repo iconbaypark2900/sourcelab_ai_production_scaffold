@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-014",
+  "source_id": "local_runbook",
+  "text": "```bash\nsourcelab verify-release\npytest -q\n```",
+  "section": "Verify release",
+  "start_char": 1016,
+  "end_char": 1062,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "Verify release"
+  }
+}

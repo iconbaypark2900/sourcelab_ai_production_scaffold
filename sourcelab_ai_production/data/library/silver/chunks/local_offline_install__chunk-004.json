@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-004",
+  "source_id": "local_offline_install",
+  "text": "After building or extracting release artifacts:\n\n```bash\ncd artifacts/release\nsha256sum -c SHA256SUMS\n```\n\nOr inspect checksums manually:\n\n```bash\nsourcelab release checksums\ncat artifacts/release/SHA256SUMS\n```",
+  "section": "3. SHA256SUMS verification",
+  "start_char": 956,
+  "end_char": 1167,
+  "token_estimate": 24,
+  "metadata": {
+    "section": "3. SHA256SUMS verification"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-000",
+  "source_id": "local_backlog",
+  "text": "- [ ] Add Postgres source tables.\n- [x] Add PDF ingestion.\n- [x] Add URL ingestion.\n- [x] Add source hash verification.\n- [x] Add source freshness scanner.\n- [x] Add trust-tier admin workflow.\n- [x] Add source approval workflow.\n- [x] Add source quality reports.",
+  "section": "Epic 1: Source Registry",
+  "start_char": 39,
+  "end_char": 301,
+  "token_estimate": 47,
+  "metadata": {
+    "section": "Epic 1: Source Registry"
+  }
+}

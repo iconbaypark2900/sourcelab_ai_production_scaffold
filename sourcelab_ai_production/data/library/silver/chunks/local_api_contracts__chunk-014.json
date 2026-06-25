@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-014",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /retrieval/index\n```\n\nResponse:\n\n```json\n{\n  \"status\": \"ok\",\n  \"chunk_count\": 100,\n  \"source_count\": 10\n}\n```",
+  "section": "Build Index",
+  "start_char": 3997,
+  "end_char": 4119,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "Build Index"
+  }
+}

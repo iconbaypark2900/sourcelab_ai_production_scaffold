@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-000",
+  "source_id": "local_local_v1_demo_script",
+  "text": "Presenter script for a 15\u201320 minute live demo of **SourceLab Local v1.0 RC**.",
+  "section": "SourceLab Local v1 Demo Script",
+  "start_char": 34,
+  "end_char": 111,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "SourceLab Local v1 Demo Script"
+  }
+}

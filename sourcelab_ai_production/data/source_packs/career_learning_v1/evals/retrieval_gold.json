@@ -1,0 +1,40 @@
+[
+  {
+    "query": "technical resume project evidence",
+    "expected_source_ids": [
+      "career_learning_portfolio_001",
+      "career_learning_roadmap_002"
+    ],
+    "expected_terms": [
+      "technical",
+      "resume",
+      "project"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for technical resume project evidence"
+  },
+  {
+    "query": "resume evidence",
+    "expected_source_ids": [
+      "career_learning_portfolio_001"
+    ],
+    "expected_terms": [
+      "resume",
+      "evidence"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for resume evidence"
+  },
+  {
+    "query": "MDC CodePath",
+    "expected_source_ids": [
+      "career_learning_roadmap_002"
+    ],
+    "expected_terms": [
+      "mdc",
+      "codepath"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

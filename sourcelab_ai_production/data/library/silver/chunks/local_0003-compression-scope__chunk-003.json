@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0003-compression-scope::chunk-003",
+  "source_id": "local_0003-compression-scope",
+  "text": "- The demo remains runnable.\n- Compression claims remain modest and measurable.",
+  "section": "Consequences",
+  "start_char": 364,
+  "end_char": 443,
+  "token_estimate": 12,
+  "metadata": {
+    "section": "Consequences"
+  }
+}

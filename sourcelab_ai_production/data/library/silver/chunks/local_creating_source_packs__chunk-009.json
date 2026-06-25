@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-009",
+  "source_id": "local_creating_source_packs",
+  "text": "- `data/source_packs/pqc_v1/README.md` \u2014 reference pack\n- `data/source_packs/TEMPLATE/README.md` \u2014 scaffold README\n- `docs/testing/TEST_PLAN.md` \u2014 eval expectations",
+  "section": "Related docs",
+  "start_char": 2537,
+  "end_char": 2701,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "Related docs"
+  }
+}

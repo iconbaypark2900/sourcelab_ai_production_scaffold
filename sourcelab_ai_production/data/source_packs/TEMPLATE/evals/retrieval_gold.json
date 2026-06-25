@@ -1,0 +1,9 @@
+[
+  {
+    "query": "What is a source pack?",
+    "expected_source_ids": ["example_source"],
+    "expected_terms": ["source", "pack", "markdown"],
+    "min_hit_at_k": 1,
+    "description": "Template retrieval case"
+  }
+]

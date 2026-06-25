@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-004",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources validate",
+  "section": "Validate the registry",
+  "start_char": 479,
+  "end_char": 505,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Validate the registry"
+  }
+}

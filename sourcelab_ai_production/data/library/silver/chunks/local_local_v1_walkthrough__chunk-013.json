@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-013",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab export latest --format markdown\nsourcelab release manifest\nsourcelab release report\n```",
+  "section": "12. Export reviewable report",
+  "start_char": 2537,
+  "end_char": 2642,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "12. Export reviewable report"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-029",
+  "source_id": "local_runbook",
+  "text": "Open `claim_map.json` and `grounding_report.md`.",
+  "section": "Unsupported claims",
+  "start_char": 1969,
+  "end_char": 2017,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Unsupported claims"
+  }
+}

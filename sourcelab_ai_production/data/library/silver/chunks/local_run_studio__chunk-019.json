@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-019",
+  "source_id": "local_run_studio",
+  "text": ".\n\n**Reading Room (`/runs/[runId]`):** Default mode with `LessonReader`, `EvidenceDrawer`, `ClaimReviewDesk`, `StudyJournalPanel`, `ResearchPathMap`. Deep link: `/runs/<run_id>?mode=research` or `?tab=journal`.\n\n**Study Sets (`/batches/*`):** UI-only rename from batch \u2014 Study Set, Study Progress Matrix, Library Export Bundle.\n\nHelpers: `apps/web/lib/library-theme.ts` (+ Vitest). Components: `LibraryCollectionCard`, `LibraryShelf`, `LessonReader`, `EvidenceDrawer`, `ClaimReviewDesk`, `StudyJournalPanel`, `ResearchPathMap`.",
+  "section": "v2.6 \u2014 Educational Interactive Library Theme",
+  "start_char": 14191,
+  "end_char": 14718,
+  "token_estimate": 45,
+  "metadata": {
+    "section": "v2.6 \u2014 Educational Interactive Library Theme"
+  }
+}

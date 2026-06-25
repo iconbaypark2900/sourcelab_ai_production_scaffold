@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-018",
+  "source_id": "local_batch_runs",
+  "text": "`BatchAnswerSubmitPanel` on batch detail:\n\n- **Profile modes:** Global profile (default) | Per-run profile\n- **Profiles:** Strong, Weak, Unsupported, Custom text (global only), Skip (no submit)\n- **Per-run mode:** each selected run picks its own profile; Skip = excluded from submission\n- **Pre-submit summary:** selected count, skipped count, profile counts, expected submissions\n- POST `/learning/answers` per run sequentially (same path as Run Studio)\n- Per-run result: submitted, skipped, score, needs review, or failed\n- Refreshes answer matrix after completion\n- Explicit user action only \u2014 no auto-submit",
+  "section": "Batch sample-answer submission (v2.3)",
+  "start_char": 6841,
+  "end_char": 7452,
+  "token_estimate": 86,
+  "metadata": {
+    "section": "Batch sample-answer submission (v2.3)"
+  }
+}

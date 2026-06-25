@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-021",
+  "source_id": "local_readme",
+  "text": "Nine extension starter packs (`biomedical_ai_v1`, `materials_ai_v1`, `quantum_finance_v1`, `trading_research_v1`, `blockchain_provenance_v1`, `logistics_earth_v1`, `grantops_business_v1`, `emerging_tech_watchlist_v1`, `career_learning_v1`) use the same gold eval patterns as core packs. Source markdown was strengthened with domain retrieval terms (for example SBIR/STTR, smart contracts, QAOA, Kalshi, MDC CodePath, fusion) expected by retrieval gold evals. Extension pack smoke failures are non-blocking for `sourcelab verify-release --strict`.\n\nVerify alignment:\n\n```bash\npython scripts/bootstrap_sourcelab_source_packs.py --packs blockchain_provenance_v1,career_learning_v1,emerging_tech_watchlist_v1,grantops_business_v1,quantum_finance_v1,trading_research_v1 --force --skip-topic-backlog\npython scripts/smoke_source_packs.py --packs all --run-evals\npython scripts/smoke_source_packs.py --packs all --run-evals --run-lessons\nsourcelab verify-release --strict\n```\n\n\n- Deterministic/mock generation, hashed embeddings, heuristic scoring \u2014 no live LLM required\n- No auth, Postgres, Redis, Qdrant, or background workers\n- No live web search\n- Docker-lite exposes API only in v1 RC\n\nSee `RELEASE_NOTE",
+  "section": "Extension Pack Eval Alignment (v1.0.3)",
+  "start_char": 8682,
+  "end_char": 9882,
+  "token_estimate": 115,
+  "metadata": {
+    "section": "Extension Pack Eval Alignment (v1.0.3)"
+  }
+}

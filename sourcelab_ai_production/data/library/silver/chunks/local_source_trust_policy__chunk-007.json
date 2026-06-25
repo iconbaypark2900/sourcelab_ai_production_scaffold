@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-007",
+  "source_id": "local_source_trust_policy",
+  "text": "```bash\nsourcelab sources quality\n```",
+  "section": "Quality commands",
+  "start_char": 1607,
+  "end_char": 1644,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Quality commands"
+  }
+}

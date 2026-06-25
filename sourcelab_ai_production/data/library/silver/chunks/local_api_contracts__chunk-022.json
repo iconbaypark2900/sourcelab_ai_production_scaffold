@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-022",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /runs/{run_id}/artifacts\n```\n\nResponse:\n\n```json\n{\n  \"artifacts\": [\n    {\n      \"name\": \"run_manifest.json\",\n      \"artifact_type\": \"json\",\n      \"required\": true,\n      \"exists\": true,\n      \"validated\": true,\n      \"sha256\": \"...\",\n      \"size\": 1024\n    }\n  ],\n  \"total\": 15\n}\n```",
+  "section": "Get Run Artifacts",
+  "start_char": 7187,
+  "end_char": 7482,
+  "token_estimate": 30,
+  "metadata": {
+    "section": "Get Run Artifacts"
+  }
+}

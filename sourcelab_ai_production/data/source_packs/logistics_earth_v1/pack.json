@@ -1,0 +1,26 @@
+{
+  "name": "logistics_earth_v1",
+  "title": "Logistics, Earth Observation, and Digital Twins",
+  "version": "1.0.0",
+  "description": "Source pack for warehouse digital twins, satellite-informed logistics, supply chain optimization, Earth observation, climate, and routing workflows.",
+  "domain": "logistics_earth",
+  "required_for_strict_release": false,
+  "sources_dir": "sources",
+  "evals_dir": "evals",
+  "topics": [
+    "warehouse digital twins",
+    "satellite-informed logistics",
+    "supply chain optimization",
+    "Earth observation",
+    "climate workflows",
+    "routing optimization"
+  ],
+  "example_lessons": [
+    "warehouse digital twin optimization",
+    "satellite-informed logistics planning",
+    "quantum logistics routing",
+    "supply chain visibility workflow"
+  ],
+  "created_by": "bootstrap_sourcelab_source_packs.py",
+  "created_at": "2026-06-21T03:32:34+00:00"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Resume claims should map to concrete artifacts such as repos, tests, docs, and demos",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Portfolio Evidence Workflow"
+  },
+  {
+    "claim": "Project evidence should show both technical depth and user-facing value",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Portfolio Evidence Workflow"
+  },
+  {
+    "claim": "MDC CodePath and similar credential programs should be paired with portfolio projects",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Technical Learning Roadmap"
+  },
+  {
+    "claim": "Learning is more valuable when it produces usable artifacts",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Technical Learning Roadmap"
+  },
+  {
+    "claim": "Career Learning, Portfolio Evidence, and Technical Growth requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

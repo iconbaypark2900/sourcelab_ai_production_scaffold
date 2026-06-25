@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-001",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: `sourcelab version` showing `1.0.0-rc1`\n- [ ] Terminal: `sourcelab doctor` JSON with `\"status\": \"PASS\"`\n- [ ] Terminal: `sourcelab init-local` success output and next commands",
+  "section": "Install & health",
+  "start_char": 134,
+  "end_char": 325,
+  "token_estimate": 29,
+  "metadata": {
+    "section": "Install & health"
+  }
+}

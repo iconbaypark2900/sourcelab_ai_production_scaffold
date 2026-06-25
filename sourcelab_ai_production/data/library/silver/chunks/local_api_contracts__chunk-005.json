@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-005",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /models/test\n```\n\nRequest:\n\n```json\n{\n  \"mode\": \"deterministic\",\n  \"backend\": \"deterministic\",\n  \"model_name\": \"\",\n  \"base_url\": \"\",\n  \"prompt\": \"What is post-quantum cryptography?\"\n}\n```\n\nResponse:\n\n```json\n{\n  \"text\": \"This response was generated deterministically without a model.\",\n  \"backend\": \"deterministic\",\n  \"model_name\": \"deterministic\",\n  \"route\": \"general\",\n  \"latency_ms\": 0.0,\n  \"deterministic_fallback_used\": false,\n  \"warnings\": []\n}\n```\n```\n\nResponse:\n\n```json\n{\n  \"version\": \"0.1.0\",\n  \"api_version\": \"v1\"\n}\n```",
+  "section": "Test Model Backend",
+  "start_char": 820,
+  "end_char": 1363,
+  "token_estimate": 58,
+  "metadata": {
+    "section": "Test Model Backend"
+  }
+}

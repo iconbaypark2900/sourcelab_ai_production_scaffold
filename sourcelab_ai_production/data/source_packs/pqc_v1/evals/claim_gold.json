@@ -1,0 +1,111 @@
+[
+  {
+    "claim": "Organizations should begin PQC migration by inventorying cryptographic assets.",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported recommendation from sources"
+  },
+  {
+    "claim": "Crypto agility helps systems swap cryptographic algorithms more easily.",
+    "expected_status": "supported",
+    "claim_type": "definition",
+    "severity": "low",
+    "description": "Supported definition of crypto agility"
+  },
+  {
+    "claim": "NIST standardized ML-KEM, ML-DSA, and SLH-DSA for post-quantum cryptography.",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported factual claim about NIST standards"
+  },
+  {
+    "claim": "Hybrid key exchange combines classical and post-quantum algorithms.",
+    "expected_status": "supported",
+    "claim_type": "definition",
+    "severity": "low",
+    "description": "Supported definition of hybrid key exchange"
+  },
+  {
+    "claim": "Current quantum computers can break RSA-2048 today.",
+    "expected_status": "unsupported",
+    "claim_type": "fact",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim - quantum cannot break RSA-2048 yet"
+  },
+  {
+    "claim": "All organizations must immediately remove every classical algorithm.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "Extreme recommendation not supported by sources"
+  },
+  {
+    "claim": "PQC migration has no interoperability risks.",
+    "expected_status": "unsupported",
+    "claim_type": "fact",
+    "severity": "high",
+    "should_block": true,
+    "description": "False claim - interoperability is a known challenge"
+  },
+  {
+    "claim": "Quantum computers will break all cryptography within 5 years.",
+    "expected_status": "unsupported",
+    "claim_type": "risk_statement",
+    "severity": "high",
+    "should_block": true,
+    "description": "Unsupported timeline claim"
+  },
+  {
+    "claim": "AES-256 is believed to be quantum-resistant.",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported fact about symmetric encryption"
+  },
+  {
+    "claim": "PQC algorithms have larger key sizes than classical algorithms.",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported fact about PQC characteristics"
+  },
+  {
+    "claim": "Organizations should test PQC in non-production environments first.",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "low",
+    "description": "Supported recommendation for testing"
+  },
+  {
+    "claim": "Harvest now, decrypt later attacks are a theoretical concern only.",
+    "expected_status": "uncertain",
+    "claim_type": "risk_statement",
+    "severity": "medium",
+    "description": "Partially supported - concern is real but impact is debated"
+  },
+  {
+    "claim": "Open Quantum Safe provides production-ready implementations.",
+    "expected_status": "unsupported",
+    "claim_type": "fact",
+    "severity": "medium",
+    "description": "OQS provides prototypes, not production-ready code"
+  },
+  {
+    "claim": "The transition to PQC will take approximately 10-20 years.",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported timeline estimate from sources"
+  },
+  {
+    "claim": "ML-KEM-768 provides security equivalent to AES-192.",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported fact about ML-KEM security levels"
+  }
+]

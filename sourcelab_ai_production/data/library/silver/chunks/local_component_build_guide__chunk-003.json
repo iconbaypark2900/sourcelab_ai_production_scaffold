@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-003",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab ingest-local ./path/to/sources --trust-tier C --publisher \"Publisher\" --source-type type",
+  "section": "Via CLI - Local files",
+  "start_char": 710,
+  "end_char": 808,
+  "token_estimate": 9,
+  "metadata": {
+    "section": "Via CLI - Local files"
+  }
+}

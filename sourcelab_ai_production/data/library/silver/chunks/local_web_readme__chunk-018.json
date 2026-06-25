@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-018",
+  "source_id": "local_web_readme",
+  "text": "**Learning library vs operations:** The default experience is the **Reading Room** \u2014 an educational layout with tabs (Reading Room, Sources, Claims, Proof, Study Journal, Artifacts). **Operations** and **Research** modes remain for pipeline control and artifact validation.\n\n- **Library home (`/`)** \u2014 SourceLab Research Library hero, quick actions, shelves (`LibraryShelf` + `LibraryCollectionCard`), Study Path (`ResearchPathMap`).\n- **Collections (`/source-packs`)** \u2014 Validated / Starter / Strict Release / Collection Health sections; template packs hidden from ready-to-study views.\n- **Start study session (`/runs/new`)** \u2014 library creation stages; Collection / study depth / lesson style labels.\n- **Components** \u2014 `LessonReader`, `EvidenceDrawer`, `ClaimReviewDesk` (wraps `ClaimValidationPanel`), `StudyJournalPanel`, `ResearchPathMap`.\n- **Study Sets (`/batches/*`)** \u2014 UI-only batch \u2192 Study Set vocabulary; routes and API unchanged.\n- **Helpers** \u2014 `lib/library-theme.ts` (+ Vitest): collection grouping, readiness badges, evidence mapping, study journal summary, study set terminology.\n- **Styling** \u2014 dark academic library in `styles/globals.css` (glass cards, parchment/ink accents).",
+  "section": "Run Studio v2.6 \u2014 Educational Interactive Library Theme",
+  "start_char": 10546,
+  "end_char": 11743,
+  "token_estimate": 146,
+  "metadata": {
+    "section": "Run Studio v2.6 \u2014 Educational Interactive Library Theme"
+  }
+}

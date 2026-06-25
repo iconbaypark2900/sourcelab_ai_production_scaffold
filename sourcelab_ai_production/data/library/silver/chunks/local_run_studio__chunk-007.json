@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-007",
+  "source_id": "local_run_studio",
+  "text": "`needs_review`, `cap_reason`, `human_review_reason`, `next_task_decision`,\n   `learning_report_path`), and returns structured errors (404 for a missing\n   run, 422 for an empty answer). It remains a thin wrapper over\n   `run_answer_submit` \u2014 the same deterministic path as the `answer submit` CLI.\n\nAll are covered by Python regression tests\n(`tests/integration/test_api_v1.py`, `tests/unit/test_cli_api_routes.py`).",
+  "section": "Backend additions made for this UI",
+  "start_char": 4990,
+  "end_char": 5406,
+  "token_estimate": 45,
+  "metadata": {
+    "section": "Backend additions made for this UI"
+  }
+}

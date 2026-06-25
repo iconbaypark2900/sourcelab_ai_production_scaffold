@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-005",
+  "source_id": "local_creating_source_packs",
+  "text": "```bash\nsourcelab source-pack list\nsourcelab source-pack validate my_pack_v1\nsourcelab source-pack install my_pack_v1\nsourcelab sources validate\n```",
+  "section": "4. Validate and install",
+  "start_char": 1605,
+  "end_char": 1753,
+  "token_estimate": 16,
+  "metadata": {
+    "section": "4. Validate and install"
+  }
+}

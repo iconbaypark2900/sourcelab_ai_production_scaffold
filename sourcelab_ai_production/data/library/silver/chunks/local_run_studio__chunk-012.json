@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-012",
+  "source_id": "local_run_studio",
+  "text": "Frontend-only; no API changes.\n\n- **`?attempt=&from=&to=`** \u2014 shareable compare URLs; invalid `from`/`to` warn\n  and fall back. Pin/Clear/Copy comparison controls on the Diff tab.\n- **Private notes** \u2014 `useAttemptNotes` stores annotations in localStorage per\n  run; not synced or exported as proof artifacts.\n- **Filter-aware keyboard** \u2014 History arrow/Home/End navigation respects the\n  active filter (needs review, passed, capped).\n- **Sparkline** \u2014 enlarged invisible marker hit targets for mobile tap/click.",
+  "section": "v1.6 \u2014 Compare pinning, notes & filter-aware keyboard",
+  "start_char": 8137,
+  "end_char": 8648,
+  "token_estimate": 67,
+  "metadata": {
+    "section": "v1.6 \u2014 Compare pinning, notes & filter-aware keyboard"
+  }
+}

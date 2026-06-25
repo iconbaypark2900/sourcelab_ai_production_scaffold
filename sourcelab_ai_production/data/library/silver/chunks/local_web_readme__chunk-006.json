@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-006",
+  "source_id": "local_web_readme",
+  "text": "| Command | Description |\n| --- | --- |\n| `npm run dev` | Start the dev server on `:3000` |\n| `npm run build` | Production build |\n| `npm run start` | Serve the production build |\n| `npm run typecheck` | `tsc --noEmit` type check |\n| `npm run test` | Vitest unit tests (attempt-summary, etc.) |\n| `npm run test:watch` | Vitest in watch mode |\n\nFrom the project root you can also use the Makefile:\n\n```bash\nmake web-install\nmake web-dev\nmake web-build\n```",
+  "section": "Scripts",
+  "start_char": 1553,
+  "end_char": 2007,
+  "token_estimate": 89,
+  "metadata": {
+    "section": "Scripts"
+  }
+}

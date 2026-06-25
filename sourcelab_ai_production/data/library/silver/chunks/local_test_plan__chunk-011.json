@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-011",
+  "source_id": "local_test_plan",
+  "text": "sourcelab profile show",
+  "section": "Show skill profile",
+  "start_char": 6687,
+  "end_char": 6709,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Show skill profile"
+  }
+}

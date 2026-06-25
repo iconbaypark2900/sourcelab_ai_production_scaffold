@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-013",
+  "source_id": "local_release_process",
+  "text": "```bash\nmake ga-check\n```\n\nRuns steps 1\u20137 in sequence (includes full `local-demo`, SBOM, and attestation).",
+  "section": "10. Optional GA Makefile target",
+  "start_char": 2085,
+  "end_char": 2191,
+  "token_estimate": 15,
+  "metadata": {
+    "section": "10. Optional GA Makefile target"
+  }
+}

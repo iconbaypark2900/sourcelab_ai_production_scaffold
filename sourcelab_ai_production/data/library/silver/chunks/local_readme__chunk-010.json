@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-010",
+  "source_id": "local_readme",
+  "text": "sourcelab api --serve",
+  "section": "FastAPI server",
+  "start_char": 2999,
+  "end_char": 3020,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "FastAPI server"
+  }
+}

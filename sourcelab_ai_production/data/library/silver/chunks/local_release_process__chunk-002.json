@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-002",
+  "source_id": "local_release_process",
+  "text": "Run from the project root (`sourcelab_ai_production/`):",
+  "section": "Release checklist",
+  "start_char": 297,
+  "end_char": 352,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "Release checklist"
+  }
+}

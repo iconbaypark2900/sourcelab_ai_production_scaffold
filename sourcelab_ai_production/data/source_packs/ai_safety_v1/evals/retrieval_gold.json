@@ -1,0 +1,58 @@
+[
+  {
+    "query": "What categories are used in an AI risk taxonomy?",
+    "expected_source_ids": ["ai_risk_taxonomy"],
+    "expected_terms": ["capability", "misuse", "alignment", "systemic"],
+    "min_hit_at_k": 1,
+    "description": "Risk taxonomy categories query"
+  },
+  {
+    "query": "Do benchmark scores guarantee model safety?",
+    "expected_source_ids": ["evals_and_benchmarks"],
+    "expected_terms": ["benchmark", "do not guarantee", "limitations"],
+    "min_hit_at_k": 1,
+    "description": "Benchmark limitation query"
+  },
+  {
+    "query": "What is model governance for AI deployments?",
+    "expected_source_ids": ["model_governance_notes"],
+    "expected_terms": ["governance", "approval", "audit"],
+    "min_hit_at_k": 1,
+    "description": "Governance definition query"
+  },
+  {
+    "query": "How should systems reduce hallucinations?",
+    "expected_source_ids": ["hallucination_and_grounding"],
+    "expected_terms": ["grounding", "citation", "unsupported"],
+    "min_hit_at_k": 1,
+    "description": "Hallucination mitigation query"
+  },
+  {
+    "query": "Why is red team testing used for LLM systems?",
+    "expected_source_ids": ["red_team_testing_notes"],
+    "expected_terms": ["red-team", "adversarial", "jailbreak"],
+    "min_hit_at_k": 1,
+    "description": "Red team purpose query"
+  },
+  {
+    "query": "What are alignment risks in AI systems?",
+    "expected_source_ids": ["ai_risk_taxonomy"],
+    "expected_terms": ["alignment", "objective", "unpredictable"],
+    "min_hit_at_k": 1,
+    "description": "Alignment risk query"
+  },
+  {
+    "query": "How should teams use golden eval sets?",
+    "expected_source_ids": ["evals_and_benchmarks"],
+    "expected_terms": ["golden eval", "regressions", "pass rates"],
+    "min_hit_at_k": 1,
+    "description": "Golden eval practice query"
+  },
+  {
+    "query": "What controls help with model change management?",
+    "expected_source_ids": ["model_governance_notes"],
+    "expected_terms": ["version", "rollback", "review"],
+    "min_hit_at_k": 1,
+    "description": "Change management query"
+  }
+]

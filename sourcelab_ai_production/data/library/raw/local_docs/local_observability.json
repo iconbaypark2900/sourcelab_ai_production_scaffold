@@ -1,0 +1,44 @@
+{
+  "record_id": "local_observability",
+  "origin": "local_docs",
+  "external_id": "docs/engineering/OBSERVABILITY.md",
+  "title": "Observability",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "answer",
+    "artifacts",
+    "backend",
+    "claim",
+    "decision",
+    "errors"
+  ],
+  "summary": "- run_id\n- user/workspace\n- topic\n- sources retrieved\n- model backend\n- prompt version\n- generated artifacts\n- claim verification result\n- answer score\n- next task decision\n- latency\n- errors",
+  "key_terms": [
+    "answer",
+    "artifacts",
+    "backend",
+    "claim",
+    "decision",
+    "errors",
+    "every",
+    "generated",
+    "grafana",
+    "include",
+    "langfuse",
+    "latency"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_observability.md",
+  "checksum": "62d1b690f42e10f4fb94b5580624c267d015dcbe724f698562f48eda7d46db1a",
+  "metadata": {
+    "relative_path": "docs/engineering/OBSERVABILITY.md"
+  }
+}

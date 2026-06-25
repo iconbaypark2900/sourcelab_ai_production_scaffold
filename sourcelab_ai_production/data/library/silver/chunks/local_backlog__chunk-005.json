@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-005",
+  "source_id": "local_backlog",
+  "text": "- [x] Add run loader utilities (list_runs, get_latest_run, load_artifact, summarize_run).\n- [x] Add terminal run explorer.\n- [x] Add markdown/HTML report export.\n- [x] Add Streamlit dashboard with tabbed interface.\n- [x] Add CLI commands (dashboard, runs list/latest/show, export).\n- [x] Add FastAPI routes.\n- [ ] Add Next.js dashboard.\n- [ ] Add auth.\n- [ ] Add workspace isolation.\n- [ ] Add audit logs.\n- [ ] Add deployment config.",
+  "section": "Epic 6: Product UI",
+  "start_char": 2606,
+  "end_char": 3040,
+  "token_estimate": 73,
+  "metadata": {
+    "section": "Epic 6: Product UI"
+  }
+}

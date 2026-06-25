@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-009",
+  "source_id": "local_web_readme",
+  "text": "- `lib/sourcelab-api.ts` \u2014 centralized fetch client; every function maps to a\n  **verified** FastAPI route (see the endpoint map at the top of the file).\n- `lib/types.ts` \u2014 TypeScript contracts mirroring the backend schemas and the\n  run-artifact JSON shapes.\n- `lib/format.ts` \u2014 pure, dependency-free formatting helpers.\n- `lib/use-api.ts` \u2014 a small client hook for loading/error/data with retry.\n- `lib/use-run-refresh.ts` \u2014 polling hook for the Run Studio: manual refresh,\n  auto-refresh toggle (default 5s), pause-on-error, tab-visibility pausing, and\n  last-updated tracking. Retains cached data across failed refreshes.\n- `lib/use-answer-history.ts` \u2014 shared attempt history hook (list + detail +\n  timeline summary) used by Run Studio v1.5; dedupes history fetches.\n- `lib/attempt-summary.ts` \u2014 pure attempt timeline metrics (first/latest/best,\n  deltas, review/capped counts, score trend, filter-aware nav helpers).\n- `lib/attempt-url.ts` \u2014 parse/build/clear `?attempt=` / `?from=` / `?to=` / `?tab=`\n  / `?filter=` / `?q=` / `?preset=` query params for deep links and workspace restore.\n- `lib/attempt-filters.ts` \u2014 History filter + search helpers (note-aware filters,\n  visible attempt list",
+  "section": "Architecture",
+  "start_char": 3329,
+  "end_char": 4529,
+  "token_estimate": 158,
+  "metadata": {
+    "section": "Architecture"
+  }
+}

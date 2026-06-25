@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-010",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab sources reject <source_id> --reason \"Low quality\"",
+  "section": "Reject a source",
+  "start_char": 2139,
+  "end_char": 2198,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Reject a source"
+  }
+}

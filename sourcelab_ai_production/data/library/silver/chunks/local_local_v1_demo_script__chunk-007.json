@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-007",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\nsourcelab evals run --pack pqc_v1\nsourcelab evals latest --pack pqc_v1\nsourcelab verify-release --strict\nsourcelab release check\nsourcelab release manifest\n```",
+  "section": "Act 5 \u2014 Golden evals & strict release (3 min)",
+  "start_char": 1575,
+  "end_char": 1742,
+  "token_estimate": 21,
+  "metadata": {
+    "section": "Act 5 \u2014 Golden evals & strict release (3 min)"
+  }
+}

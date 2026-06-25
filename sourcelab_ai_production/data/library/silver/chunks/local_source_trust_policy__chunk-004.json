@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-004",
+  "source_id": "local_source_trust_policy",
+  "text": "Sources are checked for freshness based on `retrieved_at`:\n\n- Fresh: <= 90 days\n- Aging: 91-180 days (warning)\n- Stale: > 180 days (excluded by default)",
+  "section": "Source freshness policy",
+  "start_char": 1180,
+  "end_char": 1332,
+  "token_estimate": 26,
+  "metadata": {
+    "section": "Source freshness policy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-008",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /sources/validate\n```\n\nResponse:\n\n```json\n{\n  \"status\": \"PASS\",\n  \"source_count\": 5,\n  \"errors\": [],\n  \"warnings\": []\n}\n```",
+  "section": "Validate Sources",
+  "start_char": 2295,
+  "end_char": 2430,
+  "token_estimate": 17,
+  "metadata": {
+    "section": "Validate Sources"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-004",
+  "source_id": "local_architecture",
+  "text": "The retrieval layer supports three search modes:",
+  "section": "Retrieval architecture",
+  "start_char": 727,
+  "end_char": 775,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Retrieval architecture"
+  }
+}

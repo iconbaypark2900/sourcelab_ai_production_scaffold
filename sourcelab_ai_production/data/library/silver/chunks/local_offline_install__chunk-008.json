@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-008",
+  "source_id": "local_offline_install",
+  "text": "| Extra | Purpose | Offline note |\n|---|---|---|\n| `api` | FastAPI server | Works offline |\n| `ui` | Streamlit dashboard | Works offline |\n| `ingest` | PDF/URL ingestion | URL ingest needs network |\n| `retrieval` | Neural embeddings | Models may need prior download |\n| `models` | Local LLM routing | External LLM endpoints need network |",
+  "section": "7. Optional extras",
+  "start_char": 2150,
+  "end_char": 2488,
+  "token_estimate": 63,
+  "metadata": {
+    "section": "7. Optional extras"
+  }
+}

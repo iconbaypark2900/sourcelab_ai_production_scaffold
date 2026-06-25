@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-026",
+  "source_id": "local_architecture",
+  "text": "The release gate passes when:\n- Citation resolution rate >= 0.3 (production: 0.8)\n- No high-risk unsupported claims\n- No unresolved conflicts\n- All required artifacts present",
+  "section": "Release gate",
+  "start_char": 6392,
+  "end_char": 6566,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Release gate"
+  }
+}

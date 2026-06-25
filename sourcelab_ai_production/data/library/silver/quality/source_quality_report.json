@@ -1,0 +1,379 @@
+{
+  "generated_at": "2026-06-21T04:57:53.810110Z",
+  "total_sources": 28,
+  "average_score": 0.8511,
+  "entries": [
+    {
+      "source_id": "local_0001-source-grounding",
+      "quality_score": 0.818,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.5583,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_0002-self-evolution-boundary",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_0003-compression-scope",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_api_contracts",
+      "quality_score": 0.8736,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.8917,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_architecture",
+      "quality_score": 0.825,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.6,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_architecture_mermaid",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_backlog",
+      "quality_score": 0.7917,
+      "factors": {
+        "title": 0.4,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": [
+        "short_title"
+      ]
+    },
+    {
+      "source_id": "local_batch_runs",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_component_build_guide",
+      "quality_score": 0.8139,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.5333,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_creating_source_packs",
+      "quality_score": 0.8347,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.6583,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_data_model",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_local_v1_demo_script",
+      "quality_score": 0.8264,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.6083,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_local_v1_walkthrough",
+      "quality_score": 0.8319,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.6417,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_observability",
+      "quality_score": 0.8083,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 0.5,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_offline_install",
+      "quality_score": 0.8792,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.925,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_plantuml",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_prd",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_readme",
+      "quality_score": 0.818,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.5583,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_release_process",
+      "quality_score": 0.8583,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.8,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_roadmap",
+      "quality_score": 0.7917,
+      "factors": {
+        "title": 0.4,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": [
+        "short_title"
+      ]
+    },
+    {
+      "source_id": "local_run_studio",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_runbook",
+      "quality_score": 0.7611,
+      "factors": {
+        "title": 0.4,
+        "summary": 0.8167,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": [
+        "short_title"
+      ]
+    },
+    {
+      "source_id": "local_screenshot_checklist",
+      "quality_score": 0.8097,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.5083,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_source_trust_policy",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_test_plan",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_threat_model",
+      "quality_score": 0.8917,
+      "factors": {
+        "title": 1.0,
+        "summary": 1.0,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    },
+    {
+      "source_id": "local_topic_backlog",
+      "quality_score": 0.8042,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.475,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": [
+        "thin_summary"
+      ]
+    },
+    {
+      "source_id": "local_web_readme",
+      "quality_score": 0.8778,
+      "factors": {
+        "title": 1.0,
+        "summary": 0.9167,
+        "key_terms": 1.0,
+        "chunks": 1.0,
+        "trust_tier": 0.85,
+        "metadata": 0.5
+      },
+      "notes": []
+    }
+  ]
+}

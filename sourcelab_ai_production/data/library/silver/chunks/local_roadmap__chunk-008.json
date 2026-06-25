@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_roadmap::chunk-008",
+  "source_id": "local_roadmap",
+  "text": "- [x] Release manifest schema (Pydantic model with version, status, verification results).\n- [x] Release checklist (12 individual checks for release readiness).\n- [x] Release thresholds (configurable pass rates for retrieval, golden eval, citation).\n- [x] Local-demo CLI command (13-step full demonstration pipeline).\n- [x] Release CLI commands (check, manifest, report).\n- [x] Strict release verification (15 checks including PQC pack, source validation, UI commands, API routes).\n- [x] Dashboard Release tab (release status, manifest, report, golden eval summary).\n- [x] Export report enhancements (source pack, golden eval, proof, release sections).\n- [x] Release unit tests (11 tests for config, schemas, manifest, checklist).\n- [x] 387 tests passing.",
+  "section": "Phase 8: Local v1 Release Candidate Hardening",
+  "start_char": 3686,
+  "end_char": 4441,
+  "token_estimate": 108,
+  "metadata": {
+    "section": "Phase 8: Local v1 Release Candidate Hardening"
+  }
+}

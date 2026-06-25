@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-018",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\npytest -q\npytest -q tests/integration/test_local_v1_smoke.py -m \"not slow\"\n```\n\nSee `RELEASE_NOTES_LOCAL_V1_RC.md` for known limitations and next milestones.",
+  "section": "15. Test suite",
+  "start_char": 2918,
+  "end_char": 3083,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "15. Test suite"
+  }
+}

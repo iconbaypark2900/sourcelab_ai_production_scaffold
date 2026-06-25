@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-002",
+  "source_id": "local_offline_install",
+  "text": "From the project root (`sourcelab_ai_production/`):\n\n```bash\npython3 -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip setuptools wheel\npython -m pip install -e \".[dev,api,ui,ingest,retrieval,models]\"\nsourcelab init-local\nsourcelab doctor\n```",
+  "section": "1. Local clone install",
+  "start_char": 302,
+  "end_char": 570,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "1. Local clone install"
+  }
+}

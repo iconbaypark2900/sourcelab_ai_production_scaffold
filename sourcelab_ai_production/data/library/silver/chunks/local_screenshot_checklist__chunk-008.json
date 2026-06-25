@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-008",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Browser: `http://localhost:8000/docs` \u2014 OpenAPI UI\n- [ ] Terminal: `curl localhost:8000/version` \u2014 full metadata JSON\n- [ ] Terminal: `curl localhost:8000/ready` \u2014 components ok",
+  "section": "API",
+  "start_char": 1466,
+  "end_char": 1649,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "API"
+  }
+}

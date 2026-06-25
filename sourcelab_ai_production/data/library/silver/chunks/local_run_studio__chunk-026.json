@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-026",
+  "source_id": "local_run_studio",
+  "text": "Lesson create runs the research engine before generation: pack-aware **research plan**, **library-aware retrieval** (source pack + silver library + promoted candidates with origin labels), **source coverage** with weak labels (`insufficient_evidence`, `thin_lesson`, `needs_source_expansion`), **evidence-bound lesson plan**, **genericness report**, **topic profile update** (applied on answer submit), and **expansion suggestions**.\n\nResearch mode surfaces these artifacts in `ResearchEnginePanels` alongside existing validation panels. CLI:\n\n```bash\nsourcelab research plan --topic \"...\" --source-pack agentic_engineering_v1\nsourcelab research coverage --run latest\nsourcelab research genericness --run latest\nsourcelab research profile --topic \"...\" --source-pack agentic_engineering_v1\nsourcelab research expansion --run latest\n```\n\nTopic profiles: `artifacts/research/topic_profiles/<pack>/<topic_slug>.json`.",
+  "section": "Library-Aware Research Engine v1",
+  "start_char": 19701,
+  "end_char": 20615,
+  "token_estimate": 93,
+  "metadata": {
+    "section": "Library-Aware Research Engine v1"
+  }
+}

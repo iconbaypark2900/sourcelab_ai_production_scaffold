@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-003",
+  "source_id": "local_architecture",
+  "text": "1. Sources are registered and trusted.\n2. Sources are chunked with metadata.\n3. Chunks are embedded and compressed.\n4. Retrieval returns source-linked chunks.\n5. Generator creates lesson/task from chunks.\n6. Verifier maps claims to chunks.\n7. Harness writes proof bundle.\n8. Learner answers task.\n9. Answer scorer updates profile.\n10. Next-task selector adapts path.",
+  "section": "Data flow",
+  "start_char": 332,
+  "end_char": 698,
+  "token_estimate": 54,
+  "metadata": {
+    "section": "Data flow"
+  }
+}

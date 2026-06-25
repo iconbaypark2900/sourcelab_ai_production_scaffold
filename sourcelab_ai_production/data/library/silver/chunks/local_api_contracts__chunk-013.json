@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-013",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /retrieval/search\n```\n\nRequest:\n\n```json\n{\n  \"query\": \"post-quantum cryptography\",\n  \"top_k\": 5,\n  \"mode\": \"hybrid\"\n}\n```\n\nResponse:\n\n```json\n{\n  \"query\": \"post-quantum cryptography\",\n  \"mode\": \"hybrid\",\n  \"results\": [\n    {\n      \"chunk_id\": \"nist_pqc_chunk_1\",\n      \"source_id\": \"nist_pqc\",\n      \"title\": \"NIST Post-Quantum Cryptography\",\n      \"score\": 0.85,\n      \"trust_tier\": \"A\",\n      \"text_preview\": \"NIST recommends...\"\n    }\n  ],\n  \"total\": 1\n}\n```",
+  "section": "Search",
+  "start_char": 3504,
+  "end_char": 3978,
+  "token_estimate": 48,
+  "metadata": {
+    "section": "Search"
+  }
+}

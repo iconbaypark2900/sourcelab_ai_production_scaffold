@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-003",
+  "source_id": "local_web_readme",
+  "text": "From the **project root** (`sourcelab_ai_production`):\n\n```bash\nsource .venv/bin/activate\nsourcelab api --serve          # serves http://127.0.0.1:8000",
+  "section": "1. Start the backend (FastAPI)",
+  "start_char": 1018,
+  "end_char": 1169,
+  "token_estimate": 14,
+  "metadata": {
+    "section": "1. Start the backend (FastAPI)"
+  }
+}

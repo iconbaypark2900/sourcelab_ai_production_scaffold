@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-024",
+  "source_id": "local_run_studio",
+  "text": "- **`/batches/[batchId]`** \u2014 auto-loads answer matrix on page load; header badges (answers, avg latest/best, review-heavy); `BatchAnswerSubmitPanel` for explicit sample-answer submission across selected runs; cached matrix on API error.\n- **`/runs/compare`** \u2014 **Run artifacts** | **Learner answers** tabs; learner tab uses `GET /runs/answers/compare`.\n- **`BatchAnswerMatrix`** \u2014 status pills for No attempts, Weak latest, Needs review, Capped, Regression; deterministic recommendation bullets.\n- **CLI** \u2014 `--markdown` on `sourcelab batch answers` and `sourcelab runs answers-compare` (table + recommendations).\n- **Reports** \u2014 answer section includes matrix, no-attempts count, weak/review warnings, best/latest summary; does not fail when no attempts exist.\n\nSee also [`apps/web/README.md`](../../apps/web/README.md).",
+  "section": "v2.2 \u2014 Answer-aware batch workflows",
+  "start_char": 18129,
+  "end_char": 18950,
+  "token_estimate": 97,
+  "metadata": {
+    "section": "v2.2 \u2014 Answer-aware batch workflows"
+  }
+}

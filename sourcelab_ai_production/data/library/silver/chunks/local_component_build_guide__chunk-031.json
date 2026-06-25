@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-031",
+  "source_id": "local_component_build_guide",
+  "text": "- `executive_explanation` - Explain to executive audience\n- `architecture_review` - Review architectural decisions\n- `debugging` - Diagnose technical problems\n- `hands_on_lab` - Practical exercises\n- `risk_review` - Assess risks and mitigations",
+  "section": "Task formats",
+  "start_char": 6193,
+  "end_char": 6437,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Task formats"
+  }
+}

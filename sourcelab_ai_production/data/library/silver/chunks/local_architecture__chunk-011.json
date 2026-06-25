@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-011",
+  "source_id": "local_architecture",
+  "text": "- **DeterministicBackend**: Always works, no dependencies.\n- **OllamaBackend**: Calls local Ollama server at `http://localhost:11434`.\n- **OpenAICompatibleBackend**: Supports vLLM, SGLang, LiteLLM, NIM endpoints.",
+  "section": "Three backends",
+  "start_char": 1940,
+  "end_char": 2152,
+  "token_estimate": 22,
+  "metadata": {
+    "section": "Three backends"
+  }
+}

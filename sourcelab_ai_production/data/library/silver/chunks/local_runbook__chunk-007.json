@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-007",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources approve <source_id>",
+  "section": "Approve a source",
+  "start_char": 615,
+  "end_char": 652,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Approve a source"
+  }
+}

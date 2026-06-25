@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-013",
+  "source_id": "local_web_readme",
+  "text": "annotations toolbar: tab, filter, search,\n  selected attempt, compare (pinned pair or preset), note counts (visible/total).\n- **Answer preview improvements** (Diff tab) \u2014 Preview/Full text toggle, character\n  counts per side, answer length delta, REVIEW/CLEAR/CAPPED badges per side.\n\nRun frontend unit tests: `npm run test` (Vitest \u2014 attempt-url, attempt-filters,\nattempt-summary, use-attempt-notes).\n\nSee v1.7 below for notes export/import, workspace URL restore, and answer text comparison.",
+  "section": "Run Studio v1.8 \u2014 annotation search & filtered export",
+  "start_char": 7146,
+  "end_char": 7639,
+  "token_estimate": 62,
+  "metadata": {
+    "section": "Run Studio v1.8 \u2014 annotation search & filtered export"
+  }
+}

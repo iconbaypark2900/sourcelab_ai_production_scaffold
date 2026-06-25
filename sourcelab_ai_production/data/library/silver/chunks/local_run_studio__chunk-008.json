@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-008",
+  "source_id": "local_run_studio",
+  "text": "The Run Studio (`/runs/[runId]`) is live and interactive:\n\n- **Answer submission** \u2014 `components/AnswerSubmissionPanel.tsx` provides a\n  textarea, Strong/Weak/Unsupported sample buttons, and loading/success/error\n  states. On submit it calls `submitAnswer(runId, \u2026)`; the response shows the\n  final score, rubric alignment, uncapped score, needs-review flag, cap reason,\n  and next-task focus, then triggers a page refresh.\n- **Live polling** \u2014 `lib/use-run-refresh.ts` drives the page: a manual refresh,\n  an auto-refresh toggle (default 5s, **polling only \u2014 no WebSockets**), a\n  last-updated timestamp, pause-on-error, and `visibilitychange` pausing when the\n  tab is hidden. `components/RunRefreshBar.tsx` renders these controls plus an\n  API connection status. On disconnect the page keeps the last cached snapshot on\n  screen instead of blanking out.\n- **Reactive timeline** \u2014 `components/DiffusionTimeline.tsx` derives each stage\n  from artifact presence and run metrics, so after a UI submit the\n  answer/profile/next-task stages move `MISSING \u2192 PASS/REVIEW`.\n- **Forensic artifact loader** \u2014 `components/ArtifactViewer.tsx` adds quick\n  buttons (`answer_review.json`, `learning_report.json`,",
+  "section": "v1.1 \u2014 Live updates + in-UI answer submission",
+  "start_char": 5461,
+  "end_char": 6661,
+  "token_estimate": 144,
+  "metadata": {
+    "section": "v1.1 \u2014 Live updates + in-UI answer submission"
+  }
+}

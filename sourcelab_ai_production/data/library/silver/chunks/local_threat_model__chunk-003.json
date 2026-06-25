@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_threat_model::chunk-003",
+  "source_id": "local_threat_model",
+  "text": "Verification v2 adds:\n- Atomic claim extraction with severity assessment\n- Evidence matching with trust tier weighting\n- Citation resolution rate calculation\n- Conflict detection for contradictions\n- Human review queue for uncertain items\n- Release gate with citation and high-risk checks",
+  "section": "Verification v2 security",
+  "start_char": 1197,
+  "end_char": 1485,
+  "token_estimate": 42,
+  "metadata": {
+    "section": "Verification v2 security"
+  }
+}

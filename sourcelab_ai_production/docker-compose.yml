@@ -1,0 +1,32 @@
+services:
+  sourcelab-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    environment:
+      SOURCELAB_PROJECT_ROOT: /app
+      SOURCELAB_API_RELOAD: "false"
+
+  # Optional dashboard — requires UI extras in the image or local venv mount.
+  sourcelab-dashboard:
+    build: .
+    profiles:
+      - dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    environment:
+      SOURCELAB_PROJECT_ROOT: /app
+    command:
+      [
+        "streamlit",
+        "run",
+        "src/sourcelab/ui/dashboard.py",
+        "--server.port=8501",
+        "--server.address=0.0.0.0",
+      ]

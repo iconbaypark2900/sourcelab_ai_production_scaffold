@@ -1,0 +1,137 @@
+[
+  {
+    "answer": "Based on NIST guidance and industry best practices, organizations should begin PQC migration by conducting a comprehensive cryptographic inventory. This involves identifying all locations where cryptography is used, including algorithms, key types, protocols, and libraries. The inventory should capture the purpose, data sensitivity, and dependencies for each cryptographic usage. Once the inventory is complete, organizations can prioritize migration based on data lifetime and risk, starting with long-lived sensitive data. A phased approach with hybrid implementations during transition is recommended to maintain security while ensuring compatibility.",
+    "topic": "post-quantum cryptography migration",
+    "expected_min_score": 0.7,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer with source grounding and practical steps"
+  },
+  {
+    "answer": "PQC migration requires understanding the current cryptographic landscape. According to NIST, organizations should first inventory their cryptographic assets, then assess risk based on data sensitivity and lifetime. The transition should use hybrid approaches combining classical and post-quantum algorithms to provide security against both current and future threats. ML-KEM and ML-DSA are the primary standardized algorithms, with SLH-DSA as a backup. Testing in non-production environments is essential before deployment.",
+    "topic": "post-quantum cryptography migration",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer with specific algorithm references"
+  },
+  {
+    "answer": "Crypto agility is the ability to quickly swap cryptographic algorithms without significant system changes. This is achieved through abstraction layers that separate cryptographic operations from business logic, algorithm negotiation mechanisms, and configuration-driven algorithm selection. For PQC transition, crypto agility allows organizations to gradually replace classical algorithms with post-quantum alternatives while maintaining interoperability. The key is designing systems that don't hard-code algorithm assumptions.",
+    "topic": "crypto agility",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer explaining crypto agility concepts"
+  },
+  {
+    "answer": "Hybrid key exchange combines classical (ECDH) and post-quantum (ML-KEM) algorithms. The most common pattern is concatenation, where shared secrets from both algorithms are combined. This provides security against both classical and quantum attacks. The overhead is manageable, with key exchange time approximately doubling. Hybrid approaches are recommended for new deployments, especially for high-value, long-lived connections.",
+    "topic": "hybrid key exchange",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer with technical details"
+  },
+  {
+    "answer": "The NIST PQC standardization process resulted in three primary algorithms: ML-KEM for key encapsulation, ML-DSA for digital signatures, and SLH-DSA as a backup signature scheme. ML-KEM is based on module lattice problems and offers performance comparable to RSA. ML-DSA provides digital signatures with security based on lattice problems. SLH-DSA uses hash functions and offers conservative security assumptions. These algorithms have undergone extensive public scrutiny and are considered secure against known attacks.",
+    "topic": "NIST PQC algorithms",
+    "expected_min_score": 0.6,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Strong answer with specific algorithm details"
+  },
+  {
+    "answer": "PQC migration is important but not urgent for most organizations. The quantum threat is real but still years away from practical impact. Organizations should focus on low-hanging fruit first, like updating certificate policies and testing new algorithms. The main challenge is the larger key sizes, which may require bandwidth adjustments.",
+    "topic": "post-quantum cryptography migration",
+    "expected_min_score": 0.3,
+    "expected_max_score": 0.6,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Weak answer - vague, lacks source grounding, dismissive"
+  },
+  {
+    "answer": "Just use AES-256 for everything. It's already quantum-safe. No need to worry about PQC for symmetric encryption. Focus only on key exchange and signatures.",
+    "topic": "post-quantum cryptography migration",
+    "expected_min_score": 0.2,
+    "expected_max_score": 0.5,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Weak answer - oversimplified, ignores public key crypto"
+  },
+  {
+    "answer": "The best approach is to wait until quantum computers are actually threatening RSA, then switch everything at once. There's no point in early migration.",
+    "topic": "post-quantum cryptography migration",
+    "expected_min_score": 0.1,
+    "expected_max_score": 0.4,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Weak answer - ignores harvest now decrypt later"
+  },
+  {
+    "answer": "PQC is just about changing key sizes. Make your keys bigger and you're done. The algorithms are basically the same.",
+    "topic": "PQC implementation",
+    "expected_min_score": 0.1,
+    "expected_max_score": 0.3,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Weak answer - fundamentally incorrect understanding"
+  },
+  {
+    "answer": "I'm not sure about the details, but I think you need to update your TLS configuration and maybe get new certificates. The specifics depend on your infrastructure.",
+    "topic": "post-quantum cryptography migration",
+    "expected_min_score": 0.2,
+    "expected_max_score": 0.5,
+    "expected_quality": "weak",
+    "should_trigger_review": false,
+    "description": "Weak answer - too vague, lacks specifics"
+  },
+  {
+    "answer": "Quantum computers can definitely break RSA-2048 right now. You need to migrate immediately or your data is at risk. All classical cryptography is broken.",
+    "topic": "quantum computing risk",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.2,
+    "expected_quality": "unsupported",
+    "should_trigger_review": true,
+    "description": "Unsupported answer - makes false claims about current quantum capabilities"
+  },
+  {
+    "answer": "Every organization must remove all RSA and ECC implementations immediately. There are no exceptions. PQC algorithms are drop-in replacements with no compatibility issues.",
+    "topic": "PQC migration",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.2,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky answer - extreme recommendation, ignores complexity"
+  },
+  {
+    "answer": "The best strategy is to implement ML-KEM everywhere immediately. It's faster than RSA and has smaller keys, so there's no downside. Ignore hybrid approaches.",
+    "topic": "PQC implementation",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.3,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky answer - makes false performance claims, ignores hybrid benefits"
+  },
+  {
+    "answer": "PQC migration is a scam invented by vendors to sell new hardware. The quantum threat is completely overhyped and won't happen for 100 years.",
+    "topic": "quantum computing risk",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.1,
+    "expected_quality": "unsupported",
+    "should_trigger_review": true,
+    "description": "Unsupported answer - conspiracy theory, no evidence"
+  },
+  {
+    "answer": "You can safely ignore NIST recommendations. Just implement whatever your vendor suggests. They know best.",
+    "topic": "PQC migration",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.1,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky answer - ignores standards, blind vendor trust"
+  }
+]

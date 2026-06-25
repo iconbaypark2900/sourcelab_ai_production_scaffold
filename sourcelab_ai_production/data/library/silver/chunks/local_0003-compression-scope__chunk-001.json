@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0003-compression-scope::chunk-001",
+  "source_id": "local_0003-compression-scope",
+  "text": "The scaffold uses simple int8 compression and defines extension points for FAISS, Qdrant, product quantization, and TurboQuant-style adapters.",
+  "section": "Decision",
+  "start_char": 91,
+  "end_char": 233,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "Decision"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-000",
+  "source_id": "local_prd",
+  "text": "SourceLab AI is a source-grounded adaptive technical lab generator. It helps technical learners practice advanced subjects using trusted sources, visible rubrics, and adaptive next tasks.",
+  "section": "Product summary",
+  "start_char": 67,
+  "end_char": 254,
+  "token_estimate": 25,
+  "metadata": {
+    "section": "Product summary"
+  }
+}

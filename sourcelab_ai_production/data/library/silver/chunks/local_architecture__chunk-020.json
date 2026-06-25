@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-020",
+  "source_id": "local_architecture",
+  "text": "The harness validates:\n- All required artifacts exist\n- Rubric weights sum to 1.0\n- Answer key has source references\n- Generation trace has source IDs and chunk IDs\n- No high-risk unsupported claims exist",
+  "section": "Artifact validation",
+  "start_char": 4405,
+  "end_char": 4609,
+  "token_estimate": 35,
+  "metadata": {
+    "section": "Artifact validation"
+  }
+}

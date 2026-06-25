@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-012",
+  "source_id": "local_release_process",
+  "text": "```\n\nExpected: writes `requirements/lock-local-v1.txt` with Python version header (editable local project lines excluded).",
+  "section": "or: bash scripts/freeze_requirements.sh",
+  "start_char": 1924,
+  "end_char": 2046,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "or: bash scripts/freeze_requirements.sh"
+  }
+}

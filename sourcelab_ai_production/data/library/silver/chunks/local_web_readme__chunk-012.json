@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-012",
+  "source_id": "local_web_readme",
+  "text": "On `/runs/[runId]`:\n\n- **History search** \u2014 `Search attempts / notes\u2026` matches attempt id, cap reason,\n  next-task focus, and local note text (case-insensitive). Empty search = all\n  visible under current filter. No matches = clear empty state with reset button.\n- **URL search state** \u2014 `?tab=history&filter=has_notes&q=grounding` restores\n  tab, filter, and search box. Empty `q` omitted. `clearAttemptQuery` preserves\n  tab, filter, and `q`.\n- **Note-aware filters** \u2014 **Has notes** / **No notes** alongside All, Needs review,\n  Passed, Capped. Keyboard nav (\u2191\u2193 Home/End) uses the searched/filtered list.\n- **Filtered notes export** \u2014 **Export visible notes** downloads\n  `sourcelab_attempt_notes_<run_id>_filtered.json` with metadata\n  (`run_id`, `exported_at`, `filter`, `query`, `total_notes_exported`,\n  `source=localStorage`). **Export all notes** unchanged. Browser-only \u2014 not proof artifacts.\n- **Compare presets in URL** \u2014 `?preset=first_latest|selected_latest|selected_best|previous_selected`.\n  Explicit `from`+`to` win over preset. Quick-compare buttons write preset when\n  comparison is not pinned; **Pin comparison** writes explicit `from`/`to`.\n- **Workspace summary panel** \u2014 in the",
+  "section": "Run Studio v1.8 \u2014 annotation search & filtered export",
+  "start_char": 5946,
+  "end_char": 7146,
+  "token_estimate": 143,
+  "metadata": {
+    "section": "Run Studio v1.8 \u2014 annotation search & filtered export"
+  }
+}

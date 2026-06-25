@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_source_trust_policy::chunk-005",
+  "source_id": "local_source_trust_policy",
+  "text": "```bash\nsourcelab sources freshness\n```",
+  "section": "Freshness commands",
+  "start_char": 1358,
+  "end_char": 1397,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Freshness commands"
+  }
+}

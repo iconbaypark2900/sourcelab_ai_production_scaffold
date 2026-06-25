@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-009",
+  "source_id": "local_architecture",
+  "text": "The model router provides a routing layer between generation components and model backends:",
+  "section": "Model router architecture",
+  "start_char": 1631,
+  "end_char": 1722,
+  "token_estimate": 13,
+  "metadata": {
+    "section": "Model router architecture"
+  }
+}

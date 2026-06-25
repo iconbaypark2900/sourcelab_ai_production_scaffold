@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-004",
+  "source_id": "local_topic_backlog",
+  "text": "-packs all --run-evals --run-lessons\nsourcelab verify-release --strict\n```",
+  "section": "Extension Pack Eval Alignment (v1.0.3)",
+  "start_char": 3205,
+  "end_char": 3279,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "Extension Pack Eval Alignment (v1.0.3)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-024",
+  "source_id": "local_batch_runs",
+  "text": "1. **Retrieval** \u2014 source IDs, chunk IDs, pairwise Jaccard\n2. **Claims** \u2014 totals, supported/unsupported, citation resolution\n3. **Proof/harness** \u2014 gate status, artifact count\n4. **Lesson** \u2014 topic, format, pack, difficulty, length",
+  "section": "Run comparison (v2.0)",
+  "start_char": 9194,
+  "end_char": 9426,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Run comparison (v2.0)"
+  }
+}

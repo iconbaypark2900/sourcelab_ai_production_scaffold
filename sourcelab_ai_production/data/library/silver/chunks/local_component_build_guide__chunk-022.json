@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-022",
+  "source_id": "local_component_build_guide",
+  "text": "```python\nfrom sourcelab.retrieval.index import PocketIndex\nfrom sourcelab.sources.registry import SourceRegistry\n\nregistry = SourceRegistry.bootstrap_demo(Path.cwd())\nindex = PocketIndex.from_registry(registry)\nresults = index.search(\"crypto inventory\", top_k=4)\n```",
+  "section": "Vector search",
+  "start_char": 3816,
+  "end_char": 4083,
+  "token_estimate": 21,
+  "metadata": {
+    "section": "Vector search"
+  }
+}

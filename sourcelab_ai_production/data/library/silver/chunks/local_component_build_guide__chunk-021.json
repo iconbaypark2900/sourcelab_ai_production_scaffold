@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-021",
+  "source_id": "local_component_build_guide",
+  "text": "- `src/sourcelab/retrieval/index.py` - PocketIndex (vector search)\n- `src/sourcelab/retrieval/bm25.py` - BM25Index (keyword search)\n- `src/sourcelab/retrieval/hybrid_search.py` - HybridSearch (combined)\n- `src/sourcelab/retrieval/embeddings.py` - Hashed embeddings\n- `src/sourcelab/retrieval/compression.py` - int8 compression",
+  "section": "Key files",
+  "start_char": 3469,
+  "end_char": 3795,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Key files"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "post-quantum cryptography migration planning",
+    "difficulty": 3,
+    "task_format": "architecture_review",
+    "required_source_ids": ["crypto_inventory_migration", "nist_pqc_overview"],
+    "forbidden_claims": ["quantum computers can break RSA today"],
+    "description": "Lesson on PQC migration planning"
+  },
+  {
+    "topic": "cryptographic inventory best practices",
+    "difficulty": 2,
+    "task_format": "hands_on_lab",
+    "required_source_ids": ["crypto_inventory_migration"],
+    "forbidden_claims": ["immediate replacement of all algorithms"],
+    "description": "Lesson on cryptographic inventory"
+  },
+  {
+    "topic": "hybrid key exchange implementation",
+    "difficulty": 4,
+    "task_format": "architecture_review",
+    "required_source_ids": ["hybrid_key_exchange_notes"],
+    "forbidden_claims": ["hybrid has no performance overhead"],
+    "description": "Technical lesson on hybrid key exchange"
+  },
+  {
+    "topic": "crypto agility for post-quantum transition",
+    "difficulty": 3,
+    "task_format": "debugging",
+    "required_source_ids": ["crypto_agility_notes"],
+    "forbidden_claims": ["crypto agility is unnecessary"],
+    "description": "Lesson on crypto agility concepts"
+  },
+  {
+    "topic": "quantum cybersecurity myths debunked",
+    "difficulty": 2,
+    "task_format": "executive_explanation",
+    "required_source_ids": ["risk_myths_quantum_breaks_rsa_today"],
+    "forbidden_claims": ["quantum computers can break RSA-2048 today", "all cryptography will be broken immediately"],
+    "description": "Lesson debunking quantum cybersecurity myths"
+  }
+]

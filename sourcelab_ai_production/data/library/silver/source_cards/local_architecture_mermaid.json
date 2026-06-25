@@ -1,0 +1,48 @@
+{
+  "source_id": "local_architecture_mermaid",
+  "origin": "local_docs",
+  "title": "Architecture Diagrams",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "trust_tier": "B",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "lesson",
+    "participant",
+    "source",
+    "claim",
+    "mermaid",
+    "trust"
+  ],
+  "summary": "mermaid\nflowchart TD\n    AUser Topic -- BSource Registry\n    B -- CChunking + Metadata\n    C -- DHybrid Retrieval\n    D -- ECompressed Vector Index\n    D -- FSource-Grounded Lesson Generator\n    F -- GClaim Verifier\n    G -- HGrounding Report\n    H -- IHarness Proof Bundle\n    I -- JUser Answer\n    J -- KAnswer Scorer\n    K -- LSkill Profile\n    L -- MNext Task Selector\n    M -- NAdaptive Next Les",
+  "key_terms": [
+    "lesson",
+    "participant",
+    "source",
+    "claim",
+    "mermaid",
+    "trust",
+    "answer",
+    "chunks",
+    "claims",
+    "flowchart",
+    "generator",
+    "harness"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_architecture_mermaid.md",
+  "chunk_paths": [
+    "data/library/silver/chunks/local_architecture_mermaid__chunk-000.json",
+    "data/library/silver/chunks/local_architecture_mermaid__chunk-001.json",
+    "data/library/silver/chunks/local_architecture_mermaid__chunk-002.json"
+  ],
+  "checksum": "62c530ab459e55f246407c490f7e6193cb999de0d9edb7d5eae8eb3732a19fe5",
+  "quality_score": 0.8917,
+  "external_id": "docs/diagrams/ARCHITECTURE_MERMAID.md"
+}

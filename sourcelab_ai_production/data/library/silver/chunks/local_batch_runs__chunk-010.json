@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-010",
+  "source_id": "local_batch_runs",
+  "text": "`CrossRunAnswerDiffPanel` on batch detail and `/runs/compare` (answers tab):\n\n- Compare attempts across **two runs** via `GET /learning/answers/{run_id}/{attempt_id}`\n- Run A/B selectors; attempt selectors: **Latest**, **Best**, and every attempt from `GET /learning/answers/{run_id}` (label: `attempt_\u2026 | score X | clear/review`)\n- Per-run attempt history cached on error; detail fetched only for the selected attempt\n- Side-by-side: topic, run/attempt IDs, scores, rubric, uncapped, review, cap reason, focus, answer preview/full, strengths/weaknesses\n- Delta cards: score, rubric, uncapped, review changed, answer length\n- Frontend-driven \u2014 no proof artifact mutation",
+  "section": "Cross-run answer diff (v2.4 / v2.5)",
+  "start_char": 3440,
+  "end_char": 4110,
+  "token_estimate": 84,
+  "metadata": {
+    "section": "Cross-run answer diff (v2.4 / v2.5)"
+  }
+}

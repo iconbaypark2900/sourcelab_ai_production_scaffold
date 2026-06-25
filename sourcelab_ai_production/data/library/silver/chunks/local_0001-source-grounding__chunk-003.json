@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0001-source-grounding::chunk-003",
+  "source_id": "local_0001-source-grounding",
+  "text": "- More metadata work is required.\n- Every lesson must include sources.\n- The harness can fail closed.",
+  "section": "Consequences",
+  "start_char": 307,
+  "end_char": 408,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "Consequences"
+  }
+}

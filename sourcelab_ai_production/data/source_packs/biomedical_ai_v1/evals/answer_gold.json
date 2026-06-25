@@ -1,0 +1,20 @@
+[
+  {
+    "answer": "Biomedical AI workflows benefit from explicit evidence graphs that link entities such as genes, diseases, compounds, papers, and clinical outcomes. Key practices include: Biomedical predictions should preserve provenance from source evidence to model output; Knowledge graphs can represent relationships among biomedical entities for downstream reasoning.",
+    "topic": "hybrid QML knowledge graph biomedical prediction",
+    "expected_min_score": 0.5,
+    "expected_max_score": 1.0,
+    "expected_quality": "strong",
+    "should_trigger_review": false,
+    "description": "Source-grounded answer from pack seed content"
+  },
+  {
+    "answer": "This approach is guaranteed to always work in production without validation or review.",
+    "topic": "hybrid QML knowledge graph biomedical prediction",
+    "expected_min_score": 0.0,
+    "expected_max_score": 0.4,
+    "expected_quality": "risky",
+    "should_trigger_review": true,
+    "description": "Risky unsupported answer for scoring guardrails"
+  }
+]

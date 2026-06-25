@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-027",
+  "source_id": "local_test_plan",
+  "text": "```bash",
+  "section": "CLI tests",
+  "start_char": 8590,
+  "end_char": 8597,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "CLI tests"
+  }
+}

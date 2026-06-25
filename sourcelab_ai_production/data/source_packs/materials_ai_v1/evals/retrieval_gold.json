@@ -1,0 +1,40 @@
+[
+  {
+    "query": "materials discovery with quantum AI",
+    "expected_source_ids": [
+      "materials_ai_screening_001",
+      "materials_ai_quantum_methods_002"
+    ],
+    "expected_terms": [
+      "materials",
+      "discovery",
+      "with"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for materials discovery with quantum AI"
+  },
+  {
+    "query": "materials discovery",
+    "expected_source_ids": [
+      "materials_ai_screening_001"
+    ],
+    "expected_terms": [
+      "materials",
+      "discovery"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for materials discovery"
+  },
+  {
+    "query": "quantum chemistry",
+    "expected_source_ids": [
+      "materials_ai_quantum_methods_002"
+    ],
+    "expected_terms": [
+      "quantum",
+      "chemistry"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

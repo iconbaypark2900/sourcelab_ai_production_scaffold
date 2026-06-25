@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-007",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab answer submit --topic \"post-quantum cryptography migration\" \\\n  --text \"Begin with crypto inventory; prioritize hybrid migration; do not claim RSA is broken today without evidence.\"\nsourcelab learning report\nsourcelab profile show\n```",
+  "section": "7. Answer scoring",
+  "start_char": 1753,
+  "end_char": 2005,
+  "token_estimate": 33,
+  "metadata": {
+    "section": "7. Answer scoring"
+  }
+}

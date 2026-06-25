@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_readme::chunk-016",
+  "source_id": "local_readme",
+  "text": "```bash\nsourcelab source-pack validate pqc_v1\nsourcelab evals run --pack pqc_v1\nsourcelab evals latest --pack pqc_v1\n```\n\nExpected: **45/45** cases passing for `pqc_v1`.",
+  "section": "Golden evals",
+  "start_char": 5055,
+  "end_char": 5224,
+  "token_estimate": 22,
+  "metadata": {
+    "section": "Golden evals"
+  }
+}

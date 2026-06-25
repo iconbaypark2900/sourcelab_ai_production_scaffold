@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-028",
+  "source_id": "local_runbook",
+  "text": "Open the latest `harness_report.json`.",
+  "section": "Harness failed",
+  "start_char": 1905,
+  "end_char": 1943,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Harness failed"
+  }
+}

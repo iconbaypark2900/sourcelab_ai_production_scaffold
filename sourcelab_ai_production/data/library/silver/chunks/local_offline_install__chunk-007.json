@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-007",
+  "source_id": "local_offline_install",
+  "text": "SourceLab Local is designed for offline operation:\n\n```bash\nsourcelab source-pack install pqc_v1\nsourcelab local-demo\nsourcelab evals run --pack pqc_v1\nsourcelab verify-release --strict\n```\n\nNo live web search, hosted databases, or external APIs are required for the default deterministic path.",
+  "section": "6. Run without internet",
+  "start_char": 1831,
+  "end_char": 2125,
+  "token_estimate": 39,
+  "metadata": {
+    "section": "6. Run without internet"
+  }
+}

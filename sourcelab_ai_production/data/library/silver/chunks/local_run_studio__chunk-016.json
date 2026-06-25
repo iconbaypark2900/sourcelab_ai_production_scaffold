@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-016",
+  "source_id": "local_run_studio",
+  "text": "- **`/batches/new`** \u2014 batch form with add/remove rows and templates (PQC migration,\n  crypto inventory, AI safety eval plan).\n- **`/batches`**, **`/batches/[batchId]`** \u2014 list, detail, run cards, comparison,\n  markdown report download.\n- **`/runs/compare`** \u2014 manual multi-run compare via `GET /runs/compare`.\n- **Backend** \u2014 `POST /lessons/batch`, batch manifest artifacts under\n  `artifacts/batches/<batch_id>/`, deterministic comparison engine in\n  `src/sourcelab/comparison/`.\n- **CLI** \u2014 `sourcelab batch create|list|show|compare`, `sourcelab runs compare`.\n- See [BATCH_RUNS.md](./BATCH_RUNS.md) for full reference.",
+  "section": "v2.0 \u2014 Batch runs & compare",
+  "start_char": 11622,
+  "end_char": 12244,
+  "token_estimate": 69,
+  "metadata": {
+    "section": "v2.0 \u2014 Batch runs & compare"
+  }
+}

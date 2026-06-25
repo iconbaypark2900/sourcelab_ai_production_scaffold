@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-016",
+  "source_id": "local_component_build_guide",
+  "text": "sourcelab sources quality\n```\n\nReports include:\n- Missing metadata\n- Low-trust sources\n- Stale sources\n- Duplicate hashes\n- Missing path/URL",
+  "section": "Generate quality report",
+  "start_char": 2529,
+  "end_char": 2669,
+  "token_estimate": 21,
+  "metadata": {
+    "section": "Generate quality report"
+  }
+}

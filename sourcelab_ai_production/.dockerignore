@@ -1,0 +1,12 @@
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.git
+.cursor
+artifacts/runs
+artifacts/evals
+artifacts/release
+artifacts/index
+*.egg-info

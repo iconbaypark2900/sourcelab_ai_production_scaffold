@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Independent agents should be coordinated by a control plane rather than nested inside one another",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Local-First Multi-Agent Engineering Architecture"
+  },
+  {
+    "claim": "Human approval gates should control production, customer, live-risk, and release transitions",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Local-First Multi-Agent Engineering Architecture"
+  },
+  {
+    "claim": "A gate should fail closed when required evidence is missing",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Evidence-Based Quality Gates"
+  },
+  {
+    "claim": "Validation artifacts should be linked to the exact task or run they support",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Evidence-Based Quality Gates"
+  },
+  {
+    "claim": "Agentic Engineering and Multi-Agent Software Workflows requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

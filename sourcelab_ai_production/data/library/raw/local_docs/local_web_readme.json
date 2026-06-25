@@ -1,0 +1,44 @@
+{
+  "record_id": "local_web_readme",
+  "origin": "local_docs",
+  "external_id": "apps/web/README.md",
+  "title": "SourceLab Run Studio (Next.js 16 frontend)",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "run",
+    "attempt",
+    "runs",
+    "tab",
+    "studio",
+    "answer"
+  ],
+  "summary": "A dark diffusion-console for SourceLab AI. It visualizes every run as a\nprogressive, source-grounded pipeline:",
+  "key_terms": [
+    "run",
+    "attempt",
+    "runs",
+    "tab",
+    "studio",
+    "answer",
+    "frontend",
+    "history",
+    "sourcelab",
+    "artifacts",
+    "compare",
+    "filter"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_web_readme.md",
+  "checksum": "cfbf75ba158b292a36cf48c86b7d7561573996622b5dda63b7403112f5c555b7",
+  "metadata": {
+    "relative_path": "apps/web/README.md"
+  }
+}

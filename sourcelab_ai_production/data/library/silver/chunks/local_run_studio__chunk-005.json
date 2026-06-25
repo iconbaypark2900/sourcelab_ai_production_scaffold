@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-005",
+  "source_id": "local_run_studio",
+  "text": "}` |\n| `getModelConfig` / `getModelHealth` | `GET /models/config` \u00b7 `GET /models/health` |\n| `getReleaseManifest` | *composed* \u2014 no `/release` route exists; built from proof + evals + harness + version + source-pack |",
+  "section": "Backend endpoints consumed",
+  "start_char": 3531,
+  "end_char": 3748,
+  "token_estimate": 34,
+  "metadata": {
+    "section": "Backend endpoints consumed"
+  }
+}

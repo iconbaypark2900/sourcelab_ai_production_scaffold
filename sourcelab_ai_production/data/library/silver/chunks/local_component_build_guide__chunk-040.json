@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-040",
+  "source_id": "local_component_build_guide",
+  "text": "The dashboard provides a visual interface for inspecting SourceLab runs.",
+  "section": "Dashboard v1",
+  "start_char": 8502,
+  "end_char": 8574,
+  "token_estimate": 10,
+  "metadata": {
+    "section": "Dashboard v1"
+  }
+}

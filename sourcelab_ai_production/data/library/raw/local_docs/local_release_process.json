@@ -1,0 +1,44 @@
+{
+  "record_id": "local_release_process",
+  "origin": "local_docs",
+  "external_id": "docs/operations/RELEASE_PROCESS.md",
+  "title": "SourceLab Local v1.0 \u2014 Release Process",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "release",
+    "bash",
+    "sourcelab",
+    "expected",
+    "artifacts",
+    "pass"
+  ],
+  "summary": "Step-by-step guide for tagging SourceLab Local v1.0 GA. Do not run git tag until all steps pass.",
+  "key_terms": [
+    "release",
+    "bash",
+    "sourcelab",
+    "expected",
+    "artifacts",
+    "pass",
+    "bundle",
+    "git",
+    "local",
+    "strict",
+    "make",
+    "manifest"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_release_process.md",
+  "checksum": "0232bd3216377099e23dc811c4e79830cdc40863fad63a7a60856378bd600387",
+  "metadata": {
+    "relative_path": "docs/operations/RELEASE_PROCESS.md"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source_id": "local_0001-source-grounding",
+  "origin": "local_docs",
+  "title": "ADR 0001: Source grounding is mandatory",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "trust_tier": "B",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "grounding",
+    "lessons",
+    "accepted",
+    "adr",
+    "becomes",
+    "can"
+  ],
+  "summary": "Lessons cannot be generated without source-linked retrieved chunks.",
+  "key_terms": [
+    "grounding",
+    "lessons",
+    "accepted",
+    "adr",
+    "becomes",
+    "can",
+    "cannot",
+    "chatbot",
+    "chunks",
+    "claim",
+    "closed",
+    "consequences"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_0001-source-grounding.md",
+  "chunk_paths": [
+    "data/library/silver/chunks/local_0001-source-grounding__chunk-000.json",
+    "data/library/silver/chunks/local_0001-source-grounding__chunk-001.json",
+    "data/library/silver/chunks/local_0001-source-grounding__chunk-002.json",
+    "data/library/silver/chunks/local_0001-source-grounding__chunk-003.json"
+  ],
+  "checksum": "99f796b7e8fc7fc02fcaf65d0233af061a90bafe36ff82e45bd4f4674e557a34",
+  "quality_score": 0.818,
+  "external_id": "docs/adr/0001-source-grounding.md"
+}

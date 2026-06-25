@@ -1,0 +1,9 @@
+[
+  {
+    "topic": "source packs",
+    "difficulty": 2,
+    "expected_sections": ["overview", "usage"],
+    "expected_source_ids": ["example_source"],
+    "description": "Template lesson generation case"
+  }
+]

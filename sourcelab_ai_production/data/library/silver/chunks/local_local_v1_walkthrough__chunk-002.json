@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-002",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\npython3 -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip setuptools wheel\npython -m pip install -e \".[dev,api,ui,ingest,retrieval,models]\"\n```",
+  "section": "2. Install",
+  "start_char": 670,
+  "end_char": 847,
+  "token_estimate": 22,
+  "metadata": {
+    "section": "2. Install"
+  }
+}

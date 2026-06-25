@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_screenshot_checklist::chunk-004",
+  "source_id": "local_screenshot_checklist",
+  "text": "- [ ] Terminal: answer submit with overall score\n- [ ] Terminal: `sourcelab profile show` \u2014 mastery updated",
+  "section": "Learning",
+  "start_char": 823,
+  "end_char": 930,
+  "token_estimate": 19,
+  "metadata": {
+    "section": "Learning"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-012",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources freshness",
+  "section": "Check source freshness",
+  "start_char": 911,
+  "end_char": 938,
+  "token_estimate": 3,
+  "metadata": {
+    "section": "Check source freshness"
+  }
+}

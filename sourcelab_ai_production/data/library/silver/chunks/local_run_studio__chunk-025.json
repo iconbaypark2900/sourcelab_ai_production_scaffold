@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-025",
+  "source_id": "local_run_studio",
+  "text": "The Research dashboard surfaces thin-evidence signals (low retrieval count, weak grounding). When the backend pipeline detects thin evidence, it writes `source_expansion_suggestions.json` under the run artifacts directory. Operators can feed those hints into the CLI library pipeline:\n\n```bash\nsourcelab library collect-local --path . --domain user_project_library\nsourcelab library stats\nsourcelab library promote --domain user_project_library --target-pack agentic_engineering_v1 --dry-run\n```\n\nLibrary data lives under `data/library/` (bronze raw, silver cards/chunks/quality, gold promotion candidates). Promotion defaults to dry-run proposals in `data/library/promotion/`.",
+  "section": "SourceLab Library Builder v1",
+  "start_char": 18985,
+  "end_char": 19662,
+  "token_estimate": 75,
+  "metadata": {
+    "section": "SourceLab Library Builder v1"
+  }
+}

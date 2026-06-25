@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-037",
+  "source_id": "local_component_build_guide",
+  "text": "The citation resolution rate is calculated as:\n```\nresolution_rate = supported_claims / total_claims\n```\n\nA minimum resolution rate of 0.3 is required for the release gate (production should use 0.8).",
+  "section": "Citation resolution",
+  "start_char": 7973,
+  "end_char": 8173,
+  "token_estimate": 30,
+  "metadata": {
+    "section": "Citation resolution"
+  }
+}

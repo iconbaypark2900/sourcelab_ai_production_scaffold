@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-000",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /health\n```\n\nResponse:\n\n```json\n{\n  \"status\": \"ok\"\n}\n```",
+  "section": "Health Check",
+  "start_char": 60,
+  "end_char": 128,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "Health Check"
+  }
+}

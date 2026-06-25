@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_architecture::chunk-019",
+  "source_id": "local_architecture",
+  "text": "- `generated_lesson_package.json` - Complete package with scenario, lesson, rubric, answer key\n- `generated_lesson.md` - Human-readable lesson markdown\n- `rubric.json` - Weighted rubric criteria\n- `answer_key.md` - Source-grounded answer key\n- `generation_trace.json` - Trace metadata for debugging",
+  "section": "Lesson package components",
+  "start_char": 4080,
+  "end_char": 4378,
+  "token_estimate": 36,
+  "metadata": {
+    "section": "Lesson package components"
+  }
+}

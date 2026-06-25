@@ -1,0 +1,39 @@
+[
+  {
+    "query": "proof of human stack",
+    "expected_source_ids": [
+      "blockchain_provenance_ai_outputs_001",
+      "blockchain_provenance_identity_002"
+    ],
+    "expected_terms": [
+      "proof",
+      "human",
+      "stack"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for proof of human stack"
+  },
+  {
+    "query": "smart contracts",
+    "expected_source_ids": [
+      "blockchain_provenance_ai_outputs_001"
+    ],
+    "expected_terms": [
+      "smart",
+      "contracts"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for smart contracts"
+  },
+  {
+    "query": "DID",
+    "expected_source_ids": [
+      "blockchain_provenance_identity_002"
+    ],
+    "expected_terms": [
+      "did"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-004",
+  "source_id": "local_test_plan",
+  "text": "- AtomicClaim schema validates with required fields.\n- EvidenceMatch schema validates with required fields.\n- VerificationReport schema validates with required fields.\n- Extract atomic claims from lesson.\n- Extract atomic claims from answer key.\n- Extract atomic claims from scenario.\n- Extract all atomic claims from lesson package.\n- Legacy claim extraction still works.\n- Match claim to source chunks.\n- Match all claims to source chunks.\n- Get best match from evidence matches.\n- Claim verifier verifies single claim.\n- Claim verifier verifies all claims.\n- Claim verifier maintains backward compatibility.\n- Citation resolution rate calculates correctly.\n- Compute citation resolution from verification results.\n- Check citation resolution meets requirements.\n- Detect must/must-not contradictions.\n- Detect RSA-related contradictions.\n- Detect all types of conflicts.\n- Build review items from verification results.\n- Build review items from conflicts.\n- Build complete human review queue.\n- Write review queue to file.\n- Generate verification report.\n- Generate markdown grounding report.\n- Write grounding report to files.\n- Harness runner validates verification v2 artifacts.",
+  "section": "Verification v2 unit tests",
+  "start_char": 3436,
+  "end_char": 4620,
+  "token_estimate": 172,
+  "metadata": {
+    "section": "Verification v2 unit tests"
+  }
+}

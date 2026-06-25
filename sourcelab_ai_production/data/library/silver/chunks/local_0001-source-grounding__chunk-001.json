@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_0001-source-grounding::chunk-001",
+  "source_id": "local_0001-source-grounding",
+  "text": "Lessons cannot be generated without source-linked retrieved chunks.",
+  "section": "Decision",
+  "start_char": 77,
+  "end_char": 144,
+  "token_estimate": 8,
+  "metadata": {
+    "section": "Decision"
+  }
+}

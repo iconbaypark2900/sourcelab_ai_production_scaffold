@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-001",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\npython3 -m venv .venv\nsource .venv/bin/activate\npip install -e \".[dev,api,ui,ingest,retrieval,models]\"\nsourcelab init-local\n```",
+  "section": "Setup (before the demo)",
+  "start_char": 141,
+  "end_char": 276,
+  "token_estimate": 14,
+  "metadata": {
+    "section": "Setup (before the demo)"
+  }
+}

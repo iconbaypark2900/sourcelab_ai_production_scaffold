@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_demo_script::chunk-006",
+  "source_id": "local_local_v1_demo_script",
+  "text": "```bash\nsourcelab answer submit --topic \"post-quantum cryptography migration\" \\\n  --text \"Start with a cryptographic inventory and avoid unsupported quantum-break claims.\"\nsourcelab learning report\nsourcelab profile show\n```",
+  "section": "Act 4 \u2014 Answer scoring (2 min)",
+  "start_char": 1299,
+  "end_char": 1523,
+  "token_estimate": 27,
+  "metadata": {
+    "section": "Act 4 \u2014 Answer scoring (2 min)"
+  }
+}

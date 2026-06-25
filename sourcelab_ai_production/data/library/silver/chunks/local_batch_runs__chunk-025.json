@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-025",
+  "source_id": "local_batch_runs",
+  "text": "Artifact-driven from `artifacts/runs/<run_id>/answer_attempts/`:\n\n- Per run: latest/best attempt ID + score, attempt count, review/cap counts, next-task focus\n- Batch summary: averages, best/weakest runs, review-heavy runs\n- **Labels:** No attempts, Weak latest (&lt;60% default), Needs review, Capped, Regression (best >> latest)\n- **Grouped recommendations** (v2.3): frontend grouping into coverage, weak, review/cap, regression, best, next action",
+  "section": "Answer comparison (v2.1 / v2.2 / v2.3)",
+  "start_char": 9472,
+  "end_char": 9921,
+  "token_estimate": 54,
+  "metadata": {
+    "section": "Answer comparison (v2.1 / v2.2 / v2.3)"
+  }
+}

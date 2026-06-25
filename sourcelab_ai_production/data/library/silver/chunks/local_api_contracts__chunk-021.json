@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-021",
+  "source_id": "local_api_contracts",
+  "text": "```http\nGET /runs/{run_id}\n```\n\nResponse:\n\n```json\n{\n  \"run_id\": \"run_20250101_120000\",\n  \"run_dir\": \"/path/to/run\",\n  \"topic\": \"post-quantum cryptography migration\",\n  \"harness_passed\": true,\n  \"proof_bundle_status\": \"PASS\",\n  \"answer_score\": 0.85,\n  \"citation_resolution_rate\": 0.9,\n  \"unsupported_high_risk_claims\": 0,\n  \"human_review_count\": 0,\n  \"artifact_count\": 15,\n  \"created_at\": \"2025-01-01T12:00:00\",\n  \"next_task_focus\": \"source_grounding\"\n}\n```",
+  "section": "Get Run",
+  "start_char": 6705,
+  "end_char": 7162,
+  "token_estimate": 35,
+  "metadata": {
+    "section": "Get Run"
+  }
+}

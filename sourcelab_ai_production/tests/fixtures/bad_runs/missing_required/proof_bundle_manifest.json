@@ -1,0 +1,10 @@
+{
+  "run_id": "bad-run-missing-required",
+  "created_at": "2026-01-01T00:00:00Z",
+  "total_artifacts": 5,
+  "required_artifacts": 15,
+  "optional_artifacts": 3,
+  "missing_required": ["source_registry_snapshot.json", "retrieved_chunks.json"],
+  "invalid_artifacts": [],
+  "artifacts": []
+}

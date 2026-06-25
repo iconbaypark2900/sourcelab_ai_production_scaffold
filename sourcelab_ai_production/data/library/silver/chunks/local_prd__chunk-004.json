@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-004",
+  "source_id": "local_prd",
+  "text": "- Replacing experts.\n- Giving legal, medical, financial, or professional security advice.\n- Fully autonomous code editing.\n- Guaranteeing perfect factual correctness.\n- Full TurboQuant implementation.\n- Full DiffusionGemma serving stack.",
+  "section": "Non-goals for v1",
+  "start_char": 1344,
+  "end_char": 1581,
+  "token_estimate": 31,
+  "metadata": {
+    "section": "Non-goals for v1"
+  }
+}

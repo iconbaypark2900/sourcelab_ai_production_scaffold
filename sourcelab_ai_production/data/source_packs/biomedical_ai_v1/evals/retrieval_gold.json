@@ -1,0 +1,41 @@
+[
+  {
+    "query": "hybrid QML knowledge graph biomedical prediction",
+    "expected_source_ids": [
+      "biomedical_ai_evidence_graphs_001",
+      "biomedical_ai_structure_prediction_002"
+    ],
+    "expected_terms": [
+      "hybrid",
+      "qml",
+      "knowledge"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for hybrid QML knowledge graph biomedical prediction"
+  },
+  {
+    "query": "biomedical prediction",
+    "expected_source_ids": [
+      "biomedical_ai_evidence_graphs_001"
+    ],
+    "expected_terms": [
+      "biomedical",
+      "prediction"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for biomedical prediction"
+  },
+  {
+    "query": "clinical evidence graphs",
+    "expected_source_ids": [
+      "biomedical_ai_structure_prediction_002"
+    ],
+    "expected_terms": [
+      "clinical",
+      "evidence",
+      "graphs"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-010",
+  "source_id": "local_run_studio",
+  "text": "Run Studio surfaces answer attempt history without backend changes:\n\n- **Attempt trajectory** \u2014 `AttemptScoreSparkline`, timeline summary bar, and\n  diffusion-timeline attempt lane (`computeAttemptTimelineSummary` in\n  `lib/attempt-summary.ts`).\n- **Historical overlay** \u2014 selecting a non-latest attempt overlays Learning\n  update + TopStatusBar answer signals while preserving the latest run snapshot.\n- **Diff presets** \u2014 attempt-aware compare shortcuts (selected\u2192latest,\n  first\u2192latest, previous\u2192selected, selected\u2192best).",
+  "section": "v1.4 \u2014 Attempt timeline & historical view",
+  "start_char": 6920,
+  "end_char": 7444,
+  "token_estimate": 56,
+  "metadata": {
+    "section": "v1.4 \u2014 Attempt timeline & historical view"
+  }
+}

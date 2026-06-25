@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-019",
+  "source_id": "local_component_build_guide",
+  "text": "Run `sourcelab sources validate` to check:\n- All required fields are present\n- Trust tiers are valid\n- Source files exist\n- No duplicate IDs",
+  "section": "Validation",
+  "start_char": 3225,
+  "end_char": 3365,
+  "token_estimate": 25,
+  "metadata": {
+    "section": "Validation"
+  }
+}

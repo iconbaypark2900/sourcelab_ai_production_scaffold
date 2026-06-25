@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Biomedical predictions should preserve provenance from source evidence to model output",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Biomedical Evidence Graph Workflows"
+  },
+  {
+    "claim": "Knowledge graphs can represent relationships among biomedical entities for downstream reasoning",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Biomedical Evidence Graph Workflows"
+  },
+  {
+    "claim": "Predicted structures should not be treated as clinical truth without validation",
+    "expected_status": "supported",
+    "claim_type": "recommendation",
+    "severity": "medium",
+    "description": "Supported claim from Protein Structure and Downstream Biomedical Workflows"
+  },
+  {
+    "claim": "Structure outputs can become features in broader biomedical pipelines",
+    "expected_status": "supported",
+    "claim_type": "fact",
+    "severity": "low",
+    "description": "Supported claim from Protein Structure and Downstream Biomedical Workflows"
+  },
+  {
+    "claim": "Biomedical AI and Evidence Graphs requires no validation and is always production safe without evidence.",
+    "expected_status": "unsupported",
+    "claim_type": "recommendation",
+    "severity": "high",
+    "should_block": true,
+    "description": "High-risk unsupported claim for starter pack guardrails"
+  }
+]

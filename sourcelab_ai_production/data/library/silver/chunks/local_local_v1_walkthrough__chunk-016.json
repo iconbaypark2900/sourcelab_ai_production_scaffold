@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-016",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "sourcelab api --serve\ncurl http://localhost:8000/version\n```",
+  "section": "Terminal 2",
+  "start_char": 2732,
+  "end_char": 2792,
+  "token_estimate": 6,
+  "metadata": {
+    "section": "Terminal 2"
+  }
+}

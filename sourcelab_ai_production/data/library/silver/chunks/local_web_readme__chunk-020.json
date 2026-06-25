@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-020",
+  "source_id": "local_web_readme",
+  "text": "ge, claim support, citation coverage, unsupported/review counts, lesson quality (auto-loaded with run comparison when \u22652 runs).\n- **Helpers** \u2014 `lib/research-validation.ts` (+ Vitest); frontend computes from existing artifact API endpoints (no new backend required).\n\nDeep link: `/runs/<run_id>?mode=research`.",
+  "section": "Run Studio v2.6 \u2014 Research Validation Dashboard",
+  "start_char": 12997,
+  "end_char": 13307,
+  "token_estimate": 36,
+  "metadata": {
+    "section": "Run Studio v2.6 \u2014 Research Validation Dashboard"
+  }
+}

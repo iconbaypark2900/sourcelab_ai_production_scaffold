@@ -1,0 +1,29 @@
+{
+  "name": "local_ai_infra_v1",
+  "title": "Local AI Infrastructure and Model Routing",
+  "version": "1.0.0",
+  "description": "Source pack for DGX/EVO local AI infrastructure, inference servers, model routing, gateways, and local-first AI development.",
+  "domain": "local_ai_infra",
+  "required_for_strict_release": false,
+  "sources_dir": "sources",
+  "evals_dir": "evals",
+  "topics": [
+    "DGX Spark",
+    "EVO-X2",
+    "Ollama",
+    "vLLM",
+    "SGLang",
+    "TensorRT-LLM",
+    "LiteLLM",
+    "local model routing",
+    "OpenAI-compatible endpoints"
+  ],
+  "example_lessons": [
+    "local AI inference stack design",
+    "DGX Spark model routing",
+    "LiteLLM gateway for coding agents",
+    "local model fallback architecture"
+  ],
+  "created_by": "bootstrap_sourcelab_source_packs.py",
+  "created_at": "2026-06-21T03:32:32+00:00"
+}

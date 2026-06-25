@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-002",
+  "source_id": "local_test_plan",
+  "text": "- IngestionRequest schema validates with required fields.\n- IngestionResult schema validates with required fields.\n- IngestedFile schema validates with required fields.\n- URLIngestionRecord schema validates with required fields.\n- SourceApprovalRecord schema validates with required fields.\n- FreshnessCheckResult schema validates with required fields.\n- SourceQualityReport schema validates with required fields.\n- discover_local_files finds .md, .txt, and .pdf files.\n- extract_pdf_text returns error when pypdf is not installed.\n- save_extracted_text saves text to extracted directory.\n- SUPPORTED_EXTENSIONS includes .pdf.\n- fetch_url_content returns error when requests is not installed.\n- parse_html_to_text returns error when beautifulsoup4 is not installed.\n- parse_html_to_text extracts text from HTML.\n- save_url_content saves text to web directory.\n- ingest_url_source returns None when dependencies are missing.\n- approve_source changes source status to active and approved.\n- approve_source returns False when source not found.\n- reject_source changes source status to rejected.\n- reject_source returns False when source not found.\n- archive_source changes source status to archived.\n- a",
+  "section": "Source ingestion v2 unit tests",
+  "start_char": 1266,
+  "end_char": 2466,
+  "token_estimate": 157,
+  "metadata": {
+    "section": "Source ingestion v2 unit tests"
+  }
+}

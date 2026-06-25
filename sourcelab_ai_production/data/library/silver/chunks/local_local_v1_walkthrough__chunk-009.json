@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_local_v1_walkthrough::chunk-009",
+  "source_id": "local_local_v1_walkthrough",
+  "text": "```bash\nsourcelab evals run --pack pqc_v1\nsourcelab evals latest --pack pqc_v1\n```\n\nExpect 45/45 cases passing for `pqc_v1`.",
+  "section": "9. Golden evals",
+  "start_char": 2108,
+  "end_char": 2232,
+  "token_estimate": 18,
+  "metadata": {
+    "section": "9. Golden evals"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_web_readme::chunk-001",
+  "source_id": "local_web_readme",
+  "text": "- Next.js 16 (App Router) \u00b7 React 19 \u00b7 TypeScript\n- Tailwind CSS v4 (+ hand-written diffusion CSS in `styles/globals.css`)\n- No auth, no database, no external services. All data is fetched **client-side**\n  from the SourceLab FastAPI backend, so the production build never depends on\n  the backend being up.",
+  "section": "Stack",
+  "start_char": 562,
+  "end_char": 869,
+  "token_estimate": 49,
+  "metadata": {
+    "section": "Stack"
+  }
+}

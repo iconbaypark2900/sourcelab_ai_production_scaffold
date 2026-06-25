@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_release_process::chunk-006",
+  "source_id": "local_release_process",
+  "text": "```bash\nsourcelab verify-release --strict\n```\n\nExpected: `status: PASS`, no blocking failures.",
+  "section": "4. Strict release verification",
+  "start_char": 806,
+  "end_char": 900,
+  "token_estimate": 11,
+  "metadata": {
+    "section": "4. Strict release verification"
+  }
+}

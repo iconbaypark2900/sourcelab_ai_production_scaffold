@@ -1,0 +1,19 @@
+{
+  "workspace": "local",
+  "artifacts_dir": "artifacts/runs",
+  "default_trust_policy": "approved_sources_only",
+  "retrieval": {
+    "vector_dim": 128,
+    "top_k": 4,
+    "compression": "int8"
+  },
+  "generation": {
+    "backend": "mock_source_grounded"
+  },
+  "verification": {
+    "fail_on_unsupported_high_risk_claim": true
+  },
+  "learning": {
+    "default_mastery": 0.55
+  }
+}

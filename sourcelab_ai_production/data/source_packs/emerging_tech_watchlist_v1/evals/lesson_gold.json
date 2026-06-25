@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "quantum AI defense technology map",
+    "difficulty": 2,
+    "task_format": "architecture_review",
+    "required_source_ids": [
+      "emerging_tech_watchlist_evaluation_001",
+      "emerging_tech_watchlist_defense_002"
+    ],
+    "forbidden_claims": [
+      "unsupported guarantee",
+      "unverified production claim"
+    ],
+    "description": "Lesson on quantum AI defense technology map"
+  },
+  {
+    "topic": "fusion and advanced nuclear watchlist",
+    "difficulty": 3,
+    "task_format": "hands_on_lab",
+    "required_source_ids": [
+      "emerging_tech_watchlist_evaluation_001"
+    ],
+    "forbidden_claims": [
+      "production safe without validation"
+    ],
+    "description": "Secondary lesson case for pack coverage"
+  }
+]

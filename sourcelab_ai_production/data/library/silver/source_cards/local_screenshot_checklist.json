@@ -1,0 +1,56 @@
+{
+  "source_id": "local_screenshot_checklist",
+  "origin": "local_docs",
+  "title": "Screenshot Checklist \u2014 SourceLab Local v1.0 RC",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "trust_tier": "B",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "terminal",
+    "sourcelab",
+    "release",
+    "json",
+    "localhost",
+    "sources"
+  ],
+  "summary": "Capture these for release review, docs, or stakeholder demos.",
+  "key_terms": [
+    "terminal",
+    "sourcelab",
+    "release",
+    "json",
+    "localhost",
+    "sources",
+    "status",
+    "curl",
+    "file",
+    "latest",
+    "pass",
+    "version"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_screenshot_checklist.md",
+  "chunk_paths": [
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-000.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-001.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-002.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-003.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-004.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-005.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-006.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-007.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-008.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-009.json",
+    "data/library/silver/chunks/local_screenshot_checklist__chunk-010.json"
+  ],
+  "checksum": "e69821afade0a39f6b28d7a0d8d9c796948dd620cb0a67929d5aaaef083ad092",
+  "quality_score": 0.8097,
+  "external_id": "docs/demo/SCREENSHOT_CHECKLIST.md"
+}

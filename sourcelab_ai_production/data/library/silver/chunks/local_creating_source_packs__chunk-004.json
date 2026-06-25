@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-004",
+  "source_id": "local_creating_source_packs",
+  "text": "Minimum eval files (referenced in manifest):\n\n| File | Purpose |\n|---|---|\n| `retrieval_gold.json` | Query \u2192 expected source hits and terms |\n| `claim_gold.json` | Claim \u2192 expected verification status |\n| `answer_gold.json` | Learner answer \u2192 minimum rubric score |\n| `lesson_gold.json` | Topic \u2192 expected lesson structure |\n\nSee `pqc_v1/evals/` for full examples with 45 total cases.",
+  "section": "3. Add golden evals",
+  "start_char": 1191,
+  "end_char": 1575,
+  "token_estimate": 60,
+  "metadata": {
+    "section": "3. Add golden evals"
+  }
+}

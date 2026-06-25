@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-013",
+  "source_id": "local_runbook",
+  "text": "sourcelab sources quality\n```",
+  "section": "Generate quality report",
+  "start_char": 966,
+  "end_char": 995,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Generate quality report"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "record_id": "local_screenshot_checklist",
+  "origin": "local_docs",
+  "external_id": "docs/demo/SCREENSHOT_CHECKLIST.md",
+  "title": "Screenshot Checklist \u2014 SourceLab Local v1.0 RC",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "terminal",
+    "sourcelab",
+    "release",
+    "json",
+    "localhost",
+    "sources"
+  ],
+  "summary": "Capture these for release review, docs, or stakeholder demos.",
+  "key_terms": [
+    "terminal",
+    "sourcelab",
+    "release",
+    "json",
+    "localhost",
+    "sources",
+    "status",
+    "curl",
+    "file",
+    "latest",
+    "pass",
+    "version"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_screenshot_checklist.md",
+  "checksum": "e69821afade0a39f6b28d7a0d8d9c796948dd620cb0a67929d5aaaef083ad092",
+  "metadata": {
+    "relative_path": "docs/demo/SCREENSHOT_CHECKLIST.md"
+  }
+}

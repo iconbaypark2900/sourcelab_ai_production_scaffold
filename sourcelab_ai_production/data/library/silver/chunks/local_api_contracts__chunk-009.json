@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_api_contracts::chunk-009",
+  "source_id": "local_api_contracts",
+  "text": "```http\nPOST /sources/{source_id}/approve\n```\n\nResponse:\n\n```json\n{\n  \"source_id\": \"nist_pqc\",\n  \"action\": \"approve\",\n  \"success\": true,\n  \"message\": \"Source 'nist_pqc' approved\"\n}\n```",
+  "section": "Approve Source",
+  "start_char": 2452,
+  "end_char": 2636,
+  "token_estimate": 19,
+  "metadata": {
+    "section": "Approve Source"
+  }
+}

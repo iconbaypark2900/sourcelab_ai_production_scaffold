@@ -1,0 +1,22 @@
+{
+  "pack_name": "TEMPLATE",
+  "version": "0.1.0",
+  "title": "Source Pack Template",
+  "description": "Scaffold for creating new curated source packs",
+  "created_at": "2026-06-20T00:00:00Z",
+  "sources": [
+    {
+      "source_id": "example_source",
+      "filename": "example_source.md",
+      "trust_tier": "B",
+      "publisher": "SourceLab (template)",
+      "source_type": "technical_notes"
+    }
+  ],
+  "evals": [
+    "retrieval_gold.json",
+    "claim_gold.json",
+    "answer_gold.json",
+    "lesson_gold.json"
+  ]
+}

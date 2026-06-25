@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-032",
+  "source_id": "local_runbook",
+  "text": "```bash",
+  "section": "Local v1 Release Candidate",
+  "start_char": 2187,
+  "end_char": 2194,
+  "token_estimate": 1,
+  "metadata": {
+    "section": "Local v1 Release Candidate"
+  }
+}

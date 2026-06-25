@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_prd::chunk-003",
+  "source_id": "local_prd",
+  "text": "- R1: Ingest approved sources with metadata.\n- R2: Chunk and index sources while preserving source IDs.\n- R3: Search trusted sources with source and trust metadata.\n- R4: Generate lessons only from retrieved sources.\n- R5: Verify important claims against sources.\n- R6: Fail closed when no adequate source support exists.\n- R7: Score user answers with visible rubric.\n- R8: Update learner skill profile.\n- R9: Select next task with an explainable reason.\n- R10: Produce a proof bundle for every run.",
+  "section": "Core requirements",
+  "start_char": 822,
+  "end_char": 1321,
+  "token_estimate": 84,
+  "metadata": {
+    "section": "Core requirements"
+  }
+}

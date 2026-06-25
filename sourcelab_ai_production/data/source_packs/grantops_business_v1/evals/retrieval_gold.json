@@ -1,0 +1,38 @@
+[
+  {
+    "query": "SBIR proposal map for quantum AI",
+    "expected_source_ids": [
+      "grantops_business_funding_map_001",
+      "grantops_business_demo_evidence_002"
+    ],
+    "expected_terms": [
+      "sbir",
+      "proposal",
+      "map"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for SBIR proposal map for quantum AI"
+  },
+  {
+    "query": "SBIR",
+    "expected_source_ids": [
+      "grantops_business_funding_map_001"
+    ],
+    "expected_terms": [
+      "sbir"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Retrieval query for SBIR"
+  },
+  {
+    "query": "STTR",
+    "expected_source_ids": [
+      "grantops_business_demo_evidence_002"
+    ],
+    "expected_terms": [
+      "sttr"
+    ],
+    "min_hit_at_k": 1,
+    "description": "Secondary retrieval query for pack coverage"
+  }
+]

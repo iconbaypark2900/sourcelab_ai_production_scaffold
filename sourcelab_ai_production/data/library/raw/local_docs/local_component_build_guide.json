@@ -1,0 +1,44 @@
+{
+  "record_id": "local_component_build_guide",
+  "origin": "local_docs",
+  "external_id": "docs/engineering/COMPONENT_BUILD_GUIDE.md",
+  "title": "Component Build Guide",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "sourcelab",
+    "src",
+    "source",
+    "sources",
+    "registry",
+    "retrieval"
+  ],
+  "summary": "The source registry is the source of truth for approved sources.",
+  "key_terms": [
+    "sourcelab",
+    "src",
+    "source",
+    "sources",
+    "registry",
+    "retrieval",
+    "verification",
+    "generation",
+    "import",
+    "latest",
+    "path",
+    "run"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_component_build_guide.md",
+  "checksum": "833211eef8a46f7b20bcb241c9f75f68a73565d94e5a969e6304c8e09c696bbd",
+  "metadata": {
+    "relative_path": "docs/engineering/COMPONENT_BUILD_GUIDE.md"
+  }
+}

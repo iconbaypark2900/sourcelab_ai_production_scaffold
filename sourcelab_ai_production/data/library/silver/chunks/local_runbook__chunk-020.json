@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-020",
+  "source_id": "local_runbook",
+  "text": "pip install -e \".[ui]\"",
+  "section": "Install UI extras",
+  "start_char": 1303,
+  "end_char": 1325,
+  "token_estimate": 4,
+  "metadata": {
+    "section": "Install UI extras"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "record_id": "local_runbook",
+  "origin": "local_docs",
+  "external_id": "docs/operations/RUNBOOK.md",
+  "title": "Runbook",
+  "url": null,
+  "publisher": "local_project",
+  "authors": [],
+  "published_at": null,
+  "retrieved_at": "2026-06-21T04:57:53.395060Z",
+  "license": "project_internal",
+  "source_type": "local_markdown",
+  "domain_tags": [
+    "user_project_library"
+  ],
+  "topic_tags": [
+    "sourcelab",
+    "sources",
+    "release",
+    "export",
+    "run",
+    "bash"
+  ],
+  "summary": "bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e \".dev\"\nsourcelab demo\npytest -q",
+  "key_terms": [
+    "sourcelab",
+    "sources",
+    "release",
+    "export",
+    "run",
+    "bash",
+    "latest",
+    "source",
+    "report",
+    "runs",
+    "check",
+    "dashboard"
+  ],
+  "raw_path": "data/library/raw/local_docs/local_runbook.md",
+  "checksum": "13fe14a744859d02b2a590cb08b38cd290d93e5e63ab60431368b43b1866a9e6",
+  "metadata": {
+    "relative_path": "docs/operations/RUNBOOK.md"
+  }
+}

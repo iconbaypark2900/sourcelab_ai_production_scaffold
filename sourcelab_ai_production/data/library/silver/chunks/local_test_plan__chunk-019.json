@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_test_plan::chunk-019",
+  "source_id": "local_test_plan",
+  "text": "sourcelab search \"crypto inventory\" --mode hybrid\n```",
+  "section": "Hybrid search",
+  "start_char": 7550,
+  "end_char": 7603,
+  "token_estimate": 7,
+  "metadata": {
+    "section": "Hybrid search"
+  }
+}

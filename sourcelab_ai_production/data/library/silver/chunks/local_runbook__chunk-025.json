@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_runbook::chunk-025",
+  "source_id": "local_runbook",
+  "text": "sourcelab export latest --format html",
+  "section": "Export latest run as HTML",
+  "start_char": 1615,
+  "end_char": 1652,
+  "token_estimate": 5,
+  "metadata": {
+    "section": "Export latest run as HTML"
+  }
+}

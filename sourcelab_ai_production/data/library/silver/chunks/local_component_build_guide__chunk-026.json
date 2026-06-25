@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-026",
+  "source_id": "local_component_build_guide",
+  "text": "```bash\nsourcelab search \"crypto inventory\" --mode vector\nsourcelab search \"crypto inventory\" --mode keyword\nsourcelab search \"crypto inventory\" --mode hybrid\n```",
+  "section": "CLI usage",
+  "start_char": 4911,
+  "end_char": 5073,
+  "token_estimate": 20,
+  "metadata": {
+    "section": "CLI usage"
+  }
+}

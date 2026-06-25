@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_topic_backlog::chunk-008",
+  "source_id": "local_topic_backlog",
+  "text": "Run Studio reframes the Next.js UI as **SourceLab Research Library**: Collections, Shelves, Reading Room, Evidence Drawer, Claim Review Desk, and Study Journal. **Operations** and **Research** layers remain for pipeline control and artifact validation. Batch pages use **Study Set** language in the UI only (`/batches` routes unchanged). See [`docs/frontend/RUN_STUDIO.md`](../frontend/RUN_STUDIO.md).",
+  "section": "Run Studio v2.6 \u2014 Educational Interactive Library Theme",
+  "start_char": 4328,
+  "end_char": 4729,
+  "token_estimate": 48,
+  "metadata": {
+    "section": "Run Studio v2.6 \u2014 Educational Interactive Library Theme"
+  }
+}

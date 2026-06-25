@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-021",
+  "source_id": "local_batch_runs",
+  "text": "`BatchAnswerMatrix` groups recommendations into:\n\n- **Coverage** \u2014 runs without attempts\n- **Weak latest** \u2014 weakest run and sub-threshold scores\n- **Review / cap risk** \u2014 review-heavy and capped runs\n- **Regression** \u2014 best >> latest delta\n- **Best performer** \u2014 highest best score\n- **Next action** \u2014 combined follow-up from backend recommendation",
+  "section": "Grouped recommendations (v2.3)",
+  "start_char": 8272,
+  "end_char": 8621,
+  "token_estimate": 52,
+  "metadata": {
+    "section": "Grouped recommendations (v2.3)"
+  }
+}

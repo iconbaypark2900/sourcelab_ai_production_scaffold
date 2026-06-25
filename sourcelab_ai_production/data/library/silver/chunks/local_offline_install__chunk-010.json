@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_offline_install::chunk-010",
+  "source_id": "local_offline_install",
+  "text": "- **Lock drift:** run `make freeze` on a connected machine, then copy `requirements/lock-local-v1.txt`.\n- **Missing bundle artifacts:** run `sourcelab release bundle`, then `checksums`, `sbom`, and `attest`.\n- **Strict release fails:** ensure `pqc_v1` golden evals pass: `sourcelab evals run --pack pqc_v1`.",
+  "section": "Troubleshooting",
+  "start_char": 2681,
+  "end_char": 2988,
+  "token_estimate": 40,
+  "metadata": {
+    "section": "Troubleshooting"
+  }
+}

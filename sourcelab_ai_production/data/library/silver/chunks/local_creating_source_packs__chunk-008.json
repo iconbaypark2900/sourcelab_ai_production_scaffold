@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-008",
+  "source_id": "local_creating_source_packs",
+  "text": "- [ ] `manifest.json` `pack_name` matches directory name\n- [ ] Every manifest source has a matching `sources/<filename>`\n- [ ] Every source file has valid YAML frontmatter\n- [ ] Every eval file listed in manifest exists and parses as JSON\n- [ ] `sourcelab source-pack validate <pack>` returns `valid: true`\n- [ ] Golden eval pass rate \u2265 80%",
+  "section": "Checklist",
+  "start_char": 2178,
+  "end_char": 2518,
+  "token_estimate": 61,
+  "metadata": {
+    "section": "Checklist"
+  }
+}

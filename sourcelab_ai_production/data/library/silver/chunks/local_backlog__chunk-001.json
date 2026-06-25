@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_backlog::chunk-001",
+  "source_id": "local_backlog",
+  "text": "- [ ] Add tokenizer-aware chunking.\n- [ ] Add real embedding model.\n- [ ] Add Qdrant.\n- [ ] Add BM25 search.\n- [ ] Add hybrid score fusion.\n- [ ] Add reranker.\n- [ ] Add compression adapter interface.\n- [ ] Add product quantization baseline.\n- [ ] Add TurboQuant research adapter stub.",
+  "section": "Epic 2: Retrieval",
+  "start_char": 325,
+  "end_char": 610,
+  "token_estimate": 58,
+  "metadata": {
+    "section": "Epic 2: Retrieval"
+  }
+}

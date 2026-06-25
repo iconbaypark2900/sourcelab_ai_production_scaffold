@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_run_studio::chunk-023",
+  "source_id": "local_run_studio",
+  "text": "- **`/batches/[batchId]`** \u2014 unified refresh (batch + run comparison + answer matrix); auto-refresh also updates answer matrix; combined last-updated timestamp; cached matrix on error.\n- **`BatchAnswerSubmitPanel`** \u2014 Global vs per-run profile modes; Strong / Weak / Unsupported / Custom / Skip; pre-submit summary with expected submission count.\n- **`BatchAnswerMatrix`** \u2014 Export JSON/Markdown from browser; grouped recommendations (Coverage, Weak latest, Review/cap, Regression, Best performer, Next action).\n- **`/runs/compare`** \u2014 deep-link `?run_ids=\u2026&tab=answers|artifacts`; auto-load on mount; Copy comparison link.\n- **CLI parity unchanged** \u2014 `sourcelab batch answers \u2026 --markdown`, `sourcelab runs answers-compare \u2026 --markdown`.\n\nSee also [`apps/web/README.md`](../../apps/web/README.md).",
+  "section": "v2.3 \u2014 Batch answer workflows polish",
+  "start_char": 17288,
+  "end_char": 18087,
+  "token_estimate": 94,
+  "metadata": {
+    "section": "v2.3 \u2014 Batch answer workflows polish"
+  }
+}

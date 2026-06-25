@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_component_build_guide::chunk-006",
+  "source_id": "local_component_build_guide",
+  "text": "- `active` - Source is active and available for retrieval\n- `pending_review` - Source is pending review (excluded from retrieval by default)\n- `rejected` - Source is rejected (never used for retrieval)\n- `stale` - Source is stale (>180 days old)\n- `archived` - Source is archived (excluded from retrieval by default)",
+  "section": "Source statuses",
+  "start_char": 1575,
+  "end_char": 1891,
+  "token_estimate": 52,
+  "metadata": {
+    "section": "Source statuses"
+  }
+}

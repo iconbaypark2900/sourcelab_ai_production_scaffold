@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_batch_runs::chunk-006",
+  "source_id": "local_batch_runs",
+  "text": "| Method | Route | Purpose |\n| --- | --- | --- |\n| POST | `/lessons/batch` | Synchronous batch creation |\n| GET | `/batches/` | List batches |\n| GET | `/batches/{batch_id}` | Batch detail |\n| GET | `/batches/{batch_id}/compare` | Compare batch runs |\n| GET | `/batches/{batch_id}/answers/compare` | Compare learner answers in batch |\n| GET | `/batches/{batch_id}/report` | Comparison report JSON + markdown |\n| GET | `/batches/{batch_id}/report/download` | Download markdown report |\n| GET | `/runs/compare?run_ids=id1,id2` | Compare 2+ runs |\n| GET | `/runs/answers/compare?run_ids=id1,id2` | Compare learner answers across runs |\n| POST | `/learning/answers` | Submit learner answer (batch sample panel uses this) |\n\n404 when batch/run missing. Manual answer compare requires 2+ runs (422). Runs without attempts are included with `attempt_count=0`.",
+  "section": "API",
+  "start_char": 1077,
+  "end_char": 1928,
+  "token_estimate": 131,
+  "metadata": {
+    "section": "API"
+  }
+}

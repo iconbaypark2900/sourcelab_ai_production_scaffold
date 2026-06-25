@@ -1,0 +1,12 @@
+{
+  "chunk_id": "local_creating_source_packs::chunk-002",
+  "source_id": "local_creating_source_packs",
+  "text": "```bash\ncp -r data/source_packs/TEMPLATE data/source_packs/my_pack_v1\n```\n\nRename fields in `manifest.json`:\n\n- `pack_name` must match the directory name (`my_pack_v1`)\n- `title`, `description`, `version`, `created_at`\n- Replace `sources[]` entries with your source metadata\n- List eval filenames under `evals[]`",
+  "section": "1. Copy the template",
+  "start_char": 534,
+  "end_char": 846,
+  "token_estimate": 37,
+  "metadata": {
+    "section": "1. Copy the template"
+  }
+}
