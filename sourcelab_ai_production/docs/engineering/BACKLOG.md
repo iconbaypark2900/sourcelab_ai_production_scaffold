@@ -13,7 +13,7 @@
 
 ## Epic 2: Retrieval
 
-- [ ] Add tokenizer-aware chunking.
+- [x] Add tokenizer-aware chunking.
 - [x] Add real embedding model.
 - [x] Add Qdrant (local-first stub with setup instructions).
 - [x] Add BM25 search.
@@ -64,8 +64,8 @@
 - [x] Add harness validation for learning v2 artifacts.
 - [x] Add CLI commands (answer submit, profile show, profile topic, learning report).
 - [ ] Add skill profile persistence to Postgres.
-- [ ] Add rubric-based LLM judge for production scoring.
-- [ ] Add curriculum dashboard UI.
+- [x] Add rubric-based LLM judge for production scoring.
+- [x] Add curriculum dashboard UI.
 
 ## Epic 6: Product UI
 
