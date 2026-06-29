@@ -69,6 +69,15 @@ class DeterministicBackend(BaseModelBackend):
                         "weaknesses": ["Weak citation use", "Room for trap avoidance"],
                     }
                 )
+            if "entailment" in prompt_lower and "claim" in prompt_lower:
+                # claim_entailment route — LLM entailment scoring
+                return json.dumps(
+                    {
+                        "entailment": "supported",
+                        "confidence": 0.75,
+                        "reasoning": "Deterministic entailment: claim appears supported by provided evidence.",
+                    }
+                )
             if "scenario" in prompt_lower:
                 return json.dumps(
                     {

@@ -8,10 +8,13 @@ Instruction:
 
 from __future__ import annotations
 
+from typing import Any
+
 from sourcelab.core.models import ClaimRecord, SearchResult
 from sourcelab.generation.schemas import GeneratedLessonPackage
 from sourcelab.verification.claim_extractor import extract_all_atomic_claims
 from sourcelab.verification.evidence_matcher import match_all_claims, get_best_match
+from sourcelab.verification.llm_entailment import LLMEntailmentScorer
 from sourcelab.verification.schemas import (
     AtomicClaim,
     ClaimVerificationResult,
@@ -50,9 +53,11 @@ class ClaimVerifier:
         self,
         strong_threshold: float = STRONG_SUPPORT_THRESHOLD,
         moderate_threshold: float = MODERATE_SUPPORT_THRESHOLD,
+        llm_entailment_scorer: LLMEntailmentScorer | None = None,
     ):
         self.strong_threshold = strong_threshold
         self.moderate_threshold = moderate_threshold
+        self._llm_scorer = llm_entailment_scorer
 
     def _determine_support_status(
         self,
@@ -150,6 +155,31 @@ class ClaimVerifier:
 
         best_match_score = evidence_matches[0].overlap_score if evidence_matches else 0.0
 
+        # LLM entailment scoring (optional)
+        llm_used = False
+        llm_score = None
+        llm_label = None
+        llm_reasoning = None
+        llm_warnings: list[str] = []
+        blended_score = None
+
+        if self._llm_scorer is not None and self._llm_scorer.enabled and evidence_matches:
+            llm_score, llm_label, llm_reasoning, llm_warnings, blended_score = (
+                self._llm_scorer.score(claim.text, evidence_matches, best_match_score)
+            )
+            if blended_score is not None:
+                llm_used = True
+                # Update support status based on blended score if LLM disagrees
+                from sourcelab.verification.llm_entailment import LABEL_TO_SUPPORT
+                if llm_label in LABEL_TO_SUPPORT:
+                    llm_status = LABEL_TO_SUPPORT[llm_label]
+                    # Only upgrade from unsupported to uncertain, or uncertain to supported
+                    # Never downgrade from supported to unsupported based on LLM alone
+                    if llm_status == "supported" and support_status != SupportStatus.SUPPORTED:
+                        support_status = SupportStatus.SUPPORTED
+                        review_reason = None
+                        needs_review = False
+
         return ClaimVerificationResult(
             claim_id=claim.claim_id,
             claim_text=claim.text,
@@ -160,6 +190,12 @@ class ClaimVerifier:
             best_match_score=round(best_match_score, 4),
             requires_human_review=needs_review,
             review_reason=review_reason,
+            llm_entailment_used=llm_used,
+            llm_entailment_score=round(llm_score, 4) if llm_score is not None else None,
+            llm_entailment_label=llm_label,
+            llm_entailment_reasoning=llm_reasoning,
+            llm_entailment_warnings=llm_warnings,
+            blended_score=round(blended_score, 4) if blended_score is not None else None,
         )
 
     def verify_all_claims(

@@ -92,6 +92,12 @@ class ClaimVerificationResult(BaseModel):
     best_match_score: float = Field(ge=0.0, le=1.0, default=0.0)
     requires_human_review: bool = False
     review_reason: str | None = None
+    llm_entailment_used: bool = False
+    llm_entailment_score: float | None = None
+    llm_entailment_label: str | None = None
+    llm_entailment_reasoning: str | None = None
+    llm_entailment_warnings: list[str] = Field(default_factory=list)
+    blended_score: float | None = None
 
 
 class CitationResolutionResult(BaseModel):

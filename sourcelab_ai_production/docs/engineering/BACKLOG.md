@@ -49,7 +49,7 @@
 - [x] Add comprehensive grounding report generator.
 - [x] Add harness validation for verification artifacts.
 - [x] Add CLI commands for verify and review.
-- [ ] Add real LLM entailment scoring.
+- [x] Add real LLM entailment scoring.
 - [ ] Add grounding report UI.
 
 ## Epic 5: Learning v2

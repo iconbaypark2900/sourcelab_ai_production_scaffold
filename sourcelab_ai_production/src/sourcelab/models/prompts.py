@@ -83,14 +83,21 @@ class PromptTemplates:
         "entailment_scoring": PromptTemplate(
             name="entailment_scoring",
             template=(
-                "Evaluate whether the following claim is supported by the sources.\n"
+                "Evaluate whether the following claim is supported by the evidence.\n\n"
                 "Claim: {claim}\n"
                 "Evidence:\n{evidence}\n\n"
-                "Source IDs: {source_ids}\n"
-                "Return JSON with keys: score (0.0-1.0), reasoning, supporting_sources.\n"
-                "IMPORTANT: Score based ONLY on the provided evidence."
+                "Source IDs: {source_ids}\n\n"
+                "Return JSON with exactly these keys:\n"
+                "{{\n"
+                '  "entailment": "supported" | "refuted" | "neutral",\n'
+                '  "confidence": 0.0-1.0,\n'
+                '  "reasoning": "Brief explanation of the verdict"\n'
+                "}}\n"
+                "IMPORTANT: Base your verdict ONLY on the provided evidence. "
+                "If the evidence is insufficient to determine support, return \"neutral\" "
+                "with a low confidence. Return ONLY valid JSON, no other text."
             ),
-            description="Score claim entailment against evidence",
+            description="Score claim entailment against evidence with LLM-as-judge",
             expects_json=True,
             source_required=True,
             fail_closed=True,

@@ -158,6 +158,7 @@ def _run_verification_v2(
     lesson,
     search_results: list,
     proof: ProofBundle,
+    model_router=None,
 ) -> dict:
     """Run verification v2 and write all artifacts.
 
@@ -179,7 +180,15 @@ def _run_verification_v2(
     proof.write_json("evidence_matches.json", evidence_list)
 
     # 3. Verify all claims
-    verifier = ClaimVerifier()
+    enable_llm_entailment = model_router is not None and os.environ.get(
+        "SOURCELAB_ENABLE_LLM_ENTAILMENT", ""
+    ).lower() in ("1", "true", "yes")
+    from sourcelab.verification.llm_entailment import LLMEntailmentScorer
+    llm_entailment_scorer = LLMEntailmentScorer(
+        model_router=model_router if enable_llm_entailment else None,
+        enable_llm=enable_llm_entailment,
+    )
+    verifier = ClaimVerifier(llm_entailment_scorer=llm_entailment_scorer)
     verification_results = verifier.verify_all_claims(atomic_claims, evidence_map)
 
     # 4. Compute citation resolution
@@ -315,6 +324,7 @@ def run_demo_pipeline(topic: str, project_root: Path, model_router: ModelRouter 
         lesson=lesson,
         search_results=search_results,
         proof=proof,
+        model_router=model_router,
     )
 
     # 9. Learning v2: Simulated answer scoring with full learning pipeline
@@ -630,6 +640,7 @@ def run_lesson_create(
         lesson=lesson,
         search_results=search_results,
         proof=proof,
+        model_router=model_router,
     )
 
     # 8. Proof Bundle v2: Run manifest
