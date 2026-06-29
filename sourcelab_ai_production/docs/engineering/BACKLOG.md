@@ -50,7 +50,7 @@
 - [x] Add harness validation for verification artifacts.
 - [x] Add CLI commands for verify and review.
 - [x] Add real LLM entailment scoring.
-- [ ] Add grounding report UI.
+- [x] Add grounding report UI.
 
 ## Epic 5: Learning v2
 

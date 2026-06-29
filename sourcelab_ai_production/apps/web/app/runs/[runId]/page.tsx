@@ -34,6 +34,7 @@ import EvidenceField from "@/components/EvidenceField";
 import GeneratedLessonPanel from "@/components/GeneratedLessonPanel";
 import ClaimDenoisingTable from "@/components/ClaimDenoisingTable";
 import CitationLockPanel from "@/components/CitationLockPanel";
+import GroundingReportPanel from "@/components/GroundingReportPanel";
 import ProofBundlePanel from "@/components/ProofBundlePanel";
 import LearningScorePanel from "@/components/LearningScorePanel";
 import ArtifactMatrix from "@/components/ArtifactMatrix";
@@ -1186,6 +1187,10 @@ function RunStudioPageInner() {
 
           <Panel title="Citation locking" glow="violet" id="citation-locking">
             <CitationLockPanel citation={studio.citation} grounding={studio.grounding} />
+          </Panel>
+
+          <Panel title="Grounding report" hint="Claim verification detail" id="grounding-report">
+            <GroundingReportPanel verification={studio.verification} grounding={studio.grounding} />
           </Panel>
         </div>
 
