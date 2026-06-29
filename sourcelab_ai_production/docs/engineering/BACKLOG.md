@@ -112,6 +112,6 @@
 - [x] Add Dashboard Release tab.
 - [x] Add export report enhancements.
 - [x] Add more domain packs (ML safety, cloud security).
-- [ ] Add release versioning strategy.
-- [ ] Add release changelog generation.
-- [ ] Add release automation (CI/CD integration).
+- [x] Add release versioning strategy.
+- [x] Add release changelog generation.
+- [x] Add release automation (CI/CD integration).

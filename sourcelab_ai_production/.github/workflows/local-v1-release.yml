@@ -3,37 +3,41 @@ name: Local v1 Release
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "tests/**"
-      - "scripts/**"
-      - "requirements/**"
-      - "pyproject.toml"
-      - "Makefile"
-      - "docker-compose.yml"
-      - "Dockerfile"
-      - ".github/workflows/local-v1-release.yml"
+    tags:
+      - "v*"
 
 jobs:
-  release:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: python -m pip install -e ".[dev,api,ui,ingest,retrieval,models]"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-      - name: Run tests
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -e ".[dev,api,ui,ingest,retrieval,models]"
+
+      - name: Install frontend dependencies
+        run: cd apps/web && npm ci
+
+      - name: Run Python tests
         run: pytest -q
 
-      - name: Check dependency lock drift
-        run: make freeze-check
+      - name: Build frontend
+        run: cd apps/web && npm run build
+
+      - name: Run frontend tests
+        run: cd apps/web && npm run test
 
       - name: Init local environment
         run: sourcelab init-local
@@ -43,6 +47,33 @@ jobs:
 
       - name: Strict release verification
         run: sourcelab verify-release --strict
+
+  release:
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -e ".[dev,api,ui,ingest,retrieval,models]"
+
+      - name: Generate changelog
+        run: |
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          CURRENT_TAG=${GITHUB_REF#refs/tags/}
+          if [ -n "$PREV_TAG" ]; then
+            sourcelab release changelog --from "$PREV_TAG" --to "$CURRENT_TAG"
+          fi
 
       - name: Build release bundle
         run: sourcelab release bundle
@@ -71,3 +102,13 @@ jobs:
           name: sourcelab-local-v1-release
           path: artifacts/release/
           if-no-files-found: error
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/release/sourcelab_local_v1_ga_bundle/*
+            artifacts/release/changelog_*.md
+          body_path: artifacts/release/local_v1_release_report.md
+          draft: false
+          prerelease: false

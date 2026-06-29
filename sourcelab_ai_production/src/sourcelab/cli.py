@@ -1818,6 +1818,49 @@ def cmd_release_publish(args: argparse.Namespace) -> None:
     _json(result)
 
 
+def cmd_release_version(args: argparse.Namespace) -> None:
+    """Show or calculate the next release version."""
+    from sourcelab.release.versioning import VersionPolicy
+
+    policy = VersionPolicy()
+    current = args.current
+    if not current:
+        from sourcelab.version import __version__
+        current = __version__
+
+    if args.bump:
+        next_version = policy.bump_version(current, args.bump)
+        _json({
+            "current": current,
+            "bump_type": args.bump,
+            "next_version": next_version,
+            "dry_run": args.dry_run,
+        })
+    else:
+        _json({
+            "current": current,
+            "valid": policy.validate(current),
+        })
+
+
+def cmd_release_changelog(args: argparse.Namespace) -> None:
+    """Generate a changelog between two versions."""
+    from sourcelab.release.changelog import ChangelogGenerator
+
+    generator = ChangelogGenerator(Path.cwd())
+    changelog = generator.generate(
+        from_version=args.from_version,
+        to_version=args.to_version,
+        dry_run=args.dry_run,
+    )
+    _json({
+        "from_version": args.from_version,
+        "to_version": args.to_version,
+        "dry_run": args.dry_run,
+        "changelog": changelog,
+    })
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="SourceLab AI production scaffold CLI")
     sub = parser.add_subparsers(required=True)
@@ -2356,6 +2399,18 @@ def build_parser() -> argparse.ArgumentParser:
         help="Dry-run publish planning (default)",
     )
     release_publish.set_defaults(func=cmd_release_publish)
+
+    release_version = release_sub.add_parser("version", help="Show or calculate next release version.")
+    release_version.add_argument("--bump", choices=["major", "minor", "patch"], default=None, help="Version bump type")
+    release_version.add_argument("--current", default=None, help="Current version (default: read from version.py)")
+    release_version.add_argument("--dry-run", action="store_true", default=True, help="Dry-run (don't update files)")
+    release_version.set_defaults(func=cmd_release_version)
+
+    release_changelog = release_sub.add_parser("changelog", help="Generate changelog between two versions.")
+    release_changelog.add_argument("--from", dest="from_version", required=True, help="Starting version")
+    release_changelog.add_argument("--to", dest="to_version", required=True, help="Ending version")
+    release_changelog.add_argument("--dry-run", action="store_true", default=False, help="Don't write to file")
+    release_changelog.set_defaults(func=cmd_release_changelog)
 
     from sourcelab.library.cli import register_library_subparser
 
