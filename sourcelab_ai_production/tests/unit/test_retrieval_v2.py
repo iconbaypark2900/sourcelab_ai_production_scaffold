@@ -723,7 +723,7 @@ class TestCompressionAdapters:
 
     def test_unknown_adapter_raises(self):
         with pytest.raises(ValueError, match="Unknown compression adapter"):
-            get_compression_adapter("turboquant")
+            get_compression_adapter("nonexistent_adapter")
 
     def test_compression_report_for_any_method(self):
         original = np.zeros((10, 128), dtype=np.float32)

@@ -110,6 +110,71 @@ class ModelRouter:
 
         return response
 
+    def generate_with_fallbacks(
+        self,
+        request: ModelRequest,
+        fallback_backends: list[str] | None = None,
+    ) -> ModelResponse:
+        """Generate with explicit fallback backend chain.
+
+        Tries the primary backend, then each fallback in order.
+        Always ends with deterministic backend (never fails completely).
+        Fallback events are logged to the trace log.
+        """
+        if self.config.mode == "deterministic":
+            return self._deterministic_call(request)
+
+        chain: list[str] = [self.config.backend]
+        if fallback_backends:
+            chain.extend(b for b in fallback_backends if b not in chain)
+        if "deterministic" not in chain:
+            chain.append("deterministic")
+
+        last_error: str | None = None
+        for i, backend_name in enumerate(chain):
+            try:
+                backend = get_backend(
+                    backend_name,
+                    model_name=self.config.model_name,
+                    base_url=self.config.base_url,
+                    timeout_seconds=self.config.timeout_seconds,
+                )
+                response = backend.generate(request)
+
+                if not response.raw_error and response.text:
+                    if i > 0:
+                        response.deterministic_fallback_used = backend_name == "deterministic"
+                        response.warnings.append(
+                            f"Fallback to {backend_name}: {last_error or 'primary backend failed'}"
+                        )
+
+                    trace = ModelCallTrace(
+                        route=request.route,
+                        backend=response.backend,
+                        model_name=response.model_name,
+                        prompt_preview=request.prompt[:200],
+                        response_preview=response.text[:200],
+                        latency_ms=response.latency_ms,
+                        token_estimate=response.token_estimate,
+                        deterministic_fallback_used=response.deterministic_fallback_used,
+                        warnings=response.warnings,
+                        raw_error=None,
+                    )
+                    self._trace_log.calls.append(trace)
+                    self._trace_log.total_calls += 1
+                    if response.deterministic_fallback_used:
+                        self._trace_log.fallback_count += 1
+                    self._trace_log.total_latency_ms += response.latency_ms
+
+                    return response
+
+                last_error = response.raw_error or "empty response"
+            except Exception as exc:
+                last_error = str(exc)
+                continue
+
+        return self._deterministic_call(request)
+
     def _deterministic_call(self, request: ModelRequest) -> ModelResponse:
         det_backend = get_backend("deterministic")
         response = det_backend.generate(request)

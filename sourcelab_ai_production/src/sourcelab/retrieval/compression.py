@@ -302,11 +302,47 @@ class ProductQuantizationAdapter(CompressionAdapter):
         return report
 
 
+class TurboQuantAdapter(CompressionAdapter):
+    """TurboQuant research adapter stub.
+
+    This is a research stub that implements the CompressionAdapter interface
+    but delegates to product quantization internally. Replace with a real
+    TurboQuant implementation when available.
+    """
+
+    def __init__(self, subspaces: int = 8, bits: int = 8):
+        self._pq = ProductQuantizationAdapter(subspaces=subspaces, bits=bits)
+
+    @property
+    def name(self) -> str:
+        return "turboquant"
+
+    def quantize(
+        self, matrix: np.ndarray
+    ) -> tuple[np.ndarray, tuple[list[np.ndarray], list[tuple[int, int]]]]:
+        return self._pq.quantize(matrix)
+
+    def dequantize(
+        self,
+        compressed: np.ndarray,
+        state: tuple[list[np.ndarray], list[tuple[int, int]]],
+    ) -> np.ndarray:
+        return self._pq.dequantize(compressed, state)
+
+    def report(self, fp32_matrix: np.ndarray, compressed: np.ndarray) -> dict:
+        report = self._pq.report(fp32_matrix, compressed)
+        report["method"] = "turboquant"
+        report["stub"] = True
+        report["delegate"] = "product_quantization"
+        return report
+
+
 _ADAPTERS: dict[str, type[CompressionAdapter]] = {
     "int8": Int8CompressionAdapter,
     "fp16": Fp16CompressionAdapter,
     "binary": BinaryCompressionAdapter,
     "product_quantization": ProductQuantizationAdapter,
+    "turboquant": TurboQuantAdapter,
 }
 
 

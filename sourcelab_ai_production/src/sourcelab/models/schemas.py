@@ -65,7 +65,7 @@ class ModelRouterConfig(BaseModel):
     """Configuration for the model router."""
 
     mode: Literal["deterministic", "local_llm"] = "deterministic"
-    backend: Literal["deterministic", "ollama", "openai_compatible"] = "deterministic"
+    backend: Literal["deterministic", "ollama", "openai_compatible", "diffusion_gemma"] = "deterministic"
     model_name: str = ""
     base_url: str = ""
     timeout_seconds: int = 60

@@ -337,6 +337,113 @@ class OpenAICompatibleBackend(BaseModelBackend):
             )
 
 
+class DiffusionGemmaBackend(BaseModelBackend):
+    """Backend for DiffusionGemma models via OpenAI-compatible API.
+
+    Connects to a DiffusionGemma server (local or remote) through the
+    OpenAI-compatible chat completions endpoint. Requires a running
+    DiffusionGemma instance at the configured base_url.
+    """
+
+    name = "diffusion_gemma"
+
+    def __init__(
+        self,
+        model_name: str = "diffusion-gemma",
+        base_url: str = "http://localhost:8001/v1",
+        timeout_seconds: int = 60,
+    ) -> None:
+        self.model_name = model_name
+        self.base_url = base_url.rstrip("/")
+        self.timeout_seconds = timeout_seconds
+
+    def generate(self, request: ModelRequest) -> ModelResponse:
+        try:
+            import httpx
+        except ImportError:
+            return ModelResponse(
+                text="",
+                backend="diffusion_gemma",
+                model_name=self.model_name,
+                route=request.route,
+                warnings=["httpx not installed. Run: pip install -e '.[models]'"],
+                raw_error="httpx not installed",
+            )
+
+        start = time.time()
+        messages = [{"role": "user", "content": request.prompt}]
+        payload: dict = {
+            "model": self.model_name,
+            "messages": messages,
+            "temperature": request.temperature,
+            "max_tokens": request.max_tokens,
+        }
+        if request.json_mode:
+            payload["response_format"] = {"type": "json_object"}
+
+        try:
+            with httpx.Client(timeout=self.timeout_seconds) as client:
+                resp = client.post(
+                    f"{self.base_url}/chat/completions", json=payload
+                )
+                resp.raise_for_status()
+                data = resp.json()
+                text = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+                latency = (time.time() - start) * 1000
+                return ModelResponse(
+                    text=text,
+                    backend="diffusion_gemma",
+                    model_name=self.model_name,
+                    route=request.route,
+                    latency_ms=latency,
+                    token_estimate=self._estimate_tokens(text),
+                )
+        except Exception as exc:
+            return ModelResponse(
+                text="",
+                backend="diffusion_gemma",
+                model_name=self.model_name,
+                route=request.route,
+                warnings=[f"DiffusionGemma request failed: {exc}"],
+                raw_error=str(exc),
+            )
+
+    def health_check(self) -> ModelBackendInfo:
+        try:
+            import httpx
+        except ImportError:
+            return ModelBackendInfo(
+                name="diffusion_gemma",
+                available=False,
+                model_name=self.model_name,
+                base_url=self.base_url,
+                error="httpx not installed",
+            )
+
+        try:
+            with httpx.Client(timeout=5) as client:
+                resp = client.get(f"{self.base_url}/models")
+                resp.raise_for_status()
+                data = resp.json()
+                models = [m["id"] for m in data.get("data", [])]
+                available = self.model_name in models if self.model_name else bool(models)
+                return ModelBackendInfo(
+                    name="diffusion_gemma",
+                    available=available,
+                    model_name=self.model_name,
+                    base_url=self.base_url,
+                    error=None if available else f"Model {self.model_name} not found",
+                )
+        except Exception as exc:
+            return ModelBackendInfo(
+                name="diffusion_gemma",
+                available=False,
+                model_name=self.model_name,
+                base_url=self.base_url,
+                error=str(exc),
+            )
+
+
 def get_backend(backend_type: str, **kwargs: object) -> BaseModelBackend:
     """Factory to get a backend by type."""
     if backend_type == "deterministic":
@@ -345,4 +452,6 @@ def get_backend(backend_type: str, **kwargs: object) -> BaseModelBackend:
         return OllamaBackend(**kwargs)  # type: ignore[arg-type]
     if backend_type == "openai_compatible":
         return OpenAICompatibleBackend(**kwargs)  # type: ignore[arg-type]
+    if backend_type == "diffusion_gemma":
+        return DiffusionGemmaBackend(**kwargs)  # type: ignore[arg-type]
     return DeterministicBackend()

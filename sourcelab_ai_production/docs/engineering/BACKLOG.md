@@ -25,7 +25,7 @@
 - [x] Add compression adapter interface.
 - [x] Add product quantization baseline.
 - [x] Add fp16 and binary quantization adapters.
-- [ ] Add TurboQuant research adapter stub.
+- [x] Add TurboQuant research adapter stub.
 
 ## Epic 3: Generation
 
@@ -33,8 +33,8 @@
 - [x] Add lesson generator schemas.
 - [x] Add answer key generator.
 - [x] Add rubric generator.
-- [ ] Add DiffusionGemma backend.
-- [ ] Add fallback model backend.
+- [x] Add DiffusionGemma backend.
+- [x] Add fallback model backend.
 - [x] Add generation trace logging.
 
 ## Epic 4: Verification v2
