@@ -4,7 +4,9 @@ Instruction:
 - BaseVectorStore defines the interface for all vector stores.
 - InMemoryVectorStore and JsonVectorStore work without optional dependencies.
 - FaissVectorStore requires faiss-cpu (optional).
-- QdrantVectorStore and PgVectorStore are stubs for future implementation.
+- QdrantVectorStore requires qdrant-client (optional) and a running Qdrant server.
+- PgVectorStore requires psycopg (optional) and a PostgreSQL database with pgvector.
+- All stores fall back to in-memory search when their optional dependency is missing.
 - All stores must preserve source_id, chunk_id, trust_tier, and metadata.
 """
 
@@ -407,32 +409,411 @@ class FaissVectorStore(BaseVectorStore):
 
 
 class QdrantVectorStore(BaseVectorStore):
-    """Qdrant vector store stub (future implementation).
+    """Qdrant-backed vector store (optional).
 
-    This is a placeholder for Qdrant integration. It raises
-    NotImplementedError with clear setup instructions.
+    Requires qdrant-client to be installed and a Qdrant server running.
+    Falls back to in-memory search if qdrant-client is not available.
+    Uses an in-memory record cache for metadata; the Qdrant collection
+    stores embeddings and payloads for similarity search.
     """
 
-    def __init__(self, *args, **kwargs):
-        raise NotImplementedError(
-            "QdrantVectorStore is not yet implemented. "
-            "To use Qdrant, install qdrant-client and configure a Qdrant server."
-        )
+    def __init__(
+        self,
+        dim: int = 128,
+        host: str = "localhost",
+        port: int = 6333,
+        collection_name: str = "sourcelab_chunks",
+        **kwargs,
+    ):
+        self._dim = dim
+        self._host = host
+        self._port = port
+        self._collection_name = collection_name
+        self._records: dict[str, VectorStoreRecord] = {}
+        self._client = None
+        self._available = False
+
+        try:
+            from qdrant_client import QdrantClient
+            from qdrant_client.models import Distance, VectorParams
+
+            self._client = QdrantClient(host=host, port=port)
+            # Ensure collection exists
+            collections = self._client.get_collections().collections
+            exists = any(c.name == collection_name for c in collections)
+            if not exists:
+                self._client.create_collection(
+                    collection_name=collection_name,
+                    vectors_config=VectorParams(size=dim, distance=Distance.COSINE),
+                )
+            self._available = True
+        except ImportError:
+            self._available = False
+        except Exception:
+            self._available = False
+
+    def add(self, record: VectorStoreRecord) -> None:
+        self._records[record.chunk_id] = record
+        if self._available and self._client is not None:
+            from qdrant_client.models import PointStruct
+
+            self._client.upsert(
+                collection_name=self._collection_name,
+                points=[
+                    PointStruct(
+                        id=record.chunk_id,
+                        vector=record.embedding,
+                        payload={
+                            "chunk_id": record.chunk_id,
+                            "source_id": record.source_id,
+                            "trust_tier": record.trust_tier,
+                            "title": record.title,
+                            "text_preview": record.text_preview,
+                        },
+                    )
+                ],
+            )
+
+    def add_batch(self, records: list[VectorStoreRecord]) -> None:
+        for record in records:
+            self.add(record)
+
+    def search(
+        self,
+        query_embedding: list[float],
+        top_k: int = 4,
+        source_ids: list[str] | None = None,
+    ) -> list[VectorSearchResult]:
+        if self._available and self._client is not None:
+            from qdrant_client.models import Filter, FieldCondition, MatchAny
+
+            query_filter = None
+            if source_ids:
+                query_filter = Filter(
+                    must=[
+                        FieldCondition(key="source_id", match=MatchAny(any=source_ids))
+                    ]
+                )
+
+            hits = self._client.search(
+                collection_name=self._collection_name,
+                query_vector=query_embedding,
+                limit=top_k,
+                query_filter=query_filter,
+            )
+
+            results: list[VectorSearchResult] = []
+            for rank, hit in enumerate(hits, 1):
+                payload = hit.payload or {}
+                results.append(
+                    VectorSearchResult(
+                        chunk_id=payload.get("chunk_id", ""),
+                        source_id=payload.get("source_id", ""),
+                        trust_tier=payload.get("trust_tier", "C"),
+                        title=payload.get("title", ""),
+                        text_preview=payload.get("text_preview", ""),
+                        score=round(float(hit.score), 4),
+                        rank=rank,
+                    )
+                )
+            return results
+
+        # Fallback to in-memory search
+        if not self._records:
+            return []
+
+        query_vec = np.array(query_embedding, dtype=np.float32)
+        query_norm = np.linalg.norm(query_vec)
+        if query_norm > 0:
+            query_vec = query_vec / query_norm
+
+        scored: list[tuple[str, float]] = []
+        for chunk_id, record in self._records.items():
+            if source_ids and record.source_id not in source_ids:
+                continue
+            record_vec = np.array(record.embedding, dtype=np.float32)
+            record_norm = np.linalg.norm(record_vec)
+            if record_norm > 0:
+                record_vec = record_vec / record_norm
+            score = float(np.dot(query_vec, record_vec))
+            scored.append((chunk_id, score))
+
+        scored.sort(key=lambda x: x[1], reverse=True)
+
+        search_results: list[VectorSearchResult] = []
+        for rank, (chunk_id, score) in enumerate(scored[:top_k], 1):
+            record = self._records[chunk_id]
+            search_results.append(
+                VectorSearchResult(
+                    chunk_id=chunk_id,
+                    source_id=record.source_id,
+                    trust_tier=record.trust_tier,
+                    title=record.title,
+                    text_preview=record.text_preview,
+                    score=round(score, 4),
+                    rank=rank,
+                )
+            )
+        return search_results
+
+    def get(self, chunk_id: str) -> VectorStoreRecord | None:
+        return self._records.get(chunk_id)
+
+    def delete(self, chunk_id: str) -> bool:
+        if chunk_id in self._records:
+            del self._records[chunk_id]
+            if self._available and self._client is not None:
+                self._client.delete(
+                    collection_name=self._collection_name,
+                    points_selector=[chunk_id],
+                )
+            return True
+        return False
+
+    def clear(self) -> None:
+        self._records.clear()
+        if self._available and self._client is not None:
+            self._client.delete_collection(collection_name=self._collection_name)
+            from qdrant_client.models import Distance, VectorParams
+
+            self._client.create_collection(
+                collection_name=self._collection_name,
+                vectors_config=VectorParams(size=self._dim, distance=Distance.COSINE),
+            )
+
+    def count(self) -> int:
+        return len(self._records)
+
+    def list_source_ids(self) -> list[str]:
+        return list(set(r.source_id for r in self._records.values()))
+
+    def info(self) -> dict:
+        return {
+            "store": "qdrant",
+            "available": self._available,
+            "host": self._host,
+            "port": self._port,
+            "collection": self._collection_name,
+            "count": self.count(),
+            "source_count": len(self.list_source_ids()),
+            "persistent": True,
+            "dimension": self._dim,
+        }
 
 
 class PgVectorStore(BaseVectorStore):
-    """pgvector store stub (future implementation).
+    """pgvector-backed vector store (optional).
 
-    This is a placeholder for PostgreSQL pgvector integration. It raises
-    NotImplementedError with clear setup instructions.
+    Requires psycopg to be installed and a PostgreSQL database with the
+    pgvector extension enabled. Falls back to in-memory search if psycopg
+    is not available or the database is not reachable.
+    Uses an in-memory record cache for metadata; the pgvector table stores
+    embeddings for similarity search.
     """
 
-    def __init__(self, *args, **kwargs):
-        raise NotImplementedError(
-            "PgVectorStore is not yet implemented. "
-            "To use pgvector, install psycopg2 and configure a PostgreSQL database "
-            "with the pgvector extension enabled."
+    def __init__(
+        self,
+        dim: int = 128,
+        connection_string: str = "",
+        table_name: str = "vector_store",
+        **kwargs,
+    ):
+        import os
+
+        self._dim = dim
+        self._connection_string = connection_string or os.environ.get(
+            "SOURCELAB_DATABASE_URL", ""
         )
+        self._table_name = table_name
+        self._records: dict[str, VectorStoreRecord] = {}
+        self._conn = None
+        self._available = False
+
+        try:
+            import psycopg
+
+            self._conn = psycopg.connect(self._connection_string)
+            self._conn.autocommit = True
+            # Ensure pgvector extension and table exist
+            with self._conn.cursor() as cur:
+                cur.execute("CREATE EXTENSION IF NOT EXISTS vector")
+                cur.execute(
+                    f"""
+                    CREATE TABLE IF NOT EXISTS {self._table_name} (
+                        chunk_id TEXT PRIMARY KEY,
+                        source_id TEXT NOT NULL,
+                        trust_tier TEXT NOT NULL DEFAULT 'C',
+                        title TEXT DEFAULT '',
+                        text_preview TEXT DEFAULT '',
+                        embedding vector({dim}),
+                        metadata JSONB DEFAULT '{{}}'
+                    )
+                    """
+                )
+                cur.execute(
+                    f"CREATE INDEX IF NOT EXISTS idx_{self._table_name}_embedding "
+                    f"ON {self._table_name} USING ivfflat (embedding vector_cosine_ops)"
+                )
+            self._available = True
+        except ImportError:
+            self._available = False
+        except Exception:
+            self._available = False
+
+    def add(self, record: VectorStoreRecord) -> None:
+        self._records[record.chunk_id] = record
+        if self._available and self._conn is not None:
+            embedding_str = "[" + ",".join(str(x) for x in record.embedding) + "]"
+            with self._conn.cursor() as cur:
+                cur.execute(
+                    f"""
+                    INSERT INTO {self._table_name} (chunk_id, source_id, trust_tier,
+                        title, text_preview, embedding, metadata)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    ON CONFLICT (chunk_id) DO UPDATE SET
+                        embedding = EXCLUDED.embedding,
+                        metadata = EXCLUDED.metadata
+                    """,
+                    (
+                        record.chunk_id,
+                        record.source_id,
+                        record.trust_tier,
+                        record.title,
+                        record.text_preview,
+                        embedding_str,
+                        json.dumps(record.metadata),
+                    ),
+                )
+
+    def add_batch(self, records: list[VectorStoreRecord]) -> None:
+        for record in records:
+            self.add(record)
+
+    def search(
+        self,
+        query_embedding: list[float],
+        top_k: int = 4,
+        source_ids: list[str] | None = None,
+    ) -> list[VectorSearchResult]:
+        if self._available and self._conn is not None:
+            embedding_str = "[" + ",".join(str(x) for x in query_embedding) + "]"
+            with self._conn.cursor() as cur:
+                if source_ids:
+                    placeholders = ",".join(["%s" for _ in source_ids])
+                    cur.execute(
+                        f"""
+                        SELECT chunk_id, source_id, trust_tier, title, text_preview,
+                               1 - (embedding <=> %s::vector) AS score
+                        FROM {self._table_name}
+                        WHERE source_id IN ({placeholders})
+                        ORDER BY embedding <=> %s::vector
+                        LIMIT %s
+                        """,
+                        (embedding_str, *source_ids, embedding_str, top_k),
+                    )
+                else:
+                    cur.execute(
+                        f"""
+                        SELECT chunk_id, source_id, trust_tier, title, text_preview,
+                               1 - (embedding <=> %s::vector) AS score
+                        FROM {self._table_name}
+                        ORDER BY embedding <=> %s::vector
+                        LIMIT %s
+                        """,
+                        (embedding_str, embedding_str, top_k),
+                    )
+                rows = cur.fetchall()
+
+            results: list[VectorSearchResult] = []
+            for rank, row in enumerate(rows, 1):
+                results.append(
+                    VectorSearchResult(
+                        chunk_id=row[0],
+                        source_id=row[1],
+                        trust_tier=row[2],
+                        title=row[3],
+                        text_preview=row[4],
+                        score=round(float(row[5]), 4),
+                        rank=rank,
+                    )
+                )
+            return results
+
+        # Fallback to in-memory search
+        if not self._records:
+            return []
+
+        query_vec = np.array(query_embedding, dtype=np.float32)
+        query_norm = np.linalg.norm(query_vec)
+        if query_norm > 0:
+            query_vec = query_vec / query_norm
+
+        scored: list[tuple[str, float]] = []
+        for chunk_id, record in self._records.items():
+            if source_ids and record.source_id not in source_ids:
+                continue
+            record_vec = np.array(record.embedding, dtype=np.float32)
+            record_norm = np.linalg.norm(record_vec)
+            if record_norm > 0:
+                record_vec = record_vec / record_norm
+            score = float(np.dot(query_vec, record_vec))
+            scored.append((chunk_id, score))
+
+        scored.sort(key=lambda x: x[1], reverse=True)
+
+        search_results: list[VectorSearchResult] = []
+        for rank, (chunk_id, score) in enumerate(scored[:top_k], 1):
+            record = self._records[chunk_id]
+            search_results.append(
+                VectorSearchResult(
+                    chunk_id=chunk_id,
+                    source_id=record.source_id,
+                    trust_tier=record.trust_tier,
+                    title=record.title,
+                    text_preview=record.text_preview,
+                    score=round(score, 4),
+                    rank=rank,
+                )
+            )
+        return search_results
+
+    def get(self, chunk_id: str) -> VectorStoreRecord | None:
+        return self._records.get(chunk_id)
+
+    def delete(self, chunk_id: str) -> bool:
+        if chunk_id in self._records:
+            del self._records[chunk_id]
+            if self._available and self._conn is not None:
+                with self._conn.cursor() as cur:
+                    cur.execute(
+                        f"DELETE FROM {self._table_name} WHERE chunk_id = %s",
+                        (chunk_id,),
+                    )
+            return True
+        return False
+
+    def clear(self) -> None:
+        self._records.clear()
+        if self._available and self._conn is not None:
+            with self._conn.cursor() as cur:
+                cur.execute(f"TRUNCATE TABLE {self._table_name}")
+
+    def count(self) -> int:
+        return len(self._records)
+
+    def list_source_ids(self) -> list[str]:
+        return list(set(r.source_id for r in self._records.values()))
+
+    def info(self) -> dict:
+        return {
+            "store": "pgvector",
+            "available": self._available,
+            "table": self._table_name,
+            "count": self.count(),
+            "source_count": len(self.list_source_ids()),
+            "persistent": True,
+            "dimension": self._dim,
+        }
 
 
 def get_vector_store(
