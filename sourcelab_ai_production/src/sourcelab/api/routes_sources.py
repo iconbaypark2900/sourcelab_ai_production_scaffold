@@ -22,6 +22,7 @@ from sourcelab.api.services import (
     approve_source,
     archive_source,
     get_source,
+    ingest_source,
     list_sources,
     reject_source,
     validate_sources,
@@ -86,10 +87,13 @@ def archive_source_by_id(
 
 @router.post("/ingest", response_model=SourceIngestResponse)
 def ingest_source(request: SourceIngestRequest) -> SourceIngestResponse:
-    """Ingest a source file."""
-    # This is a placeholder - full implementation would use SourceIngestor
-    return SourceIngestResponse(
+    """Ingest a source file and register it."""
+    result = ingest_source(
         source_id=request.source_id,
-        status="pending",
-        message=f"Source '{request.source_id}' ingestion queued",
+        path=request.path,
+        title=request.title,
+        publisher=request.publisher,
+        source_type=request.source_type,
+        trust_tier=request.trust_tier,
     )
+    return SourceIngestResponse(**result)

@@ -189,6 +189,63 @@ def archive_source(source_id: str) -> dict:
     }
 
 
+def ingest_source(
+    source_id: str,
+    path: str,
+    title: str = "",
+    publisher: str = "local",
+    source_type: str = "local_file",
+    trust_tier: str = "C",
+) -> dict:
+    """Ingest a local source file and register it."""
+    from sourcelab.sources.ingest_local import ingest_local_source
+    from sourcelab.sources.registry import normalize_source_id
+
+    config = get_config()
+    project_root = config.project_root
+    registry_path = project_root / "data" / "source_registry.json"
+
+    filepath = Path(path)
+    if not filepath.is_absolute():
+        filepath = project_root / filepath
+
+    if not filepath.exists():
+        raise not_found_error("file", str(filepath))
+
+    if registry_path.exists():
+        registry = SourceRegistry.load_from_json(registry_path)
+    else:
+        registry = SourceRegistry(sources=[])
+
+    record = ingest_local_source(
+        filepath=filepath,
+        trust_tier=trust_tier,
+        publisher=publisher,
+        source_type=source_type,
+        registry=registry,
+        project_root=project_root,
+    )
+
+    if record is None:
+        return {
+            "source_id": source_id,
+            "status": "failed",
+            "message": f"Could not ingest file: {filepath}",
+        }
+
+    if title:
+        record.title = title
+
+    registry.sources.append(record)
+    registry.save_to_json(registry_path)
+
+    return {
+        "source_id": record.source_id,
+        "status": "pending",
+        "message": f"Source '{record.source_id}' ingested from {filepath.name}",
+    }
+
+
 # ---------------------------------------------------------------------------
 # Retrieval
 # ---------------------------------------------------------------------------
@@ -240,6 +297,56 @@ def build_index() -> dict:
         "status": "ok",
         "chunk_count": chunk_count,
         "source_count": source_count,
+    }
+
+
+def get_retrieval_diagnostics() -> dict:
+    """Get retrieval diagnostics from the latest run."""
+    config = get_config()
+    runs_dir = config.project_root / "artifacts" / "runs"
+
+    if not runs_dir.exists():
+        return {
+            "query": "",
+            "mode": "hybrid",
+            "result_count": 0,
+            "total_chunks": 0,
+            "weights": {
+                "keyword": 0.35,
+                "vector": 0.45,
+                "trust": 0.15,
+                "freshness": 0.05,
+            },
+        }
+
+    runs = sorted([p for p in runs_dir.glob("*") if p.is_dir()])
+    for run_dir in reversed(runs):
+        diagnostics = load_json_artifact(run_dir, "retrieval_diagnostics.json")
+        if diagnostics and isinstance(diagnostics, dict):
+            return {
+                "query": diagnostics.get("query", ""),
+                "mode": diagnostics.get("mode", "hybrid"),
+                "result_count": diagnostics.get("result_count", 0),
+                "total_chunks": diagnostics.get("total_chunks", 0),
+                "weights": diagnostics.get("weights", {
+                    "keyword": 0.35,
+                    "vector": 0.45,
+                    "trust": 0.15,
+                    "freshness": 0.05,
+                }),
+            }
+
+    return {
+        "query": "",
+        "mode": "hybrid",
+        "result_count": 0,
+        "total_chunks": 0,
+        "weights": {
+            "keyword": 0.35,
+            "vector": 0.45,
+            "trust": 0.15,
+            "freshness": 0.05,
+        },
     }
 
 

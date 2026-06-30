@@ -2,7 +2,7 @@
 
 ## Epic 1: Source Registry
 
-- [ ] Add Postgres source tables.
+- [x] Add Postgres source tables.
 - [x] Add PDF ingestion.
 - [x] Add URL ingestion.
 - [x] Add source hash verification.
@@ -63,7 +63,7 @@
 - [x] Add learning report generator with markdown output.
 - [x] Add harness validation for learning v2 artifacts.
 - [x] Add CLI commands (answer submit, profile show, profile topic, learning report).
-- [ ] Add skill profile persistence to Postgres.
+- [x] Add skill profile persistence to Postgres.
 - [x] Add rubric-based LLM judge for production scoring.
 - [x] Add curriculum dashboard UI.
 

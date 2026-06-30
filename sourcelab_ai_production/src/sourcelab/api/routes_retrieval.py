@@ -16,7 +16,7 @@ from sourcelab.api.schemas import (
     SearchResponse,
     SearchResultItem,
 )
-from sourcelab.api.services import build_index, search_sources
+from sourcelab.api.services import build_index, get_retrieval_diagnostics, search_sources
 
 router = APIRouter()
 
@@ -46,17 +46,6 @@ def build_search_index() -> IndexBuildResponse:
 
 @router.get("/diagnostics", response_model=RetrievalDiagnosticsResponse)
 def retrieval_diagnostics() -> RetrievalDiagnosticsResponse:
-    """Get retrieval diagnostics."""
-    # Placeholder - would return actual diagnostics
-    return RetrievalDiagnosticsResponse(
-        query="",
-        mode="hybrid",
-        result_count=0,
-        total_chunks=0,
-        weights={
-            "keyword": 0.35,
-            "vector": 0.45,
-            "trust": 0.15,
-            "freshness": 0.05,
-        },
-    )
+    """Get retrieval diagnostics from the latest run."""
+    result = get_retrieval_diagnostics()
+    return RetrievalDiagnosticsResponse(**result)
