@@ -2306,7 +2306,7 @@ def build_parser() -> argparse.ArgumentParser:
     evals_run.add_argument("--all-packs", action="store_true", default=False, help="Run evals for all curated packs")
     evals_run.add_argument(
         "--type",
-        choices=["retrieval", "claims", "answers", "lessons"],
+        choices=["retrieval", "claims", "answers", "lessons", "learning_loop"],
         help="Eval type to run (default: all)",
     )
     evals_run.set_defaults(func=cmd_evals_run)

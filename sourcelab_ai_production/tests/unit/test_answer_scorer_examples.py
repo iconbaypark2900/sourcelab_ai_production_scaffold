@@ -10,6 +10,7 @@ from sourcelab.evals.pack_scope import get_pack_scoped_registry
 from sourcelab.learning.answer_scorer import AnswerScorer
 from sourcelab.retrieval.index import PocketIndex
 from sourcelab.sources.source_pack import install_source_pack
+from sourcelab.learning.answer_scorer import HIGH_RISK_PATTERNS
 
 
 TOPIC = "post-quantum cryptography migration"
@@ -55,3 +56,26 @@ class TestExampleAnswerScoring:
         unsupported = _score_example("unsupported_answer.md", search_results)
         assert unsupported["needs_review"] is True
         assert unsupported["overall_score"] <= 0.09
+
+    def test_citing_source_title_with_risky_phrase_is_not_high_risk(self):
+        # Regression: a learner who correctly cites a source whose *title*
+        # contains a risky phrase (e.g. "Quantum Breaks Rsa Today") must not be
+        # penalized as an unsupported high-risk claim.
+        scorer = AnswerScorer()
+        answer = (
+            "On risk framing, 'Risk Myths Quantum Breaks Rsa Today' clarifies "
+            "that quantum computers cannot break RSA-2048 today."
+        )
+        needs_review, _ = scorer._check_high_risk(answer)
+        assert needs_review is False
+
+    def test_unsupported_claim_with_risky_phrase_still_triggers_review(self):
+        # A genuine unsupported claim containing a risky phrase must still
+        # trigger review even when it is quoted (not a source-title citation).
+        scorer = AnswerScorer()
+        answer = (
+            "Quantum computers can break RSA-2048 within 2 years; this is a "
+            "certain fact."
+        )
+        needs_review, _ = scorer._check_high_risk(answer)
+        assert needs_review is True

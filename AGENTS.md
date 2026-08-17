@@ -13,6 +13,8 @@
 
 ## Learned Workspace Facts
 
+- AnswerScorer's high-risk detector (`_check_high_risk` + `_citation_spans` + `_overlaps_any` in `src/sourcelab/learning/answer_scorer.py`) skips high-risk matches that fall inside single-quoted source titles (`'Title'`) or bracketed source IDs (`[source_id]`), so citing a source whose title contains a risky phrase (e.g. `'Risk Myths Quantum Breaks Rsa Today'`) is not penalized. Negation check remains first-match `.search` semantics with a 24-char window; do not switch to `finditer` without widening that window.
+
 - Scaffold repo root is `sourcelab_ai_production_scaffold`; application code lives in `sourcelab_ai_production`.
 - Run sourcelab CLI workflows from `sourcelab_ai_production` with `.venv` activated (`source .venv/bin/activate`).
 - SourceLab Local is at version **1.0.2** (`SourceLab Local v1.0.2`), including the Learning Metrics Consistency patch.

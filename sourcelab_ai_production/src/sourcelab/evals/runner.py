@@ -163,7 +163,8 @@ def run_golden_evals(
     Args:
         project_root: Project root directory.
         pack_name: Source pack name.
-        eval_types: List of eval types to run (retrieval, claims, answers, lessons).
+        eval_types: List of eval types to run (retrieval, claims, answers,
+                      lessons, learning_loop).
                     If None, runs all.
 
     Returns:
@@ -187,7 +188,7 @@ def run_golden_evals(
 
     # Default to all eval types
     if eval_types is None:
-        eval_types = ["retrieval", "claims", "answers", "lessons"]
+        eval_types = ["retrieval", "claims", "answers", "lessons", "learning_loop"]
 
     # Run retrieval eval
     if "retrieval" in eval_types:
@@ -228,6 +229,16 @@ def run_golden_evals(
             write_golden_eval_report(report, evals_dir, "lesson_gold_report.json")
         except Exception as e:
             results["lessons"] = {"error": str(e)}
+
+    # Run learning-loop eval
+    if "learning_loop" in eval_types:
+        try:
+            report = _run_learning_loop_eval(project_root, pack_name)
+            results["learning_loop"] = _report_to_dict(report)
+            reports.append(report)
+            write_golden_eval_report(report, evals_dir, "learning_loop_gold_report.json")
+        except Exception as e:
+            results["learning_loop"] = {"error": str(e)}
 
     # Generate summary
     summary = summarize_golden_eval_reports(reports, pack_name)
@@ -570,3 +581,61 @@ def _run_lesson_eval(project_root: Path, pack_name: str) -> GoldenEvalReport:
             return {"error": str(e)}
 
     return run_lesson_gold_eval(project_root, pack_name, generate_fn)
+
+
+def _run_learning_loop_eval(project_root: Path, pack_name: str) -> GoldenEvalReport:
+    """Run learning-loop eval end-to-end: score -> mastery -> next task."""
+    from sourcelab.evals.learning_loop_gold import run_learning_loop_gold_eval
+    from sourcelab.evals.pack_scope import get_pack_scoped_registry
+    from sourcelab.learning.answer_scorer import AnswerScorer
+    from sourcelab.learning.mastery import update_mastery
+    from sourcelab.learning.next_task_selector import NextTaskSelector
+    from sourcelab.learning.schemas import SkillProfileV2
+    from sourcelab.learning.skill_profile import update_from_answer_review
+    from sourcelab.retrieval.index import PocketIndex
+
+    registry = get_pack_scoped_registry(project_root, pack_name)
+    index = PocketIndex.from_registry(registry)
+    enable_llm = os.environ.get("SOURCELAB_ENABLE_LLM_JUDGE", "").lower() in ("1", "true", "yes")
+    from sourcelab.generation.model_router import ModelRouter
+    model_router = ModelRouter() if enable_llm else None
+    scorer = AnswerScorer(
+        enable_llm_judge=enable_llm,
+        model_router=model_router,
+    )
+    selector = NextTaskSelector()
+
+    def loop_fn(answer_text: str, topic: str) -> dict:
+        # Start from a fresh default profile per case so the eval is
+        # deterministic and independent of any persisted local state.
+        profile = SkillProfileV2(user_id="local_user")
+        search_results = index.search(topic, top_k=4)
+        review = scorer.score_v2(
+            topic=topic,
+            answer=answer_text,
+            search_results=search_results,
+        )
+        # Authoritative pipeline order (matches core/pipeline.py).
+        profile = update_from_answer_review(
+            profile=profile,
+            review=review,
+            difficulty=3,
+            task_format="architecture_review",
+        )
+        mastery_update = update_mastery(profile=profile, review=review, difficulty=3)
+        next_task, rationale = selector.select_v2(
+            topic=topic,
+            answer_review=review,
+            profile=profile,
+            previous_task_format="architecture_review",
+        )
+        return {
+            "overall_score": review.overall_score,
+            "topic_mastery_before": mastery_update.topic_mastery_before,
+            "topic_mastery_after": mastery_update.topic_mastery_after,
+            "difficulty": next_task.difficulty,
+            "guidance_level": next_task.guidance_level,
+            "human_review_recommended": rationale.human_review_recommended,
+        }
+
+    return run_learning_loop_gold_eval(project_root, pack_name, loop_fn)

@@ -594,11 +594,32 @@ class AnswerScorer:
 
     def _check_high_risk(self, answer: str) -> tuple[bool, str]:
         """Check for unsupported high-risk statements."""
+        citation_spans = self._citation_spans(answer)
         for pattern in HIGH_RISK_PATTERNS:
             match = pattern.search(answer)
-            if match and not self._is_negated_claim(answer, match):
+            if match and not self._overlaps_any(match, citation_spans) and not self._is_negated_claim(answer, match):
                 return True, f"Contains potentially unsupported high-risk statement: {pattern.pattern}"
         return False, ""
+
+    def _citation_spans(self, answer: str) -> list[tuple[int, int]]:
+        """Return (start, end) spans of citation constructs.
+
+        Citations are the opposite of unsupported claims, so a high-risk
+        phrase inside a single-quoted source title (``'Title'``) or a
+        bracketed source id (``[source_id]``) is not an unsupported claim.
+        """
+        spans: list[tuple[int, int]] = []
+        for match in re.finditer(r"'([^']{1,80})'", answer):
+            spans.append((match.start(), match.end()))
+        for match in re.finditer(r"\[([^\]]{1,80})\]", answer):
+            spans.append((match.start(), match.end()))
+        return spans
+
+    @staticmethod
+    def _overlaps_any(match: re.Match[str], spans: list[tuple[int, int]]) -> bool:
+        start, end = match.start(), match.end()
+        return any(span_start <= start < span_end or span_start < end <= span_end
+                   for span_start, span_end in spans)
 
     def _is_negated_claim(self, answer: str, match: re.Match[str]) -> bool:
         """Return True when the matched span is a negated or cautionary claim."""

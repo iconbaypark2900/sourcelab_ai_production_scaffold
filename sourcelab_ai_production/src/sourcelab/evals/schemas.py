@@ -59,6 +59,26 @@ class LessonGoldCase(BaseModel):
     description: str = ""
 
 
+class LearningLoopGoldCase(BaseModel):
+    """A single learning-loop golden eval case.
+
+    Exercises the full learning loop end-to-end:
+    score -> mastery update -> next-task decision. Known-good answers
+    should raise mastery and increase difficulty / lower guidance;
+    known-bad answers should lower mastery and increase guidance.
+    """
+
+    answer: str
+    topic: str
+    expected_min_score: float = 0.0
+    expected_max_score: float = 1.0
+    mastery_direction: Literal["rise", "drop", "none"] = "none"
+    difficulty_direction: Literal["increase", "decrease", "unchanged", "none"] = "none"
+    guidance_direction: Literal["increase", "decrease", "unchanged", "none"] = "none"
+    should_trigger_review: bool = False
+    description: str = ""
+
+
 class GoldenEvalFailure(BaseModel):
     """Details of a failed eval case."""
 

@@ -13,11 +13,16 @@ from sourcelab.evals.runner import (
     STARTER_PACK_HIGH_RISK_CLAIM_PATTERNS,
     _run_answer_eval,
     _run_claim_eval,
+    _run_learning_loop_eval,
     _run_retrieval_eval,
     run_golden_evals,
 )
 from sourcelab.harness.release_gate import verify_release
 from sourcelab.learning.answer_scorer import AnswerScorer
+from sourcelab.learning.mastery import update_mastery
+from sourcelab.learning.next_task_selector import NextTaskSelector
+from sourcelab.learning.schemas import SkillProfileV2
+from sourcelab.learning.skill_profile import update_from_answer_review
 from sourcelab.retrieval.index import PocketIndex
 from sourcelab.sources.registry import SourceRegistry
 from sourcelab.sources.source_pack import install_source_pack
@@ -149,6 +154,82 @@ class TestLessonEvalScope:
         report = results["lessons"]
         assert report["pass_rate"] >= 0.8
         assert report["failed_cases"] == 0
+
+
+class TestLearningLoopEval:
+    def test_learning_loop_eval_passes(self, project_root, pack_name):
+        install_source_pack(project_root, pack_name)
+        report = _run_learning_loop_eval(project_root, pack_name)
+        assert report.total_cases == 3
+        assert report.passed_cases == 3
+        assert report.pass_rate == 1.0
+
+    def test_strong_answer_raises_mastery_and_increases_difficulty(self, project_root, pack_name):
+        install_source_pack(project_root, pack_name)
+        registry = get_pack_scoped_registry(project_root, pack_name)
+        index = PocketIndex.from_registry(registry)
+        scorer = AnswerScorer()
+        selector = NextTaskSelector()
+        topic = "post-quantum cryptography migration"
+        profile = SkillProfileV2(user_id="local_user")
+        review = scorer.score_v2(
+            topic=topic,
+            answer=(
+                "Based on NIST guidance, begin with a comprehensive cryptographic inventory "
+                "that captures algorithms, key types, protocols, and dependencies. Prioritize "
+                "migration based on data lifetime and risk, starting with long-lived sensitive "
+                "data, and use hybrid implementations during transition."
+            ),
+            search_results=index.search(topic, top_k=4),
+        )
+        profile = update_from_answer_review(
+            profile=profile, review=review, difficulty=3,
+            task_format="architecture_review",
+        )
+        mastery = update_mastery(profile=profile, review=review, difficulty=3)
+        next_task, rationale = selector.select_v2(
+            topic=topic, answer_review=review, profile=profile,
+            previous_task_format="architecture_review",
+        )
+        assert next_task.focus
+        assert mastery.topic_mastery_after > mastery.topic_mastery_before
+        assert next_task.difficulty >= 4
+        assert next_task.guidance_level <= 2
+        assert rationale.human_review_recommended is False
+
+    def test_bad_answer_drops_mastery_and_raises_guidance(self, project_root, pack_name):
+        install_source_pack(project_root, pack_name)
+        registry = get_pack_scoped_registry(project_root, pack_name)
+        index = PocketIndex.from_registry(registry)
+        scorer = AnswerScorer()
+        selector = NextTaskSelector()
+        topic = "quantum computing risk"
+        profile = SkillProfileV2(user_id="local_user")
+        review = scorer.score_v2(
+            topic=topic,
+            answer="Quantum computers can definitely break RSA-2048 right now. Migrate immediately or your data is at risk.",
+            search_results=index.search(topic, top_k=4),
+        )
+        profile = update_from_answer_review(
+            profile=profile, review=review, difficulty=3,
+            task_format="architecture_review",
+        )
+        mastery = update_mastery(profile=profile, review=review, difficulty=3)
+        next_task, rationale = selector.select_v2(
+            topic=topic, answer_review=review, profile=profile,
+            previous_task_format="architecture_review",
+        )
+        assert mastery.topic_mastery_after < mastery.topic_mastery_before
+        assert next_task.guidance_level >= 4
+        assert rationale.human_review_recommended is True
+
+    def test_learning_loop_runs_through_runner(self, project_root, pack_name):
+        install_source_pack(project_root, pack_name)
+        results = run_golden_evals(project_root, pack_name, eval_types=["learning_loop"])
+        report = results["learning_loop"]
+        assert report["total_cases"] == 3
+        assert report["passed_cases"] == 3
+        assert report["pass_rate"] == 1.0
 
 
 class TestReleaseGating:

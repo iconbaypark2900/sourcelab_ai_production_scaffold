@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "answer": "Based on NIST guidance and industry best practices, organizations should begin PQC migration by conducting a comprehensive cryptographic inventory. This involves identifying all locations where cryptography is used, including algorithms, key types, protocols, and libraries. The inventory should capture the purpose, data sensitivity, and dependencies for each cryptographic usage. Once the inventory is complete, organizations can prioritize migration based on data lifetime and risk, starting with long-lived sensitive data. A phased approach with hybrid implementations during transition is recommended to maintain security while ensuring compatibility.",
+      "topic": "post-quantum cryptography migration",
+      "expected_min_score": 0.6,
+      "expected_max_score": 1.0,
+      "mastery_direction": "rise",
+      "difficulty_direction": "increase",
+      "guidance_direction": "decrease",
+      "should_trigger_review": false,
+      "description": "Known-good: strong source-grounded answer should raise mastery and increase difficulty / lower guidance."
+    },
+    {
+      "answer": "PQC migration is important but not urgent for most organizations. The quantum threat is real but still years away from practical impact. Organizations should focus on low-hanging fruit first, like updating certificate policies and testing new algorithms. The main challenge is the larger key sizes, which may require bandwidth adjustments.",
+      "topic": "post-quantum cryptography migration",
+      "expected_min_score": 0.3,
+      "expected_max_score": 0.7,
+      "mastery_direction": "none",
+      "difficulty_direction": "unchanged",
+      "guidance_direction": "increase",
+      "should_trigger_review": true,
+      "description": "Known-weak: partially grounded answer leaves mastery roughly flat and increases guidance."
+    },
+    {
+      "answer": "Quantum computers can definitely break RSA-2048 right now. You need to migrate immediately or your data is at risk. All classical cryptography is broken.",
+      "topic": "quantum computing risk",
+      "expected_min_score": 0.0,
+      "expected_max_score": 0.3,
+      "mastery_direction": "drop",
+      "difficulty_direction": "decrease",
+      "guidance_direction": "increase",
+      "should_trigger_review": true,
+      "description": "Known-bad: unsupported answer should be capped low, drop mastery, and increase guidance."
+    }
+  ]
+}
